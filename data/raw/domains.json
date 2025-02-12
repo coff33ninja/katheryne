@@ -1,0 +1,6360 @@
+[
+  {
+    "name": "Cecilia Garden",
+    "type": "Forgery",
+    "description": "The Cecilia flowers that only grow on high cliffs once bloomed in the greenhouses here.\nThe ancient civilization that once enjoyed the scent of the Cecilia was lost, and so too was the sea of white flowers.",
+    "location": "Wolvendom, Windwail Highland, Mondstadt",
+    "nation": "Mondstadt",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 16,
+        "recommendedLevel": 15,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Slowing Water, greatly increasing your skill's CD duration (-80% Reduce CD) until the inflicted Hydro element is removed."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 21,
+        "recommendedLevel": 36,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Slowing Water, greatly increasing your skill's CD duration (-100% Reduce CD) until the inflicted Hydro element is removed."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Slowing Water, greatly increasing your skill's CD duration (-100% Reduce CD) until the inflicted Hydro element is removed."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Slowing Water, greatly increasing your skill's CD duration (-100% Reduce CD) until the inflicted Hydro element is removed."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Electro",
+      "Cryo",
+      "Pyro"
+    ],
+    "rewards": [
+      {
+        "day": "mon",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Scattered Piece of Decarabian's Dream",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Nostalgia",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Scattered Piece of Decarabian's Dream",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Nostalgia",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 2
+              },
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 2
+              },
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Tile of Decarabian's Tower",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Debris of Decarabian's City",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Fragment of Decarabian's Epic",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Scattered Piece of Decarabian's Dream",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Boreal Wolf's Milk Tooth",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Cracked Tooth",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Boreal Wolf's Broken Fang",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Boreal Wolf's Nostalgia",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Fetters of the Dandelion Gladiator",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chains of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Shackles of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of the Dandelion Gladiator",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "cecilia-garden"
+  },
+  {
+    "name": "City of Gold",
+    "type": "Blessing",
+    "description": "This stronghold, once protected by seven mighty battlements, crumbled overnight when King Deshret fell and an age of chaos ensued. Where gold-eyed warriors once stood guard over watchtowers of gilded luster, now, only a desiccated temple built upon sundered rocks remains, more akin to a tomb for an age of radiance long lost.",
+    "location": "Eye of the Sands, Land of Lower Setekh, Great Red Sand, Sumeru",
+    "nation": "Sumeru",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 22,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "After a character triggers a Swirl reaction, all party members gain a 50% Anemo DMG Bonus for 10s."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 22,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "After a character triggers a Swirl reaction, all party members gain a 50% Anemo DMG Bonus for 10s."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 22,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "After a character triggers a Swirl reaction, all party members gain a 50% Anemo DMG Bonus for 10s."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 22,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "After a character triggers a Swirl reaction, all party members gain a 50% Anemo DMG Bonus for 10s."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Anemo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Desert Pavilion Chronicle",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Flower of Paradise Lost",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Desert Pavilion Chronicle",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Flower of Paradise Lost",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "city-of-gold"
+  },
+  {
+    "name": "Clear Pool and Mountain Cavern",
+    "type": "Blessing",
+    "description": "Mt. Aocang is a place of secret wonders. What at first merely seems like beautiful scenery in fact conceals a stone cave that connects to the heavens and breathes out clouds. Nonetheless, this is not how the saying \"where the clouds emerge\" was derived.",
+    "location": "Mt. Aocang, Minlin, Liyue",
+    "nation": "Liyue",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "Geo DMG dealt by all party members increased by 75%."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "Geo DMG dealt by all party members increased by 75%."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "Geo DMG dealt by all party members increased by 75%."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Geo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Bloodstained Chivalry",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Noblesse Oblige",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Bloodstained Chivalry",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Noblesse Oblige",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "clear-pool-and-mountain-cavern"
+  },
+  {
+    "name": "Court of Flowing Sand",
+    "type": "Forgery",
+    "description": "They say that in antediluvian times now lost to history, there was once a foolish ruler who dreamed of building a high garden in honor of the white sacred tree over the primordial sands. Now, dead silence fills the kingdom built on sand, but the Altar of Sandss of the past remain.",
+    "location": "Mt. Yougou, Narukami Island, Inazuma",
+    "nation": "Inazuma",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 16,
+        "recommendedLevel": 15,
+        "leyLineDisorder": [
+          "All party members' Shield Strength increased by 40%.",
+          "When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 21,
+        "recommendedLevel": 36,
+        "leyLineDisorder": [
+          "All party members' Shield Strength increased by 40%.",
+          "When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "All party members' Shield Strength increased by 40%.",
+          "When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby.",
+          "All characters' Shield Strength is increased. When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby. Enlist Geo-aligned characters into your party to use this Ley Line Disorder to deal even more DMG."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "All party members' Shield Strength increased by 40%.",
+          "When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby.",
+          "All characters' Shield Strength is increased. When a character obtains an Elemental Shard generated by a Geo Elemental Reaction, a shockwave will be unleashed, dealing DMG to enemies nearby. Enlist Geo-aligned characters into your party to use this Ley Line Disorder to deal even more DMG."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Geo",
+      "Cryo"
+    ],
+    "rewards": [
+      {
+        "day": "mon",
+        "name": "Sunken Sands",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Branch of a Distant Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "name": "Altar of Sands",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Valor",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "name": "Sand Burial",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the Kijin",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "name": "Sunken Sands",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Branch of a Distant Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "name": "Altar of Sands",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Valor",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "name": "Sand Burial",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the Kijin",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Coral Branch of a Distant Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Jeweled Branch of a Distant Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Jade Branch of a Distant Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Branch of a Distant Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Wisdom",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Narukami's Joy",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Affection",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Narukami's Valor",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the Wicked Lieutenant",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mask of the Tiger's Bite",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the One-Horned",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mask of the Kijin",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "level": 1,
+        "target": "Defeat 18 enemies in less than 6:00 minutes",
+        "enemies": [
+          {
+            "wave1": {
+              "Hydro Slime": 10,
+              "Large Hydro Slime": 1,
+              "Pyro Slime": 5,
+              "Large Pyro Slime": 2
+            },
+            "notes": "The last Large Pyro Slime has a Tracking Fire Ball aura."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "target": "Defeat 10 enemies in less than 6:00 minutes",
+        "enemies": [
+          {
+            "wave1": {
+              "Large Hydro Slime": 5,
+              "Large Pyro Slime": 5
+            },
+            "notes": "One of the Large Pyro Slimes has a Tracking Fire Ball aura. One of the Large Hydro Slimes has a Mist Bubble aura."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "target": "Defeat 8 enemies in less than 6:00 minutes",
+        "enemies": [
+          {
+            "wave1": {
+              "Large Hydro Slime": 3,
+              "Large Pyro Slime": 3,
+              "Hydro Abyss Mage": 1,
+              "Pyro Abyss Mage": 1
+            },
+            "notes": "The Pyro Abyss Mage has a Tracking Fire Ball aura. The Hydro Abyss Mage and one of the Large Hydro Slimes have Mist Bubble auras."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "target": "Defeat 12 enemies in less than 6:00 minutes",
+        "enemies": [
+          {
+            "wave1": {
+              "Large Electro Slime": 5,
+              "Mutant Electro Slime": 1,
+              "Electro Hilichurl Grenadier": 3
+            },
+            "wave2": {
+              "Crackling Axe Mitachurl": 3
+            },
+            "notes": "The Mutant Electro Slime and two of the Crackling Axe Mitachurls have Lightning Bolt Matrix auras."
+          }
+        ]
+      }
+    ],
+    "id": "court-of-flowing-sands"
+  },
+  {
+    "name": "Domain of Guyun",
+    "type": "Blessing",
+    "description": "The Ley Line Monolith inside this ancient Ley Line Altar is coveted by the monsters crowding the altar.\nYou shall earn priceless Artifacts if you protect the Ley Line Monolith from the monsters with the power of Electro.",
+    "location": "Guyun Stone Forest, Sea of Clouds, Liyue",
+    "nation": "Liyue",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 22,
+        "recommendedLevel": 34,
+        "leyLineDisorder": [
+          "Electro-Charged DMG increased by 150%, and its AoE is increased by 100%."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 25,
+        "recommendedLevel": 47,
+        "leyLineDisorder": [
+          "When Overloaded is triggered, an Energy Blast will occur, dealing DMG to surrounding opponents."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "When Superconduct is triggered, an Energy Blast will occur, dealing DMG to surrounding opponents."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "Electro-Charged DMG increased by 150%, and its AoE is increased by 100%."
+        ]
+      },
+      {
+        "level": 5,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "When Overloaded is triggered, an Energy Blast will occur, dealing DMG to surrounding opponents.",
+          "When Melt is triggered, you will be hit by a powerful blast, causing your character to take DMG.",
+          "When Vaporize is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      },
+      {
+        "level": 6,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "When Superconduct is triggered, an Energy Blast will occur, dealing DMG to surrounding opponents.",
+          "When Melt is triggered, you will be hit by a powerful blast, causing your character to take DMG.",
+          "When Vaporize is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Electro"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1525,
+            "drops": [
+              {
+                "name": "Lucky Dog",
+                "rarity": "2/3",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1700,
+            "drops": [
+              {
+                "name": "Lucky Dog",
+                "rarity": "2/3",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Lucky Dog",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Archaic Petra",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Retracing Bolide",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "items": [
+              {
+                "name": "Lucky Dog",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Archaic Petra",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Retracing Bolide",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Lucky Dog",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Archaic Petra",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Retracing Bolide",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 6,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Lucky Dog",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Bravery",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Archaic Petra",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Retracing Bolide",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "domain-of-guyun"
+  },
+  {
+    "name": "Echoes of the Deep Tides",
+    "type": "Forgery",
+    "description": "Legend speaks of a time in the distant past, when the Sovereign of the Waters had not yet returned from confinement, there was another God King who dreamed of building a prosperous empire out of harmonious music atop the waves. But the great ambition of building a utopia failed to come to fruition, and the arrogance of humanity sunk into their depths along with their pride. The golden melodies long silent, only the cold music of the tides still echoes upon the remains of their grand altars.",
+    "location": "Court of Fontaine Region",
+    "nation": "Fontaine",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 16,
+        "recommendedLevel": 15,
+        "leyLineDisorder": [
+          "After triggering Hydro-related reactions on opponents, all party members receive a 10% Hydro DMG bonus that lasts 10s. This effect can be triggered every 2s. Max 5 stacks. Characters' resistance to interruption will be increased when 5 stacks are reached."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 21,
+        "recommendedLevel": 36,
+        "leyLineDisorder": [
+          "After triggering Hydro-related reactions on opponents, all party members receive a 10% Hydro DMG bonus that lasts 10s. This effect can be triggered every 2s. Max 5 stacks. Characters' resistance to interruption will be increased when 5 stacks are reached."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "After triggering Hydro-related reactions on opponents, all party members receive a 10% Hydro DMG bonus that lasts 10s. This effect can be triggered every 2s. Max 5 stacks. Characters' resistance to interruption will be increased when 5 stacks are reached."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "After triggering Hydro-related reactions on opponents, all party members receive a 10% Hydro DMG bonus that lasts 10s. This effect can be triggered every 2s. Max 5 stacks. Characters' resistance to interruption will be increased when 5 stacks are reached."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Hydro",
+      "Pyro",
+      "Cryo",
+      "Anemo"
+    ],
+    "rewards": [
+      {
+        "day": "mon",
+        "name": "Robotic Ruse",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Echo of an Ancient Chord",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "name": "Artisanship",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Essence of Pure Sacred Dewdrop",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "name": "Curious Contraptions",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Goblet of the Pristine Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "name": "Robotic Ruse",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Echo of an Ancient Chord",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "name": "Artisanship",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Essence of Pure Sacred Dewdrop",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "name": "Curious Contraptions",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Goblet of the Pristine Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Fragment of an Ancient Chord",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Chapter of an Ancient Chord",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Movement of an Ancient Chord",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Echo of an Ancient Chord",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Dross of Pure Sacred Dewdrop",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Sublimation of Pure Sacred Dewdrop",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Spring of Pure Sacred Dewdrop",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Essence of Pure Sacred Dewdrop",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Broken Goblet of the Pristine Sea",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Wine Goblet of the Pristine Sea",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Goblet of the Pristine Sea",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Goblet of the Pristine Sea",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "level": 1,
+        "target": "Defeat 6 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Treasure Hoarders: Scout": 2,
+              "Recon Log Mek - Pneuma": 1
+            }
+          },
+          {
+            "wave2": {
+              "Treasure Hoarders: Hydro Potioneer": 2,
+              "Recon Log Mek - Pneuma": 2
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "target": "Defeat 7 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Treasure Hoarders: Scout": 2,
+              "Geological Survey Mek - Pneuma": 2
+            }
+          },
+          {
+            "wave2": {
+              "Treasure Hoarders: Hydro Potioneer": 2,
+              "Construction Specialist Mek - Pneuma": 1
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "target": "Defeat 5 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Fatui Pyro Agent": 1,
+              "Recon Log Mek - Pneuma": 2
+            }
+          },
+          {
+            "wave2": {
+              "Fatui Electro Cicin Mage": 1,
+              "Assault Specialist Mek - Pneuma": 1
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "target": "Defeat 5 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Treasure Hoarders: Hydro Potioneer": 2,
+              "Assault Specialist Mek - Pneuma": 1
+            }
+          },
+          {
+            "wave2": {
+              "Fatui Pyro Agent": 1,
+              "Annihilation Specialist Mek - Pneuma": 1
+            }
+          }
+        ]
+      }
+    ],
+    "id": "echoes-of-the-deep-tides"
+  },
+  {
+    "name": "Faded Theater",
+    "type": "Blessing",
+    "description": "Under the direction of an immortal musician, a certain ancient troupe once performed the elegies of an ancient civilization. With the passage of time, the ancient plays became legend. Legend became myth. ...Until one day, by chance, it was deliberately picked up once more, and became the prelude to a new dream.",
+    "location": "Nostoi Region, Fontaine",
+    "nation": "Fontaine",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "When a Bond of Life gains or loses value, the character gains a 15% All Elemental and Physical DMG Bonus for 10s. This effect can stack 4 times. The duration of each stack is counted independently."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "When a Bond of Life gains or loses value, the character gains a 15% All Elemental and Physical DMG Bonus for 10s. This effect can stack 4 times. The duration of each stack is counted independently."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "When a Bond of Life gains or loses value, the character gains a 15% All Elemental and Physical DMG Bonus for 10s. This effect can stack 4 times. The duration of each stack is counted independently."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "When a Bond of Life gains or loses value, the character gains a 15% All Elemental and Physical DMG Bonus for 10s. This effect can stack 4 times. The duration of each stack is counted independently."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Pyro",
+      "Electro",
+      "Geo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 6,
+                "drop_max": 8
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 6,
+                "drop_max": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 6,
+                "drop_max": 8
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 6,
+                "drop_max": 8
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 5,
+                "drop_max": 7
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 5,
+                "drop_max": 7
+              },
+              {
+                "name": "Unfinished Reverie",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Fragment of Harmonic Whimsy",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 5,
+                "drop_max": 7
+              },
+              {
+                "name": "Scholar",
+                "rarity": "3/4",
+                "drop_min": 5,
+                "drop_max": 7
+              },
+              {
+                "name": "Unfinished Reverie",
+                "rarity": "4/5",
+                "drop_min": 1,
+                "drop_max": 2
+              },
+              {
+                "name": "Fragment of Harmonic Whimsy",
+                "rarity": "4/5",
+                "drop_min": 1,
+                "drop_max": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "faded-theater"
+  },
+  {
+    "name": "Hidden Palace of Lianshan Formula",
+    "type": "Forgery",
+    "description": "The operation of the Lianshan Formula created endless thunderstorms within the bowels of the mountain. It is said that the rumbling sounds of thunder that one hears outside the domain's gates call out to curious souls.",
+    "location": "Mingyun Village, Qiongji Estuary, Liyue",
+    "nation": "Liyue",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 16,
+        "recommendedLevel": 15,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 21,
+        "recommendedLevel": 36,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.",
+          "Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave balls of lightning."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "Your character will be periodically inflicted with Engulfing Storm, continuously draining your Energy until the inflicted Electro element is removed.",
+          "Lightning bolts will periodically fall from above, dealing Electro DMG and completely draining the hit character's Energy. Lightning bolts may leave balls of lightning."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Cryo",
+      "Pyro"
+    ],
+    "rewards": [
+      {
+        "day": "mon",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Divine Body from Guyun",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Primo Elixir",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chunk of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Divine Body from Guyun",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Primo Elixir",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chunk of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 2
+              },
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 2
+              },
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 1,
+                "drop_max": 3
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Luminous Sands from Guyun",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Lustrous Stone from Guyun",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Relic from Guyun",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Divine Body from Guyun",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Mist Veiled Lead Elixir",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Mercury Elixir",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Mist Veiled Gold Elixir",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Mist Veiled Primo Elixir",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Grain of Aerosiderite",
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Piece of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Bit of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Chunk of Aerosiderite",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "hidden-palace-of-lianshan-formula"
+  },
+  {
+    "name": "Midsummer Courtyard",
+    "type": "Blessing",
+    "description": "With the fall of the ancient lost civilization, the once prosperous and magnificent Sommernachtgarten was also buried underground, leaving only its ancient trees and stones to remember its past glory.",
+    "location": "Starsnatch Cliff, Starfell Valley, Mondstadt",
+    "nation": "Mondstadt",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 22,
+        "recommendedLevel": 34,
+        "leyLineDisorder": [
+          "When Melt is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 25,
+        "recommendedLevel": 47,
+        "leyLineDisorder": [
+          "When Overloaded is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.",
+          "When Superconduct is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "When Melt is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.",
+          "When Superconduct is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "When Vaporize is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.",
+          "When Electro-Charged is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      },
+      {
+        "level": 5,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "When Melt is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.",
+          "When Superconduct is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      },
+      {
+        "level": 6,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "When Overloaded is triggered, an Energy Blast will occur, dealing DMG to surrounding enemies.",
+          "When Superconduct is triggered, you will be hit by a powerful blast, causing your character to take DMG."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Pyro"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1525,
+            "drops": [
+              {
+                "name": "Adventurer",
+                "rarity": "2/3",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1700,
+            "drops": [
+              {
+                "name": "Adventurer",
+                "rarity": "2/3",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Adventurer",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thundering Fury",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thunder­soother",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "items": [
+              {
+                "name": "Adventurer",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thundering Fury",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thunder­soother",
+                "rarity": 4,
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Adventurer",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thundering Fury",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thunder­soother",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 6,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Adventurer",
+                "rarity": 3,
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thundering Fury",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Thunder­soother",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "midsummer-courtyard"
+  },
+  {
+    "name": "Momiji-Dyed Court",
+    "type": "Blessing",
+    "description": "This court is ever a silent scene of falling red leaves. Perhaps lost causes and unforgettable loves may follow the veins of the earth and coalesce into the fruits of the court's white tree.",
+    "location": "Yashiori Island, Inazuma",
+    "nation": "Inazuma",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "The platforms in this challenge will intermittently switch between the Flame Boon and Frost Boon statuses. Characters will obtain different effects depending on the status of the platform they are on. Flame Boon: active characters will gain a 60% Pyro DMG Bonus. Frost Boon: active characters will gain a 60% Cryo DMG Bonus."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "The platforms in this challenge will intermittently switch between the Flame Boon and Frost Boon statuses. Characters will obtain different effects depending on the status of the platform they are on. Flame Boon: active characters will gain a 60% Pyro DMG Bonus. Frost Boon: active characters will gain a 60% Cryo DMG Bonus."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "The platforms in this challenge will intermittently switch between the Flame Boon and Frost Boon statuses. Characters will obtain different effects depending on the status of the platform they are on. Flame Boon: active characters will gain a 60% Pyro DMG Bonus. Frost Boon: active characters will gain a 60% Cryo DMG Bonus."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "The platforms in this challenge will intermittently switch between the Flame Boon and Frost Boon statuses. Characters will obtain different effects depending on the status of the platform they are on. Flame Boon: active characters will gain a 60% Pyro DMG Bonus. Frost Boon: active characters will gain a 60% Cryo DMG Bonus."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Pyro",
+      "Cryo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Shimenawa's Reminiscence",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Emblem of Severed Fate",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Resolution of Sojourner",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Shimenawa's Reminiscence",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Emblem of Severed Fate",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "momiji-dyed-court"
+  },
+  {
+    "name": "Peak of Vindagnyr",
+    "type": "Blessing",
+    "description": "This city entombed in snow once had a proud, romantic name to call its own, just as the mountain itself was once lush and verdant in the ancient past. But after the nail that froze the skies over descended upon this mountain, the festive site where priests ascended to face the heavens can no longer hear its voice, nor will those priests ever return again.",
+    "location": "Skyfrost Nail, Dragonspine, Mondstadt",
+    "nation": "Mondstadt",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "Characters in the challenge will continuously accumulate Sheer Cold, and will lose HP after Sheer Cold reaches its limit.",
+          "The platforms in this challenge will intermittently switch between the Subzero and Warm statuses.",
+          "The areas affected by the Warm status will diminish Sheer Cold. The areas affected by the Subzero status will accelerate Sheer Cold's accumulation."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "Characters in the challenge will continuously accumulate Sheer Cold, and will lose HP after Sheer Cold reaches its limit.",
+          "The platforms in this challenge will intermittently switch between the Subzero and Warm statuses.",
+          "The areas affected by the Warm status will diminish Sheer Cold. The areas affected by the Subzero status will accelerate Sheer Cold's accumulation."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "Characters in the challenge will continuously accumulate Sheer Cold, and will lose HP after Sheer Cold reaches its limit.",
+          "The platforms in this challenge will intermittently switch between the Subzero and Warm statuses.",
+          "The areas affected by the Warm status will diminish Sheer Cold. The areas affected by the Subzero status will accelerate Sheer Cold's accumulation."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "Characters in the challenge will continuously accumulate Sheer Cold, and will lose HP after Sheer Cold reaches its limit.",
+          "The platforms in this challenge will intermittently switch between the Subzero and Warm statuses.",
+          "The areas affected by the Warm status will diminish Sheer Cold. The areas affected by the Subzero status will accelerate Sheer Cold's accumulation."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Pyro",
+      "Electro",
+      "Geo",
+      "Anemo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Blizzard Strayer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Depth",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Blizzard Strayer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Heart of Depth",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "peak-of-vindagnyr"
+  },
+  {
+    "name": "Ridge Watch",
+    "type": "Blessing",
+    "description": "Standing proudly over the start of the ridge, these ancient city ruins overlook both north and south, both mountain and river, like a boundary marker. Legend has it that its gates and blessings are only open to those whose hearts are lit with an eternal blaze.",
+    "location": "Stone Gate, Bishui Plain, Liyue",
+    "nation": "Liyue",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave originating at the attacking opponent's position that deals one instance of AoE DMG. Can occur once every 2s."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave originating at the attacking opponent's position that deals one instance of AoE DMG. Can occur once every 2s."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave originating at the attacking opponent's position that deals one instance of AoE DMG. Can occur once every 2s."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "A backlash will occur when opponents hit a character protected by a shield, unleashing a shockwave originating at the attacking opponent's position that deals one instance of AoE DMG. Can occur once every 2s."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Hydro",
+      "Cryo",
+      "Geo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tenacity of the Millelith",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Pale Flame",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tenacity of the Millelith",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Pale Flame",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "ridge-watch"
+  },
+  {
+    "name": "Slumbering Court",
+    "type": "Blessing",
+    "description": "This great hall stood when Seirai Island neither had the name it has now, nor had it yet been stained with the color of thunder. The scenery within will probably never change, either.",
+    "location": "Seirai Island, Inazuma",
+    "nation": "Inazuma",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "All characters in the party gain a 40% Electro DMG Bonus. When an active character triggers Electro-Charged on opponents, they will trigger a shockwave that will deal True DMG to opponents. A shockwave can be triggered in this manner once every 3s."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "All characters in the party gain a 40% Electro DMG Bonus. When an active character triggers Electro-Charged on opponents, they will trigger a shockwave that will deal True DMG to opponents. A shockwave can be triggered in this manner once every 3s."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "All characters in the party gain a 40% Electro DMG Bonus. When an active character triggers Electro-Charged on opponents, they will trigger a shockwave that will deal True DMG to opponents. A shockwave can be triggered in this manner once every 3s."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "All characters in the party gain a 40% Electro DMG Bonus. When an active character triggers Electro-Charged on opponents, they will trigger a shockwave that will deal True DMG to opponents. A shockwave can be triggered in this manner once every 3s."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Electro",
+      "Hydro"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Husk of Opulent Dreams",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Ocean-Hued Clam",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Defender's Will",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Brave Heart",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Husk of Opulent Dreams",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Ocean-Hued Clam",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "slumbering-court"
+  },
+  {
+    "name": "Spire of Solitary Enlightenment",
+    "type": "Blessing",
+    "description": "In ancient times, this was a great and beautiful place, seemingly made to bless the children of humanity. But the arrow of heaven would descend, making mountains out of flat land and burying the ancient capitol beneath the hills.",
+    "location": "Gandha Hill, Avidya Forest, Dharma Forest, Sumeru",
+    "nation": "Sumeru",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "All party members' Elemental Mastery is increased based on 10% of the entire party's combined Elemental Mastery. This effect will be refreshed every 20s after recalculation."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "All party members' Elemental Mastery is increased based on 10% of the entire party's combined Elemental Mastery. This effect will be refreshed every 20s after recalculation."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "All party members' Elemental Mastery is increased based on 10% of the entire party's combined Elemental Mastery. This effect will be refreshed every 20s after recalculation."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "All party members' Elemental Mastery is increased based on 10% of the entire party's combined Elemental Mastery. This effect will be refreshed every 20s after recalculation."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Electro",
+      "Cryo",
+      "Hydro"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Deepwood Memories",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gilded Dreams",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Deepwood Memories",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gilded Dreams",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "spire-of-solitary-enlightenment"
+  },
+  {
+    "name": "The Lost Valley",
+    "type": "Blessing",
+    "description": "The ancient ritual grounds were buried beneath the earth amidst a cataclysm that tore heaven and earth asunder before being uplifted by the descent of an alien object, and finally unveiled by a destructive battle that resulted from a betrayal. Nonetheless, those who once frequented this place are no more.",
+    "location": "Fuao Vale, The Chasm, Liyue",
+    "nation": "Liyue",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "When characters use Elemental Skills, a shockwave will be unleashed, dealing True Damage."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "When characters use Elemental Skills, a shockwave will be unleashed, dealing True Damage."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "When characters use Elemental Skills, a shockwave will be unleashed, dealing True Damage."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "When characters use Elemental Skills, a shockwave will be unleashed, dealing True Damage."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Pyro",
+      "Electro",
+      "Geo",
+      "Anemo"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Vermillion Hereafter",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Echoes of an Offering",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Martial Artist",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Gambler",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Vermillion Hereafter",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Echoes of an Offering",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "the-lost-valley"
+  },
+  {
+    "name": "Tower of Abject Pride",
+    "type": "Forgery",
+    "description": "It is said that the deserts were once home to three sage-kings, one of whom remained lovely and wise till the very end. They parted ways eventually for the sake of the paradise they sought in their hearts. This place is called a 'tower,' but in truth was the temporary residence of one of these people when they were building that earthly paradise. If one stretches the past back even further, it was once a small shrine built to avoid the wind and the sand.",
+    "location": "Apam Woods, Ashavan Realm, Sumeru",
+    "nation": "Sumeru",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 16,
+        "recommendedLevel": 15,
+        "leyLineDisorder": [
+          "When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 21,
+        "recommendedLevel": 36,
+        "leyLineDisorder": [
+          "When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken.",
+          "During the challenge, Quickened opponents will have all their Elemental RES decreased. As such, place Dendro and Electro characters in your party to use the Ley Line Disorder here to your advantage."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "When affected by Quicken, the opponent's All Elemental RES will be decreased by 20%. This effect will be removed 5s after the opponent exits Quicken.",
+          "During the challenge, Quickened opponents will have all their Elemental RES decreased. As such, place Dendro and Electro characters in your party to use the Ley Line Disorder here to your advantage."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "Dendro",
+      "Electro"
+    ],
+    "rewards": [
+      {
+        "day": "mon",
+        "name": "Tainted Clouds",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Talisman of the Forest Dew",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "tue",
+        "name": "Obsession",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Truth",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "wed",
+        "name": "Leading Karma",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Olden Days of Scorching Might",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "thu",
+        "name": "Tainted Clouds",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Talisman of the Forest Dew",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "fri",
+        "name": "Obsession",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Truth",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sat",
+        "name": "Leading Karma",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Olden Days of Scorching Might",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "sun",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 10,
+            "mora": 1125,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              },
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 4.7,
+                "drop_min": 4,
+                "drop_max": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1550,
+            "drops": [
+              {
+                "name": "Copper Talisman of the Forest Dew",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              },
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.7,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2,
+                "drop_min": 2,
+                "drop_max": 2
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.26,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.76,
+                "drop_min": 0,
+                "drop_max": 3
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 2.24,
+                "drop_min": 0,
+                "drop_max": 3
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "items": [
+              {
+                "name": "Coper Talisman of the Forest Dew",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Iron Talisman of the Forest Dew",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Silver Talisman of the Forest Dew",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Golden Talisman of the Forest Dew",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Reminiscence",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Oasis Garden's Kindness",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Mourning",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Oasis Garden's Truth",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Echo of Scorching Might",
+                "avg": 2.2,
+                "drop_min": 2,
+                "drop_max": 3
+              },
+              {
+                "name": "Remnant Glow of Scorching Might",
+                "avg": 2.418,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Dream of Scorching Might",
+                "avg": 0.62,
+                "drop_min": 0,
+                "drop_max": 4
+              },
+              {
+                "name": "Olden Days of Scorching Might",
+                "avg": 0.062,
+                "drop_min": 0,
+                "drop_max": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "enemies": [
+      {
+        "level": 1,
+        "target": "Defeat 12 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Stretchy Pyro Fungus": 2,
+              "Floating Dendro Fungus": 6,
+              "Floating Hydro Fungus": 2,
+              "Whirling Electro Fungus": 2
+            }
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "target": "Defeat 16 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Whirling Cryo Fungus": 4,
+              "Stretchy Pyro Fungus": 4,
+              "Stretchy Geo Fungus": 4,
+              "Floating Dendro Fungus": 2,
+              "Whirling Electro Fungus": 2
+            }
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "target": "Defeat 10 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Stretchy Pyro Fungus": 2,
+              "Whirling Cryo Fungus": 2
+            },
+            "wave2": {
+              "Stretchy Geo Fungus": 2,
+              "Whirling Electro Fungus": 1,
+              "Floating Dendro Fungus": 1
+            },
+            "wave3": {
+              "Grounded Hydroshroom": 1,
+              "Winged Dendroshroom": 1
+            }
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "target": "Defeat 9 opponent(s) within 300 second(s)",
+        "enemies": [
+          {
+            "wave1": {
+              "Floating Hydro Fungus": 2,
+              "Floating Dendro Fungus": 2,
+              "Grounded Hydroshroom": 1
+            },
+            "wave2": {
+              "Floating Hydro Fungus": 1,
+              "Floating Dendro Fungus": 1,
+              "Grounded Hydroshroom": 1,
+              "Winged Dendroshroom": 1
+            }
+          }
+        ]
+      }
+    ],
+    "id": "tower-of-abject-pride"
+  },
+  {
+    "name": "Valley of Remembrance",
+    "type": "Blessing",
+    "description": "After a period of time, the people of the continent lost track of the past. They attempt to explore downwards, searching for the things that they had forgotten. On the other side of the ancient tree's hollow, the secrets of yesterday have become today's treasures.",
+    "location": "Dawn Winery, Windwail Highland, Mondstadt",
+    "nation": "Mondstadt",
+    "requirements": [
+      {
+        "level": 1,
+        "adventureRank": 25,
+        "recommendedLevel": 47,
+        "leyLineDisorder": [
+          "Physical DMG dealt by all party members increased by 75%."
+        ]
+      },
+      {
+        "level": 2,
+        "adventureRank": 30,
+        "recommendedLevel": 59,
+        "leyLineDisorder": [
+          "Physical DMG dealt by all party members increased by 75%."
+        ]
+      },
+      {
+        "level": 3,
+        "adventureRank": 35,
+        "recommendedLevel": 69,
+        "leyLineDisorder": [
+          "Physical DMG dealt by all party members increased by 75%."
+        ]
+      },
+      {
+        "level": 4,
+        "adventureRank": 40,
+        "recommendedLevel": 80,
+        "leyLineDisorder": [
+          "Physical DMG dealt by all party members increased by 75%.",
+          "The opponents in this challenge have decreased Physical RES. Use characters who excel in dealing Physical DMG to decrease challenge difficulty."
+        ]
+      },
+      {
+        "level": 5,
+        "adventureRank": 45,
+        "recommendedLevel": 90,
+        "leyLineDisorder": [
+          "Physical DMG dealt by all party members increased by 75%.",
+          "The opponents in this challenge have decreased Physical RES. Use characters who excel in dealing Physical DMG to decrease challenge difficulty."
+        ]
+      }
+    ],
+    "recommendedElements": [
+      "None"
+    ],
+    "rewards": [
+      {
+        "day": "always",
+        "details": [
+          {
+            "level": 1,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1700,
+            "drops": [
+              {
+                "name": "Traveling Doctor",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "adventureExperience": 100,
+            "companionshipExperience": 15,
+            "mora": 1850,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Viridescent Venerer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Maiden Beloved",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 3,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2025,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Viridescent Venerer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Maiden Beloved",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 4,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2200,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Viridescent Venerer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Maiden Beloved",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          },
+          {
+            "level": 5,
+            "adventureExperience": 100,
+            "companionshipExperience": 20,
+            "mora": 2525,
+            "drops": [
+              {
+                "name": "Tiny Miracle",
+                "rarity": "3/4",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Viridescent Venerer",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              },
+              {
+                "name": "Maiden Beloved",
+                "rarity": "4/5",
+                "drop_min": 0,
+                "drop_max": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "id": "valley-of-remembrance"
+  }
+]

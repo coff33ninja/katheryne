@@ -39,11 +39,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Electro",
-      "Cryo",
-      "Pyro"
-    ],
+    "recommendedElements": ["Electro", "Cryo", "Pyro"],
     "rewards": [
       {
         "day": "mon",
@@ -797,9 +793,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Anemo"
-    ],
+    "recommendedElements": ["Anemo"],
     "rewards": [
       {
         "day": "always",
@@ -945,9 +939,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Geo"
-    ],
+    "recommendedElements": ["Geo"],
     "rewards": [
       {
         "day": "always",
@@ -1087,10 +1079,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Geo",
-      "Cryo"
-    ],
+    "recommendedElements": ["Geo", "Cryo"],
     "rewards": [
       {
         "day": "mon",
@@ -2022,9 +2011,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Electro"
-    ],
+    "recommendedElements": ["Electro"],
     "rewards": [
       {
         "day": "always",
@@ -2242,12 +2229,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Hydro",
-      "Pyro",
-      "Cryo",
-      "Anemo"
-    ],
+    "recommendedElements": ["Hydro", "Pyro", "Cryo", "Anemo"],
     "rewards": [
       {
         "day": "mon",
@@ -3171,11 +3153,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Pyro",
-      "Electro",
-      "Geo"
-    ],
+    "recommendedElements": ["Pyro", "Electro", "Geo"],
     "rewards": [
       {
         "day": "always",
@@ -3331,10 +3309,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Cryo",
-      "Pyro"
-    ],
+    "recommendedElements": ["Cryo", "Pyro"],
     "rewards": [
       {
         "day": "mon",
@@ -4109,9 +4084,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Pyro"
-    ],
+    "recommendedElements": ["Pyro"],
     "rewards": [
       {
         "day": "always",
@@ -4329,10 +4302,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Pyro",
-      "Cryo"
-    ],
+    "recommendedElements": ["Pyro", "Cryo"],
     "rewards": [
       {
         "day": "always",
@@ -4494,12 +4464,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Pyro",
-      "Electro",
-      "Geo",
-      "Anemo"
-    ],
+    "recommendedElements": ["Pyro", "Electro", "Geo", "Anemo"],
     "rewards": [
       {
         "day": "always",
@@ -4653,11 +4618,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Hydro",
-      "Cryo",
-      "Geo"
-    ],
+    "recommendedElements": ["Hydro", "Cryo", "Geo"],
     "rewards": [
       {
         "day": "always",
@@ -4811,10 +4772,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Electro",
-      "Hydro"
-    ],
+    "recommendedElements": ["Electro", "Hydro"],
     "rewards": [
       {
         "day": "always",
@@ -4968,11 +4926,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Electro",
-      "Cryo",
-      "Hydro"
-    ],
+    "recommendedElements": ["Electro", "Cryo", "Hydro"],
     "rewards": [
       {
         "day": "always",
@@ -5126,12 +5080,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Pyro",
-      "Electro",
-      "Geo",
-      "Anemo"
-    ],
+    "recommendedElements": ["Pyro", "Electro", "Geo", "Anemo"],
     "rewards": [
       {
         "day": "always",
@@ -5287,10 +5236,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "Dendro",
-      "Electro"
-    ],
+    "recommendedElements": ["Dendro", "Electro"],
     "rewards": [
       {
         "day": "mon",
@@ -6221,9 +6167,7 @@
         ]
       }
     ],
-    "recommendedElements": [
-      "None"
-    ],
+    "recommendedElements": ["None"],
     "rewards": [
       {
         "day": "always",

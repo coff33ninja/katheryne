@@ -10,8 +10,8 @@ export interface Character {
 export interface Artifact {
   name: string;
   rarity: number;
-  "2-piece_bonus"?: string;
-  "4-piece_bonus"?: string;
+  '2-piece_bonus'?: string;
+  '4-piece_bonus'?: string;
   id?: string;
 }
 

@@ -34769,11 +34769,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Electro",
-        "Cryo",
-        "Pyro"
-      ],
+      "recommendedElements": ["Electro", "Cryo", "Pyro"],
       "rewards": [
         {
           "day": "mon",
@@ -35527,9 +35523,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Anemo"
-      ],
+      "recommendedElements": ["Anemo"],
       "rewards": [
         {
           "day": "always",
@@ -35675,9 +35669,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Geo"
-      ],
+      "recommendedElements": ["Geo"],
       "rewards": [
         {
           "day": "always",
@@ -35817,10 +35809,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Geo",
-        "Cryo"
-      ],
+      "recommendedElements": ["Geo", "Cryo"],
       "rewards": [
         {
           "day": "mon",
@@ -36752,9 +36741,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Electro"
-      ],
+      "recommendedElements": ["Electro"],
       "rewards": [
         {
           "day": "always",
@@ -36972,12 +36959,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Hydro",
-        "Pyro",
-        "Cryo",
-        "Anemo"
-      ],
+      "recommendedElements": ["Hydro", "Pyro", "Cryo", "Anemo"],
       "rewards": [
         {
           "day": "mon",
@@ -37901,11 +37883,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Pyro",
-        "Electro",
-        "Geo"
-      ],
+      "recommendedElements": ["Pyro", "Electro", "Geo"],
       "rewards": [
         {
           "day": "always",
@@ -38061,10 +38039,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Cryo",
-        "Pyro"
-      ],
+      "recommendedElements": ["Cryo", "Pyro"],
       "rewards": [
         {
           "day": "mon",
@@ -38839,9 +38814,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Pyro"
-      ],
+      "recommendedElements": ["Pyro"],
       "rewards": [
         {
           "day": "always",
@@ -39059,10 +39032,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Pyro",
-        "Cryo"
-      ],
+      "recommendedElements": ["Pyro", "Cryo"],
       "rewards": [
         {
           "day": "always",
@@ -39224,12 +39194,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Pyro",
-        "Electro",
-        "Geo",
-        "Anemo"
-      ],
+      "recommendedElements": ["Pyro", "Electro", "Geo", "Anemo"],
       "rewards": [
         {
           "day": "always",
@@ -39383,11 +39348,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Hydro",
-        "Cryo",
-        "Geo"
-      ],
+      "recommendedElements": ["Hydro", "Cryo", "Geo"],
       "rewards": [
         {
           "day": "always",
@@ -39541,10 +39502,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Electro",
-        "Hydro"
-      ],
+      "recommendedElements": ["Electro", "Hydro"],
       "rewards": [
         {
           "day": "always",
@@ -39698,11 +39656,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Electro",
-        "Cryo",
-        "Hydro"
-      ],
+      "recommendedElements": ["Electro", "Cryo", "Hydro"],
       "rewards": [
         {
           "day": "always",
@@ -39856,12 +39810,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Pyro",
-        "Electro",
-        "Geo",
-        "Anemo"
-      ],
+      "recommendedElements": ["Pyro", "Electro", "Geo", "Anemo"],
       "rewards": [
         {
           "day": "always",
@@ -40017,10 +39966,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "Dendro",
-        "Electro"
-      ],
+      "recommendedElements": ["Dendro", "Electro"],
       "rewards": [
         {
           "day": "mon",
@@ -40951,9 +40897,7 @@
           ]
         }
       ],
-      "recommendedElements": [
-        "None"
-      ],
+      "recommendedElements": ["None"],
       "rewards": [
         {
           "day": "always",
@@ -41095,12 +41039,7 @@
       "reactions": [
         {
           "name": "Swirl",
-          "elements": [
-            "Pyro",
-            "Hydro",
-            "Electro",
-            "Cryo"
-          ],
+          "elements": ["Pyro", "Hydro", "Electro", "Cryo"],
           "description": "When Anemo meets certain other elements, it can trigger Swirl. Swirl can deal elemental DMG, affect beings, and generate further Elemental Reactions."
         }
       ],
@@ -41112,23 +41051,17 @@
       "reactions": [
         {
           "name": "Melt",
-          "elements": [
-            "Pyro"
-          ],
+          "elements": ["Pyro"],
           "description": "When Cryo meets Pyro, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs.\nMelt itself does not inflict DMG. However, the Pyro or Cryo attack that triggers Melt deals increased DMG."
         },
         {
           "name": "Frozen",
-          "elements": [
-            "Hydro"
-          ],
+          "elements": ["Hydro"],
           "description": "When Cryo meets Hydro, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
         },
         {
           "name": "Superconduct",
-          "elements": [
-            "Electro"
-          ],
+          "elements": ["Electro"],
           "description": "When Cryo meets Electro, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
         }
       ],
@@ -41140,23 +41073,17 @@
       "reactions": [
         {
           "name": "Burning",
-          "elements": [
-            "Pyro"
-          ],
+          "elements": ["Pyro"],
           "description": "When Dendro meets Pyro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
         },
         {
           "name": "Bloom",
-          "elements": [
-            "Hydro"
-          ],
+          "elements": ["Hydro"],
           "description": "When creatures are affected by Hydro and Dendro, the Bloom reaction will be triggered, creating Dendro Cores."
         },
         {
           "name": "Catalyze",
-          "elements": [
-            "Electro"
-          ],
+          "elements": ["Electro"],
           "description": "When creatures are affected by Electro and Dendro, Quicken will occur, which will render them Quickened."
         }
       ],
@@ -41168,30 +41095,22 @@
       "reactions": [
         {
           "name": "Overloaded",
-          "elements": [
-            "Pyro"
-          ],
+          "elements": ["Pyro"],
           "description": "When Electro meets Pyro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
         },
         {
           "name": "Electro-Charged",
-          "elements": [
-            "Hydro"
-          ],
+          "elements": ["Hydro"],
           "description": "When Electro meets Hydro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off.\nElectricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
         },
         {
           "name": "Superconduct",
-          "elements": [
-            "Cryo"
-          ],
+          "elements": ["Cryo"],
           "description": "When Electro meets Cryo, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
         },
         {
           "name": "Catalyze",
-          "elements": [
-            "Dendro"
-          ],
+          "elements": ["Dendro"],
           "description": "When creatures are affected by Electro and Dendro, Quicken will occur, which will render them Quickened."
         }
       ],
@@ -41203,12 +41122,7 @@
       "reactions": [
         {
           "name": "Crystallize",
-          "elements": [
-            "Pyro",
-            "Hydro",
-            "Electro",
-            "Cryo"
-          ],
+          "elements": ["Pyro", "Hydro", "Electro", "Cryo"],
           "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystalize will be triggered!"
         }
       ],
@@ -41220,30 +41134,22 @@
       "reactions": [
         {
           "name": "Vaporize",
-          "elements": [
-            "Pyro"
-          ],
+          "elements": ["Pyro"],
           "description": "When Hydro meets Pyro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs.\nVaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
         },
         {
           "name": "Electro-Charged",
-          "elements": [
-            "Electro"
-          ],
+          "elements": ["Electro"],
           "description": "When Hydro meets Electro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off.\nElectricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
         },
         {
           "name": "Frozen",
-          "elements": [
-            "Cryo"
-          ],
+          "elements": ["Cryo"],
           "description": "When Hydro meets Cryo, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
         },
         {
           "name": "Bloom",
-          "elements": [
-            "Dendro"
-          ],
+          "elements": ["Dendro"],
           "description": "When creatures are affected by Hydro and Dendro, the Bloom reaction will be triggered, creating Dendro Cores."
         }
       ],
@@ -41255,30 +41161,22 @@
       "reactions": [
         {
           "name": "Vaporize",
-          "elements": [
-            "Hydro"
-          ],
+          "elements": ["Hydro"],
           "description": "When Pyro meets Hydro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs.\nVaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
         },
         {
           "name": "Overloaded",
-          "elements": [
-            "Electro"
-          ],
+          "elements": ["Electro"],
           "description": "When Pyro meets Electro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
         },
         {
           "name": "Burning",
-          "elements": [
-            "Dendro"
-          ],
+          "elements": ["Dendro"],
           "description": "When Pyro meets Dendro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
         },
         {
           "name": "Melt",
-          "elements": [
-            "Cryo"
-          ],
+          "elements": ["Cryo"],
           "description": "When Pyro meets Cryo, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs."
         }
       ],
@@ -41294,10 +41192,7 @@
       "type": "Elite Enemies",
       "family": "The Abyss",
       "faction": "Abyss Order",
-      "elements": [
-        "Hydro",
-        "Cryo"
-      ],
+      "elements": ["Hydro", "Cryo"],
       "drops": [
         {
           "name": "Dead Ley Line Branch",
@@ -41372,10 +41267,7 @@
       "type": "Elite Enemies",
       "family": "The Abyss",
       "faction": "Abyss Order",
-      "elements": [
-        "Pyro",
-        "Electro"
-      ],
+      "elements": ["Pyro", "Electro"],
       "drops": [
         {
           "name": "Dead Ley Line Branch",
@@ -41450,12 +41342,7 @@
       "type": "Elite Enemies",
       "family": "The Abyss",
       "faction": "Abyss Order",
-      "elements": [
-        "Hydro",
-        "Pyro",
-        "Cryo",
-        "Electro"
-      ],
+      "elements": ["Hydro", "Pyro", "Cryo", "Electro"],
       "drops": [
         {
           "name": "Dead Ley Line Branch",
@@ -41522,9 +41409,7 @@
       "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
       "type": "Elite Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Hydro"
-      ],
+      "elements": ["Hydro"],
       "drops": [
         {
           "name": "Fragile Bone Shard",
@@ -41557,11 +41442,7 @@
       "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
       "type": "Elite Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Cryo",
-        "Electro",
-        "Hydro"
-      ],
+      "elements": ["Cryo", "Electro", "Hydro"],
       "drops": [
         {
           "name": "Fragile Bone Shard",
@@ -41602,11 +41483,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Cryo",
-        "Electro",
-        "Hydro"
-      ],
+      "elements": ["Cryo", "Electro", "Hydro"],
       "drops": "None",
       "elemental-descriptions": [
         {
@@ -41630,11 +41507,7 @@
       "description": "N/A",
       "type": "Elite Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Anemo",
-        "Pyro",
-        "Electro"
-      ],
+      "elements": ["Anemo", "Pyro", "Electro"],
       "drops": [
         {
           "name": "Desiccated Shell",
@@ -41673,12 +41546,7 @@
       "name": "defense-mechanism",
       "description": "N/A",
       "region": "Dragonspine",
-      "elements": [
-        "Pyro",
-        "Cryo",
-        "Hydro",
-        "Electro"
-      ],
+      "elements": ["Pyro", "Cryo", "Hydro", "Electro"],
       "type": "Unique Enemies",
       "family": "Unknown",
       "mora-gained": 0
@@ -41690,11 +41558,7 @@
       "region": "Monstadt",
       "type": "Elite Enemies",
       "family": "Elemental Lifeforms",
-      "elements": [
-        "Hydro",
-        "Pyro",
-        "Cryo"
-      ],
+      "elements": ["Hydro", "Pyro", "Cryo"],
       "drops": "None",
       "mora-gained": 600
     },
@@ -41706,9 +41570,7 @@
       "type": "Elite Enemies",
       "family": "Fatui",
       "faction": "Fatui",
-      "elements": [
-        "Pyro"
-      ],
+      "elements": ["Pyro"],
       "drops": [
         {
           "name": "Hunter's Sacrificial Knife",
@@ -41751,10 +41613,7 @@
       "type": "Elite Enemies",
       "family": "Fatui",
       "faction": "Fatui",
-      "element": [
-        "Cryo",
-        "Electro"
-      ],
+      "element": ["Cryo", "Electro"],
       "drops": [
         {
           "name": "Mist Grass Pollen",
@@ -41807,14 +41666,7 @@
       "type": "Common Enemies",
       "family": "Fatui",
       "faction": "Fatui",
-      "elements": [
-        "Geo",
-        "Pyro",
-        "Cryo",
-        "Hydro",
-        "Anemo",
-        "Electro"
-      ],
+      "elements": ["Geo", "Pyro", "Cryo", "Hydro", "Anemo", "Electro"],
       "drops": [
         {
           "name": "Recruit's Insignia",
@@ -41877,11 +41729,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Anemo",
-        "Dendro",
-        "Hydro"
-      ],
+      "elements": ["Anemo", "Dendro", "Hydro"],
       "drops": [
         {
           "name": "Fungal Spores",
@@ -41936,9 +41784,7 @@
       "region": "Liyue",
       "type": "Elite Enemies",
       "family": "Mythical Beasts",
-      "elements": [
-        "Geo"
-      ],
+      "elements": ["Geo"],
       "drops": [
         {
           "name": "Fragile Bone Shard",
@@ -41986,9 +41832,7 @@
       "region": "Liyue",
       "type": "Elite Enemies",
       "family": "Mythical Beasts",
-      "elements": [
-        "Geo"
-      ],
+      "elements": ["Geo"],
       "drops": [
         {
           "name": "Fragile Bone Shard",
@@ -42036,10 +41880,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Geo",
-        "Hydro"
-      ],
+      "elements": ["Geo", "Hydro"],
       "drops": [
         {
           "name": "Fungal Spores",
@@ -42091,12 +41932,7 @@
       "type": "Common Enemies",
       "family": "Hilichurls",
       "faction": "Abyss Order",
-      "elements": [
-        "Pyro",
-        "Cryo",
-        "Electro",
-        "Dendro"
-      ],
+      "elements": ["Pyro", "Cryo", "Electro", "Dendro"],
       "drops": [
         {
           "name": "Damaged Mask",
@@ -42123,11 +41959,7 @@
       "type": "Common Enemies",
       "family": "Hilichurls",
       "faction": "Abyss Order",
-      "elements": [
-        "Electro",
-        "Pyro",
-        "Cryo"
-      ],
+      "elements": ["Electro", "Pyro", "Cryo"],
       "drops": [
         {
           "name": "Damaged Mask",
@@ -42186,10 +42018,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Other Human Factions",
-      "elements": [
-        "Electro",
-        "Pyro"
-      ],
+      "elements": ["Electro", "Pyro"],
       "drops": [
         {
           "name": "Old Handguard",
@@ -42295,10 +42124,7 @@
       "type": "Elite Enemies",
       "family": "Hilichurls",
       "faction": "Abyss Order",
-      "elements": [
-        "Cryo",
-        "Geo"
-      ],
+      "elements": ["Cryo", "Geo"],
       "drops": [
         {
           "name": "Heavy Horn",
@@ -42338,9 +42164,7 @@
       "type": "Elite Enemies",
       "family": "Fatui",
       "faction": "Fatui",
-      "elements": [
-        "Hydro"
-      ],
+      "elements": ["Hydro"],
       "drops": [
         {
           "name": "Dismal Prism",
@@ -42368,9 +42192,7 @@
       "type": "Elite Enemies",
       "family": "Hilichurls",
       "faction": "Abyss Order",
-      "elements": [
-        "Pyro"
-      ],
+      "elements": ["Pyro"],
       "drops": [
         {
           "name": "Heavy Horn",
@@ -42449,10 +42271,7 @@
       "description": "Despite often appearing in groups, the Nobushi do not have a centralized organization. Depending on the temperament or the nature of their crimes, they are also known as the \"homeless ones\", \"vagabonds\", \"Kairagi\", \"ne'er-do-wells\", or even \"the rioters\", or just simply known collectively as \"those rogues\". They are often samurai who haven fallen into banditry, and some will even ally themselves with the Treasure Hoarders or the Fatui for survival or monetary gain.",
       "type": "Common Enemies",
       "family": "Other Human Factions",
-      "elements": [
-        "Electro",
-        "Pyro"
-      ],
+      "elements": ["Electro", "Pyro"],
       "drops": [
         {
           "name": "Old Handguard",
@@ -42492,10 +42311,7 @@
       "description": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship. It is unclear if it is a soul or magic that powers them.\nThey say that legions of golems once conquered the nations that called the high sea home, and this might have been amongst their number. The great towers and palaces that now sleep beneath the waves once bore witness to the fate of those who stand in the path of the wheel of fate.",
       "type": "Elite Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Geo",
-        "Pyro"
-      ],
+      "elements": ["Geo", "Pyro"],
       "drops": [
         {
           "name": "Ruined Hilt",
@@ -42522,9 +42338,7 @@
       "type": "Elite Enemies",
       "family": "Automatons",
       "faction": "Primal Constructs",
-      "elements": [
-        "Dendro"
-      ],
+      "elements": ["Dendro"],
       "drops": [
         {
           "name": "Damaged Prism",
@@ -42588,10 +42402,7 @@
       "type": "Elite Enemies",
       "family": "The Abyss",
       "faction": "Abyss Order",
-      "elements": [
-        "Geo",
-        "Electro"
-      ],
+      "elements": ["Geo", "Electro"],
       "drops": [
         {
           "name": "Concealed Claw",
@@ -42726,9 +42537,7 @@
       "type": "Elite Enemies",
       "family": "Automatons",
       "faction": "Humanoid Ruin Machines",
-      "elements": [
-        "Pyro"
-      ],
+      "elements": ["Pyro"],
       "drops": [
         {
           "name": "Chaos Device",
@@ -42778,9 +42587,7 @@
       "type": "Elite Enemies",
       "family": "Automatons",
       "faction": "Humanoid Ruin Machines",
-      "elements": [
-        "Pyro"
-      ],
+      "elements": ["Pyro"],
       "drops": [
         {
           "name": "Chaos Device",
@@ -42830,9 +42637,7 @@
       "type": "Elite Enemies",
       "family": "Automatons",
       "faction": "Humanoid Ruin Machines",
-      "elements": [
-        "Pyro"
-      ],
+      "elements": ["Pyro"],
       "drops": [
         {
           "name": "Chaos Device",
@@ -42882,9 +42687,7 @@
       "type": "Elite Enemies",
       "family": "Automatons",
       "faction": "Ruin Machines",
-      "elements": [
-        "N/A"
-      ],
+      "elements": ["N/A"],
       "drops": [
         {
           "name": "Chaos Gear",
@@ -42951,13 +42754,7 @@
       "type": "Common Enemies",
       "family": "Hilichurls",
       "faction": "Abyss Order",
-      "elements": [
-        "Anemo",
-        "Geo",
-        "Dendro",
-        "Hydro",
-        "Cydro"
-      ],
+      "elements": ["Anemo", "Geo", "Dendro", "Hydro", "Cydro"],
       "drops": [
         {
           "name": "Damaged Mask",
@@ -43020,13 +42817,7 @@
       "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
       "type": "Common Enemies",
       "family": "Slime",
-      "elements": [
-        "Anemo",
-        "Geo",
-        "Dendro",
-        "Hydro",
-        "Cydro"
-      ],
+      "elements": ["Anemo", "Geo", "Dendro", "Hydro", "Cydro"],
       "drops": [
         {
           "name": "Slime Condensate",
@@ -43146,12 +42937,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Anemo",
-        "Electro",
-        "Geo",
-        "Pyro"
-      ],
+      "elements": ["Anemo", "Electro", "Geo", "Pyro"],
       "drops": [
         {
           "name": "Fungal Spores",
@@ -43211,13 +42997,7 @@
       "type": "Elite Enemies",
       "family": "The Abyss",
       "faction": "Abyss Order",
-      "elements": [
-        "Cryo",
-        "Hydro",
-        "Pyro",
-        "Anemo",
-        "Geo"
-      ],
+      "elements": ["Cryo", "Hydro", "Pyro", "Anemo", "Geo"],
       "drops": [
         {
           "name": "Gloomy Statuette",
@@ -43389,12 +43169,7 @@
       "region": "Global",
       "type": "Common Enemies",
       "family": "Treasure Hoarders",
-      "elements": [
-        "Cryo",
-        "Electro",
-        "Hydro",
-        "Pyro"
-      ],
+      "elements": ["Cryo", "Electro", "Hydro", "Pyro"],
       "drops": [
         {
           "name": "Treasure Hoarder Insignia",
@@ -43454,11 +43229,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Cryo",
-        "Electro",
-        "Pyro"
-      ],
+      "elements": ["Cryo", "Electro", "Pyro"],
       "drops": [
         {
           "name": "Fungal Spores",
@@ -43513,10 +43284,7 @@
       "description": "A bizarre mimetic plant monster that harnesses the elements in combat. These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant tree that sways and spews elemental power...",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Cryo",
-        "Pyro"
-      ],
+      "elements": ["Cryo", "Pyro"],
       "drops": [
         {
           "name": "Whopperflower Nectar",
@@ -43564,10 +43332,7 @@
       "description": "N/A",
       "type": "Common Enemies",
       "family": "Mystical Beasts",
-      "elements": [
-        "Cryo",
-        "Dendro"
-      ],
+      "elements": ["Cryo", "Dendro"],
       "drops": [
         {
           "name": "Fungal Spores",
@@ -43617,54 +43382,27 @@
       "hurricane-seed": {
         "name": "Hurricane Seed",
         "source": "Anemo Hypostasis",
-        "characters": [
-          "jean",
-          "sucrose",
-          "venti"
-        ]
+        "characters": ["jean", "sucrose", "venti"]
       },
       "hoarfrost-core": {
         "name": "Hoarfrost Core",
         "source": "Cryo Regisvine",
-        "characters": [
-          "chongyun",
-          "diona",
-          "ganyu",
-          "kaeya",
-          "qiqi",
-          "rosaria"
-        ]
+        "characters": ["chongyun", "diona", "ganyu", "kaeya", "qiqi", "rosaria"]
       },
       "lightning-prism": {
         "name": "Lightning Prism",
         "source": "Electro Hypostasis",
-        "characters": [
-          "beidou",
-          "fischl",
-          "keqing",
-          "lisa",
-          "razor"
-        ]
+        "characters": ["beidou", "fischl", "keqing", "lisa", "razor"]
       },
       "basalt-pillar": {
         "name": "Basalt Pillar",
         "source": "Geo Hypostasis",
-        "characters": [
-          "albedo",
-          "ningguang",
-          "noelle",
-          "zhongli"
-        ]
+        "characters": ["albedo", "ningguang", "noelle", "zhongli"]
       },
       "cleansing-heart": {
         "name": "Cleansing Heart",
         "source": "Oceanid",
-        "characters": [
-          "barbara",
-          "mona",
-          "tartaglia",
-          "xingqiu"
-        ]
+        "characters": ["barbara", "mona", "tartaglia", "xingqiu"]
       },
       "everflame-seed": {
         "name": "Everflame Seed",
@@ -43681,221 +43419,137 @@
       "juvenile-jade": {
         "name": "Juvenile Jade",
         "source": "Primo Geovishap",
-        "characters": [
-          "hu-tao",
-          "xiao",
-          "yanfei"
-        ]
+        "characters": ["hu-tao", "xiao", "yanfei"]
       },
       "crystalline-bloom": {
         "name": "Crystalline Bloom",
         "source": "Cryo Hypostasis",
-        "characters": [
-          "aloy",
-          "eula"
-        ]
+        "characters": ["aloy", "eula"]
       },
       "marionette-core": {
         "name": "Marionette Core",
         "source": "Maguu Kenki",
-        "characters": [
-          "kazuha",
-          "sayu"
-        ]
+        "characters": ["kazuha", "sayu"]
       },
       "perpetual-heart": {
         "name": "Perpetual Heart",
         "source": "Perpetual Mechanical Array",
-        "characters": [
-          "gorou",
-          "ayaka"
-        ]
+        "characters": ["gorou", "ayaka"]
       },
       "smoldering-pearl": {
         "name": "Smoldering Pearl",
         "source": "Pyro Hypostasis",
-        "characters": [
-          "thoma",
-          "yoimiya"
-        ]
+        "characters": ["thoma", "yoimiya"]
       },
       "dew-of-repudiation": {
         "name": "Dew of Repudiation",
         "source": "Hydro Hypostasis",
-        "characters": [
-          "kokomi",
-          "ayato"
-        ]
+        "characters": ["kokomi", "ayato"]
       },
       "storm-beads": {
         "name": "Storm Beads",
         "source": "Thunder Manifestation",
-        "characters": [
-          "sara",
-          "raiden"
-        ]
+        "characters": ["sara", "raiden"]
       },
       "riftborn-regalia": {
         "name": "Riftborn Regalia",
         "source": "Golden Wolflord",
-        "characters": [
-          "arataki-itto",
-          "yun-jin"
-        ]
+        "characters": ["arataki-itto", "yun-jin"]
       },
       "dragonheir-s-false-fin": {
         "name": "Dragonheir's False Fin",
         "source": "Coral Defenders",
-        "characters": [
-          "shenhe",
-          "yae-miko"
-        ]
+        "characters": ["shenhe", "yae-miko"]
       },
       "perpetual-caliber": {
         "name": "Perpetual Caliber",
         "source": "Aeonblight Drake",
-        "characters": [
-          "layla",
-          "nilou",
-          "wanderer"
-        ]
+        "characters": ["layla", "nilou", "wanderer"]
       },
       "majestic-hooked-beak": {
         "name": "Majestic Hooked Beak",
         "source": "Jadeplume Terrorshroom",
-        "characters": [
-          "collei",
-          "tighnari"
-        ]
+        "characters": ["collei", "tighnari"]
       },
       "thunderclap-fruitcore": {
         "name": "Thunderclap Fruitcore",
         "source": "Electro Regisvine",
-        "characters": [
-          "cyno",
-          "dori"
-        ]
+        "characters": ["cyno", "dori"]
       },
       "light-guiding-tetrahedron": {
         "name": "Light Guiding Tetrahedron",
         "source": "Algorithm of Semi-Intransient Matrix of Overseer Network",
-        "characters": [
-          "candace",
-          "faruzan",
-          "dehya"
-        ]
+        "characters": ["candace", "faruzan", "dehya"]
       },
       "tourbillon-device": {
         "name": "Tourbillon Device",
         "source": "Prototype Cal. Breguet",
-        "characters": [
-          "charlotte",
-          "wriothesley"
-        ]
+        "characters": ["charlotte", "wriothesley"]
       },
       "evergloom-ring": {
         "name": "Evergloom Ring",
         "source": "Iniquitous Baptist",
-        "characters": [
-          "kirara",
-          "baizhu"
-        ]
+        "characters": ["kirara", "baizhu"]
       },
       "quelled-creeper": {
         "name": "Quelled Creeper",
         "source": "Dendro Hypostasis",
-        "characters": [
-          "nahida",
-          "yaoyao",
-          "kaveh"
-        ]
+        "characters": ["nahida", "yaoyao", "kaveh"]
       },
       "pseudo-stamens": {
         "name": "Pseudo-Stamens",
         "source": "Setekh Wenut",
-        "characters": [
-          "mika",
-          "alhaitham"
-        ]
+        "characters": ["mika", "alhaitham"]
       },
       "emperor-s-resolution": {
         "name": "Emperor's Resolution",
         "source": "Emperor of Fire and Iron",
-        "characters": [
-          "lyney",
-          "gaming"
-        ]
+        "characters": ["lyney", "gaming"]
       },
       "coppelia": {
         "name": "Artificed Spare Clockwork Component — Coppelia",
         "source": "Icewind Suite",
-        "characters": [
-          "lynette"
-        ]
+        "characters": ["lynette"]
       },
       "coppelius": {
         "name": "Artificed Spare Clockwork Component — Coppelius",
         "source": "Icewind Suite",
-        "characters": [
-          "navia",
-          "freminet"
-        ]
+        "characters": ["navia", "freminet"]
       },
       "runic-fang": {
         "name": "Runic Fang",
         "source": "Ruin Serpent",
-        "characters": [
-          "yelan",
-          "shikanoin-heizou",
-          "kuki-shinobu"
-        ]
+        "characters": ["yelan", "shikanoin-heizou", "kuki-shinobu"]
       },
       "fontemer-unihorn": {
         "name": "Fontemer Unihorn",
         "source": "Millennial Pearl Seahorse",
-        "characters": [
-          "chevreuse",
-          "neuvillette",
-          "clorinde"
-        ]
+        "characters": ["chevreuse", "neuvillette", "clorinde"]
       },
       "water-that-failed-to-transcend": {
         "name": "Water That Failed To Transcend",
         "source": "Hydro Tulpa",
-        "characters": [
-          "furina",
-          "sigewinne"
-        ]
+        "characters": ["furina", "sigewinne"]
       },
       "cloudseam-scale": {
         "name": "Cloudseam Scale",
         "source": "Solitary Suanni",
-        "characters": [
-          "xianyun",
-          "sethos"
-        ]
+        "characters": ["xianyun", "sethos"]
       },
       "fragment-of-a-golden-melody": {
         "name": "Fragment of a Golden Melody",
         "source": "Statue of Marble and Brass",
-        "characters": [
-          "arlecchino"
-        ]
+        "characters": ["arlecchino"]
       },
       "overripe-flamegranate": {
         "name": "Overripe Flamegranate",
         "source": "Kongamato",
-        "characters": [
-          "kachina",
-          "kinich"
-        ]
+        "characters": ["kachina", "kinich"]
       },
       "mark-of-the-binding-blessing": {
         "name": "Mark of the Binding Blessing",
         "source": "Holawaqa Ngoubou",
-        "characters": [
-          "mualani"
-        ]
+        "characters": ["mualani"]
       },
       "id": "boss-material",
       "name": "boss-material"
@@ -44573,9 +44227,7 @@
         "sliver": {
           "id": "brilliant-diamond-sliver",
           "name": "Brilliant Diamond Sliver",
-          "sources": [
-            "Adventure Rank 15"
-          ],
+          "sources": ["Adventure Rank 15"],
           "rarity": 2
         },
         "fragment": {
@@ -44690,9 +44342,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Slime"
-        ]
+        "sources": ["Slime"]
       },
       "hilichurl-masks": {
         "characters": [
@@ -44746,20 +44396,10 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Hilichurl",
-          "Samachurl",
-          "Mitachurl",
-          "Lawachurl"
-        ]
+        "sources": ["Hilichurl", "Samachurl", "Mitachurl", "Lawachurl"]
       },
       "hilichurl-arrowheads": {
-        "characters": [
-          "amber",
-          "diona",
-          "fischl",
-          "collei"
-        ],
+        "characters": ["amber", "diona", "fischl", "collei"],
         "weapons": [
           "aquila-favonia",
           "skyward-atlas",
@@ -44802,9 +44442,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Hilichurl Archer"
-        ]
+        "sources": ["Hilichurl Archer"]
       },
       "samachurl-scrolls": {
         "characters": [
@@ -44854,9 +44492,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Samachurl"
-        ]
+        "sources": ["Samachurl"]
       },
       "treasure-hoarder-insignias": {
         "characters": [
@@ -44908,9 +44544,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Treasure Hoarder"
-        ]
+        "sources": ["Treasure Hoarder"]
       },
       "fatui-insignias": {
         "characters": [
@@ -44956,11 +44590,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Fatui Skirmisher",
-          "Fatui Cicin Mage",
-          "Fatui Agent"
-        ]
+        "sources": ["Fatui Skirmisher", "Fatui Cicin Mage", "Fatui Agent"]
       },
       "whopperflower-nectar": {
         "characters": [
@@ -45005,9 +44635,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Whopperflower"
-        ]
+        "sources": ["Whopperflower"]
       },
       "hilichurl-horns": {
         "weapons": [
@@ -45051,10 +44679,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Mitachurl",
-          "Lawachurl"
-        ]
+        "sources": ["Mitachurl", "Lawachurl"]
       },
       "ley-line": {
         "weapons": [
@@ -45101,18 +44726,10 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Abyss Mage"
-        ]
+        "sources": ["Abyss Mage"]
       },
       "nobushi": {
-        "characters": [
-          "ayaka",
-          "ayato",
-          "raiden",
-          "wanderer",
-          "yae-miko"
-        ],
+        "characters": ["ayaka", "ayato", "raiden", "wanderer", "yae-miko"],
         "weapons": [
           "engulfing-lightning",
           "haran-geppaku-futsu",
@@ -45142,9 +44759,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Nobushi"
-        ]
+        "sources": ["Nobushi"]
       },
       "bone-shards": {
         "weapons": [
@@ -45180,9 +44795,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Geovishap Hatchling"
-        ]
+        "sources": ["Geovishap Hatchling"]
       },
       "mist-grass": {
         "weapons": [
@@ -45222,9 +44835,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Fatui Cicin Mage"
-        ]
+        "sources": ["Fatui Cicin Mage"]
       },
       "fatui-knives": {
         "weapons": [
@@ -45262,18 +44873,10 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Fatui Agent"
-        ]
+        "sources": ["Fatui Agent"]
       },
       "specters": {
-        "characters": [
-          "aloy",
-          "gorou",
-          "kirara",
-          "kuki-shinobu",
-          "kokomi"
-        ],
+        "characters": ["aloy", "gorou", "kirara", "kuki-shinobu", "kokomi"],
         "weapons": [
           "aqua-simulacra",
           "everlasting-moonglow",
@@ -45302,9 +44905,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Specter"
-        ]
+        "sources": ["Specter"]
       },
       "chaos-parts": {
         "weapons": [
@@ -45347,11 +44948,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Ruin Guard",
-          "Ruin Hunter",
-          "Ruin Grader"
-        ]
+        "sources": ["Ruin Guard", "Ruin Hunter", "Ruin Grader"]
       },
       "eremites-red": {
         "characters": [
@@ -45389,18 +44986,10 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Eremites"
-        ]
+        "sources": ["Eremites"]
       },
       "fungals-spores": {
-        "characters": [
-          "nahida",
-          "baizhu",
-          "kaveh",
-          "nilou",
-          "tighnari"
-        ],
+        "characters": ["nahida", "baizhu", "kaveh", "nilou", "tighnari"],
         "weapons": [
           "a-thousand-floating-dreams",
           "jadefall-s-splendor",
@@ -45438,12 +45027,7 @@
         ]
       },
       "clockwork-meka": {
-        "characters": [
-          "lynette",
-          "charlotte",
-          "chevreuse",
-          "wriothesley"
-        ],
+        "characters": ["lynette", "charlotte", "chevreuse", "wriothesley"],
         "weapons": [
           "tome-of-the-eternal",
           "verdict",
@@ -45470,9 +45054,7 @@
             "rarity": 3
           }
         ],
-        "sources": [
-          "Clockwork Mek"
-        ]
+        "sources": ["Clockwork Mek"]
       },
       "fontemer-aberrant": {
         "characters": [
@@ -45544,9 +45126,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Primal Constructs"
-        ]
+        "sources": ["Primal Constructs"]
       },
       "breacher-primus": {
         "weapons": [
@@ -45574,10 +45154,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Shatterstone Breacher Primus",
-          "Overgrown Breacher Primus"
-        ]
+        "sources": ["Shatterstone Breacher Primus", "Overgrown Breacher Primus"]
       },
       "black-serpents": {
         "weapons": [
@@ -45604,11 +45181,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Abyss Heralds",
-          "Black Serpent Knight",
-          "Shadowy Husks"
-        ]
+        "sources": ["Abyss Heralds", "Black Serpent Knight", "Shadowy Husks"]
       },
       "hilichurl-rogue": {
         "weapons": [
@@ -45634,9 +45207,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Hilichurl Rogue"
-        ]
+        "sources": ["Hilichurl Rogue"]
       },
       "consecrated-beast": {
         "weapons": [
@@ -45695,10 +45266,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Frost Operative",
-          "Wind Operative"
-        ]
+        "sources": ["Frost Operative", "Wind Operative"]
       },
       "mirror-maiden-prisms": {
         "weapons": [
@@ -45726,9 +45294,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Mirror Maiden"
-        ]
+        "sources": ["Mirror Maiden"]
       },
       "ruin-sentinels-chaos": {
         "weapons": [
@@ -45789,10 +45355,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Rifthound",
-          "Rifthound Whelp"
-        ]
+        "sources": ["Rifthound", "Rifthound Whelp"]
       },
       "tainted-hydro-phantasm": {
         "weapons": [
@@ -45820,9 +45383,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Tainted Hydro Phantasm"
-        ]
+        "sources": ["Tainted Hydro Phantasm"]
       },
       "state-shifted-fungus": {
         "weapons": [
@@ -45882,14 +45443,10 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Ruin Drakes"
-        ]
+        "sources": ["Ruin Drakes"]
       },
       "hilt": {
-        "weapons": [
-          "crimson-moon-s-semblance"
-        ],
+        "weapons": ["crimson-moon-s-semblance"],
         "items": [
           {
             "id": "ruined-hilt",
@@ -45907,19 +45464,11 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Praetorian Golem"
-        ]
+        "sources": ["Praetorian Golem"]
       },
       "whistle": {
-        "characters": [
-          "kachina",
-          "mualani"
-        ],
-        "weapons": [
-          "earth-shaker",
-          "footprint-of-the-rainbow"
-        ],
+        "characters": ["kachina", "mualani"],
+        "weapons": ["earth-shaker", "footprint-of-the-rainbow"],
         "items": [
           {
             "id": "sentry-s-wooden-whistle",
@@ -45947,9 +45496,7 @@
         ]
       },
       "fang": {
-        "characters": [
-          "kinich"
-        ],
+        "characters": ["kinich"],
         "weapons": [
           "surf-s-up",
           "ash-graven-drinking-horn",
@@ -45973,11 +45520,7 @@
             "rarity": 4
           }
         ],
-        "sources": [
-          "Koholasaurus",
-          "Tepetlisaurus",
-          "Yumkasaurus"
-        ]
+        "sources": ["Koholasaurus", "Tepetlisaurus", "Yumkasaurus"]
       },
       "id": "common-ascension",
       "name": "common-ascension"
@@ -45986,34 +45529,23 @@
       "almond": {
         "name": "Almond",
         "description": "A seed with a peculiar fragrance that gives food a refreshing taste.",
-        "sources": [
-          "Sold by Second Life",
-          "Sold by Ms. Bai"
-        ]
+        "sources": ["Sold by Second Life", "Sold by Ms. Bai"]
       },
       "bacon": {
         "name": "Bacon",
         "description": "Smoked strips of pork. With just enough fat, but not too greasy.Mmmmm... Bacon.Meat must be processed first to be made into Bacon.",
         "rarity": 3,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing"]
       },
       "bamboo-shoot": {
         "name": "Bamboo Shoot",
         "description": "A fresh young bamboo shoot, straight out of the ground. It is a delicious cooking ingredient with an exotic aroma, found exclusively in bamboo-growing regions.",
-        "sources": [
-          "Found in the wild",
-          "Sold by Wanmin Restaurant"
-        ]
+        "sources": ["Found in the wild", "Sold by Wanmin Restaurant"]
       },
       "berry": {
         "name": "Berry",
         "description": "Small brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.",
-        "sources": [
-          "Found in the wild"
-        ]
+        "sources": ["Found in the wild"]
       },
       "bird-egg": {
         "name": "Bird Egg",
@@ -46027,11 +45559,7 @@
         "name": "Butter",
         "description": "An extract from milk. With the appropriate application, it can bring rich aromas to even the most basic ingredients.",
         "rarity": 2,
-        "sources": [
-          "Sold by Good Hunter",
-          "Sold by Verr Goldet",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Sold by Verr Goldet", "Processing"]
       },
       "cabbage": {
         "name": "Cabbage",
@@ -46046,11 +45574,7 @@
       "calla-lily": {
         "name": "Calla Lily",
         "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
-        "sources": [
-          "Found near lakes",
-          "Found in Springvale",
-          "Sold by Flora"
-        ]
+        "sources": ["Found near lakes", "Found in Springvale", "Sold by Flora"]
       },
       "carrot": {
         "name": "Carrot",
@@ -46065,18 +45589,12 @@
         "name": "Cheese",
         "description": "Made from fermented milk. With high energy and limitless possibilities, it's used in a wide range of dishes.Milk must be processed first to be made into Cheese.",
         "rarity": 3,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing",
-          "Sold by Changshun"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing", "Sold by Changshun"]
       },
       "chilled-meat": {
         "name": "Chilled Meat",
         "description": "Rare, fresh meat.This species of boar is recorded to have gone extinct several hundred years ago and has been preserved by the extreme temperatures on Dragonspine. For the gourmets of Teyvat, this is an ingredient of unspeakable sacrosanctness.",
-        "sources": [
-          "Snowboars"
-        ]
+        "sources": ["Snowboars"]
       },
       "crab": {
         "name": "Crab",
@@ -46091,19 +45609,13 @@
         "name": "Crab Roe",
         "description": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.",
         "rarity": 3,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing"]
       },
       "cream": {
         "name": "Cream",
         "description": "A dairy product made from milk. An essential ingredient in making pastries.",
         "rarity": 2,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing"]
       },
       "fish": {
         "name": "Fish",
@@ -46146,10 +45658,7 @@
         "name": "Jam",
         "description": "A puree made from fruit and sugar. Even a little bit can easily wake up drowsy taste buds. Apples and Berries must be processed first to be made into Jam.",
         "rarity": 3,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing"]
       },
       "jueyun-chili": {
         "name": "Jueyun Chili",
@@ -46181,49 +45690,32 @@
       "milk": {
         "name": "Milk",
         "description": "Sweet and fragrant cow's milk. Don't waste a single drop, not even that one rolling down your chin.",
-        "sources": [
-          "Sold by Mondstadt General Goods",
-          "Sold by Second Life"
-        ]
+        "sources": ["Sold by Mondstadt General Goods", "Sold by Second Life"]
       },
       "mint": {
         "name": "Mint",
         "description": "A refreshingly cool ingredient. The cool, fresh flavor can cut through the heat of many dishes.",
-        "sources": [
-          "Found in the wild",
-          "Sold by Chloris"
-        ]
+        "sources": ["Found in the wild", "Sold by Chloris"]
       },
       "mushroom": {
         "name": "Mushroom",
         "description": "Hardy common fungi. Can grow anywhere with the right amount of shade and moisture.",
-        "sources": [
-          "Found in the wild",
-          "Purchased at Wanmin Restaurant"
-        ]
+        "sources": ["Found in the wild", "Purchased at Wanmin Restaurant"]
       },
       "onion": {
         "name": "Onion",
         "description": "A spherical vegetable. As vengeance for cutting it, it will make you cry, no matter how brave you are.",
-        "sources": [
-          "Sold by Mondstadt General Goods",
-          "Sold by Second Life"
-        ]
+        "sources": ["Sold by Mondstadt General Goods", "Sold by Second Life"]
       },
       "pepper": {
         "name": "Pepper",
         "description": "Peppery. Cuts through oily flavors and excites the taste buds. Goes best on meat.",
-        "sources": [
-          "Sold by Second Life",
-          "Sold by Mondstadt General Goods"
-        ]
+        "sources": ["Sold by Second Life", "Sold by Mondstadt General Goods"]
       },
       "pinecone": {
         "name": "Pinecone",
         "description": "Filled with oil-rich seeds. Certainly won't be growing into a tree from inside a squirrel's stomach.",
-        "sources": [
-          "Found in the wild"
-        ]
+        "sources": ["Found in the wild"]
       },
       "potato": {
         "name": "Potato",
@@ -46257,26 +45749,17 @@
       "raw-meat": {
         "name": "Raw Meat",
         "description": "A fresh chunk of meat. Handled properly it can be used to make delicious food.",
-        "sources": [
-          "Found in the wild",
-          "Sold by Draff",
-          "Processing"
-        ]
+        "sources": ["Found in the wild", "Sold by Draff", "Processing"]
       },
       "rice": {
         "name": "Rice",
         "description": "A grain crop commonly found in Teyvat. People of all walks of life enjoy its distinct grainy texture. As the saying goes, \"The same kind of rice can feed one hundred kinds of people.\"",
-        "sources": [
-          "Sold by Second Life"
-        ]
+        "sources": ["Sold by Second Life"]
       },
       "salt": {
         "name": "Salt",
         "description": "A savory seasoning. A precise but adequate amount will elevate the quality of the cuisine.",
-        "sources": [
-          "Sold by Mondstadt General Goods",
-          "Sold by Second Life"
-        ]
+        "sources": ["Sold by Mondstadt General Goods", "Sold by Second Life"]
       },
       "sausage": {
         "name": "Sausage",
@@ -46292,10 +45775,7 @@
       "shrimp-meat": {
         "name": "Shrimp Meat",
         "description": "A whole piece of deep sea shrimp meat, full of nutrients and bursting with delicious flavor.",
-        "sources": [
-          "Sold by Second Life",
-          "Sold by Uncle Sun"
-        ]
+        "sources": ["Sold by Second Life", "Sold by Uncle Sun"]
       },
       "small-lamp-grass": {
         "name": "Small Lamp Grass",
@@ -46311,18 +45791,12 @@
         "name": "Smoked Fowl",
         "description": "Fowl that has been smoked. The firm texture gives new taste to dishes.Fowl must be processed first to be made into Smoked Fowl.",
         "rarity": 2,
-        "sources": [
-          "Sold by Good Hunter",
-          "Processing"
-        ]
+        "sources": ["Sold by Good Hunter", "Processing"]
       },
       "snapdragon": {
         "name": "Snapdragon",
         "description": "Can be eaten once cooked. As a spice it can bring wonderful flavor to dishes.",
-        "sources": [
-          "Found in the wild",
-          "Sold by Chloris"
-        ]
+        "sources": ["Found in the wild", "Sold by Chloris"]
       },
       "sugar": {
         "name": "Sugar",
@@ -46338,18 +45812,12 @@
       "sweet-flower": {
         "name": "Sweet Flower",
         "description": "Particularly fragrant flowers. They can be found easily, even in the dark. Just follow the scent.",
-        "sources": [
-          "Found in the wild",
-          "Purchase from Flora in Mondstadt"
-        ]
+        "sources": ["Found in the wild", "Purchase from Flora in Mondstadt"]
       },
       "tofu": {
         "name": "Tofu",
         "description": "Freshly made bean product that has a silky-smooth tender texture.",
-        "sources": [
-          "Sold by Second Life",
-          "Sold by Ms. Bai"
-        ]
+        "sources": ["Sold by Second Life", "Sold by Ms. Bai"]
       },
       "tomato": {
         "name": "Tomato",
@@ -46386,53 +45854,32 @@
         {
           "id": "calla-lily",
           "name": "Calla Lily",
-          "characters": [
-            "diona",
-            "kaeya"
-          ]
+          "characters": ["diona", "kaeya"]
         },
         {
           "id": "cecilia",
           "name": "Cecilia",
-          "characters": [
-            "albedo",
-            "venti"
-          ]
+          "characters": ["albedo", "venti"]
         },
         {
           "id": "dandelion-seed",
           "name": "Dandelion Seed",
-          "characters": [
-            "jean",
-            "eula"
-          ]
+          "characters": ["jean", "eula"]
         },
         {
           "id": "philanemo-mushroom",
           "name": "Philanemo Mushroom",
-          "characters": [
-            "barbara",
-            "klee",
-            "mona"
-          ]
+          "characters": ["barbara", "klee", "mona"]
         },
         {
           "id": "small-lamp-grass",
           "name": "Small Lamp Grass",
-          "characters": [
-            "amber",
-            "diluc",
-            "fischl"
-          ]
+          "characters": ["amber", "diluc", "fischl"]
         },
         {
           "id": "valberry",
           "name": "Valberry",
-          "characters": [
-            "lisa",
-            "noelle",
-            "rosaria"
-          ]
+          "characters": ["lisa", "noelle", "rosaria"]
         },
         {
           "id": "windwheel-aster",
@@ -46450,313 +45897,207 @@
         {
           "id": "wolfhook",
           "name": "Wolfhook",
-          "characters": [
-            "razor",
-            "mika"
-          ]
+          "characters": ["razor", "mika"]
         }
       ],
       "liyue": [
         {
           "id": "cor-lapis",
           "name": "Cor Lapis",
-          "characters": [
-            "chongyun",
-            "keqing",
-            "zhongli"
-          ]
+          "characters": ["chongyun", "keqing", "zhongli"]
         },
         {
           "id": "glaze-lily",
           "name": "Glaze Lily",
-          "characters": [
-            "ningguang",
-            "yun-jin"
-          ]
+          "characters": ["ningguang", "yun-jin"]
         },
         {
           "id": "jueyun-chili",
           "name": "Jueyun Chili",
-          "characters": [
-            "xiangling",
-            "yaoyao"
-          ]
+          "characters": ["xiangling", "yaoyao"]
         },
         {
           "id": "noctilucous-jade",
           "name": "Noctilucous Jade",
-          "characters": [
-            "beidou",
-            "yanfei"
-          ]
+          "characters": ["beidou", "yanfei"]
         },
         {
           "id": "qingxin",
           "name": "Qingxin",
-          "characters": [
-            "ganyu",
-            "xiao",
-            "shenhe"
-          ]
+          "characters": ["ganyu", "xiao", "shenhe"]
         },
         {
           "id": "silk-flower",
           "name": "Silk Flower",
-          "characters": [
-            "xingqiu",
-            "hu-tao"
-          ]
+          "characters": ["xingqiu", "hu-tao"]
         },
         {
           "id": "starconch",
           "name": "Starconch",
-          "characters": [
-            "tartaglia",
-            "yelan",
-            "gaming"
-          ]
+          "characters": ["tartaglia", "yelan", "gaming"]
         },
         {
           "id": "violetgrass",
           "name": "Violetgrass",
-          "characters": [
-            "qiqi",
-            "xinyan",
-            "baizhu"
-          ]
+          "characters": ["qiqi", "xinyan", "baizhu"]
         },
         {
           "id": "clearwater-jade",
           "name": "Clearwater Jade",
-          "characters": [
-            "xianyun"
-          ]
+          "characters": ["xianyun"]
         }
       ],
       "inazuma": [
         {
           "id": "sango-pearl",
           "name": "Sango Pearl",
-          "characters": [
-            "gorou",
-            "kokomi"
-          ]
+          "characters": ["gorou", "kokomi"]
         },
         {
           "id": "crystal-marrow",
           "name": "Crystal Marrow",
-          "characters": [
-            "aloy",
-            "sayu"
-          ]
+          "characters": ["aloy", "sayu"]
         },
         {
           "id": "dendrobium",
           "name": "Dendrobium ",
-          "characters": [
-            "sara"
-          ]
+          "characters": ["sara"]
         },
         {
           "id": "fluorescent-fungus",
           "name": "Fluorescent Fungus",
-          "characters": [
-            "thoma"
-          ]
+          "characters": ["thoma"]
         },
         {
           "id": "sakura-bloom",
           "name": "Sakura Bloom",
-          "characters": [
-            "ayaka",
-            "ayato"
-          ]
+          "characters": ["ayaka", "ayato"]
         },
         {
           "id": "amakumo-fruit",
           "name": "Amakumo Fruit",
-          "characters": [
-            "kirara",
-            "raiden"
-          ]
+          "characters": ["kirara", "raiden"]
         },
         {
           "id": "sea-ganoderma",
           "name": "Sea Ganoderma",
-          "characters": [
-            "kazuha",
-            "yae-miko"
-          ]
+          "characters": ["kazuha", "yae-miko"]
         },
         {
           "id": "onikabuto",
           "name": "Onikabuto",
-          "characters": [
-            "arataki-itto",
-            "shikanoin-heizou"
-          ]
+          "characters": ["arataki-itto", "shikanoin-heizou"]
         },
         {
           "id": "naku-weed",
           "name": "Naku Weed",
-          "characters": [
-            "yoimiya",
-            "kuki-shinobu"
-          ]
+          "characters": ["yoimiya", "kuki-shinobu"]
         }
       ],
       "sumeru": [
         {
           "id": "henna-berry",
           "name": "Henna Berry",
-          "characters": [
-            "faruzan",
-            "candace"
-          ]
+          "characters": ["faruzan", "candace"]
         },
         {
           "id": "sand-grease-pupa",
           "name": "Sand Grease Pupa",
-          "characters": [
-            "alhaitham",
-            "dehya"
-          ]
+          "characters": ["alhaitham", "dehya"]
         },
         {
           "id": "kalpalata-lotus",
           "name": "Kalpalata Lotus",
-          "characters": [
-            "dori",
-            "nahida"
-          ]
+          "characters": ["dori", "nahida"]
         },
         {
           "id": "nilotpala-lotus",
           "name": "Nilotpala Lotus",
-          "characters": [
-            "tighnari",
-            "layla"
-          ]
+          "characters": ["tighnari", "layla"]
         },
         {
           "id": "rukkhashava-mushrooms",
           "name": "Rukkhashava Mushrooms",
-          "characters": [
-            "wanderer",
-            "collei"
-          ]
+          "characters": ["wanderer", "collei"]
         },
         {
           "id": "scarab",
           "name": "Scarab",
-          "characters": [
-            "cyno"
-          ]
+          "characters": ["cyno"]
         },
         {
           "id": "mourning-flower",
           "name": "Mourning Flower",
-          "characters": [
-            "kaveh"
-          ]
+          "characters": ["kaveh"]
         },
         {
           "id": "padisarah",
           "name": "Padisarah",
-          "characters": [
-            "nilou"
-          ]
+          "characters": ["nilou"]
         },
         {
           "id": "trishiraite",
           "name": "Trishiraite",
-          "characters": [
-            "sethos"
-          ]
+          "characters": ["sethos"]
         }
       ],
       "fontaine": [
         {
           "id": "subdetection-unit",
           "name": "Subdetection Unit",
-          "characters": [
-            "wriothesley"
-          ]
+          "characters": ["wriothesley"]
         },
         {
           "id": "lumitoile",
           "name": "Lumitoile",
-          "characters": [
-            "neuvillette",
-            "clorinde"
-          ]
+          "characters": ["neuvillette", "clorinde"]
         },
         {
           "id": "romaritime-flower",
           "name": "Romaritime Flower",
-          "characters": [
-            "freminet",
-            "sigewinne"
-          ]
+          "characters": ["freminet", "sigewinne"]
         },
         {
           "id": "spring-of-the-first-dewdrop",
           "name": "Spring of the First Dewdrop",
-          "characters": [
-            "navia"
-          ]
+          "characters": ["navia"]
         },
         {
           "id": "lumidouce-bell",
           "name": "Lumidouce Bell",
-          "characters": [
-            "lynette",
-            "chevreuse"
-          ]
+          "characters": ["lynette", "chevreuse"]
         },
         {
           "id": "beryl-conch",
           "name": "Beryl Conch",
-          "characters": [
-            "charlotte"
-          ]
+          "characters": ["charlotte"]
         },
         {
           "id": "lakelight-lily",
           "name": "Lakelight Lily",
-          "characters": [
-            "furina"
-          ]
+          "characters": ["furina"]
         },
         {
           "id": "rainbow-rose",
           "name": "Rainbow Rose",
-          "characters": [
-            "lyney"
-          ]
+          "characters": ["lyney"]
         }
       ],
       "natlan": [
         {
           "id": "quenepa-berry",
           "name": "Quenepa Berry",
-          "characters": [
-            "kachina"
-          ]
+          "characters": ["kachina"]
         },
         {
           "id": "sprayfeather-gill",
           "name": "Sprayfeather Gill",
-          "characters": [
-            "mualani"
-          ]
+          "characters": ["mualani"]
         },
         {
           "id": "saurian-claw-succulent",
           "name": "Saurian Claw Succulent",
-          "characters": [
-            "kinich"
-          ]
+          "characters": ["kinich"]
         }
       ],
       "id": "local-specialties",
@@ -46775,11 +46116,7 @@
           "traveler-anemo",
           "traveler-geo"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "forsaken-rift",
         "items": [
           {
@@ -46811,11 +46148,7 @@
           "traveler-anemo",
           "traveler-geo"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "forsaken-rift",
         "items": [
           {
@@ -46847,11 +46180,7 @@
           "traveler-anemo",
           "traveler-geo"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "forsaken-rift",
         "items": [
           {
@@ -46882,11 +46211,7 @@
           "yelan",
           "gaming"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "taishan-mansion",
         "items": [
           {
@@ -46917,11 +46242,7 @@
           "yaoyao",
           "yun-jin"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "taishan-mansion",
         "items": [
           {
@@ -46952,11 +46273,7 @@
           "baizhu",
           "xianyun"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "taishan-mansion",
         "items": [
           {
@@ -46985,11 +46302,7 @@
           "kirara",
           "shikanoin-heizou"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "violet-court",
         "items": [
           {
@@ -47018,11 +46331,7 @@
           "ayato",
           "kuki-shinobu"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "violet-court",
         "items": [
           {
@@ -47051,11 +46360,7 @@
           "traveler-electro",
           "yae-miko"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "violet-court",
         "items": [
           {
@@ -47083,11 +46388,7 @@
           "tighnari",
           "traveler-dendro"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "steeple-of-ignorance",
         "items": [
           {
@@ -47116,11 +46417,7 @@
           "nahida",
           "traveler-dendro"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "steeple-of-ignorance",
         "items": [
           {
@@ -47149,11 +46446,7 @@
           "dehya",
           "sethos"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "steeple-of-ignorance",
         "items": [
           {
@@ -47181,11 +46474,7 @@
           "navia",
           "sigewinne"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "pale-of-forgotten-glory",
         "items": [
           {
@@ -47213,11 +46502,7 @@
           "traveler-hydro",
           "clorinde"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "pale-of-forgotten-glory",
         "items": [
           {
@@ -47245,11 +46530,7 @@
           "traveler-hydro",
           "wriothesley"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "pale-of-forgotten-glory",
         "items": [
           {
@@ -47270,14 +46551,8 @@
         ]
       },
       "conflict": {
-        "characters": [
-          "kachina"
-        ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "characters": ["kachina"],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "blazing-ruins",
         "items": [
           {
@@ -47298,14 +46573,8 @@
         ]
       },
       "contention": {
-        "characters": [
-          "mualani"
-        ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "characters": ["mualani"],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "blazing-ruins",
         "items": [
           {
@@ -47326,14 +46595,8 @@
         ]
       },
       "kindling": {
-        "characters": [
-          "kinich"
-        ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "characters": ["kinich"],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "myriad-illusions",
         "items": [
           {
@@ -47360,51 +46623,27 @@
       "tail-of-boreas": {
         "id": "tail-of-boreas",
         "name": "Tail of Boreas",
-        "characters": [
-          "qiqi",
-          "venti",
-          "xingqiu",
-          "traveler-geo"
-        ]
+        "characters": ["qiqi", "venti", "xingqiu", "traveler-geo"]
       },
       "ring-of-boreas": {
         "id": "ring-of-boreas",
         "name": "Ring of Boreas",
-        "characters": [
-          "barbara",
-          "keqing",
-          "klee",
-          "mona"
-        ]
+        "characters": ["barbara", "keqing", "klee", "mona"]
       },
       "spirit-locket-of-boreas": {
         "id": "spirit-locket-of-boreas",
         "name": "Spirit Locket of Boreas",
-        "characters": [
-          "fischl",
-          "kaeya",
-          "ningguang",
-          "sucrose"
-        ]
+        "characters": ["fischl", "kaeya", "ningguang", "sucrose"]
       },
       "dvalin's-plume": {
         "id": "dvalin's-plume",
         "name": "Dvalin's Plume",
-        "characters": [
-          "bennett",
-          "diluc",
-          "jean"
-        ]
+        "characters": ["bennett", "diluc", "jean"]
       },
       "dvalin's-claw": {
         "id": "dvalin's-claw",
         "name": "Dvalin's Claw",
-        "characters": [
-          "lisa",
-          "noelle",
-          "razor",
-          "xiangling"
-        ]
+        "characters": ["lisa", "noelle", "razor", "xiangling"]
       },
       "dvalin's-sigh": {
         "id": "dvalin's-sigh",
@@ -47420,200 +46659,112 @@
       "tusk-of-monoceros-caeli": {
         "id": "tusk-of-monoceros-caeli",
         "name": "Tusk of Monoceros Caeli",
-        "characters": [
-          "albedo",
-          "xinyan",
-          "zhongli"
-        ]
+        "characters": ["albedo", "xinyan", "zhongli"]
       },
       "shard-of-a-foul-legacy": {
         "id": "shard-of-a-foul-legacy",
         "name": "Shard of a Foul Legacy",
-        "characters": [
-          "diona",
-          "hu-tao",
-          "tartaglia"
-        ]
+        "characters": ["diona", "hu-tao", "tartaglia"]
       },
       "shadow-of-the-warrior": {
         "id": "shadow-of-the-warrior",
         "name": "Shadow of the Warrior",
-        "characters": [
-          "ganyu",
-          "rosaria",
-          "xiao"
-        ]
+        "characters": ["ganyu", "rosaria", "xiao"]
       },
       "bloodjade-branch": {
         "id": "bloodjade-branch",
         "name": "Bloodjade Branch",
-        "characters": [
-          "ayaka",
-          "yanfei",
-          "dori"
-        ]
+        "characters": ["ayaka", "yanfei", "dori"]
       },
       "dragon-lord's-crown": {
         "id": "dragon-lord's-crown",
         "name": "Dragon Lord's Crown",
-        "characters": [
-          "eula",
-          "yoimiya",
-          "traveler-electro"
-        ]
+        "characters": ["eula", "yoimiya", "traveler-electro"]
       },
       "gilded-scale": {
         "id": "gilded-scale",
         "name": "Gilded Scale",
-        "characters": [
-          "kazuha",
-          "sayu",
-          "yelan"
-        ]
+        "characters": ["kazuha", "sayu", "yelan"]
       },
       "molten-moment": {
         "id": "moltent-moment",
         "name": "Molten Moment",
-        "characters": [
-          "raiden",
-          "aloy",
-          "gorou"
-        ]
+        "characters": ["raiden", "aloy", "gorou"]
       },
       "hellfire-butterfly": {
         "id": "hellfire-butterfly",
         "name": "Hellfire Butterfly",
-        "characters": [
-          "kokomi",
-          "thoma",
-          "shenhe"
-        ]
+        "characters": ["kokomi", "thoma", "shenhe"]
       },
       "ashen-heart": {
         "id": "ashen-heart",
         "name": "Ashen Heart",
-        "characters": [
-          "sara",
-          "arataki-itto",
-          "yun-jin"
-        ]
+        "characters": ["sara", "arataki-itto", "yun-jin"]
       },
       "everamber": {
         "id": "everamber",
         "name": "Everamber",
-        "characters": [
-          "lynette",
-          "neuvillette",
-          "kirara",
-          "clorinde"
-        ]
+        "characters": ["lynette", "neuvillette", "kirara", "clorinde"]
       },
       "primordial-greenbloom": {
         "id": "primordial-greenbloom",
         "name": "Primordial Greenbloom",
-        "characters": [
-          "lyney",
-          "wriothesley",
-          "kaveh"
-        ]
+        "characters": ["lyney", "wriothesley", "kaveh"]
       },
       "worldspan-fern": {
         "id": "worldspan-fern",
         "name": "Worldspan Fern",
-        "characters": [
-          "baizhu",
-          "freminet",
-          "traveler-hydro"
-        ]
+        "characters": ["baizhu", "freminet", "traveler-hydro"]
       },
       "lightless-silk-string": {
         "id": "lightless-silk-string",
         "name": "Lightless Silk String",
-        "characters": [
-          "charlotte",
-          "navia"
-        ]
+        "characters": ["charlotte", "navia"]
       },
       "lightless-mass": {
         "id": "lightless-mass",
         "name": "Lightless Mass",
-        "characters": [
-          "furina",
-          "gaming",
-          "mualani"
-        ]
+        "characters": ["furina", "gaming", "mualani"]
       },
       "lightless-eye-of-the-maelstrom": {
         "id": "lightless-eye-of-the-maelstrom",
         "name": "Lightless Eye of the Maelstrom",
-        "characters": [
-          "chevreuse",
-          "xianyun",
-          "sigewinne"
-        ]
+        "characters": ["chevreuse", "xianyun", "sigewinne"]
       },
       "daka-s-bell": {
         "id": "daka-s-bell",
         "name": "Daka's Bell",
-        "characters": [
-          "wanderer",
-          "yaoyao",
-          "sethos"
-        ]
+        "characters": ["wanderer", "yaoyao", "sethos"]
       },
       "puppet-strings": {
         "id": "puppet-strings",
         "name": "Puppet Strings",
-        "characters": [
-          "dehya",
-          "faruzan",
-          "nahida"
-        ]
+        "characters": ["dehya", "faruzan", "nahida"]
       },
       "mirror-of-mushin": {
         "id": "mirror-of-mushin",
         "name": "Mirror of Mushin",
-        "characters": [
-          "alhaitham",
-          "layla",
-          "mika"
-        ]
+        "characters": ["alhaitham", "layla", "mika"]
       },
       "mudra-of-the-malefic-general": {
         "id": "mudra-of-the-malefic-general",
         "name": "Mudra of the Malefic General",
-        "characters": [
-          "cyno",
-          "ayato",
-          "traveler-dendro"
-        ]
+        "characters": ["cyno", "ayato", "traveler-dendro"]
       },
       "tears-of-the-calamitous-god": {
         "id": "tears-of-the-calamitous-god",
         "name": "Tears of the Calamitous God",
-        "characters": [
-          "candace",
-          "collei",
-          "kuki-shinobu",
-          "nilou"
-        ]
+        "characters": ["candace", "collei", "kuki-shinobu", "nilou"]
       },
       "the-meaning-of-aeons": {
         "id": "the-meaning-of-aeons",
         "name": "The Meaning of Aeons",
-        "characters": [
-          "shikanoin-heizou",
-          "tighnari",
-          "yae-miko"
-        ]
+        "characters": ["shikanoin-heizou", "tighnari", "yae-miko"]
       },
       "fading-candle": {
         "id": "fading-candle",
         "name": "Fading Candle",
-        "characters": [
-          "arlechino",
-          "kachina"
-        ]
+        "characters": ["arlechino", "kachina"]
       },
       "silken-feather": {
         "id": "silken-feather",
@@ -47623,9 +46774,7 @@
       "denial-and-judgment": {
         "id": "denial-and-judgment",
         "name": "Denial and Judgment",
-        "characters": [
-          "kinich"
-        ]
+        "characters": ["kinich"]
       },
       "id": "talent-boss",
       "name": "talent-boss"
@@ -47656,11 +46805,7 @@
           "the-viridescent-hunt",
           "wolf-fang"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "cecilia-garden",
         "items": [
           {
@@ -47713,11 +46858,7 @@
           "waster-greatsword",
           "wine-and-song"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "cecilia-garden",
         "items": [
           {
@@ -47768,11 +46909,7 @@
           "windblume-ode",
           "wolf-s-gravestone"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "cecilia-garden",
         "items": [
           {
@@ -47818,11 +46955,7 @@
           "whiteblind",
           "sacrificial-jade"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "hidden-palace-of-lianshan",
         "items": [
           {
@@ -47867,11 +47000,7 @@
           "the-unforged",
           "twin-nephrite"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "hidden-palace-of-lianshan",
         "items": [
           {
@@ -47914,11 +47043,7 @@
           "staff-of-homa",
           "vortex-vanquisher"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "hidden-palace-of-lianshan",
         "items": [
           {
@@ -47952,11 +47077,7 @@
           "mistsplitter-reforged",
           "oathsworn-eye"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "court-of-flowing-sand",
         "items": [
           {
@@ -47992,11 +47113,7 @@
           "thundering-pulse",
           "toukabou-shigure"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "court-of-flowing-sand",
         "items": [
           {
@@ -48031,11 +47148,7 @@
           "polar-star",
           "wavebreaker-s-fin"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "court-of-flowing-sand",
         "items": [
           {
@@ -48069,11 +47182,7 @@
           "sapwood-blade",
           "xiphos-moonlight"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "tower-of-abject-pride",
         "items": [
           {
@@ -48107,11 +47216,7 @@
           "talking-stick",
           "wandering-evenstar"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "tower-of-abject-pride",
         "items": [
           {
@@ -48146,11 +47251,7 @@
           "king-s-squire",
           "makhaira-aquamarine"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "tower-of-abject-pride",
         "items": [
           {
@@ -48185,11 +47286,7 @@
           "sword-of-narzissenkreuz",
           "verdict"
         ],
-        "availability": [
-          "Monday",
-          "Thursday",
-          "Sunday"
-        ],
+        "availability": ["Monday", "Thursday", "Sunday"],
         "source": "echoes-of-the-deep-tides",
         "items": [
           {
@@ -48222,11 +47319,7 @@
           "flowing-purity",
           "the-dockhands-assistant"
         ],
-        "availability": [
-          "Tuesday",
-          "Friday",
-          "Sunday"
-        ],
+        "availability": ["Tuesday", "Friday", "Sunday"],
         "source": "echoes-of-the-deep-tides",
         "items": [
           {
@@ -48260,11 +47353,7 @@
           "tidal-shadow",
           "ultimate-overlord-s-mega-magic-sword"
         ],
-        "availability": [
-          "Wednesday",
-          "Saturday",
-          "Sunday"
-        ],
+        "availability": ["Wednesday", "Saturday", "Sunday"],
         "source": "echoes-of-the-deep-tides",
         "items": [
           {
@@ -48299,27 +47388,21 @@
           "name": "Enhancement Ore",
           "experience": 400,
           "rarity": 1,
-          "source": [
-            "Crafting"
-          ]
+          "source": ["Crafting"]
         },
         {
           "id": "fine-enhancement-ore",
           "name": "Fine Enhancement Ore",
           "experience": 2000,
           "rarity": 2,
-          "source": [
-            "Crafting"
-          ]
+          "source": ["Crafting"]
         },
         {
           "id": "mystic-enhancement-ore",
           "name": "Mystic Enhancement Ore",
           "experience": 10000,
           "rarity": 3,
-          "source": [
-            "Crafting"
-          ]
+          "source": ["Crafting"]
         }
       ],
       "id": "weapon-experience",

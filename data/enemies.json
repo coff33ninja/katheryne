@@ -7,10 +7,7 @@
     "type": "Elite Enemies",
     "family": "The Abyss",
     "faction": "Abyss Order",
-    "elements": [
-      "Hydro",
-      "Cryo"
-    ],
+    "elements": ["Hydro", "Cryo"],
     "drops": [
       {
         "name": "Dead Ley Line Branch",
@@ -85,10 +82,7 @@
     "type": "Elite Enemies",
     "family": "The Abyss",
     "faction": "Abyss Order",
-    "elements": [
-      "Pyro",
-      "Electro"
-    ],
+    "elements": ["Pyro", "Electro"],
     "drops": [
       {
         "name": "Dead Ley Line Branch",
@@ -163,12 +157,7 @@
     "type": "Elite Enemies",
     "family": "The Abyss",
     "faction": "Abyss Order",
-    "elements": [
-      "Hydro",
-      "Pyro",
-      "Cryo",
-      "Electro"
-    ],
+    "elements": ["Hydro", "Pyro", "Cryo", "Electro"],
     "drops": [
       {
         "name": "Dead Ley Line Branch",
@@ -235,9 +224,7 @@
     "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
     "type": "Elite Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Hydro"
-    ],
+    "elements": ["Hydro"],
     "drops": [
       {
         "name": "Fragile Bone Shard",
@@ -270,11 +257,7 @@
     "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
     "type": "Elite Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Cryo",
-      "Electro",
-      "Hydro"
-    ],
+    "elements": ["Cryo", "Electro", "Hydro"],
     "drops": [
       {
         "name": "Fragile Bone Shard",
@@ -315,11 +298,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Cryo",
-      "Electro",
-      "Hydro"
-    ],
+    "elements": ["Cryo", "Electro", "Hydro"],
     "drops": "None",
     "elemental-descriptions": [
       {
@@ -343,11 +322,7 @@
     "description": "N/A",
     "type": "Elite Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Anemo",
-      "Pyro",
-      "Electro"
-    ],
+    "elements": ["Anemo", "Pyro", "Electro"],
     "drops": [
       {
         "name": "Desiccated Shell",
@@ -386,12 +361,7 @@
     "name": "defense-mechanism",
     "description": "N/A",
     "region": "Dragonspine",
-    "elements": [
-      "Pyro",
-      "Cryo",
-      "Hydro",
-      "Electro"
-    ],
+    "elements": ["Pyro", "Cryo", "Hydro", "Electro"],
     "type": "Unique Enemies",
     "family": "Unknown",
     "mora-gained": 0
@@ -403,11 +373,7 @@
     "region": "Monstadt",
     "type": "Elite Enemies",
     "family": "Elemental Lifeforms",
-    "elements": [
-      "Hydro",
-      "Pyro",
-      "Cryo"
-    ],
+    "elements": ["Hydro", "Pyro", "Cryo"],
     "drops": "None",
     "mora-gained": 600
   },
@@ -419,9 +385,7 @@
     "type": "Elite Enemies",
     "family": "Fatui",
     "faction": "Fatui",
-    "elements": [
-      "Pyro"
-    ],
+    "elements": ["Pyro"],
     "drops": [
       {
         "name": "Hunter's Sacrificial Knife",
@@ -464,10 +428,7 @@
     "type": "Elite Enemies",
     "family": "Fatui",
     "faction": "Fatui",
-    "element": [
-      "Cryo",
-      "Electro"
-    ],
+    "element": ["Cryo", "Electro"],
     "drops": [
       {
         "name": "Mist Grass Pollen",
@@ -520,14 +481,7 @@
     "type": "Common Enemies",
     "family": "Fatui",
     "faction": "Fatui",
-    "elements": [
-      "Geo",
-      "Pyro",
-      "Cryo",
-      "Hydro",
-      "Anemo",
-      "Electro"
-    ],
+    "elements": ["Geo", "Pyro", "Cryo", "Hydro", "Anemo", "Electro"],
     "drops": [
       {
         "name": "Recruit's Insignia",
@@ -590,11 +544,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Anemo",
-      "Dendro",
-      "Hydro"
-    ],
+    "elements": ["Anemo", "Dendro", "Hydro"],
     "drops": [
       {
         "name": "Fungal Spores",
@@ -649,9 +599,7 @@
     "region": "Liyue",
     "type": "Elite Enemies",
     "family": "Mythical Beasts",
-    "elements": [
-      "Geo"
-    ],
+    "elements": ["Geo"],
     "drops": [
       {
         "name": "Fragile Bone Shard",
@@ -699,9 +647,7 @@
     "region": "Liyue",
     "type": "Elite Enemies",
     "family": "Mythical Beasts",
-    "elements": [
-      "Geo"
-    ],
+    "elements": ["Geo"],
     "drops": [
       {
         "name": "Fragile Bone Shard",
@@ -749,10 +695,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Geo",
-      "Hydro"
-    ],
+    "elements": ["Geo", "Hydro"],
     "drops": [
       {
         "name": "Fungal Spores",
@@ -804,12 +747,7 @@
     "type": "Common Enemies",
     "family": "Hilichurls",
     "faction": "Abyss Order",
-    "elements": [
-      "Pyro",
-      "Cryo",
-      "Electro",
-      "Dendro"
-    ],
+    "elements": ["Pyro", "Cryo", "Electro", "Dendro"],
     "drops": [
       {
         "name": "Damaged Mask",
@@ -836,11 +774,7 @@
     "type": "Common Enemies",
     "family": "Hilichurls",
     "faction": "Abyss Order",
-    "elements": [
-      "Electro",
-      "Pyro",
-      "Cryo"
-    ],
+    "elements": ["Electro", "Pyro", "Cryo"],
     "drops": [
       {
         "name": "Damaged Mask",
@@ -899,10 +833,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Other Human Factions",
-    "elements": [
-      "Electro",
-      "Pyro"
-    ],
+    "elements": ["Electro", "Pyro"],
     "drops": [
       {
         "name": "Old Handguard",
@@ -1008,10 +939,7 @@
     "type": "Elite Enemies",
     "family": "Hilichurls",
     "faction": "Abyss Order",
-    "elements": [
-      "Cryo",
-      "Geo"
-    ],
+    "elements": ["Cryo", "Geo"],
     "drops": [
       {
         "name": "Heavy Horn",
@@ -1051,9 +979,7 @@
     "type": "Elite Enemies",
     "family": "Fatui",
     "faction": "Fatui",
-    "elements": [
-      "Hydro"
-    ],
+    "elements": ["Hydro"],
     "drops": [
       {
         "name": "Dismal Prism",
@@ -1081,9 +1007,7 @@
     "type": "Elite Enemies",
     "family": "Hilichurls",
     "faction": "Abyss Order",
-    "elements": [
-      "Pyro"
-    ],
+    "elements": ["Pyro"],
     "drops": [
       {
         "name": "Heavy Horn",
@@ -1162,10 +1086,7 @@
     "description": "Despite often appearing in groups, the Nobushi do not have a centralized organization. Depending on the temperament or the nature of their crimes, they are also known as the \"homeless ones\", \"vagabonds\", \"Kairagi\", \"ne'er-do-wells\", or even \"the rioters\", or just simply known collectively as \"those rogues\". They are often samurai who haven fallen into banditry, and some will even ally themselves with the Treasure Hoarders or the Fatui for survival or monetary gain.",
     "type": "Common Enemies",
     "family": "Other Human Factions",
-    "elements": [
-      "Electro",
-      "Pyro"
-    ],
+    "elements": ["Electro", "Pyro"],
     "drops": [
       {
         "name": "Old Handguard",
@@ -1205,10 +1126,7 @@
     "description": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship. It is unclear if it is a soul or magic that powers them.\nThey say that legions of golems once conquered the nations that called the high sea home, and this might have been amongst their number. The great towers and palaces that now sleep beneath the waves once bore witness to the fate of those who stand in the path of the wheel of fate.",
     "type": "Elite Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Geo",
-      "Pyro"
-    ],
+    "elements": ["Geo", "Pyro"],
     "drops": [
       {
         "name": "Ruined Hilt",
@@ -1235,9 +1153,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Primal Constructs",
-    "elements": [
-      "Dendro"
-    ],
+    "elements": ["Dendro"],
     "drops": [
       {
         "name": "Damaged Prism",
@@ -1301,10 +1217,7 @@
     "type": "Elite Enemies",
     "family": "The Abyss",
     "faction": "Abyss Order",
-    "elements": [
-      "Geo",
-      "Electro"
-    ],
+    "elements": ["Geo", "Electro"],
     "drops": [
       {
         "name": "Concealed Claw",
@@ -1371,15 +1284,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Ruin Drakes",
-    "elements": [
-      "Anemo",
-      "Cryo",
-      "Dendro",
-      "Electro",
-      "Geo",
-      "Hydro",
-      "Pyro"
-    ],
+    "elements": ["Anemo", "Cryo", "Dendro", "Electro", "Geo", "Hydro", "Pyro"],
     "drops": [
       {
         "name": "Chaos Storage",
@@ -1439,9 +1344,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Humanoid Ruin Machines",
-    "elements": [
-      "Pyro"
-    ],
+    "elements": ["Pyro"],
     "drops": [
       {
         "name": "Chaos Device",
@@ -1491,9 +1394,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Humanoid Ruin Machines",
-    "elements": [
-      "Pyro"
-    ],
+    "elements": ["Pyro"],
     "drops": [
       {
         "name": "Chaos Device",
@@ -1543,9 +1444,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Humanoid Ruin Machines",
-    "elements": [
-      "Pyro"
-    ],
+    "elements": ["Pyro"],
     "drops": [
       {
         "name": "Chaos Device",
@@ -1595,9 +1494,7 @@
     "type": "Elite Enemies",
     "family": "Automatons",
     "faction": "Ruin Machines",
-    "elements": [
-      "N/A"
-    ],
+    "elements": ["N/A"],
     "drops": [
       {
         "name": "Chaos Gear",
@@ -1664,13 +1561,7 @@
     "type": "Common Enemies",
     "family": "Hilichurls",
     "faction": "Abyss Order",
-    "elements": [
-      "Anemo",
-      "Geo",
-      "Dendro",
-      "Hydro",
-      "Cydro"
-    ],
+    "elements": ["Anemo", "Geo", "Dendro", "Hydro", "Cydro"],
     "drops": [
       {
         "name": "Damaged Mask",
@@ -1733,13 +1624,7 @@
     "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
     "type": "Common Enemies",
     "family": "Slime",
-    "elements": [
-      "Anemo",
-      "Geo",
-      "Dendro",
-      "Hydro",
-      "Cydro"
-    ],
+    "elements": ["Anemo", "Geo", "Dendro", "Hydro", "Cydro"],
     "drops": [
       {
         "name": "Slime Condensate",
@@ -1795,15 +1680,7 @@
     "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
     "type": "Common Enemies",
     "family": "Elemental Lifeforms",
-    "elements": [
-      "Anemo",
-      "Geo",
-      "Dendro",
-      "Hydro",
-      "Cyro",
-      "Pyro",
-      "Electro"
-    ],
+    "elements": ["Anemo", "Geo", "Dendro", "Hydro", "Cyro", "Pyro", "Electro"],
     "drops": [
       {
         "name": "Spectral Husk",
@@ -1859,12 +1736,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Anemo",
-      "Electro",
-      "Geo",
-      "Pyro"
-    ],
+    "elements": ["Anemo", "Electro", "Geo", "Pyro"],
     "drops": [
       {
         "name": "Fungal Spores",
@@ -1924,13 +1796,7 @@
     "type": "Elite Enemies",
     "family": "The Abyss",
     "faction": "Abyss Order",
-    "elements": [
-      "Cryo",
-      "Hydro",
-      "Pyro",
-      "Anemo",
-      "Geo"
-    ],
+    "elements": ["Cryo", "Hydro", "Pyro", "Anemo", "Geo"],
     "drops": [
       {
         "name": "Gloomy Statuette",
@@ -2001,15 +1867,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Other Human Factions",
-    "elements": [
-      "Electro",
-      "Pyro",
-      "Cryo",
-      "Hydro",
-      "Geo",
-      "Anemo",
-      "Dendro"
-    ],
+    "elements": ["Electro", "Pyro", "Cryo", "Hydro", "Geo", "Anemo", "Dendro"],
     "drops": [
       {
         "name": "Faded Red Satin",
@@ -2102,12 +1960,7 @@
     "region": "Global",
     "type": "Common Enemies",
     "family": "Treasure Hoarders",
-    "elements": [
-      "Cryo",
-      "Electro",
-      "Hydro",
-      "Pyro"
-    ],
+    "elements": ["Cryo", "Electro", "Hydro", "Pyro"],
     "drops": [
       {
         "name": "Treasure Hoarder Insignia",
@@ -2167,11 +2020,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Cryo",
-      "Electro",
-      "Pyro"
-    ],
+    "elements": ["Cryo", "Electro", "Pyro"],
     "drops": [
       {
         "name": "Fungal Spores",
@@ -2226,10 +2075,7 @@
     "description": "A bizarre mimetic plant monster that harnesses the elements in combat. These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant tree that sways and spews elemental power...",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Cryo",
-      "Pyro"
-    ],
+    "elements": ["Cryo", "Pyro"],
     "drops": [
       {
         "name": "Whopperflower Nectar",
@@ -2277,10 +2123,7 @@
     "description": "N/A",
     "type": "Common Enemies",
     "family": "Mystical Beasts",
-    "elements": [
-      "Cryo",
-      "Dendro"
-    ],
+    "elements": ["Cryo", "Dendro"],
     "drops": [
       {
         "name": "Fungal Spores",

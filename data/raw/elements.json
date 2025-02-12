@@ -5,12 +5,7 @@
     "reactions": [
       {
         "name": "Swirl",
-        "elements": [
-          "Pyro",
-          "Hydro",
-          "Electro",
-          "Cryo"
-        ],
+        "elements": ["Pyro", "Hydro", "Electro", "Cryo"],
         "description": "When Anemo meets certain other elements, it can trigger Swirl. Swirl can deal elemental DMG, affect beings, and generate further Elemental Reactions."
       }
     ],
@@ -22,23 +17,17 @@
     "reactions": [
       {
         "name": "Melt",
-        "elements": [
-          "Pyro"
-        ],
+        "elements": ["Pyro"],
         "description": "When Cryo meets Pyro, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs.\nMelt itself does not inflict DMG. However, the Pyro or Cryo attack that triggers Melt deals increased DMG."
       },
       {
         "name": "Frozen",
-        "elements": [
-          "Hydro"
-        ],
+        "elements": ["Hydro"],
         "description": "When Cryo meets Hydro, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
       },
       {
         "name": "Superconduct",
-        "elements": [
-          "Electro"
-        ],
+        "elements": ["Electro"],
         "description": "When Cryo meets Electro, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
       }
     ],
@@ -50,23 +39,17 @@
     "reactions": [
       {
         "name": "Burning",
-        "elements": [
-          "Pyro"
-        ],
+        "elements": ["Pyro"],
         "description": "When Dendro meets Pyro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
       },
       {
         "name": "Bloom",
-        "elements": [
-          "Hydro"
-        ],
+        "elements": ["Hydro"],
         "description": "When creatures are affected by Hydro and Dendro, the Bloom reaction will be triggered, creating Dendro Cores."
       },
       {
         "name": "Catalyze",
-        "elements": [
-          "Electro"
-        ],
+        "elements": ["Electro"],
         "description": "When creatures are affected by Electro and Dendro, Quicken will occur, which will render them Quickened."
       }
     ],
@@ -78,30 +61,22 @@
     "reactions": [
       {
         "name": "Overloaded",
-        "elements": [
-          "Pyro"
-        ],
+        "elements": ["Pyro"],
         "description": "When Electro meets Pyro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
       },
       {
         "name": "Electro-Charged",
-        "elements": [
-          "Hydro"
-        ],
+        "elements": ["Hydro"],
         "description": "When Electro meets Hydro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off.\nElectricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
       },
       {
         "name": "Superconduct",
-        "elements": [
-          "Cryo"
-        ],
+        "elements": ["Cryo"],
         "description": "When Electro meets Cryo, Superconduct occurs. Superconduct deals AoE Cryo DMG and significantly decreases Physical RES for the affected being."
       },
       {
         "name": "Catalyze",
-        "elements": [
-          "Dendro"
-        ],
+        "elements": ["Dendro"],
         "description": "When creatures are affected by Electro and Dendro, Quicken will occur, which will render them Quickened."
       }
     ],
@@ -113,12 +88,7 @@
     "reactions": [
       {
         "name": "Crystallize",
-        "elements": [
-          "Pyro",
-          "Hydro",
-          "Electro",
-          "Cryo"
-        ],
+        "elements": ["Pyro", "Hydro", "Electro", "Cryo"],
         "description": "When Geo comes into contact with Pyro/Hydro/Electro/Cryo elements, Crystalize will be triggered!"
       }
     ],
@@ -130,30 +100,22 @@
     "reactions": [
       {
         "name": "Vaporize",
-        "elements": [
-          "Pyro"
-        ],
+        "elements": ["Pyro"],
         "description": "When Hydro meets Pyro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs.\nVaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
       },
       {
         "name": "Electro-Charged",
-        "elements": [
-          "Electro"
-        ],
+        "elements": ["Electro"],
         "description": "When Hydro meets Electro, Electro-Charged occurs. Electro-Charged continuously deals Electro DMG until it wears off.\nElectricity intermittently arcs off of Electro-Charged beings, shocking Hydro-affected opponents nearby."
       },
       {
         "name": "Frozen",
-        "elements": [
-          "Cryo"
-        ],
+        "elements": ["Cryo"],
         "description": "When Hydro meets Cryo, Frozen occurs. Frozen beings are rendered immobile, but also become rock-hard."
       },
       {
         "name": "Bloom",
-        "elements": [
-          "Dendro"
-        ],
+        "elements": ["Dendro"],
         "description": "When creatures are affected by Hydro and Dendro, the Bloom reaction will be triggered, creating Dendro Cores."
       }
     ],
@@ -165,30 +127,22 @@
     "reactions": [
       {
         "name": "Vaporize",
-        "elements": [
-          "Hydro"
-        ],
+        "elements": ["Hydro"],
         "description": "When Pyro meets Hydro, Vaporize occurs. The effects of Pyro and Hydro will dissipate when Vaporize occurs.\nVaporize itself does not inflict DMG. However, the Pyro or Hydro attack that triggers Vaporize deals increased DMG."
       },
       {
         "name": "Overloaded",
-        "elements": [
-          "Electro"
-        ],
+        "elements": ["Electro"],
         "description": "When Pyro meets Electro, Overloaded occurs. The resulting explosion deals AoE Pyro DMG, and tears effortlessly through otherwise sturdy objects."
       },
       {
         "name": "Burning",
-        "elements": [
-          "Dendro"
-        ],
+        "elements": ["Dendro"],
         "description": "When Pyro meets Dendro, it triggers Burning, which continuously deals Pyro DMG until it wears off."
       },
       {
         "name": "Melt",
-        "elements": [
-          "Cryo"
-        ],
+        "elements": ["Cryo"],
         "description": "When Pyro meets Cryo, Melt occurs. The effects of Cryo and Pyro will dissipate when Melt occurs."
       }
     ],

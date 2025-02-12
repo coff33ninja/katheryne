@@ -1,0 +1,12 @@
+{
+  "total_samples": 150,
+  "character_queries": 100,
+  "comparison_queries": 50,
+  "team_comp_queries": 0,
+  "unique_characters": 2,
+  "sample_types": {
+    "character_info": 100,
+    "comparison": 50,
+    "team_composition": 0
+  }
+}

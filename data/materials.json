@@ -1,0 +1,4714 @@
+[
+  {
+    "hurricane-seed": {
+      "name": "Hurricane Seed",
+      "source": "Anemo Hypostasis",
+      "characters": [
+        "jean",
+        "sucrose",
+        "venti"
+      ]
+    },
+    "hoarfrost-core": {
+      "name": "Hoarfrost Core",
+      "source": "Cryo Regisvine",
+      "characters": [
+        "chongyun",
+        "diona",
+        "ganyu",
+        "kaeya",
+        "qiqi",
+        "rosaria"
+      ]
+    },
+    "lightning-prism": {
+      "name": "Lightning Prism",
+      "source": "Electro Hypostasis",
+      "characters": [
+        "beidou",
+        "fischl",
+        "keqing",
+        "lisa",
+        "razor"
+      ]
+    },
+    "basalt-pillar": {
+      "name": "Basalt Pillar",
+      "source": "Geo Hypostasis",
+      "characters": [
+        "albedo",
+        "ningguang",
+        "noelle",
+        "zhongli"
+      ]
+    },
+    "cleansing-heart": {
+      "name": "Cleansing Heart",
+      "source": "Oceanid",
+      "characters": [
+        "barbara",
+        "mona",
+        "tartaglia",
+        "xingqiu"
+      ]
+    },
+    "everflame-seed": {
+      "name": "Everflame Seed",
+      "source": "Pyro Regisvine",
+      "characters": [
+        "amber",
+        "bennett",
+        "diluc",
+        "klee",
+        "xiangling",
+        "xinyan"
+      ]
+    },
+    "juvenile-jade": {
+      "name": "Juvenile Jade",
+      "source": "Primo Geovishap",
+      "characters": [
+        "hu-tao",
+        "xiao",
+        "yanfei"
+      ]
+    },
+    "crystalline-bloom": {
+      "name": "Crystalline Bloom",
+      "source": "Cryo Hypostasis",
+      "characters": [
+        "aloy",
+        "eula"
+      ]
+    },
+    "marionette-core": {
+      "name": "Marionette Core",
+      "source": "Maguu Kenki",
+      "characters": [
+        "kazuha",
+        "sayu"
+      ]
+    },
+    "perpetual-heart": {
+      "name": "Perpetual Heart",
+      "source": "Perpetual Mechanical Array",
+      "characters": [
+        "gorou",
+        "ayaka"
+      ]
+    },
+    "smoldering-pearl": {
+      "name": "Smoldering Pearl",
+      "source": "Pyro Hypostasis",
+      "characters": [
+        "thoma",
+        "yoimiya"
+      ]
+    },
+    "dew-of-repudiation": {
+      "name": "Dew of Repudiation",
+      "source": "Hydro Hypostasis",
+      "characters": [
+        "kokomi",
+        "ayato"
+      ]
+    },
+    "storm-beads": {
+      "name": "Storm Beads",
+      "source": "Thunder Manifestation",
+      "characters": [
+        "sara",
+        "raiden"
+      ]
+    },
+    "riftborn-regalia": {
+      "name": "Riftborn Regalia",
+      "source": "Golden Wolflord",
+      "characters": [
+        "arataki-itto",
+        "yun-jin"
+      ]
+    },
+    "dragonheir-s-false-fin": {
+      "name": "Dragonheir's False Fin",
+      "source": "Coral Defenders",
+      "characters": [
+        "shenhe",
+        "yae-miko"
+      ]
+    },
+    "perpetual-caliber": {
+      "name": "Perpetual Caliber",
+      "source": "Aeonblight Drake",
+      "characters": [
+        "layla",
+        "nilou",
+        "wanderer"
+      ]
+    },
+    "majestic-hooked-beak": {
+      "name": "Majestic Hooked Beak",
+      "source": "Jadeplume Terrorshroom",
+      "characters": [
+        "collei",
+        "tighnari"
+      ]
+    },
+    "thunderclap-fruitcore": {
+      "name": "Thunderclap Fruitcore",
+      "source": "Electro Regisvine",
+      "characters": [
+        "cyno",
+        "dori"
+      ]
+    },
+    "light-guiding-tetrahedron": {
+      "name": "Light Guiding Tetrahedron",
+      "source": "Algorithm of Semi-Intransient Matrix of Overseer Network",
+      "characters": [
+        "candace",
+        "faruzan",
+        "dehya"
+      ]
+    },
+    "tourbillon-device": {
+      "name": "Tourbillon Device",
+      "source": "Prototype Cal. Breguet",
+      "characters": [
+        "charlotte",
+        "wriothesley"
+      ]
+    },
+    "evergloom-ring": {
+      "name": "Evergloom Ring",
+      "source": "Iniquitous Baptist",
+      "characters": [
+        "kirara",
+        "baizhu"
+      ]
+    },
+    "quelled-creeper": {
+      "name": "Quelled Creeper",
+      "source": "Dendro Hypostasis",
+      "characters": [
+        "nahida",
+        "yaoyao",
+        "kaveh"
+      ]
+    },
+    "pseudo-stamens": {
+      "name": "Pseudo-Stamens",
+      "source": "Setekh Wenut",
+      "characters": [
+        "mika",
+        "alhaitham"
+      ]
+    },
+    "emperor-s-resolution": {
+      "name": "Emperor's Resolution",
+      "source": "Emperor of Fire and Iron",
+      "characters": [
+        "lyney",
+        "gaming"
+      ]
+    },
+    "coppelia": {
+      "name": "Artificed Spare Clockwork Component — Coppelia",
+      "source": "Icewind Suite",
+      "characters": [
+        "lynette"
+      ]
+    },
+    "coppelius": {
+      "name": "Artificed Spare Clockwork Component — Coppelius",
+      "source": "Icewind Suite",
+      "characters": [
+        "navia",
+        "freminet"
+      ]
+    },
+    "runic-fang": {
+      "name": "Runic Fang",
+      "source": "Ruin Serpent",
+      "characters": [
+        "yelan",
+        "shikanoin-heizou",
+        "kuki-shinobu"
+      ]
+    },
+    "fontemer-unihorn": {
+      "name": "Fontemer Unihorn",
+      "source": "Millennial Pearl Seahorse",
+      "characters": [
+        "chevreuse",
+        "neuvillette",
+        "clorinde"
+      ]
+    },
+    "water-that-failed-to-transcend": {
+      "name": "Water That Failed To Transcend",
+      "source": "Hydro Tulpa",
+      "characters": [
+        "furina",
+        "sigewinne"
+      ]
+    },
+    "cloudseam-scale": {
+      "name": "Cloudseam Scale",
+      "source": "Solitary Suanni",
+      "characters": [
+        "xianyun",
+        "sethos"
+      ]
+    },
+    "fragment-of-a-golden-melody": {
+      "name": "Fragment of a Golden Melody",
+      "source": "Statue of Marble and Brass",
+      "characters": [
+        "arlecchino"
+      ]
+    },
+    "overripe-flamegranate": {
+      "name": "Overripe Flamegranate",
+      "source": "Kongamato",
+      "characters": [
+        "kachina",
+        "kinich"
+      ]
+    },
+    "mark-of-the-binding-blessing": {
+      "name": "Mark of the Binding Blessing",
+      "source": "Holawaqa Ngoubou",
+      "characters": [
+        "mualani"
+      ]
+    },
+    "id": "boss-material",
+    "name": "boss-material"
+  },
+  {
+    "anemo": {
+      "sliver": {
+        "id": "vayuda-turquoise-sliver",
+        "name": "Vayuda Turquoise Sliver",
+        "sources": [
+          "Anemo Hypostasis",
+          "Icewind Suite",
+          "Maguu Kenki",
+          "Setekh Wenut",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Souvenir shop",
+          "Wolf of the North",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "vayuda-turquoise-fragment",
+        "name": "Vayuda Turquoise Fragment",
+        "sources": [
+          "Anemo Hypostasis",
+          "Icewind Suite",
+          "Maguu Kenki",
+          "Setekh Wenut",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Wolf of the North",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "vayuda-turquoise-chunk",
+        "name": "Vayuda Turquoise Chunk",
+        "sources": [
+          "Anemo Hypostasis",
+          "Icewind Suite",
+          "Maguu Kenki",
+          "Setekh Wenut",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Wolf of the North",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "vayuda-turquoise-gemstone",
+        "name": "Vayuda Turquoise Gemstone",
+        "sources": [
+          "Anemo Hypostasis",
+          "Icewind Suite",
+          "Maguu Kenki",
+          "Setekh Wenut",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Wolf of the North",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI"
+        ],
+        "rarity": 5
+      }
+    },
+    "cryo": {
+      "sliver": {
+        "id": "shivada-jade-sliver",
+        "name": "Shivada Jade Sliver",
+        "sources": [
+          "Cryo Regisvine",
+          "Cryo Hypostasis",
+          "Bathysmal Vishap Herd",
+          "Icewind Suite",
+          "Iniquitous Baptist",
+          "Maguu Kenki",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Souvenir shop",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death I",
+          "Memories: Duel to the Fiery Death II",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "shivada-jade-fragment",
+        "name": "Shivada Jade Fragment",
+        "sources": [
+          "Cryo Regisvine",
+          "Cryo Hypostasis",
+          "Bathysmal Vishap Herd",
+          "Icewind Suite",
+          "Iniquitous Baptist",
+          "Maguu Kenki",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death I",
+          "Memories: Duel to the Fiery Death II",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "shivada-jade-chunk",
+        "name": "Shivada Jade Chunk",
+        "sources": [
+          "Cryo Regisvine",
+          "Cryo Hypostasis",
+          "Bathysmal Vishap Herd",
+          "Icewind Suite",
+          "Iniquitous Baptist",
+          "Maguu Kenki",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "shivada-jade-gemstone",
+        "name": "Shivada Jade Gemstone",
+        "sources": [
+          "Cryo Regisvine",
+          "Cryo Hypostasis",
+          "Bathysmal Vishap Herd",
+          "Icewind Suite",
+          "Iniquitous Baptist",
+          "Maguu Kenki",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV"
+        ],
+        "rarity": 5
+      }
+    },
+    "electro": {
+      "sliver": {
+        "id": "vajrada-amethyst-sliver",
+        "name": "Vajrada Amethyst Sliver",
+        "sources": [
+          "Electro Hypostasis",
+          "Electro Regisvine",
+          "Primo Geovishap",
+          "Thunder Manifestation",
+          "Iniquitous Baptist",
+          "Bathysmal Vishap Herd",
+          "Millennial Pearl Seahorse",
+          "Souvenir shop",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Guardian of Eternity I",
+          "Memories: Guardian of Eternity II",
+          "Memories: Guardian of Eternity III",
+          "Memories: Guardian of Eternity IV"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "vajrada-amethyst-fragment",
+        "name": "Vajrada Amethyst Fragment",
+        "sources": [
+          "Electro Hypostasis",
+          "Electro Regisvine",
+          "Primo Geovishap",
+          "Thunder Manifestation",
+          "Millennial Pearl Seahorse",
+          "Iniquitous Baptist",
+          "Bathysmal Vishap Herd",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Guardian of Eternity I",
+          "Memories: Guardian of Eternity II",
+          "Memories: Guardian of Eternity III",
+          "Memories: Guardian of Eternity IV"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "vajrada-amethyst-chunk",
+        "name": "Vajrada Amethyst Chunk",
+        "sources": [
+          "Electro Hypostasis",
+          "Electro Regisvine",
+          "Primo Geovishap",
+          "Thunder Manifestation",
+          "Millennial Pearl Seahorse",
+          "Iniquitous Baptist",
+          "Bathysmal Vishap Herd",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Guardian of Eternity III",
+          "Memories: Guardian of Eternity IV"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "vajrada-amethyst-gemstone",
+        "name": "Vajrada Amethyst Gemstone",
+        "sources": [
+          "Electro Hypostasis",
+          "Electro Regisvine",
+          "Primo Geovishap",
+          "Thunder Manifestation",
+          "Millennial Pearl Seahorse",
+          "Iniquitous Baptist",
+          "Bathysmal Vishap Herd",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: Guardian of Eternity III",
+          "Memories: Guardian of Eternity IV"
+        ],
+        "rarity": 5
+      }
+    },
+    "geo": {
+      "sliver": {
+        "id": "prithiva-topaz-sliver",
+        "name": "Prithiva Topaz Sliver",
+        "sources": [
+          "Geo Hypostasis",
+          "Golden Wolflord",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Experimental Field Generator",
+          "Ruin Serpent",
+          "Wolf of the North",
+          "Souvenir shop",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Statue of Marble and Brass"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "prithiva-topaz-fragment",
+        "name": "Prithiva Topaz Fragment",
+        "sources": [
+          "Geo Hypostasis",
+          "Golden Wolflord",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Experimental Field Generator",
+          "Ruin Serpent",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Statue of Marble and Brass"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "prithiva-topaz-chunk",
+        "name": "Prithiva Topaz Chunk",
+        "sources": [
+          "Geo Hypostasis",
+          "Golden Wolflord",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Experimental Field Generator",
+          "Ruin Serpent",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Statue of Marble and Brass"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "prithiva-topaz-gemstone",
+        "name": "Prithiva Topaz Gemstone",
+        "sources": [
+          "Geo Hypostasis",
+          "Golden Wolflord",
+          "Perpetual Mechanical Array",
+          "Primo Geovishap",
+          "Experimental Field Generator",
+          "Ruin Serpent",
+          "Wolf of the North",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Statue of Marble and Brass"
+        ],
+        "rarity": 5
+      }
+    },
+    "hydro": {
+      "sliver": {
+        "id": "varunada-lazurite-sliver",
+        "name": "Varunada Lazurite Sliver",
+        "sources": [
+          "Oceanid",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Hydro Hypostasis",
+          "Hydro Tulpa",
+          "Iniquitous Baptist",
+          "Lupus Bereas",
+          "Souvenir shop",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: The Titan Amidst the Stars I",
+          "Memories: The Titan Amidst the Stars II",
+          "Memories: The Titan Amidst the Stars III",
+          "Memories: The Titan Amidst the Stars IV"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "varunada-lazurite-fragment",
+        "name": "Varunada Lazurite Fragment",
+        "sources": [
+          "Oceanid",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Hydro Hypostasis",
+          "Hydro Tulpa",
+          "Iniquitous Baptist",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Storming Terror I",
+          "Memories: Storming Terror II",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: Lucent Altar of the Everlasting I",
+          "Memories: Lucent Altar of the Everlasting II",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: The Golden Shadow I",
+          "Memories: The Golden Shadow II",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: The Titan Amidst the Stars I",
+          "Memories: The Titan Amidst the Stars II",
+          "Memories: The Titan Amidst the Stars III",
+          "Memories: The Titan Amidst the Stars IV"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "varunada-lazurite-chunk",
+        "name": "Varunada Lazurite Chunk",
+        "sources": [
+          "Oceanid",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Hydro Hypostasis",
+          "Hydro Tulpa",
+          "Iniquitous Baptist",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Storming Terror III",
+          "Memories: Storming Terror IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: The Titan Amidst the Stars III",
+          "Memories: The Titan Amidst the Stars IV"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "varunada-lazurite-gemstone",
+        "name": "Varunada Lazurite Gemstone",
+        "sources": [
+          "Oceanid",
+          "Primo Geovishap",
+          "Aeonblight Drake",
+          "Hydro Hypostasis",
+          "Hydro Tulpa",
+          "Iniquitous Baptist",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Storming Terror V",
+          "Memories: Storming Terror VI",
+          "Memories: Lucent Altar of the Everlasting III",
+          "Memories: Lucent Altar of the Everlasting IV",
+          "Memories: The Golden Shadow III",
+          "Memories: The Golden Shadow IV",
+          "Memories: The Titan Amidst the Stars III",
+          "Memories: The Titan Amidst the Stars IV"
+        ],
+        "rarity": 5
+      }
+    },
+    "pyro": {
+      "sliver": {
+        "id": "agnidus-agate-sliver",
+        "name": "Agnidus Agate Sliver",
+        "sources": [
+          "Pyro Regisvine",
+          "Pyro Hypostasis",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Emperor of Fire and Iron",
+          "Iniquitous Baptist",
+          "Primo Geovishap",
+          "Lupus Bereas",
+          "Souvenir shop",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death I",
+          "Memories: Duel to the Fiery Death II",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Statue of Marble and Brass",
+          "The Knave",
+          "Holawaqa Ngoubou"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "agnidus-agate-fragment",
+        "name": "Agnidus Agate Fragment",
+        "sources": [
+          "Pyro Regisvine",
+          "Pyro Hypostasis",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Emperor of Fire and Iron",
+          "Iniquitous Baptist",
+          "Primo Geovishap",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon I",
+          "Memories: Earthshaking Dragon II",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death I",
+          "Memories: Duel to the Fiery Death II",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Statue of Marble and Brass",
+          "The Knave",
+          "Holawaqa Ngoubou"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "agnidus-agate-chunk",
+        "name": "Agnidus Agate Chunk",
+        "sources": [
+          "Pyro Regisvine",
+          "Pyro Hypostasis",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Emperor of Fire and Iron",
+          "Iniquitous Baptist",
+          "Primo Geovishap",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Statue of Marble and Brass",
+          "The Knave",
+          "Holawaqa Ngoubou"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "agnidus-agate-gemstone",
+        "name": "Agnidus Agate Gemstone",
+        "sources": [
+          "Pyro Regisvine",
+          "Pyro Hypostasis",
+          "Algorithm of Semi-Intransient Matrix of Overseer Network",
+          "Emperor of Fire and Iron",
+          "Iniquitous Baptist",
+          "Primo Geovishap",
+          "Lupus Bereas",
+          "Memories: Earthshaking Dragon III",
+          "Memories: Earthshaking Dragon IV",
+          "Memories: Duel to the Fiery Death III",
+          "Memories: Duel to the Fiery Death IV",
+          "Statue of Marble and Brass",
+          "The Knave",
+          "Holawaqa Ngoubou"
+        ],
+        "rarity": 5
+      }
+    },
+    "dendro": {
+      "sliver": {
+        "id": "nagadus-emerald-sliver",
+        "name": "Nagadus Emerald Sliver",
+        "sources": [
+          "Dendro Hypostasis",
+          "Jadeplume Terrorshroom",
+          "Memories: \"They\" Too Were Once Flawless I",
+          "Memories: \"They\" Too Were Once Flawless II",
+          "Memories: \"They\" Too Were Once Flawless III",
+          "Memories: \"They\" Too Were Once Flawless IV",
+          "Kongamato"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "nagadus-emerald-fragment",
+        "name": "Nagadus Emerald Fragment",
+        "sources": [
+          "Dendro Hypostasis",
+          "Jadeplume Terrorshroom",
+          "Memories: \"They\" Too Were Once Flawless I",
+          "Memories: \"They\" Too Were Once Flawless II",
+          "Memories: \"They\" Too Were Once Flawless III",
+          "Memories: \"They\" Too Were Once Flawless IV",
+          "Kongamato"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "nagadus-emerald-chunk",
+        "name": "Nagadus Emerald Chunk",
+        "sources": [
+          "Dendro Hypostasis",
+          "Jadeplume Terrorshroom",
+          "Memories: \"They\" Too Were Once Flawless I",
+          "Memories: \"They\" Too Were Once Flawless II",
+          "Memories: \"They\" Too Were Once Flawless III",
+          "Memories: \"They\" Too Were Once Flawless IV",
+          "Kongamato"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "nagadus-emerald-gemstone",
+        "name": "Nagadus Emerald Gemstone",
+        "sources": [
+          "Dendro Hypostasis",
+          "Jadeplume Terrorshroom",
+          "Memories: \"They\" Too Were Once Flawless III",
+          "Memories: \"They\" Too Were Once Flawless IV",
+          "Kongamato"
+        ],
+        "rarity": 5
+      }
+    },
+    "traveler": {
+      "sliver": {
+        "id": "brilliant-diamond-sliver",
+        "name": "Brilliant Diamond Sliver",
+        "sources": [
+          "Adventure Rank 15"
+        ],
+        "rarity": 2
+      },
+      "fragment": {
+        "id": "brilliant-diamond-fragment",
+        "name": "Brilliant Diamond Fragment",
+        "sources": [
+          "Adventure Rank 25",
+          "Adventure Rank 26",
+          "Adventure Rank 28",
+          "Adventure Rank 30"
+        ],
+        "rarity": 3
+      },
+      "chunk": {
+        "id": "brilliant-diamond-chunk",
+        "name": "Brilliant Diamond Chunk",
+        "sources": [
+          "Adventure Rank 35",
+          "Adventure Rank 38",
+          "Adventure Rank 40"
+        ],
+        "rarity": 4
+      },
+      "gemstone": {
+        "id": "brilliant-diamond-gemstone",
+        "name": "Brilliant Diamond Gemstone",
+        "sources": [
+          "Adventure Rank 41",
+          "Adventure Rank 42",
+          "Adventure Rank 45"
+        ],
+        "rarity": 5
+      }
+    },
+    "id": "character-ascension",
+    "name": "character-ascension"
+  },
+  {
+    "items": [
+      {
+        "id": "wanderer's-advice",
+        "name": "Wanderer's Advice",
+        "experience": 1000,
+        "rarity": 2
+      },
+      {
+        "id": "adventurer's-experience",
+        "name": "Adventurer's Experience",
+        "experience": 5000,
+        "rarity": 3
+      },
+      {
+        "id": "hero's-wit",
+        "name": "Hero's Wit",
+        "experience": 20000,
+        "rarity": 4
+      }
+    ],
+    "id": "character-experience",
+    "name": "character-experience"
+  },
+  {
+    "slime": {
+      "characters": [
+        "lisa",
+        "venti",
+        "xiangling",
+        "zhongli",
+        "arataki-itto",
+        "xiao",
+        "yaoyao",
+        "gaming"
+      ],
+      "weapons": [
+        "amos-bow",
+        "lost-prayer-to-the-sacred-winds",
+        "skyward-blade",
+        "skyward-pride",
+        "staff-of-homa",
+        "alley-hunter",
+        "favonius-lance",
+        "luxurious-sea-lord",
+        "mappa-mare",
+        "missive-windspear",
+        "royal-greatsword",
+        "sacrificial-bow",
+        "snow-tombed-starsilver",
+        "talking-stick",
+        "the-black-sword",
+        "the-flute",
+        "harbinger-of-dawn",
+        "magic-guide",
+        "sharpshooter-s-oath",
+        "white-iron-greatsword",
+        "old-merc-s-pal",
+        "waster-greatsword"
+      ],
+      "items": [
+        {
+          "id": "slime-condensate",
+          "name": "Slime Condensate",
+          "rarity": 1
+        },
+        {
+          "id": "slime-secretions",
+          "name": "Slime Secretions",
+          "rarity": 2
+        },
+        {
+          "id": "slime-concentrate",
+          "name": "Slime Concentrate",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Slime"
+      ]
+    },
+    "hilichurl-masks": {
+      "characters": [
+        "jean",
+        "noelle",
+        "razor",
+        "chongyun",
+        "xingqiu",
+        "sara",
+        "eula",
+        "yun-jin",
+        "traveler-anemo",
+        "traveler-geo",
+        "traveler-electro",
+        "traveler-dendro",
+        "traveler-hydro"
+      ],
+      "weapons": [
+        "wolf-fang",
+        "apprentice-s-notes",
+        "rust",
+        "the-widsith",
+        "dark-iron-sword",
+        "debate-club",
+        "otherworldly-story",
+        "slingshot",
+        "pocket-grimoire",
+        "prototype-starglitter",
+        "prototype-archaic",
+        "eye-of-perception",
+        "dodoco-tales",
+        "cinnabar-spindle",
+        "summit-shaper",
+        "song-of-broken-pines",
+        "memory-of-dust"
+      ],
+      "items": [
+        {
+          "id": "damaged-mask",
+          "name": "Damaged Mask",
+          "rarity": 1
+        },
+        {
+          "id": "stained-mask",
+          "name": "Stained Mask",
+          "rarity": 2
+        },
+        {
+          "id": "ominous-mask",
+          "name": "Ominous Mask",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Hilichurl",
+        "Samachurl",
+        "Mitachurl",
+        "Lawachurl"
+      ]
+    },
+    "hilichurl-arrowheads": {
+      "characters": [
+        "amber",
+        "diona",
+        "fischl",
+        "collei"
+      ],
+      "weapons": [
+        "aquila-favonia",
+        "skyward-atlas",
+        "skyward-harp",
+        "thundering-pulse",
+        "blackcliff-longsword",
+        "favonius-sword",
+        "hamayumi",
+        "king-s-squire",
+        "lithic-blade",
+        "lithic-spear",
+        "predator",
+        "prototype-amber",
+        "royal-longsword",
+        "sacrificial-greatsword",
+        "song-of-stillness",
+        "the-stringless",
+        "the-viridescent-hunt",
+        "black-tassel",
+        "bloodtainted-greatsword",
+        "cool-steel",
+        "raven-bow",
+        "silver-sword",
+        "dull-blade"
+      ],
+      "items": [
+        {
+          "id": "firm-arrowhead",
+          "name": "Firm Arrowhead",
+          "rarity": 1
+        },
+        {
+          "id": "sharp-arrowhead",
+          "name": "Sharp Arrowhead",
+          "rarity": 2
+        },
+        {
+          "id": "weathered-arrowhead",
+          "name": "Weathered Arrowhead",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Hilichurl Archer"
+      ]
+    },
+    "samachurl-scrolls": {
+      "characters": [
+        "albedo",
+        "barbara",
+        "cyno",
+        "klee",
+        "layla",
+        "qiqi",
+        "yoimiya",
+        "xianyun"
+      ],
+      "weapons": [
+        "beginner-s-protector",
+        "freedom-sworn",
+        "skyward-spine",
+        "wolf-s-gravestone",
+        "blackcliff-agate",
+        "dragon-s-bane",
+        "fading-twilight",
+        "favonius-codex",
+        "hakushin-ring",
+        "rainslasher",
+        "sacrificial-jade",
+        "sacrificial-sword",
+        "the-alley-flash",
+        "recurve-bow",
+        "royal-bow",
+        "thrilling-tales-of-dragon-slayers",
+        "traveler-s-handy-sword",
+        "iron-point"
+      ],
+      "items": [
+        {
+          "id": "divining-scroll",
+          "name": "Divining Scroll",
+          "rarity": 1
+        },
+        {
+          "id": "sealed-scroll",
+          "name": "Sealed Scroll",
+          "rarity": 2
+        },
+        {
+          "id": "forbidden-curse-scroll",
+          "name": "Forbidden Curse Scroll",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Samachurl"
+      ]
+    },
+    "treasure-hoarder-insignias": {
+      "characters": [
+        "kaeya",
+        "bennett",
+        "beidou",
+        "xinyan",
+        "yanfei",
+        "kazuha",
+        "shikanoin-heizou",
+        "thoma"
+      ],
+      "weapons": [
+        "primordial-jade-cutter",
+        "the-unforged",
+        "vortex-vanquisher",
+        "ballad-of-the-boundless-blue",
+        "crescent-pike",
+        "kitain-cross-spear",
+        "lion-s-roar",
+        "makhaira-aquamarine",
+        "mitternachts-waltz",
+        "prototype-crescent",
+        "sacrificial-fragments",
+        "sword-of-descension",
+        "whiteblind",
+        "wine-and-song",
+        "emerald-orb",
+        "fillet-blade",
+        "messenger",
+        "skyrider-greatsword",
+        "seasoned-hunter-s-bow",
+        "hunter-s-bow"
+      ],
+      "items": [
+        {
+          "id": "treasure-hoarder-insignia",
+          "name": "Treasure Hoarder Insignia",
+          "rarity": 1
+        },
+        {
+          "id": "silver-raven-insignia",
+          "name": "Silver Raven Insignia",
+          "rarity": 2
+        },
+        {
+          "id": "golden-raven-insignia",
+          "name": "Golden Raven Insignia",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Treasure Hoarder"
+      ]
+    },
+    "fatui-insignias": {
+      "characters": [
+        "diluc",
+        "ningguang",
+        "tartaglia",
+        "lyney",
+        "mika",
+        "rosaria",
+        "yelan"
+      ],
+      "weapons": [
+        "elegy-for-the-end",
+        "primordial-jade-winged-spear",
+        "blackcliff-pole",
+        "blackcliff-slasher",
+        "compound-bow",
+        "dragonspine-spear",
+        "favonius-greatsword",
+        "festering-desire",
+        "moonpiercer",
+        "prototype-rancour",
+        "royal-grimoire",
+        "royal-spear",
+        "skyrider-sword",
+        "twin-nephrite",
+        "white-tassel"
+      ],
+      "items": [
+        {
+          "id": "recruit-s-insignia",
+          "name": "Recruit's Insignia",
+          "rarity": 1
+        },
+        {
+          "id": "sergeant-s-insignia",
+          "name": "Sergeant's Insignia",
+          "rarity": 2
+        },
+        {
+          "id": "lieutenant-s-insignia",
+          "name": "Lieutenant's Insignia",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Fatui Skirmisher",
+        "Fatui Cicin Mage",
+        "Fatui Agent"
+      ]
+    },
+    "whopperflower-nectar": {
+      "characters": [
+        "mona",
+        "sucrose",
+        "keqing",
+        "ganyu",
+        "hu-tao",
+        "furina",
+        "sayu",
+        "shenhe"
+      ],
+      "weapons": [
+        "calamity-queller",
+        "ballad-of-the-fjords",
+        "blackcliff-warbow",
+        "deathmatch",
+        "favonius-warbow",
+        "frostbearer",
+        "iron-sting",
+        "serpent-spine",
+        "solar-pearl",
+        "the-bell",
+        "windblume-ode",
+        "ferrous-shadow",
+        "halberd"
+      ],
+      "items": [
+        {
+          "id": "whopperflower-nectar",
+          "name": "Whopperflower Nectar",
+          "rarity": 1
+        },
+        {
+          "id": "shimmering-nectar",
+          "name": "Shimmering Nectar",
+          "rarity": 2
+        },
+        {
+          "id": "energy-nectar",
+          "name": "Energy Nectar",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Whopperflower"
+      ]
+    },
+    "hilichurl-horns": {
+      "weapons": [
+        "apprentice-s-notes",
+        "aquila-favonia",
+        "cool-steel",
+        "dull-blade",
+        "elegy-for-the-end",
+        "favonius-codex",
+        "favonius-sword",
+        "ferrous-shadow",
+        "festering-desire",
+        "magic-guide",
+        "mitternachts-waltz",
+        "pocket-grimoire",
+        "raven-bow",
+        "royal-grimoire",
+        "royal-longsword",
+        "silver-sword",
+        "song-of-broken-pines",
+        "snow-tombed-starsilver",
+        "the-alley-flash",
+        "the-bell",
+        "the-stringless",
+        "the-viridescent-hunt"
+      ],
+      "items": [
+        {
+          "id": "heavy-horn",
+          "name": "Heavy Horn",
+          "rarity": 2
+        },
+        {
+          "id": "black-bronze-horn",
+          "name": "Black Bronze Horn",
+          "rarity": 3
+        },
+        {
+          "id": "black-crystal-horn",
+          "name": "Black Crystal Horn",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Mitachurl",
+        "Lawachurl"
+      ]
+    },
+    "ley-line": {
+      "weapons": [
+        "alley-hunter",
+        "bloodtainted-greatsword",
+        "deathmatch",
+        "dragonspine-spear",
+        "dodoco-tales",
+        "harbinger-of-dawn",
+        "hunter-s-bow",
+        "old-merc-s-pal",
+        "sacrificial-bow",
+        "sacrificial-greatsword",
+        "seasoned-hunter-s-bow",
+        "sharpshooter-s-oath",
+        "skyward-atlas",
+        "skyward-blade",
+        "skyward-harp",
+        "skyward-pride",
+        "staff-of-homa",
+        "sword-of-descension",
+        "the-black-sword",
+        "the-flute",
+        "the-widsith",
+        "thrilling-tales-of-dragon-slayers",
+        "waster-greatsword",
+        "windblume-ode",
+        "wine-and-song"
+      ],
+      "items": [
+        {
+          "id": "dead-ley-line-branch",
+          "name": "Dead Ley Line Branch",
+          "rarity": 2
+        },
+        {
+          "id": "dead-ley-line-leaves",
+          "name": "Dead Ley Line Leaves",
+          "rarity": 3
+        },
+        {
+          "id": "ley-line-sprout",
+          "name": "Ley Line Sprout",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Abyss Mage"
+      ]
+    },
+    "nobushi": {
+      "characters": [
+        "ayaka",
+        "ayato",
+        "raiden",
+        "wanderer",
+        "yae-miko"
+      ],
+      "weapons": [
+        "engulfing-lightning",
+        "haran-geppaku-futsu",
+        "mistsplitter-reforged",
+        "redhorn-stonethresher",
+        "akuoumaru",
+        "amenoma-kageuchi",
+        "finale-of-the-deep",
+        "katsuragikiri-nagamasa",
+        "toukabou-shigure",
+        "wavebreaker-s-fin"
+      ],
+      "items": [
+        {
+          "id": "old-handguard",
+          "name": "Old Handguard",
+          "rarity": 1
+        },
+        {
+          "id": "kageuchi-handguard",
+          "name": "Kageuchi Handguard",
+          "rarity": 2
+        },
+        {
+          "id": "famed-handguard",
+          "name": "Famed Handguard",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Nobushi"
+      ]
+    },
+    "bone-shards": {
+      "weapons": [
+        "ballad-of-the-boundless-blue",
+        "black-tassel",
+        "compound-bow",
+        "iron-sting",
+        "mappa-mare",
+        "memory-of-dust",
+        "lithic-spear",
+        "luxurious-sea-lord",
+        "prototype-archaic",
+        "prototype-starglitter",
+        "serpent-spine",
+        "skyrider-greatsword",
+        "skyrider-sword",
+        "vortex-vanquisher"
+      ],
+      "items": [
+        {
+          "id": "fragile-bone-shard",
+          "name": "Fragile Bone Shard",
+          "rarity": 2
+        },
+        {
+          "id": "sturdy-bone-shard",
+          "name": "Sturdy Bone Shard",
+          "rarity": 3
+        },
+        {
+          "id": "fossilized-bone-shard",
+          "name": "Fossilized Bone Shard",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Geovishap Hatchling"
+      ]
+    },
+    "mist-grass": {
+      "weapons": [
+        "blackcliff-pole",
+        "blackcliff-slasher",
+        "calamity-queller",
+        "debate-club",
+        "dragon-s-bane",
+        "dragonspine-spear",
+        "eye-of-perception",
+        "fillet-blade",
+        "halberd",
+        "messenger",
+        "primordial-jade-cutter",
+        "prototype-amber",
+        "prototype-crescent",
+        "prototype-rancour",
+        "rainslasher",
+        "royal-spear",
+        "the-unforged",
+        "twin-nephrite"
+      ],
+      "items": [
+        {
+          "id": "mist-grass-pollen",
+          "name": "Mist Grass Pollen",
+          "rarity": 2
+        },
+        {
+          "id": "mist-grass",
+          "name": "Mist Grass",
+          "rarity": 3
+        },
+        {
+          "id": "mist-grass-wick",
+          "name": "Mist Grass Wick",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Fatui Cicin Mage"
+      ]
+    },
+    "fatui-knives": {
+      "weapons": [
+        "blackcliff-agate",
+        "blackcliff-longsword",
+        "blackcliff-warbow",
+        "crescent-pike",
+        "dark-iron-sword",
+        "emerald-orb",
+        "fading-twilight",
+        "lion-s-roar",
+        "lithic-blade",
+        "primordial-jade-winged-spear",
+        "rust",
+        "slingshot",
+        "solar-pearl",
+        "summit-shaper",
+        "white-tassel",
+        "whiteblind"
+      ],
+      "items": [
+        {
+          "id": "hunter-s-sacrificial-knife",
+          "name": "Hunter's Sacrificial Knife",
+          "rarity": 2
+        },
+        {
+          "id": "agent-s-sacrificial-knife",
+          "name": "Agent's Sacrificial Knife",
+          "rarity": 3
+        },
+        {
+          "id": "inspector-s-sacrificial-knife",
+          "name": "Inspector's Sacrificial Knife",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Fatui Agent"
+      ]
+    },
+    "specters": {
+      "characters": [
+        "aloy",
+        "gorou",
+        "kirara",
+        "kuki-shinobu",
+        "kokomi"
+      ],
+      "weapons": [
+        "aqua-simulacra",
+        "everlasting-moonglow",
+        "kagura-s-verity",
+        "polar-star",
+        "the-catch",
+        "kagotsurube-isshin",
+        "mailed-flower",
+        "mouun-s-moon",
+        "oathsworn-eye"
+      ],
+      "items": [
+        {
+          "id": "spectral-husk",
+          "name": "Spectral Husk",
+          "rarity": 1
+        },
+        {
+          "id": "spectral-heart",
+          "name": "Spectral Heart",
+          "rarity": 2
+        },
+        {
+          "id": "spectral-nucleus",
+          "name": "Spectral Nucleus",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Specter"
+      ]
+    },
+    "chaos-parts": {
+      "weapons": [
+        "amos-bow",
+        "beginner-s-protector",
+        "cinnabar-spindle",
+        "favonius-greatsword",
+        "favonius-lance",
+        "favonius-warbow",
+        "freedom-sworn",
+        "frostbearer",
+        "iron-point",
+        "lost-prayer-to-the-sacred-winds",
+        "otherworldly-story",
+        "recurve-bow",
+        "royal-bow",
+        "royal-greatsword",
+        "sacrificial-fragments",
+        "sacrificial-sword",
+        "skyward-spine",
+        "traveler-s-handy-sword",
+        "white-iron-greatsword",
+        "wolf-s-gravestone",
+        "wolf-fang"
+      ],
+      "items": [
+        {
+          "id": "chaos-device",
+          "name": "Chaos Device",
+          "rarity": 2
+        },
+        {
+          "id": "chaos-circuit",
+          "name": "Chaos Circuit",
+          "rarity": 3
+        },
+        {
+          "id": "chaos-core",
+          "name": "Chaos Core",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Ruin Guard",
+        "Ruin Hunter",
+        "Ruin Grader"
+      ]
+    },
+    "eremites-red": {
+      "characters": [
+        "faruzan",
+        "dori",
+        "alhaitham",
+        "dehya",
+        "candace",
+        "sethos"
+      ],
+      "weapons": [
+        "beacon-of-the-reed-sea",
+        "hunter-s-path",
+        "key-of-khaj-nisut",
+        "light-of-foliar-incision",
+        "forest-regalia",
+        "ibis-piercer",
+        "sapwood-blade",
+        "xiphos-moonlight"
+      ],
+      "items": [
+        {
+          "id": "faded-red-satin",
+          "name": "Faded Red Satin",
+          "rarity": 1
+        },
+        {
+          "id": "trimmed-red-silk",
+          "name": "Trimmed Red Silk",
+          "rarity": 2
+        },
+        {
+          "id": "rich-red-brocade",
+          "name": "Rich Red Brocade",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Eremites"
+      ]
+    },
+    "fungals-spores": {
+      "characters": [
+        "nahida",
+        "baizhu",
+        "kaveh",
+        "nilou",
+        "tighnari"
+      ],
+      "weapons": [
+        "a-thousand-floating-dreams",
+        "jadefall-s-splendor",
+        "staff-of-the-scarlet-sands",
+        "tulaytullah-s-remembrance",
+        "end-of-the-line",
+        "fruit-of-fulfillment",
+        "scion-of-the-blazing-sun",
+        "wandering-evenstar",
+        "sacrificial-jade"
+      ],
+      "items": [
+        {
+          "id": "fungal-spores",
+          "name": "Fungal Spores",
+          "rarity": 1
+        },
+        {
+          "id": "luminescent-pollen",
+          "name": "Luminescent Pollen",
+          "rarity": 2
+        },
+        {
+          "id": "crystalline-cyst-dust",
+          "name": "Crystalline Cyst Dust",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Fungus",
+        "Geoshroom",
+        "Hydroshroom",
+        "Cryoshroom",
+        "Dendroshroom"
+      ]
+    },
+    "clockwork-meka": {
+      "characters": [
+        "lynette",
+        "charlotte",
+        "chevreuse",
+        "wriothesley"
+      ],
+      "weapons": [
+        "tome-of-the-eternal",
+        "verdict",
+        "ultimate-overlord-s-mega-magic-sword",
+        "portable-power-saw",
+        "prospectors-drill",
+        "rightful-reward",
+        "tidal-shadow"
+      ],
+      "items": [
+        {
+          "id": "meshing-gear",
+          "name": "Meshing Gear",
+          "rarity": 1
+        },
+        {
+          "id": "mechanical-spur-gear",
+          "name": "Mechanical Spur Gear",
+          "rarity": 2
+        },
+        {
+          "id": "artificed-dynamic-gear",
+          "name": "Artificed Dynamic Gear",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Clockwork Mek"
+      ]
+    },
+    "fontemer-aberrant": {
+      "characters": [
+        "navia",
+        "freminet",
+        "neuvillette",
+        "sigewinne",
+        "clorinde"
+      ],
+      "weapons": [
+        "cashflow-supervision",
+        "splendor-of-tranquil-waters",
+        "the-first-great-magic",
+        "fleuve-cendre-ferryman",
+        "flowing-purity",
+        "range-gauge",
+        "sword-of-narzissenkreuz",
+        "the-dockhands-assistant"
+      ],
+      "items": [
+        {
+          "id": "transoceanic-pearl",
+          "name": "Transoceanic Pearl",
+          "rarity": 1
+        },
+        {
+          "id": "transoceanic-chunk",
+          "name": "Transoceanic Chunk",
+          "rarity": 2
+        },
+        {
+          "id": "xenochromatic-crystal",
+          "name": "Xenochromatic Crystal",
+          "rarity": 3
+        }
+      ],
+      "sources": [
+        "Angelic Sea Hare",
+        "Armored and Sternshield Crabs",
+        "Ball Octopus",
+        "Blubberbeast",
+        "Hunter's Ray",
+        "Hat Jellyfish",
+        "Cherubic Sea Hare",
+        "Bubbly Seahorse"
+      ]
+    },
+    "primal-construct-prisms": {
+      "weapons": [
+        "toukabou-shigure",
+        "xiphos-moonlight",
+        "key-of-khaj-nisut",
+        "a-thousand-floating-dreams"
+      ],
+      "items": [
+        {
+          "id": "damaged-prism",
+          "name": "Damaged Prism",
+          "rarity": 2
+        },
+        {
+          "id": "turbid-prism",
+          "name": "Turbid Prism",
+          "rarity": 3
+        },
+        {
+          "id": "radiant-prism",
+          "name": "Radiant Prism",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Primal Constructs"
+      ]
+    },
+    "breacher-primus": {
+      "weapons": [
+        "verdict",
+        "tidal-shadow",
+        "rightful-reward",
+        "portable-power-saw",
+        "flowing-purity",
+        "tome-of-the-eternal"
+      ],
+      "items": [
+        {
+          "id": "rift-core",
+          "name": "Rift Core",
+          "rarity": 2
+        },
+        {
+          "id": "foreign-synapse",
+          "name": "Foreign Synapse",
+          "rarity": 3
+        },
+        {
+          "id": "alien-life-core",
+          "name": "Alien Life Core",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Shatterstone Breacher Primus",
+        "Overgrown Breacher Primus"
+      ]
+    },
+    "black-serpents": {
+      "weapons": [
+        "aqua-simulacra",
+        "haran-geppaku-futsu",
+        "fruit-of-fulfillment",
+        "kagotsurube-isshin",
+        "missive-windspear"
+      ],
+      "items": [
+        {
+          "id": "gloomy-statuette",
+          "name": "Gloomy Statuette",
+          "rarity": 2
+        },
+        {
+          "id": "dark-statuette",
+          "name": "Dark Statuette",
+          "rarity": 3
+        },
+        {
+          "id": "deathly-statuette",
+          "name": "Deathly Statuette",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Abyss Heralds",
+        "Black Serpent Knight",
+        "Shadowy Husks"
+      ]
+    },
+    "hilichurl-rogue": {
+      "weapons": [
+        "ibis-piercer",
+        "scion-of-the-blazing-sun",
+        "ballad-of-the-fjords",
+        "jadefall-s-splendor"
+      ],
+      "items": [
+        {
+          "id": "a-flower-yet-to-bloom",
+          "name": "A Flower Yet to Bloom",
+          "rarity": 2
+        },
+        {
+          "id": "treasured-flower",
+          "name": "Treasured Flower",
+          "rarity": 3
+        },
+        {
+          "id": "wanderer-s-blooming-flower",
+          "name": "Wanderer's Blooming Flower",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Hilichurl Rogue"
+      ]
+    },
+    "consecrated-beast": {
+      "weapons": [
+        "mailed-flower",
+        "talking-stick",
+        "light-of-foliar-incision",
+        "beacon-of-the-reed-sea"
+      ],
+      "items": [
+        {
+          "id": "desiccated-shell",
+          "name": "Desiccated Shell",
+          "rarity": 2
+        },
+        {
+          "id": "sturdy-shell",
+          "name": "Sturdy Shell",
+          "rarity": 3
+        },
+        {
+          "id": "marked-shell",
+          "name": "Marked Shell",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Consecrated Scorpion",
+        "Consecrated Red Vulture",
+        "Consecrated Fanged Beast",
+        "Consecrated Horned Crocodile",
+        "Consecrated Flying Serpent"
+      ]
+    },
+    "fatui-operative": {
+      "weapons": [
+        "ultimate-overlord-s-mega-magic-sword",
+        "prospectors-drill",
+        "sword-of-narzissenkreuz",
+        "the-dockhands-assistant",
+        "cashflow-supervision"
+      ],
+      "items": [
+        {
+          "id": "old-operative-s-pocket-watch",
+          "name": "Old Operative's Pocket Watch",
+          "rarity": 2
+        },
+        {
+          "id": "operative-s-standard-pocket-watch",
+          "name": "Operative's Standard Pocket Watch",
+          "rarity": 3
+        },
+        {
+          "id": "operative-s-constancy",
+          "name": "Operative's Constancy",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Frost Operative",
+        "Wind Operative"
+      ]
+    },
+    "mirror-maiden-prisms": {
+      "weapons": [
+        "mouun-s-moon",
+        "hamayumi",
+        "hakushin-ring",
+        "predator",
+        "thundering-pulse",
+        "everlasting-moonglow"
+      ],
+      "items": [
+        {
+          "id": "dismal-prism",
+          "name": "Dismal Prism",
+          "rarity": 2
+        },
+        {
+          "id": "crystal-prism",
+          "name": "Crystal Prism",
+          "rarity": 3
+        },
+        {
+          "id": "polarizing-prism",
+          "name": "Polarizing Prism",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Mirror Maiden"
+      ]
+    },
+    "ruin-sentinels-chaos": {
+      "weapons": [
+        "engulfing-lightning",
+        "mistsplitter-reforged",
+        "the-catch",
+        "amenoma-kageuchi",
+        "katsuragikiri-nagamasa",
+        "kitain-cross-spear"
+      ],
+      "items": [
+        {
+          "id": "chaos-gear",
+          "name": "Chaos Gear",
+          "rarity": 2
+        },
+        {
+          "id": "chaos-axis",
+          "name": "Chaos Axis",
+          "rarity": 3
+        },
+        {
+          "id": "chaos-oculus",
+          "name": "Chaos Oculus",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Ruin Cruiser",
+        "Ruin Defender",
+        "Ruin Destroyer",
+        "Ruin Scout"
+      ]
+    },
+    "riftwolf-concealds": {
+      "weapons": [
+        "kagura-s-verity",
+        "redhorn-stonethresher",
+        "polar-star",
+        "akuoumaru",
+        "oathsworn-eye",
+        "wavebreaker-s-fin"
+      ],
+      "items": [
+        {
+          "id": "concealed-claw",
+          "name": "Concealed Claw",
+          "rarity": 2
+        },
+        {
+          "id": "concealed-unguis",
+          "name": "Concealed Unguis",
+          "rarity": 3
+        },
+        {
+          "id": "concealed-talon",
+          "name": "Concealed Talon",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Rifthound",
+        "Rifthound Whelp"
+      ]
+    },
+    "tainted-hydro-phantasm": {
+      "weapons": [
+        "splendor-of-tranquil-waters",
+        "the-first-great-magic",
+        "finale-of-the-deep",
+        "fleuve-cendre-ferryman",
+        "range-gauge",
+        "song-of-stillness"
+      ],
+      "items": [
+        {
+          "id": "drop-of-tainted-water",
+          "name": "Drop of Tainted Water",
+          "rarity": 2
+        },
+        {
+          "id": "scoop-of-tainted-water",
+          "name": "Scoop of Tainted Water",
+          "rarity": 3
+        },
+        {
+          "id": "newborn-tainted-hydro-phantasm",
+          "name": "Newborn Tainted Hydro Phantasm",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Tainted Hydro Phantasm"
+      ]
+    },
+    "state-shifted-fungus": {
+      "weapons": [
+        "wandering-evenstar",
+        "king-s-squire",
+        "end-of-the-line",
+        "hunter-s-path",
+        "tulaytullah-s-remembrance"
+      ],
+      "items": [
+        {
+          "id": "inactivated-fungal-nucleus",
+          "name": "Inactivated Fungal Nucleus",
+          "rarity": 2
+        },
+        {
+          "id": "dormant-fungal-nucleus",
+          "name": "Dormant Fungal Nucleus",
+          "rarity": 3
+        },
+        {
+          "id": "robust-fungal-nucleus",
+          "name": "Robust Fungal Nucleus",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Fungus",
+        "Geoshroom",
+        "Hydroshroom",
+        "Cryoshroom",
+        "Dendroshroom"
+      ]
+    },
+    "ruin-drakes-chaos": {
+      "weapons": [
+        "sapwood-blade",
+        "moonpiercer",
+        "makhaira-aquamarine",
+        "forest-regalia",
+        "staff-of-the-scarlet-sands"
+      ],
+      "items": [
+        {
+          "id": "chaos-storage",
+          "name": "Chaos Storage",
+          "rarity": 2
+        },
+        {
+          "id": "chaos-module",
+          "name": "Chaos Module",
+          "rarity": 3
+        },
+        {
+          "id": "chaos-bolt",
+          "name": "Chaos Bolt",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Ruin Drakes"
+      ]
+    },
+    "hilt": {
+      "weapons": [
+        "crimson-moon-s-semblance"
+      ],
+      "items": [
+        {
+          "id": "ruined-hilt",
+          "name": "Ruined Hilt",
+          "rarity": 2
+        },
+        {
+          "id": "splintered-hilt",
+          "name": "Splintered Hilt",
+          "rarity": 3
+        },
+        {
+          "id": "still-smoldering-hilt",
+          "name": "Still-Smoldering Hilt",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Praetorian Golem"
+      ]
+    },
+    "whistle": {
+      "characters": [
+        "kachina",
+        "mualani"
+      ],
+      "weapons": [
+        "earth-shaker",
+        "footprint-of-the-rainbow"
+      ],
+      "items": [
+        {
+          "id": "sentry-s-wooden-whistle",
+          "name": "Senry's Wooden Whistle",
+          "rarity": 2
+        },
+        {
+          "id": "warriors-s-metal-whistle",
+          "name": "Warriors's Metal Whistle",
+          "rarity": 3
+        },
+        {
+          "id": "saurian-crowned-warrior-s-golden-whistle",
+          "name": "Saurian-Crowned Warriors's Golden Whistle",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Flowing Blade",
+        "Forged Sand",
+        "Koholasaurus Warrior",
+        "Swiftstep",
+        "Tepetlisaurus Warrior",
+        "Yumkasaurus Warrior"
+      ]
+    },
+    "fang": {
+      "characters": [
+        "kinich"
+      ],
+      "weapons": [
+        "surf-s-up",
+        "ash-graven-drinking-horn",
+        "chain-breaker",
+        "flute-of-ezpitzal"
+      ],
+      "items": [
+        {
+          "id": "juvenile-fang",
+          "name": "Juvenile Fang",
+          "rarity": 2
+        },
+        {
+          "id": "seasoned-fang",
+          "name": "Seasoned Fang",
+          "rarity": 3
+        },
+        {
+          "id": "tyrant-s-fang",
+          "name": "Tyrant's Fang",
+          "rarity": 4
+        }
+      ],
+      "sources": [
+        "Koholasaurus",
+        "Tepetlisaurus",
+        "Yumkasaurus"
+      ]
+    },
+    "id": "common-ascension",
+    "name": "common-ascension"
+  },
+  {
+    "almond": {
+      "name": "Almond",
+      "description": "A seed with a peculiar fragrance that gives food a refreshing taste.",
+      "sources": [
+        "Sold by Second Life",
+        "Sold by Ms. Bai"
+      ]
+    },
+    "bacon": {
+      "name": "Bacon",
+      "description": "Smoked strips of pork. With just enough fat, but not too greasy.Mmmmm... Bacon.Meat must be processed first to be made into Bacon.",
+      "rarity": 3,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing"
+      ]
+    },
+    "bamboo-shoot": {
+      "name": "Bamboo Shoot",
+      "description": "A fresh young bamboo shoot, straight out of the ground. It is a delicious cooking ingredient with an exotic aroma, found exclusively in bamboo-growing regions.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Wanmin Restaurant"
+      ]
+    },
+    "berry": {
+      "name": "Berry",
+      "description": "Small brightly-colored fruit. They can be found everywhere, and the taste of them wipes the fatigue of a long journey away.",
+      "sources": [
+        "Found in the wild"
+      ]
+    },
+    "bird-egg": {
+      "name": "Bird Egg",
+      "description": "An incredibly versatile ingredient that can supply all of your daily protein needs.",
+      "sources": [
+        "Found in the wild",
+        "Vendor: Draff, Head of Hunters at Springvale"
+      ]
+    },
+    "butter": {
+      "name": "Butter",
+      "description": "An extract from milk. With the appropriate application, it can bring rich aromas to even the most basic ingredients.",
+      "rarity": 2,
+      "sources": [
+        "Sold by Good Hunter",
+        "Sold by Verr Goldet",
+        "Processing"
+      ]
+    },
+    "cabbage": {
+      "name": "Cabbage",
+      "description": "A layered, leafy vegetable. Said to have originally been an ornamental plant, it certainly looks great in the pot.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Second Life",
+        "Sold by Mondstadt General Goods",
+        "Dropped by Unusual Hilichurl"
+      ]
+    },
+    "calla-lily": {
+      "name": "Calla Lily",
+      "description": "A flower that grows near water sources. When cooked the petals have a chunky texture, yet are sweet and a little bitter.",
+      "sources": [
+        "Found near lakes",
+        "Found in Springvale",
+        "Sold by Flora"
+      ]
+    },
+    "carrot": {
+      "name": "Carrot",
+      "description": "A healthy and nutritious vegetable that is crunchy and sweet to the taste. Easy to grow and harvest.",
+      "sources": [
+        "Found in the wild",
+        "Found in crates and barrels",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "cheese": {
+      "name": "Cheese",
+      "description": "Made from fermented milk. With high energy and limitless possibilities, it's used in a wide range of dishes.Milk must be processed first to be made into Cheese.",
+      "rarity": 3,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing",
+        "Sold by Changshun"
+      ]
+    },
+    "chilled-meat": {
+      "name": "Chilled Meat",
+      "description": "Rare, fresh meat.This species of boar is recorded to have gone extinct several hundred years ago and has been preserved by the extreme temperatures on Dragonspine. For the gourmets of Teyvat, this is an ingredient of unspeakable sacrosanctness.",
+      "sources": [
+        "Snowboars"
+      ]
+    },
+    "crab": {
+      "name": "Crab",
+      "description": "A shelled creature that lives near the ocean. Its flaky, delicious meat can easily be made into tasty dishes.",
+      "sources": [
+        "Found near lakes, river banks, and beaches",
+        "Sold by Uncle Sun",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "crab-roe": {
+      "name": "Crab Roe",
+      "description": "A delicacy specific to female crabs. A rare and prized ingredient that isn't quite to everyone's taste.",
+      "rarity": 3,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing"
+      ]
+    },
+    "cream": {
+      "name": "Cream",
+      "description": "A dairy product made from milk. An essential ingredient in making pastries.",
+      "rarity": 2,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing"
+      ]
+    },
+    "fish": {
+      "name": "Fish",
+      "description": "A fresh fillet of fish. Handled correctly it can make a rich dish.",
+      "sources": [
+        "Found swimming in water",
+        "Sold by Uncle Sun",
+        "Sold by Uncle Gao",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "flour": {
+      "name": "Flour",
+      "description": "A powder ground from wheat. No matter what it goes into it brings a sense of satisfaction to the diner. Wheat must be processed first to be made into Flour.",
+      "sources": [
+        "Sold by Good Hunter",
+        "Sold by Wanmin Restaurant",
+        "Processing"
+      ]
+    },
+    "fowl": {
+      "name": "Fowl",
+      "description": "A fresh bird. Handled correctly it can make a hearty meal.",
+      "sources": [
+        "Found in the wild",
+        "Vendor: Draff, Head of Hunters at Springvale"
+      ]
+    },
+    "ham": {
+      "name": "Ham",
+      "description": "Smoked leg meat. Even the thinnest slice is packed full of flavor.Meat must be processed first to be made into Ham.",
+      "rarity": 2,
+      "sources": [
+        "Processing",
+        "Sold by Good Hunter",
+        "Sold by Wanmin Restaurant"
+      ]
+    },
+    "jam": {
+      "name": "Jam",
+      "description": "A puree made from fruit and sugar. Even a little bit can easily wake up drowsy taste buds. Apples and Berries must be processed first to be made into Jam.",
+      "rarity": 3,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing"
+      ]
+    },
+    "jueyun-chili": {
+      "name": "Jueyun Chili",
+      "description": "A spicy plant native to Liyue.Merely smelling it makes one hot and thirsty.",
+      "sources": [
+        "Found in the wild",
+        "Found in Qingce Village",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "lotus-head": {
+      "name": "Lotus Head",
+      "description": "An aquatic plant native to Liyue that grows and blooms in pairs. One is fragrant, and the other bitter. It's said to make a good herbal medicine.",
+      "sources": [
+        "Found near lakes and river banks",
+        "Sold by Bubu Pharmacy",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "matsutake": {
+      "name": "Matsutake",
+      "description": "A rare fungus that generally grows on or near pine trees. Its delicate aroma gives away its location.",
+      "sources": [
+        "Found in the wild",
+        "Sold at Wanmin Restaurant",
+        "Sold by Verr Goldet"
+      ]
+    },
+    "milk": {
+      "name": "Milk",
+      "description": "Sweet and fragrant cow's milk. Don't waste a single drop, not even that one rolling down your chin.",
+      "sources": [
+        "Sold by Mondstadt General Goods",
+        "Sold by Second Life"
+      ]
+    },
+    "mint": {
+      "name": "Mint",
+      "description": "A refreshingly cool ingredient. The cool, fresh flavor can cut through the heat of many dishes.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Chloris"
+      ]
+    },
+    "mushroom": {
+      "name": "Mushroom",
+      "description": "Hardy common fungi. Can grow anywhere with the right amount of shade and moisture.",
+      "sources": [
+        "Found in the wild",
+        "Purchased at Wanmin Restaurant"
+      ]
+    },
+    "onion": {
+      "name": "Onion",
+      "description": "A spherical vegetable. As vengeance for cutting it, it will make you cry, no matter how brave you are.",
+      "sources": [
+        "Sold by Mondstadt General Goods",
+        "Sold by Second Life"
+      ]
+    },
+    "pepper": {
+      "name": "Pepper",
+      "description": "Peppery. Cuts through oily flavors and excites the taste buds. Goes best on meat.",
+      "sources": [
+        "Sold by Second Life",
+        "Sold by Mondstadt General Goods"
+      ]
+    },
+    "pinecone": {
+      "name": "Pinecone",
+      "description": "Filled with oil-rich seeds. Certainly won't be growing into a tree from inside a squirrel's stomach.",
+      "sources": [
+        "Found in the wild"
+      ]
+    },
+    "potato": {
+      "name": "Potato",
+      "description": "A chunky vegetable. A gift from the earth that you never tire of with its multitude of cooking methods.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Mondstadt General Goods",
+        "Sold by Second Life",
+        "Sold by Changshun"
+      ]
+    },
+    "qingxin": {
+      "name": "Qingxin",
+      "description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+      "sources": [
+        "Found in the heights of stone forests",
+        "Sold by Bubu Pharmacy",
+        "Found in Huaguang Stone Forest",
+        "Found in Jueyun Karst"
+      ]
+    },
+    "radish": {
+      "name": "Radish",
+      "description": "Rich in fiber and nutrients. Easy to grow and harvest.",
+      "sources": [
+        "Found in the wild",
+        "Found in crates and barrels",
+        "Sold at Wanmin Restaurant"
+      ]
+    },
+    "raw-meat": {
+      "name": "Raw Meat",
+      "description": "A fresh chunk of meat. Handled properly it can be used to make delicious food.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Draff",
+        "Processing"
+      ]
+    },
+    "rice": {
+      "name": "Rice",
+      "description": "A grain crop commonly found in Teyvat. People of all walks of life enjoy its distinct grainy texture. As the saying goes, \"The same kind of rice can feed one hundred kinds of people.\"",
+      "sources": [
+        "Sold by Second Life"
+      ]
+    },
+    "salt": {
+      "name": "Salt",
+      "description": "A savory seasoning. A precise but adequate amount will elevate the quality of the cuisine.",
+      "sources": [
+        "Sold by Mondstadt General Goods",
+        "Sold by Second Life"
+      ]
+    },
+    "sausage": {
+      "name": "Sausage",
+      "description": "Finely minced meat wrapped in a skin. A staple of every meat lover's daily diet.Meat must be processed first to be made into Sausages.",
+      "rarity": 3,
+      "sources": [
+        "Sold by Good Hunter",
+        "Sold by Wanmin Restaurant",
+        "Sold by Verr Goldet",
+        "Processing"
+      ]
+    },
+    "shrimp-meat": {
+      "name": "Shrimp Meat",
+      "description": "A whole piece of deep sea shrimp meat, full of nutrients and bursting with delicious flavor.",
+      "sources": [
+        "Sold by Second Life",
+        "Sold by Uncle Sun"
+      ]
+    },
+    "small-lamp-grass": {
+      "name": "Small Lamp Grass",
+      "description": "A wild grass that emits light at night. Used in cooking to enhance other flavors.",
+      "sources": [
+        "Found in the wild at night",
+        "Found in Wolvendom",
+        "Found in the Whispering Woods",
+        "Sold by Flora"
+      ]
+    },
+    "smoked-fowl": {
+      "name": "Smoked Fowl",
+      "description": "Fowl that has been smoked. The firm texture gives new taste to dishes.Fowl must be processed first to be made into Smoked Fowl.",
+      "rarity": 2,
+      "sources": [
+        "Sold by Good Hunter",
+        "Processing"
+      ]
+    },
+    "snapdragon": {
+      "name": "Snapdragon",
+      "description": "Can be eaten once cooked. As a spice it can bring wonderful flavor to dishes.",
+      "sources": [
+        "Found in the wild",
+        "Sold by Chloris"
+      ]
+    },
+    "sugar": {
+      "name": "Sugar",
+      "description": "A seasoning derived from Sweet Flowers. Has the power to give both energy and happiness.Can be purchased from the merchants in the city, or made with Sweet Flowers.",
+      "rarity": 2,
+      "sources": [
+        "Sold by Good Hunter",
+        "Sold by Wanmin Restaurant",
+        "Sold by Changshun",
+        "Processing"
+      ]
+    },
+    "sweet-flower": {
+      "name": "Sweet Flower",
+      "description": "Particularly fragrant flowers. They can be found easily, even in the dark. Just follow the scent.",
+      "sources": [
+        "Found in the wild",
+        "Purchase from Flora in Mondstadt"
+      ]
+    },
+    "tofu": {
+      "name": "Tofu",
+      "description": "Freshly made bean product that has a silky-smooth tender texture.",
+      "sources": [
+        "Sold by Second Life",
+        "Sold by Ms. Bai"
+      ]
+    },
+    "tomato": {
+      "name": "Tomato",
+      "description": "A bright red ingredient that gives a tangy kick. Yes, the 'fruit or vegetable' debate is still going…",
+      "sources": [
+        "Found in the wild",
+        "Sold by Second Life",
+        "Sold by Mondstadt General Goods"
+      ]
+    },
+    "violetgrass": {
+      "name": "Violetgrass",
+      "description": "A small flower with strong vitality. It was said its downward-blooming flower keeps its fragrance from dissipating.",
+      "sources": [
+        "Found near cliffs in Liyue",
+        "Sold by Verr Goldet",
+        "Sold at Bubu Pharmacy"
+      ]
+    },
+    "wheat": {
+      "name": "Wheat",
+      "description": "Golden sun-kissed tassels. Needs to be ground down to flour for further use.",
+      "sources": [
+        "Found in barrels and crates",
+        "Sold by Mondstadt General Goods",
+        "Sold by Second Life"
+      ]
+    },
+    "id": "cooking-ingredients",
+    "name": "cooking-ingredients"
+  },
+  {
+    "mondstadt": [
+      {
+        "id": "calla-lily",
+        "name": "Calla Lily",
+        "characters": [
+          "diona",
+          "kaeya"
+        ]
+      },
+      {
+        "id": "cecilia",
+        "name": "Cecilia",
+        "characters": [
+          "albedo",
+          "venti"
+        ]
+      },
+      {
+        "id": "dandelion-seed",
+        "name": "Dandelion Seed",
+        "characters": [
+          "jean",
+          "eula"
+        ]
+      },
+      {
+        "id": "philanemo-mushroom",
+        "name": "Philanemo Mushroom",
+        "characters": [
+          "barbara",
+          "klee",
+          "mona"
+        ]
+      },
+      {
+        "id": "small-lamp-grass",
+        "name": "Small Lamp Grass",
+        "characters": [
+          "amber",
+          "diluc",
+          "fischl"
+        ]
+      },
+      {
+        "id": "valberry",
+        "name": "Valberry",
+        "characters": [
+          "lisa",
+          "noelle",
+          "rosaria"
+        ]
+      },
+      {
+        "id": "windwheel-aster",
+        "name": "Windwheel Aster",
+        "characters": [
+          "bennett",
+          "sucrose",
+          "traveler-anemo",
+          "traveler-geo",
+          "traveler-electro",
+          "traveler-dendro",
+          "traveler-hydro"
+        ]
+      },
+      {
+        "id": "wolfhook",
+        "name": "Wolfhook",
+        "characters": [
+          "razor",
+          "mika"
+        ]
+      }
+    ],
+    "liyue": [
+      {
+        "id": "cor-lapis",
+        "name": "Cor Lapis",
+        "characters": [
+          "chongyun",
+          "keqing",
+          "zhongli"
+        ]
+      },
+      {
+        "id": "glaze-lily",
+        "name": "Glaze Lily",
+        "characters": [
+          "ningguang",
+          "yun-jin"
+        ]
+      },
+      {
+        "id": "jueyun-chili",
+        "name": "Jueyun Chili",
+        "characters": [
+          "xiangling",
+          "yaoyao"
+        ]
+      },
+      {
+        "id": "noctilucous-jade",
+        "name": "Noctilucous Jade",
+        "characters": [
+          "beidou",
+          "yanfei"
+        ]
+      },
+      {
+        "id": "qingxin",
+        "name": "Qingxin",
+        "characters": [
+          "ganyu",
+          "xiao",
+          "shenhe"
+        ]
+      },
+      {
+        "id": "silk-flower",
+        "name": "Silk Flower",
+        "characters": [
+          "xingqiu",
+          "hu-tao"
+        ]
+      },
+      {
+        "id": "starconch",
+        "name": "Starconch",
+        "characters": [
+          "tartaglia",
+          "yelan",
+          "gaming"
+        ]
+      },
+      {
+        "id": "violetgrass",
+        "name": "Violetgrass",
+        "characters": [
+          "qiqi",
+          "xinyan",
+          "baizhu"
+        ]
+      },
+      {
+        "id": "clearwater-jade",
+        "name": "Clearwater Jade",
+        "characters": [
+          "xianyun"
+        ]
+      }
+    ],
+    "inazuma": [
+      {
+        "id": "sango-pearl",
+        "name": "Sango Pearl",
+        "characters": [
+          "gorou",
+          "kokomi"
+        ]
+      },
+      {
+        "id": "crystal-marrow",
+        "name": "Crystal Marrow",
+        "characters": [
+          "aloy",
+          "sayu"
+        ]
+      },
+      {
+        "id": "dendrobium",
+        "name": "Dendrobium ",
+        "characters": [
+          "sara"
+        ]
+      },
+      {
+        "id": "fluorescent-fungus",
+        "name": "Fluorescent Fungus",
+        "characters": [
+          "thoma"
+        ]
+      },
+      {
+        "id": "sakura-bloom",
+        "name": "Sakura Bloom",
+        "characters": [
+          "ayaka",
+          "ayato"
+        ]
+      },
+      {
+        "id": "amakumo-fruit",
+        "name": "Amakumo Fruit",
+        "characters": [
+          "kirara",
+          "raiden"
+        ]
+      },
+      {
+        "id": "sea-ganoderma",
+        "name": "Sea Ganoderma",
+        "characters": [
+          "kazuha",
+          "yae-miko"
+        ]
+      },
+      {
+        "id": "onikabuto",
+        "name": "Onikabuto",
+        "characters": [
+          "arataki-itto",
+          "shikanoin-heizou"
+        ]
+      },
+      {
+        "id": "naku-weed",
+        "name": "Naku Weed",
+        "characters": [
+          "yoimiya",
+          "kuki-shinobu"
+        ]
+      }
+    ],
+    "sumeru": [
+      {
+        "id": "henna-berry",
+        "name": "Henna Berry",
+        "characters": [
+          "faruzan",
+          "candace"
+        ]
+      },
+      {
+        "id": "sand-grease-pupa",
+        "name": "Sand Grease Pupa",
+        "characters": [
+          "alhaitham",
+          "dehya"
+        ]
+      },
+      {
+        "id": "kalpalata-lotus",
+        "name": "Kalpalata Lotus",
+        "characters": [
+          "dori",
+          "nahida"
+        ]
+      },
+      {
+        "id": "nilotpala-lotus",
+        "name": "Nilotpala Lotus",
+        "characters": [
+          "tighnari",
+          "layla"
+        ]
+      },
+      {
+        "id": "rukkhashava-mushrooms",
+        "name": "Rukkhashava Mushrooms",
+        "characters": [
+          "wanderer",
+          "collei"
+        ]
+      },
+      {
+        "id": "scarab",
+        "name": "Scarab",
+        "characters": [
+          "cyno"
+        ]
+      },
+      {
+        "id": "mourning-flower",
+        "name": "Mourning Flower",
+        "characters": [
+          "kaveh"
+        ]
+      },
+      {
+        "id": "padisarah",
+        "name": "Padisarah",
+        "characters": [
+          "nilou"
+        ]
+      },
+      {
+        "id": "trishiraite",
+        "name": "Trishiraite",
+        "characters": [
+          "sethos"
+        ]
+      }
+    ],
+    "fontaine": [
+      {
+        "id": "subdetection-unit",
+        "name": "Subdetection Unit",
+        "characters": [
+          "wriothesley"
+        ]
+      },
+      {
+        "id": "lumitoile",
+        "name": "Lumitoile",
+        "characters": [
+          "neuvillette",
+          "clorinde"
+        ]
+      },
+      {
+        "id": "romaritime-flower",
+        "name": "Romaritime Flower",
+        "characters": [
+          "freminet",
+          "sigewinne"
+        ]
+      },
+      {
+        "id": "spring-of-the-first-dewdrop",
+        "name": "Spring of the First Dewdrop",
+        "characters": [
+          "navia"
+        ]
+      },
+      {
+        "id": "lumidouce-bell",
+        "name": "Lumidouce Bell",
+        "characters": [
+          "lynette",
+          "chevreuse"
+        ]
+      },
+      {
+        "id": "beryl-conch",
+        "name": "Beryl Conch",
+        "characters": [
+          "charlotte"
+        ]
+      },
+      {
+        "id": "lakelight-lily",
+        "name": "Lakelight Lily",
+        "characters": [
+          "furina"
+        ]
+      },
+      {
+        "id": "rainbow-rose",
+        "name": "Rainbow Rose",
+        "characters": [
+          "lyney"
+        ]
+      }
+    ],
+    "natlan": [
+      {
+        "id": "quenepa-berry",
+        "name": "Quenepa Berry",
+        "characters": [
+          "kachina"
+        ]
+      },
+      {
+        "id": "sprayfeather-gill",
+        "name": "Sprayfeather Gill",
+        "characters": [
+          "mualani"
+        ]
+      },
+      {
+        "id": "saurian-claw-succulent",
+        "name": "Saurian Claw Succulent",
+        "characters": [
+          "kinich"
+        ]
+      }
+    ],
+    "id": "local-specialties",
+    "name": "local-specialties"
+  },
+  {
+    "freedom": {
+      "characters": [
+        "aloy",
+        "amber",
+        "barbara",
+        "diona",
+        "klee",
+        "sucrose",
+        "tartaglia",
+        "traveler-anemo",
+        "traveler-geo"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "forsaken-rift",
+      "items": [
+        {
+          "id": "teachings-of-freedom",
+          "name": "Teachings of Freedom",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-freedom",
+          "name": "Guide to Freedom",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-freedom",
+          "name": "Philosophies of Freedom",
+          "rarity": 4
+        }
+      ]
+    },
+    "resistance": {
+      "characters": [
+        "bennett",
+        "diluc",
+        "eula",
+        "jean",
+        "mona",
+        "noelle",
+        "razor",
+        "traveler-anemo",
+        "traveler-geo"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "forsaken-rift",
+      "items": [
+        {
+          "id": "teachings-of-resistance",
+          "name": "Teachings of Resistance",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-resistance",
+          "name": "Guide to Resistance",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-resistance",
+          "name": "Philosophies of Resistance",
+          "rarity": 4
+        }
+      ]
+    },
+    "ballad": {
+      "characters": [
+        "albedo",
+        "fischl",
+        "kaeya",
+        "lisa",
+        "mika",
+        "rosaria",
+        "venti",
+        "traveler-anemo",
+        "traveler-geo"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "forsaken-rift",
+      "items": [
+        {
+          "id": "teachings-of-ballad",
+          "name": "Teachings of Ballad",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-ballad",
+          "name": "Guide to Ballad",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-ballad",
+          "name": "Philosophies of Ballad",
+          "rarity": 4
+        }
+      ]
+    },
+    "prosperity": {
+      "characters": [
+        "keqing",
+        "ningguang",
+        "qiqi",
+        "traveler-geo",
+        "xiao",
+        "shenhe",
+        "yelan",
+        "gaming"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "taishan-mansion",
+      "items": [
+        {
+          "id": "teachings-of-prosperity",
+          "name": "Teachings of Prosperity",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-prosperity",
+          "name": "Guide to Prosperity",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-prosperity",
+          "name": "Philosophies of Prosperity",
+          "rarity": 4
+        }
+      ]
+    },
+    "diligence": {
+      "characters": [
+        "chongyun",
+        "ganyu",
+        "hu-tao",
+        "kazuha",
+        "traveler-geo",
+        "xiangling",
+        "yaoyao",
+        "yun-jin"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "taishan-mansion",
+      "items": [
+        {
+          "id": "teachings-of-diligence",
+          "name": "Teachings of Diligence",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-diligence",
+          "name": "Guide to Diligence",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-diligence",
+          "name": "Philosophies of Diligence",
+          "rarity": 4
+        }
+      ]
+    },
+    "gold": {
+      "characters": [
+        "beidou",
+        "traveler-geo",
+        "xingqiu",
+        "xinyan",
+        "yanfei",
+        "zhongli",
+        "baizhu",
+        "xianyun"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "taishan-mansion",
+      "items": [
+        {
+          "id": "teachings-of-gold",
+          "name": "Teachings of Gold",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-gold",
+          "name": "Guide to Gold",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-gold",
+          "name": "Philosophies of Gold",
+          "rarity": 4
+        }
+      ]
+    },
+    "transience": {
+      "characters": [
+        "kokomi",
+        "thoma",
+        "traveler-electro",
+        "yoimiya",
+        "kirara",
+        "shikanoin-heizou"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "violet-court",
+      "items": [
+        {
+          "id": "teachings-of-transience",
+          "name": "Teachings of Transience",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-transience",
+          "name": "Guide to Transience",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-transience",
+          "name": "Philosophies of Transience",
+          "rarity": 4
+        }
+      ]
+    },
+    "elegance": {
+      "characters": [
+        "arataki-itto",
+        "ayaka",
+        "sara",
+        "traveler-electro",
+        "ayato",
+        "kuki-shinobu"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "violet-court",
+      "items": [
+        {
+          "id": "teachings-of-elegance",
+          "name": "Teachings of Elegance",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-elegance",
+          "name": "Guide to Elegance",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-elegance",
+          "name": "Philosophies of Elegance",
+          "rarity": 4
+        }
+      ]
+    },
+    "light": {
+      "characters": [
+        "chiori",
+        "gorou",
+        "raiden",
+        "sayu",
+        "traveler-electro",
+        "yae-miko"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "violet-court",
+      "items": [
+        {
+          "id": "teachings-of-light",
+          "name": "Teachings of Light",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-light",
+          "name": "Guide to Light",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-light",
+          "name": "Philosophies of Light",
+          "rarity": 4
+        }
+      ]
+    },
+    "admonition": {
+      "characters": [
+        "candace",
+        "cyno",
+        "faruzan",
+        "tighnari",
+        "traveler-dendro"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "steeple-of-ignorance",
+      "items": [
+        {
+          "id": "teachings-of-admonition",
+          "name": "Teachings of Admonition",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-admonition",
+          "name": "Guide to Admonition",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-admonition",
+          "name": "Philosophies of Admonition",
+          "rarity": 4
+        }
+      ]
+    },
+    "ingenuity": {
+      "characters": [
+        "alhaitham",
+        "dori",
+        "layla",
+        "kaveh",
+        "nahida",
+        "traveler-dendro"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "steeple-of-ignorance",
+      "items": [
+        {
+          "id": "teachings-of-ingenuity",
+          "name": "Teachings of Ingenuity",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-ingenuity",
+          "name": "Guide to Ingenuity",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-ingenuity",
+          "name": "Philosophies of Ingenuity",
+          "rarity": 4
+        }
+      ]
+    },
+    "praxis": {
+      "characters": [
+        "collei",
+        "nilou",
+        "traveler-dendro",
+        "wanderer",
+        "dehya",
+        "sethos"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "steeple-of-ignorance",
+      "items": [
+        {
+          "id": "teachings-of-praxis",
+          "name": "Teachings of Praxis",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-praxis",
+          "name": "Guide to Praxis",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-praxis",
+          "name": "Philosophies of Praxis",
+          "rarity": 4
+        }
+      ]
+    },
+    "equity": {
+      "characters": [
+        "lyney",
+        "neuvillette",
+        "traveler-hydro",
+        "navia",
+        "sigewinne"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "pale-of-forgotten-glory",
+      "items": [
+        {
+          "id": "teachings-of-equity",
+          "name": "Teachings of Equity",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-equity",
+          "name": "Guide to Equity",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-equity",
+          "name": "Philosophies of Equity",
+          "rarity": 4
+        }
+      ]
+    },
+    "justice": {
+      "characters": [
+        "charlotte",
+        "freminet",
+        "furina",
+        "traveler-hydro",
+        "clorinde"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "pale-of-forgotten-glory",
+      "items": [
+        {
+          "id": "teachings-of-justice",
+          "name": "Teachings of Justice",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-justice",
+          "name": "Guide to Justice",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-justice",
+          "name": "Philosophies of Justice",
+          "rarity": 4
+        }
+      ]
+    },
+    "order": {
+      "characters": [
+        "arlecchino",
+        "chevreuse",
+        "lynette",
+        "traveler-hydro",
+        "wriothesley"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "pale-of-forgotten-glory",
+      "items": [
+        {
+          "id": "teachings-of-order",
+          "name": "Teachings of Order",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-order",
+          "name": "Guide to Order",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-order",
+          "name": "Philosophies of Order",
+          "rarity": 4
+        }
+      ]
+    },
+    "conflict": {
+      "characters": [
+        "kachina"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "blazing-ruins",
+      "items": [
+        {
+          "id": "teachings-of-conflict",
+          "name": "Teachings of Conflict",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-conflict",
+          "name": "Guide to Conflict",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-conflict",
+          "name": "Philosophies of Conflict",
+          "rarity": 4
+        }
+      ]
+    },
+    "contention": {
+      "characters": [
+        "mualani"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "blazing-ruins",
+      "items": [
+        {
+          "id": "teachings-of-order",
+          "name": "Teachings of Order",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-order",
+          "name": "Guide to Order",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-order",
+          "name": "Philosophies of Order",
+          "rarity": 4
+        }
+      ]
+    },
+    "kindling": {
+      "characters": [
+        "kinich"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "myriad-illusions",
+      "items": [
+        {
+          "id": "teachings-of-kindling",
+          "name": "Teachings of Kindling",
+          "rarity": 2
+        },
+        {
+          "id": "guide-to-kindling",
+          "name": "Guide to Kindling",
+          "rarity": 3
+        },
+        {
+          "id": "philosophies-of-kindling",
+          "name": "Philosophies of Kindling",
+          "rarity": 4
+        }
+      ]
+    },
+    "id": "talent-book",
+    "name": "talent-book"
+  },
+  {
+    "tail-of-boreas": {
+      "id": "tail-of-boreas",
+      "name": "Tail of Boreas",
+      "characters": [
+        "qiqi",
+        "venti",
+        "xingqiu",
+        "traveler-geo"
+      ]
+    },
+    "ring-of-boreas": {
+      "id": "ring-of-boreas",
+      "name": "Ring of Boreas",
+      "characters": [
+        "barbara",
+        "keqing",
+        "klee",
+        "mona"
+      ]
+    },
+    "spirit-locket-of-boreas": {
+      "id": "spirit-locket-of-boreas",
+      "name": "Spirit Locket of Boreas",
+      "characters": [
+        "fischl",
+        "kaeya",
+        "ningguang",
+        "sucrose"
+      ]
+    },
+    "dvalin's-plume": {
+      "id": "dvalin's-plume",
+      "name": "Dvalin's Plume",
+      "characters": [
+        "bennett",
+        "diluc",
+        "jean"
+      ]
+    },
+    "dvalin's-claw": {
+      "id": "dvalin's-claw",
+      "name": "Dvalin's Claw",
+      "characters": [
+        "lisa",
+        "noelle",
+        "razor",
+        "xiangling"
+      ]
+    },
+    "dvalin's-sigh": {
+      "id": "dvalin's-sigh",
+      "name": "Dvalin's Sigh",
+      "characters": [
+        "amber",
+        "beidou",
+        "chongyun",
+        "traveler-anemo",
+        "traveler-geo"
+      ]
+    },
+    "tusk-of-monoceros-caeli": {
+      "id": "tusk-of-monoceros-caeli",
+      "name": "Tusk of Monoceros Caeli",
+      "characters": [
+        "albedo",
+        "xinyan",
+        "zhongli"
+      ]
+    },
+    "shard-of-a-foul-legacy": {
+      "id": "shard-of-a-foul-legacy",
+      "name": "Shard of a Foul Legacy",
+      "characters": [
+        "diona",
+        "hu-tao",
+        "tartaglia"
+      ]
+    },
+    "shadow-of-the-warrior": {
+      "id": "shadow-of-the-warrior",
+      "name": "Shadow of the Warrior",
+      "characters": [
+        "ganyu",
+        "rosaria",
+        "xiao"
+      ]
+    },
+    "bloodjade-branch": {
+      "id": "bloodjade-branch",
+      "name": "Bloodjade Branch",
+      "characters": [
+        "ayaka",
+        "yanfei",
+        "dori"
+      ]
+    },
+    "dragon-lord's-crown": {
+      "id": "dragon-lord's-crown",
+      "name": "Dragon Lord's Crown",
+      "characters": [
+        "eula",
+        "yoimiya",
+        "traveler-electro"
+      ]
+    },
+    "gilded-scale": {
+      "id": "gilded-scale",
+      "name": "Gilded Scale",
+      "characters": [
+        "kazuha",
+        "sayu",
+        "yelan"
+      ]
+    },
+    "molten-moment": {
+      "id": "moltent-moment",
+      "name": "Molten Moment",
+      "characters": [
+        "raiden",
+        "aloy",
+        "gorou"
+      ]
+    },
+    "hellfire-butterfly": {
+      "id": "hellfire-butterfly",
+      "name": "Hellfire Butterfly",
+      "characters": [
+        "kokomi",
+        "thoma",
+        "shenhe"
+      ]
+    },
+    "ashen-heart": {
+      "id": "ashen-heart",
+      "name": "Ashen Heart",
+      "characters": [
+        "sara",
+        "arataki-itto",
+        "yun-jin"
+      ]
+    },
+    "everamber": {
+      "id": "everamber",
+      "name": "Everamber",
+      "characters": [
+        "lynette",
+        "neuvillette",
+        "kirara",
+        "clorinde"
+      ]
+    },
+    "primordial-greenbloom": {
+      "id": "primordial-greenbloom",
+      "name": "Primordial Greenbloom",
+      "characters": [
+        "lyney",
+        "wriothesley",
+        "kaveh"
+      ]
+    },
+    "worldspan-fern": {
+      "id": "worldspan-fern",
+      "name": "Worldspan Fern",
+      "characters": [
+        "baizhu",
+        "freminet",
+        "traveler-hydro"
+      ]
+    },
+    "lightless-silk-string": {
+      "id": "lightless-silk-string",
+      "name": "Lightless Silk String",
+      "characters": [
+        "charlotte",
+        "navia"
+      ]
+    },
+    "lightless-mass": {
+      "id": "lightless-mass",
+      "name": "Lightless Mass",
+      "characters": [
+        "furina",
+        "gaming",
+        "mualani"
+      ]
+    },
+    "lightless-eye-of-the-maelstrom": {
+      "id": "lightless-eye-of-the-maelstrom",
+      "name": "Lightless Eye of the Maelstrom",
+      "characters": [
+        "chevreuse",
+        "xianyun",
+        "sigewinne"
+      ]
+    },
+    "daka-s-bell": {
+      "id": "daka-s-bell",
+      "name": "Daka's Bell",
+      "characters": [
+        "wanderer",
+        "yaoyao",
+        "sethos"
+      ]
+    },
+    "puppet-strings": {
+      "id": "puppet-strings",
+      "name": "Puppet Strings",
+      "characters": [
+        "dehya",
+        "faruzan",
+        "nahida"
+      ]
+    },
+    "mirror-of-mushin": {
+      "id": "mirror-of-mushin",
+      "name": "Mirror of Mushin",
+      "characters": [
+        "alhaitham",
+        "layla",
+        "mika"
+      ]
+    },
+    "mudra-of-the-malefic-general": {
+      "id": "mudra-of-the-malefic-general",
+      "name": "Mudra of the Malefic General",
+      "characters": [
+        "cyno",
+        "ayato",
+        "traveler-dendro"
+      ]
+    },
+    "tears-of-the-calamitous-god": {
+      "id": "tears-of-the-calamitous-god",
+      "name": "Tears of the Calamitous God",
+      "characters": [
+        "candace",
+        "collei",
+        "kuki-shinobu",
+        "nilou"
+      ]
+    },
+    "the-meaning-of-aeons": {
+      "id": "the-meaning-of-aeons",
+      "name": "The Meaning of Aeons",
+      "characters": [
+        "shikanoin-heizou",
+        "tighnari",
+        "yae-miko"
+      ]
+    },
+    "fading-candle": {
+      "id": "fading-candle",
+      "name": "Fading Candle",
+      "characters": [
+        "arlechino",
+        "kachina"
+      ]
+    },
+    "silken-feather": {
+      "id": "silken-feather",
+      "name": "Silken Feather",
+      "characters": []
+    },
+    "denial-and-judgment": {
+      "id": "denial-and-judgment",
+      "name": "Denial and Judgment",
+      "characters": [
+        "kinich"
+      ]
+    },
+    "id": "talent-boss",
+    "name": "talent-boss"
+  },
+  {
+    "decarabian": {
+      "weapons": [
+        "apprentice-s-notes",
+        "aquila-favonia",
+        "cool-steel",
+        "cinnabar-spindle",
+        "dull-blade",
+        "favonius-codex",
+        "favonius-sword",
+        "ferrous-shadow",
+        "magic-guide",
+        "mitternachts-waltz",
+        "pocket-grimoire",
+        "raven-bow",
+        "royal-grimoire",
+        "royal-longsword",
+        "silver-sword",
+        "snow-tombed-starsilver",
+        "song-of-broken-pines",
+        "the-alley-flash",
+        "the-bell",
+        "the-stringless",
+        "the-viridescent-hunt",
+        "wolf-fang"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "cecilia-garden",
+      "items": [
+        {
+          "id": "tile-of-decarabian-s-tower",
+          "name": "Tile of Decarabian's Tower",
+          "rarity": 2
+        },
+        {
+          "id": "debris-of-decarabian-s-city",
+          "name": "Debris of Decarabian's City",
+          "rarity": 3
+        },
+        {
+          "id": "fragment-of-decarabian-s-epic",
+          "name": "Fragment of Decarabian's Epic",
+          "rarity": 4
+        },
+        {
+          "id": "scattered-piece-of-decarabian-s-dream",
+          "name": "Scattered Piece of Decarabian's Dream",
+          "rarity": 5
+        }
+      ]
+    },
+    "boreal": {
+      "weapons": [
+        "ballad-of-the-boundless-blue",
+        "bloodtainted-greatsword",
+        "deathmatch",
+        "dodoco-tales",
+        "dragonspine-spear",
+        "elegy-for-the-end",
+        "harbinger-of-dawn",
+        "hunter-s-bow",
+        "old-merc-s-pal",
+        "missive-windspear",
+        "sacrificial-bow",
+        "sacrificial-greatsword",
+        "seasoned-hunter-s-bow",
+        "sharpshooter-s-oath",
+        "skyward-atlas",
+        "skyward-blade",
+        "skyward-harp",
+        "skyward-pride",
+        "sword-of-descension",
+        "the-black-sword",
+        "the-flute",
+        "the-widsith",
+        "thrilling-tales-of-dragon-slayers",
+        "waster-greatsword",
+        "wine-and-song"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "cecilia-garden",
+      "items": [
+        {
+          "id": "boreal-wolf-s-milk-tooth",
+          "name": "Boreal Wolf's Milk Tooth",
+          "rarity": 2
+        },
+        {
+          "id": "boreal-wolf-s-cracked-tooth",
+          "name": "Boreal Wolf's Cracked Tooth",
+          "rarity": 3
+        },
+        {
+          "id": "boreal-wolf-s-broken-fang",
+          "name": "Boreal Wolf's Broken Fang",
+          "rarity": 4
+        },
+        {
+          "id": "boreal-wolf-s-nostalgia",
+          "name": "Boreal Wolf's Nostalgia",
+          "rarity": 5
+        }
+      ]
+    },
+    "dandelion": {
+      "weapons": [
+        "alley-hunter",
+        "amos-bow",
+        "beginner-s-protector",
+        "favonius-greatsword",
+        "favonius-lance",
+        "favonius-warbow",
+        "festering-desire",
+        "freedom-sworn",
+        "frostbearer",
+        "iron-point",
+        "mailed-flower",
+        "lost-prayer-to-the-sacred-winds",
+        "otherworldly-story",
+        "recurve-bow",
+        "royal-bow",
+        "royal-greatsword",
+        "sacrificial-fragments",
+        "sacrificial-sword",
+        "skyward-spine",
+        "traveler-s-handy-sword",
+        "white-iron-greatsword",
+        "windblume-ode",
+        "wolf-s-gravestone"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "cecilia-garden",
+      "items": [
+        {
+          "id": "fetters-of-the-dandelion-gladiator",
+          "name": "Fetters of the Dandelion Gladiator",
+          "rarity": 2
+        },
+        {
+          "id": "chains-of-the-dandelion-gladiator",
+          "name": "Chains of the Dandelion Gladiator",
+          "rarity": 3
+        },
+        {
+          "id": "shackles-of-the-dandelion-gladiator",
+          "name": "Shackles of the Dandelion Gladiator",
+          "rarity": 4
+        },
+        {
+          "id": "dream-of-the-dandelion-gladiator",
+          "name": "Dream of the Dandelion Gladiator",
+          "rarity": 5
+        }
+      ]
+    },
+    "guyun": {
+      "weapons": [
+        "aqua-simulacra",
+        "blackcliff-agate",
+        "blackcliff-longsword",
+        "blackcliff-warbow",
+        "crescent-pike",
+        "dark-iron-sword",
+        "emerald-orb",
+        "jadefall-s-splendor",
+        "lion-s-roar",
+        "lithic-blade",
+        "primordial-jade-winged-spear",
+        "rust",
+        "slingshot",
+        "solar-pearl",
+        "summit-shaper",
+        "white-tassel",
+        "whiteblind",
+        "sacrificial-jade"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "hidden-palace-of-lianshan",
+      "items": [
+        {
+          "id": "luminous-sands-from-guyun",
+          "name": "Luminous Sands from Guyun",
+          "rarity": 2
+        },
+        {
+          "id": "lustrous-stone-from-guyun",
+          "name": "Lustrous Stone from Guyun",
+          "rarity": 3
+        },
+        {
+          "id": "relic-from-guyun",
+          "name": "Relic from Guyun",
+          "rarity": 4
+        },
+        {
+          "id": "divine-body-from-guyun",
+          "name": "Divine Body from Guyun",
+          "rarity": 5
+        }
+      ]
+    },
+    "elixir": {
+      "weapons": [
+        "blackcliff-pole",
+        "blackcliff-slasher",
+        "calamity-queller",
+        "debate-club",
+        "dragon-s-bane",
+        "eye-of-perception",
+        "fillet-blade",
+        "halberd",
+        "messenger",
+        "primordial-jade-cutter",
+        "prototype-amber",
+        "prototype-crescent",
+        "prototype-rancour",
+        "rainslasher",
+        "royal-spear",
+        "the-unforged",
+        "twin-nephrite"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "hidden-palace-of-lianshan",
+      "items": [
+        {
+          "id": "mist-veiled-lead-elixir",
+          "name": "Mist Veiled Lead Elixir",
+          "rarity": 2
+        },
+        {
+          "id": "mist-veiled-mercury-elixir",
+          "name": "Mist Veiled Mercury Elixir",
+          "rarity": 3
+        },
+        {
+          "id": "mist-veiled-gold-elixir",
+          "name": "Mist Veiled Gold Elixir",
+          "rarity": 4
+        },
+        {
+          "id": "mist-veiled-primo-elixir",
+          "name": "Mist Veiled Primo Elixir",
+          "rarity": 5
+        }
+      ]
+    },
+    "aerosiderite": {
+      "weapons": [
+        "black-tassel",
+        "compound-bow",
+        "fading-twilight",
+        "iron-sting",
+        "lithic-spear",
+        "luxurious-sea-lord",
+        "mappa-mare",
+        "memory-of-dust",
+        "prototype-archaic",
+        "prototype-starglitter",
+        "serpent-spine",
+        "skyrider-greatsword",
+        "skyrider-sword",
+        "staff-of-homa",
+        "vortex-vanquisher"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "hidden-palace-of-lianshan",
+      "items": [
+        {
+          "id": "grain-of-aerosiderite",
+          "name": "Grain of Aerosiderite",
+          "rarity": 2
+        },
+        {
+          "id": "piece-of-aerosiderite",
+          "name": "Piece of Aerosiderite",
+          "rarity": 3
+        },
+        {
+          "id": "bit-of-aerosiderite",
+          "name": "Bit of Aerosiderite",
+          "rarity": 4
+        },
+        {
+          "id": "chunk-of-aerosiderite",
+          "name": "Chunk of Aerosiderite",
+          "rarity": 5
+        }
+      ]
+    },
+    "distant-sea": {
+      "weapons": [
+        "akuoumaru",
+        "amenoma-kageuchi",
+        "everlasting-moonglow",
+        "hakushin-ring",
+        "mistsplitter-reforged",
+        "oathsworn-eye"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "court-of-flowing-sand",
+      "items": [
+        {
+          "id": "coral-branch-of-a-distant-sea",
+          "name": "Coral Branch of a Distant Sea",
+          "rarity": 2
+        },
+        {
+          "id": "jeweled-branch-of-a-distant-sea",
+          "name": "Jeweled Branch of a Distant Sea",
+          "rarity": 3
+        },
+        {
+          "id": "jade-branch-of-a-distant-sea",
+          "name": "Jade Branch of a Distant Sea",
+          "rarity": 4
+        },
+        {
+          "id": "golden-branch-of-a-distant-sea",
+          "name": "Golden Branch of a Distant Sea",
+          "rarity": 5
+        }
+      ]
+    },
+    "narukami": {
+      "weapons": [
+        "hamayumi",
+        "haran-geppaku-futsu",
+        "katsuragikiri-nagamasa",
+        "mouun-s-moon",
+        "predator",
+        "redhorn-stonethresher",
+        "thundering-pulse",
+        "toukabou-shigure"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "court-of-flowing-sand",
+      "items": [
+        {
+          "id": "narukami-s-wisdom",
+          "name": "Narukami's Wisdom",
+          "rarity": 2
+        },
+        {
+          "id": "narukami-s-joy",
+          "name": "Narukami's Joy",
+          "rarity": 3
+        },
+        {
+          "id": "narukami-s-affection",
+          "name": "Narukami's Affection",
+          "rarity": 4
+        },
+        {
+          "id": "narukami-s-valor",
+          "name": "Narukami's Valor",
+          "rarity": 5
+        }
+      ]
+    },
+    "mask": {
+      "weapons": [
+        "the-catch",
+        "engulfing-lightning",
+        "kagotsurube-isshin",
+        "kagura-s-verity",
+        "kitain-cross-spear",
+        "polar-star",
+        "wavebreaker-s-fin"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "court-of-flowing-sand",
+      "items": [
+        {
+          "id": "mask-of-the-wicked-lieutenant",
+          "name": "Mask of the Wicked Lieutenant",
+          "rarity": 2
+        },
+        {
+          "id": "mask-of-the-tiger-s-bite",
+          "name": "Mask of the Tiger's Bite",
+          "rarity": 3
+        },
+        {
+          "id": "mask-of-the-one-horned",
+          "name": "Mask of the One-Horned",
+          "rarity": 4
+        },
+        {
+          "id": "mask-of-the-kijin",
+          "name": "Mask of the Kijin",
+          "rarity": 5
+        }
+      ]
+    },
+    "talisman": {
+      "weapons": [
+        "forest-regalia",
+        "ibis-piercer",
+        "key-of-khaj-nisut",
+        "light-of-foliar-incision",
+        "sapwood-blade",
+        "xiphos-moonlight"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "tower-of-abject-pride",
+      "items": [
+        {
+          "id": "copper-talisman-of-the-forest-dew",
+          "name": "Copper Talisman of the Forest Dew",
+          "rarity": 2
+        },
+        {
+          "id": "iron-talisman-of-the-forest-dew",
+          "name": "Iron Talisman of the Forest Dew",
+          "rarity": 3
+        },
+        {
+          "id": "silver-talisman-of-the-forest-dew",
+          "name": "Silver Talisman of the Forest Dew",
+          "rarity": 4
+        },
+        {
+          "id": "golden-talisman-of-the-forest-dew",
+          "name": "Golden Talisman of the Forest Dew",
+          "rarity": 5
+        }
+      ]
+    },
+    "oasis": {
+      "weapons": [
+        "a-thousand-floating-dreams",
+        "fruit-of-fulfillment",
+        "moonpiercer",
+        "staff-of-the-scarlet-sands",
+        "talking-stick",
+        "wandering-evenstar"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "tower-of-abject-pride",
+      "items": [
+        {
+          "id": "oasis-garden-s-reminiscence",
+          "name": "Oasis Garden's Reminiscence",
+          "rarity": 2
+        },
+        {
+          "id": "oasis-garden-s-kindness",
+          "name": "Oasis Garden's Kindness",
+          "rarity": 3
+        },
+        {
+          "id": "oasis-garden-s-mourning",
+          "name": "Oasis Garden's Mourning",
+          "rarity": 4
+        },
+        {
+          "id": "oasis-garden-s-truth",
+          "name": "Oasis Garden's Truth",
+          "rarity": 5
+        }
+      ]
+    },
+    "scorching": {
+      "weapons": [
+        "beacon-of-the-reed-sea",
+        "hunter-s-path",
+        "scion-of-the-blazing-sun",
+        "tulaytullah-s-remembrance",
+        "end-of-the-line",
+        "king-s-squire",
+        "makhaira-aquamarine"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "tower-of-abject-pride",
+      "items": [
+        {
+          "id": "echo-of-scorching-might",
+          "name": "Echo of Scorching Might",
+          "rarity": 2
+        },
+        {
+          "id": "remnant-glow-of-scorching-might",
+          "name": "Remnant Glow of Scorching Might",
+          "rarity": 3
+        },
+        {
+          "id": "dream-of-scorching-might",
+          "name": "Dream of Scorching Might",
+          "rarity": 4
+        },
+        {
+          "id": "olden-days-of-scorching-might",
+          "name": "Olden Days of Scorching Might",
+          "rarity": 5
+        }
+      ]
+    },
+    "ancient-chord": {
+      "weapons": [
+        "the-first-great-magic",
+        "fleuve-cendre-ferryman",
+        "prospectors-drill",
+        "range-gauge",
+        "song-of-stillness",
+        "sword-of-narzissenkreuz",
+        "verdict"
+      ],
+      "availability": [
+        "Monday",
+        "Thursday",
+        "Sunday"
+      ],
+      "source": "echoes-of-the-deep-tides",
+      "items": [
+        {
+          "id": "fragment-of-an-ancient-chord",
+          "name": "Fragment of an Ancient Chord",
+          "rarity": 2
+        },
+        {
+          "id": "chapter-of-an-ancient-chord",
+          "name": "Chapter of an Ancient Chord",
+          "rarity": 3
+        },
+        {
+          "id": "movement-of-an-ancient-chord",
+          "name": "Movement of an Ancient Chord",
+          "rarity": 4
+        },
+        {
+          "id": "echo-of-an-ancient-chord",
+          "name": "Echo of an Ancient Chord",
+          "rarity": 5
+        }
+      ]
+    },
+    "pure-sacred-dewdrop": {
+      "weapons": [
+        "splendor-of-tranquil-waters",
+        "tome-of-the-eternal",
+        "finale-of-the-deep",
+        "flowing-purity",
+        "the-dockhands-assistant"
+      ],
+      "availability": [
+        "Tuesday",
+        "Friday",
+        "Sunday"
+      ],
+      "source": "echoes-of-the-deep-tides",
+      "items": [
+        {
+          "id": "dross-of-pure-sacred-dewdrop",
+          "name": "Dross of Pure Sacred Dewdrop",
+          "rarity": 2
+        },
+        {
+          "id": "sublimation-of-pure-sacred-dewdrop",
+          "name": "Sublimation of Pure Sacred Dewdrop",
+          "rarity": 3
+        },
+        {
+          "id": "spring-of-pure-sacred-dewdrop",
+          "name": "Spring of Pure Sacred Dewdrop",
+          "rarity": 4
+        },
+        {
+          "id": "essence-of-pure-sacred-dewdrop",
+          "name": "Essence of Pure Sacred Dewdrop",
+          "rarity": 5
+        }
+      ]
+    },
+    "pristine-sea": {
+      "weapons": [
+        "cashflow-supervision",
+        "ballad-of-the-fjords",
+        "portable-power-saw",
+        "rightful-reward",
+        "tidal-shadow",
+        "ultimate-overlord-s-mega-magic-sword"
+      ],
+      "availability": [
+        "Wednesday",
+        "Saturday",
+        "Sunday"
+      ],
+      "source": "echoes-of-the-deep-tides",
+      "items": [
+        {
+          "id": "broken-goblet-of-the-pristine-sea",
+          "name": "Broken Goblet of the Pristine Sea",
+          "rarity": 2
+        },
+        {
+          "id": "wine-goblet-of-the-pristine-sea",
+          "name": "Wine Goblet of the Pristine Sea",
+          "rarity": 3
+        },
+        {
+          "id": "silver-goblet-of-the-pristine-sea",
+          "name": "Silver Goblet of the Pristine Sea",
+          "rarity": 4
+        },
+        {
+          "id": "golden-goblet-of-the-pristine-sea",
+          "name": "Golden Goblet of the Pristine Sea",
+          "rarity": 5
+        }
+      ]
+    },
+    "id": "weapon-ascension",
+    "name": "weapon-ascension"
+  },
+  {
+    "items": [
+      {
+        "id": "enhancement-ore",
+        "name": "Enhancement Ore",
+        "experience": 400,
+        "rarity": 1,
+        "source": [
+          "Crafting"
+        ]
+      },
+      {
+        "id": "fine-enhancement-ore",
+        "name": "Fine Enhancement Ore",
+        "experience": 2000,
+        "rarity": 2,
+        "source": [
+          "Crafting"
+        ]
+      },
+      {
+        "id": "mystic-enhancement-ore",
+        "name": "Mystic Enhancement Ore",
+        "experience": 10000,
+        "rarity": 3,
+        "source": [
+          "Crafting"
+        ]
+      }
+    ],
+    "id": "weapon-experience",
+    "name": "weapon-experience"
+  }
+]

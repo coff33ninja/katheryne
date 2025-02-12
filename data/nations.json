@@ -1,0 +1,44 @@
+[
+  {
+    "name": "fontaine",
+    "element": "Hydro",
+    "archon": "Focalors",
+    "controllingEntity": "Palais Mermonia",
+    "id": "fontaine"
+  },
+  {
+    "name": "inazuma",
+    "element": "Electro",
+    "archon": "Baal",
+    "controllingEntity": "Inazuma Bakufu",
+    "id": "inazuma"
+  },
+  {
+    "name": "liyue",
+    "element": "Geo",
+    "archon": "Morax",
+    "controllingEntity": "Liyue Qixing",
+    "id": "liyue"
+  },
+  {
+    "name": "mondstadt",
+    "element": "Anemo",
+    "archon": "Barbatos",
+    "controllingEntity": "Knights of Favonius",
+    "id": "mondstadt"
+  },
+  {
+    "name": "sumeru",
+    "element": "Dendro",
+    "archon": "Lesser Lord Kusanali",
+    "controllingEntity": "Sumeru Akademiya",
+    "id": "sumeru"
+  },
+  {
+    "name": "natlan",
+    "element": "Pyro",
+    "archon": "Murata",
+    "controllingEntity": "TBA",
+    "id": "natlan"
+  }
+]

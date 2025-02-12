@@ -1,0 +1,2327 @@
+[
+  {
+    "id": "abyss-herald",
+    "name": "abyss-herald",
+    "description": "N/A",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "The Abyss",
+    "faction": "Abyss Order",
+    "elements": [
+      "Hydro",
+      "Cryo"
+    ],
+    "drops": [
+      {
+        "name": "Dead Ley Line Branch",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dead Ley Line Leaves",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ley Line Sprout",
+        "rarity": 4,
+        "minimum-level": 60
+      },
+      {
+        "name": "Gloomy Statuette",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dark Statuette",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Deathly Statuette",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Abyss Herald: Wicked Torrents",
+        "description": "Servants of the Abyss Order that use Hydro in combat. These silent figures are the vanguard of the Abyss, brandishing Tidal Blades that can engulf everything in an instant, crumpling armor and obliterating heretics. They shall bring preordained damnation upon the foolish masses."
+      },
+      {
+        "name": "Abyss Herald: Frost Fall",
+        "description": "A monster from the Abyss Order that wields frigid, icy blades in battle. Just as there are saints who will spread and glorify the profound gospel, there are envoys who must correct any twisted strains and remove any dissonance. People often say that steel feels like ice as it pierces the body, but this dark frost is said to freeze even the soul."
+      }
+    ],
+    "mora-gained": 600
+  },
+  {
+    "id": "abyss-lector",
+    "name": "abyss-lector",
+    "description": "N/A",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "The Abyss",
+    "faction": "Abyss Order",
+    "elements": [
+      "Pyro",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Dead Ley Line Branch",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dead Ley Line Leaves",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ley Line Sprout",
+        "rarity": 4,
+        "minimum-level": 60
+      },
+      {
+        "name": "Gloomy Statuette",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dark Statuette",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Deathly Statuette",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Abyss Lector: Fathomless Flames",
+        "description": "Wielders of abyssal fire who pursue the meaning behind texts and scriptures. Is a member of the Abyss Order. The surface people have a slightly distorted understanding of what their name means, calling them \"Lectors\" when their name can also mean \"exegete.\" Reading the word of grace grants them great power."
+      },
+      {
+        "name": "Abyss Lector: Violet Lightning",
+        "description": "A monster who serves the Abyss Order and commands lightning while singing the praises of the darkness. These are the evangelists and the scholars of the Abyss. Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect."
+      }
+    ],
+    "mora-gained": 600
+  },
+  {
+    "id": "abyss-mage",
+    "name": "abyss-mage",
+    "description": "Abyss creatures who can command the power of the elements in combat to a certain extent. For unknown reasons, abyss mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say abyss mages utter a long-forgotten language from which they draw magical power.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "The Abyss",
+    "faction": "Abyss Order",
+    "elements": [
+      "Hydro",
+      "Pyro",
+      "Cryo",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Dead Ley Line Branch",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dead Ley Line Leaves",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ley Line Sprouts",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "elemental-description": [
+      {
+        "element": "Hydro",
+        "description": "Abyss creatures that utilize Hydro energy in battle. Stories circulate among adventurers that Abyss Mages are at the lowest rung of the Abyss Order's hierarchy and that they roam the various lands to scheme fell deeds of destruction. Though they also often make fun of these Abyss Mages, saying that the most harm they can do is to cause rheumatism or a common cold, their power is not to be underestimated."
+      },
+      {
+        "element": "Pyro",
+        "description": "Abyss creatures who command the power of Pyro in battle. For unknown reasons, Abyss Mages are able to communicate with the hilichurls, thus enabling them to manipulate their minds easily. They say that Abyss Mages utter a long-forgotten language from which they draw magical power."
+      },
+      {
+        "element": "Cryo",
+        "description": "Abyss creatures that call upon Cryo in battle. Though they dabble with great power and can even create icicles by condensing and freezing water vapor in the atmosphere, their bodies are very vulnerable in and of themselves. Once their protective barrier has been broken, they are at your mercy."
+      },
+      {
+        "element": "Electro",
+        "description": "Abyss creatures that utilize Electro in battles. While studying at the Akademiya, researcher Alva Nikola once conducted a systematic study of the methods by which Electro Abyss Mages manipulate Electro and came up with a theoretical weapon known as the Nikola Coil. However, it has yet to be put into practice. Some say that his research materials were eaten during a fungal infestation."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "bathysmal-vishap",
+    "name": "bathysmal-vishap",
+    "region": "Inazuma",
+    "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
+    "type": "Elite Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Hydro"
+    ],
+    "drops": [
+      {
+        "name": "Fragile Bone Shard",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Sturdy Bone Shard",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Fossilized Bone Shard",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Primordial Bathysmal Vishap",
+        "description": "A vishap that dwells deep beneath the oceans. They were once the dominant race in the depths - and indeed, dragons were the overlords of the whole world in an even earlier age. But their former seven Sovereigns were defeated by a power from the heavens, withering one by one."
+      }
+    ],
+    "mora-gained": 600
+  },
+  {
+    "id": "bathysmal-vishap-hatchling",
+    "name": "bathysmal-vishap-hatchling",
+    "region": "Inazuma",
+    "description": "A mighty race of vishaps that dwell within the deep seas. That they hate light is not due to an overly fragile sense of sight. Instead, it is because they have had the selfless sunlight and the surface world taken from them that they refuse to countenance man-made light.",
+    "type": "Elite Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Cryo",
+      "Electro",
+      "Hydro"
+    ],
+    "drops": [
+      {
+        "name": "Fragile Bone Shard",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sturdy Bone Shard",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Fossilized Bone Shard",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Bolteater Bathysmal Vishap Hatchling",
+        "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Electro name. Following the fading of the Seven Sovereigns' power, a new generation of Sovereigns is presently being born. But now that the Bathysmal Vishaps have evolved in this manner, they have lost their purity. As such, the Dragon of Water will no longer be born from among their ranks. Prophecy holds that the new Dragon of Water will definitely descend in the form of a human."
+      },
+      {
+        "name": "Primordial Bathysmal Vishap Hatchling",
+        "description": "N/A"
+      },
+      {
+        "name": "Rimebiter Bathysmal Vishap Hatchling",
+        "description": "A vishap that dwells deep beneath the oceans. Due to certain social adaptations, it has manifested a form aligned with the Cryo element. The coming of humans sparked a conflict and a resultant evolution within the Bathysmal Vishaps, just as ants might divide up labor and biological characteristics, thus appearing in different forms. These vishaps are stronger than their ordinary kin."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "cicin",
+    "name": "cicin",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Cryo",
+      "Electro",
+      "Hydro"
+    ],
+    "drops": "None",
+    "elemental-descriptions": [
+      {
+        "element": "Cryo",
+        "description": "Little creatures that can ever so slightly manipulate Cryo. They and other such creatures are known collectively as Cicins. They are individually very weak, but it is precisely because they are weak that they have evolved unique methods of movement that allow them to avoid predators."
+      },
+      {
+        "element": "Electro",
+        "description": "Little creatures that can ever so slightly manipulate Electro. They and other such creatures are known collectively as Cicins, and though they are individually weak, they can cause significant damage under the right circumstances."
+      },
+      {
+        "element": "Hydro",
+        "description": "Little creatures that can ever so slightly manipulate Hydro. They and other such creatures are known collectively as Cicins, and they truly adore the rare and wonderful Mist Grass plant. It is by exploiting this relationship that the Fatui Mages have sought to commandeer Cicins in battle."
+      }
+    ]
+  },
+  {
+    "id": "consecrated-beast",
+    "name": "consecrated-beast",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Elite Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Anemo",
+      "Pyro",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Desiccated Shell",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sturdy Shell",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Marked Shell",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Consecrated Flying Serpent",
+        "description": "A reptile that has mutated after feeding from greater lifeforms. Though now imbued with the power of elemental manipulation, the Consecrated Beasts themselves still cannot fully digest the pieces of flesh they devoured from the immortal carcasses that they ate. Instead, the pieces slowly fused with the beasts themselves, weaving a bony shell over their body, one that shares a similar composition to a certain type of smelting material from Inazuma."
+      },
+      {
+        "name": "Consecrated Red Vulture",
+        "description": "A scavenging bird of prey that has mutated after feeding from greater lifeforms. The greater lifeforms devoured by Consecrated Beasts often have nigh-immortal consciousness that can never be fully silenced or eradicated. The very power and consciousness gained by Consecrated Beasts devouring these lifeforms will, in turn, drive them to seek more violence and carrion."
+      },
+      {
+        "name": "Consecrated Scorpion",
+        "description": "An arthropod that has mutated after feeding from greater lifeforms. Lifeforms are governed by the laws of evolution, Consecrated Beasts exploited these rules by being fortunate enough to discover a long-dead carcass of a greater being before any of their competition ever did. Animals and humans often have far more in common than the latter is willing to acknowledge."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "defense-mechanism",
+    "name": "defense-mechanism",
+    "description": "N/A",
+    "region": "Dragonspine",
+    "elements": [
+      "Pyro",
+      "Cryo",
+      "Hydro",
+      "Electro"
+    ],
+    "type": "Unique Enemies",
+    "family": "Unknown",
+    "mora-gained": 0
+  },
+  {
+    "id": "eye-of-the-storm",
+    "name": "eye-of-the-storm",
+    "description": "The corporeal form of extremely high-quality Anemo energies. The formation of an Eye of the Storm indicates that the elemental ley lines of a region are blocked, which has led to siltation. Its reckless, heedless wielding of storms that all but sweeps people off their feet may be due to its nature as a symbol of the world stricken by malaise.",
+    "region": "Monstadt",
+    "type": "Elite Enemies",
+    "family": "Elemental Lifeforms",
+    "elements": [
+      "Hydro",
+      "Pyro",
+      "Cryo"
+    ],
+    "drops": "None",
+    "mora-gained": 600
+  },
+  {
+    "id": "fatui-agent",
+    "name": "fatui-agent",
+    "description": "A Fatui secret agent. The duty of a Fatui agent is to settle debts — but not only those of a monetary or goods-in-kind nature. They also ensure dues are paid when it comes to the principle of \"an eye for an eye.\" If there is one thing the Fatui are not known for, it is leniency, and whoever dares to oppose them will invoke the full force of their wrath upon them.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Fatui",
+    "faction": "Fatui",
+    "elements": [
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Hunter's Sacrificial Knife",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Agent's Sacrificial Knife",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Inspector's Sacrificial Knife",
+        "rarity": 4,
+        "minimum-level": 60
+      },
+      {
+        "name": "Recruit's Insignia",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sergeant's Insignia",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Lieutenant's Insignia",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "fatui-cicin-mage",
+    "name": "fatui-cicin-mage",
+    "description": "A Fatui mage who can command Cicins in battle. Similarly to the way that Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey. They seem to wander the land aimlessly, as if compelled by some unknown duty.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Fatui",
+    "faction": "Fatui",
+    "element": [
+      "Cryo",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Mist Grass Pollen",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Mist Grass",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Mist Grass Wick",
+        "rarity": 4,
+        "minimum-level": 60
+      },
+      {
+        "name": "Recruit's Insignia",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sergeant's Insignia",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Lieutenant's Insignia",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Cryo",
+        "description": "A Fatui mage who can command Cryo Cicins in battle. Their origins and what they look like under that mask are both mysteries. Reason dictates that those who lack Visions should not be able to control the elements as these mages do. However, in addition to using Mist Grass to control the Cryo Cicins, they also boldly wield the might of frost. Seeing them as they wander the land in their seemingly aimless way, one can't help but wonder about the duty that must compel them."
+      },
+      {
+        "element": "Electro",
+        "description": "A Fatui mage who can command Electro Cicins in battle. Their origins and what they look like under that mask are both mysteries. Similarly to the way that Electro Cicins go crazy for Mist Grass, Cicin Mages take great pleasure in toying with their prey."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "fatui-skirmisher",
+    "name": "fatui-skirmisher",
+    "description": "A soldier encased within a Fatui war machine. These skirmishers do not question if they shall live or die as they advance into nations far from home to complete advance missions and lay the groundwork for operations to come. Unlike the elite Mages and Agents, Fatui Skirmishers are soldiers of lesser individual might. To complete their tasks and reduce losses in men and materiel, their tactics are thus more reliant on teamwork.",
+    "region": "Global",
+    "type": "Common Enemies",
+    "family": "Fatui",
+    "faction": "Fatui",
+    "elements": [
+      "Geo",
+      "Pyro",
+      "Cryo",
+      "Hydro",
+      "Anemo",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Recruit's Insignia",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sergeant's Insignia",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Lieutenant's Insignia",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "hydrogunner-legionnaire": {
+      "id": "hydrogunner-legionnaire",
+      "name": "Hydrogrunner Legionnaire",
+      "type": "Legionnaire",
+      "element": "Hydro"
+    },
+    "cryogunner-legionnaire": {
+      "id": "cryogunner-legionnaire",
+      "name": "Cryogunner Legionnaire",
+      "type": "Legionnaire",
+      "element": "Cryo"
+    },
+    "geochanter-bracers": {
+      "id": "geochanter-bracers",
+      "name": "Geochanter Bracers",
+      "type": "Bracer",
+      "element": "Geo"
+    },
+    "pyroslinger-bracers": {
+      "id": "pyroslinger-bracers",
+      "name": "Pyroslinger Bracers",
+      "type": "Bracer",
+      "element": "Pyro"
+    },
+    "anemoboxer-vanguard": {
+      "id": "anemoboxer-vanguard",
+      "name": "Anemoboxer Vanguard",
+      "type": "Vanguard",
+      "element": "Anemo"
+    },
+    "electrohammer-vanguard": {
+      "id": "electrohammer-vanguard",
+      "name": "Electrohammer Vanguard",
+      "type": "Vanguard",
+      "element": "Electro"
+    },
+    "mora-gained": 50
+  },
+  {
+    "id": "floating-fungus",
+    "name": "floating-fungus",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Anemo",
+      "Dendro",
+      "Hydro"
+    ],
+    "drops": [
+      {
+        "name": "Fungal Spores",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Lumines­cent Pollen",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Crystal­line Cyst Dust",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Inactivated Fungal Nucleus",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dormant Fungal Nucleus",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Robust Fungal Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. This mushroom may have a sizable cap, but the umbrella-shaped structure is in fact hollow, and thus does not make for a particularly good meal."
+      },
+      {
+        "element": "Dendro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. A researcher once said that these are some species of Dendro Specter. After this view was criticized, he changed his tack, claiming that this was just a literary turn of phrase."
+      },
+      {
+        "element": "Hydro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. It is said that it tastes awful. However, such fungi have lots of moisture within them, and so can be used as an emergency water source..."
+      }
+    ]
+  },
+  {
+    "id": "geovishap",
+    "name": "geovishap",
+    "description": "A mature Geovishap. It is said that after many years have passed, Geovishap Hatchlings will shed the armor that originally protected them and become Geovishaps. However these two and the older, greater Primo Geovishaps have spent many years hibernating under the mountains and have only emerged and become active in recent times. As such, none can personally attest to have witnessed or recorded such a thing in person.",
+    "region": "Liyue",
+    "type": "Elite Enemies",
+    "family": "Mythical Beasts",
+    "elements": [
+      "Geo"
+    ],
+    "drops": [
+      {
+        "name": "Fragile Bone Shard",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sturdy Bone Shard",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Fossilized Bone Shard",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ]
+  },
+  {
+    "id": "geovishap-hatchling",
+    "name": "geovishap-hatchling",
+    "description": "A young vishap with a hard Geo exoskeleton. Vishaps are exceptionally agile creatures that one would be wise not to underestimate in battle. Experts from Sumeru Arcademia believe that they become dragons when fully grown. By avoiding predators and natural disasters, perhaps they can even live long enough to become formidable beasts that reign over entire mountains.",
+    "region": "Liyue",
+    "type": "Elite Enemies",
+    "family": "Mythical Beasts",
+    "elements": [
+      "Geo"
+    ],
+    "drops": [
+      {
+        "name": "Fragile Bone Shard",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sturdy Bone Shard",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Fossilized Bone Shard",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ]
+  },
+  {
+    "id": "grounded-shroom",
+    "name": "grounded-shroom",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Geo",
+      "Hydro"
+    ],
+    "drops": [
+      {
+        "name": "Fungal Spores",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Lumines­cent Pollen",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Crystal­line Cyst Dust",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Inactivated Fungal Nucleus",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dormant Fungal Nucleus",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Robust Fungal Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Geo",
+        "description": "A mimetic life form made out of spores that has extreme adaptability. This being has undergone almost complete keratinization due to the influence of Geo. When one considers that Fungi evolved from spores, perhaps this one might even be the foundation for a further evolution into some new life form altogether — if given time, that is. This creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match."
+      },
+      {
+        "element": "Hydro",
+        "description": "A mimetic life form made out of spores that has extreme adaptability. This creature may look like a bird, but it cannot fly. Due to the influence of Hydro energies, it is astoundingly agile compared to others of its kind. Some research has inferred that this creature is in fact an aggregation of countless tiny spores rather than a single entity. This creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match."
+      }
+    ]
+  },
+  {
+    "id": "hilichurl",
+    "name": "hilichurl",
+    "description": "The primitive wandering inhabitants of Teyvat's wildernesses. They look very similar to humanity but seem to have lost both their intellect and spirituality. Their presence on the continent has been recorded for over a thousand years, and yet they have neither history nor civilization. Since the pitch-black calamity from five hundred years ago, they have begun to spread in large numbers across the land. They are not very strong, and they lack organization, but they nonetheless bring sizable trouble to humans every once in a while.",
+    "region": "Global",
+    "type": "Common Enemies",
+    "family": "Hilichurls",
+    "faction": "Abyss Order",
+    "elements": [
+      "Pyro",
+      "Cryo",
+      "Electro",
+      "Dendro"
+    ],
+    "drops": [
+      {
+        "name": "Damaged Mask",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Stained Mask",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ominous Mask",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ]
+  },
+  {
+    "id": "hilichurl-shooter",
+    "name": "hilichurl-shooter",
+    "description": "",
+    "region": "Global",
+    "type": "Common Enemies",
+    "family": "Hilichurls",
+    "faction": "Abyss Order",
+    "elements": [
+      "Electro",
+      "Pyro",
+      "Cryo"
+    ],
+    "drops": [
+      {
+        "name": "Damaged Mask",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Stained Mask",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ominous Mask",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Firm Arrowhead",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sharp Arrowhead",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Weathered Arrowhead",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Physical",
+        "description": "The primitive wandering inhabitants of Teyvat's wildernesses. Hilichurl archers who wield simple crossbows. Hilichurls do not, in truth, possess the craftsmanship needed to build crossbows. As such, it is commonly believed that there is an organization that controls the hilichurls from behind the scenes and furnishes them with equipment and material supplies. The Abyss Mages that often accompany these hilichurls are especially suspicious."
+      },
+      {
+        "element": "Electro",
+        "description": "The primitive wandering inhabitants of Teyvat's wildernesses. These archers wield simple crossbows, and their arrowheads are crafted from carved Electro Crystals that will deliver an electric shock upon impact. They say that hilichurl archers of exceptional skill can fire five crossbow bolts at once–a most impressive feat indeed."
+      },
+      {
+        "element": "Pyro",
+        "description": "The primitive wandering inhabitants of Teyvat's wildernesses. These archers wield simple crossbows, and their arrowheads are coated with a thin layer of flammable material that can set their targets on fire. El Musk of the previous generation believed that this is an innovation by brighter hilichurls who wished to cook their game after hunting it."
+      },
+      {
+        "element": "Cryo",
+        "description": "The primitive wandering inhabitants of Teyvat's wildernesses. These archers wield simple crossbows, and unmelting ice shrouds their arrowheads. It is said that wounds caused by these arrowheads heal very slowly, as the cold will slow the circulation of blood."
+      }
+    ]
+  },
+  {
+    "id": "kairagi",
+    "name": "kairagi",
+    "region": "Inazuma",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Other Human Factions",
+    "elements": [
+      "Electro",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Old Handguard",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Kageuchi Handguard",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Famed Handguard",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Thunder",
+        "description": "Samurai who have fallen into banditry. They possess highly advanced martial art skills but found no use for them for various reasons. Out of desperation, they have fallen onto the path of evil. They use paper seals, created from a Kamuna art that has been lost for centuries, to infuse their blades with the power of lightning."
+      },
+      {
+        "name": "Fiery Might",
+        "description": "Samurai who have fallen into banditry. They practiced martial arts since they were young, but lost the opportunity to serve the people due to certain reasons and turned from the righteous path. Their blade's edges are not cold like ordinary steel, but instead burn with a bitter flame. They seem to have used paper seals, created from a lost Kamuna art, to set the blades afire."
+      }
+    ]
+  },
+  {
+    "id": "large-slime",
+    "name": "large-slime",
+    "region": "Global",
+    "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
+    "type": "Common Enemies",
+    "family": "Slime",
+    "elements": [
+      "Anemo",
+      "Geo",
+      "Dendro",
+      "Hydro",
+      "Cyro",
+      "Mutant",
+      "Pyro",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Slime Condensate",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Slime Secretions",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Slime Concentrate",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A monster created by the coalescing of Anemo dispersed throughout nature.Owing to being comprised of a greater concentration of Anemo, their flotation abilities are stronger than that of Anemo Slimes. The hilichurls living out in the wilds have made use of this special characteristic, creating special vehicles that use Large Anemo Slimes as a form of locomotion to transport goods from unknown sources."
+      },
+      {
+        "element": "Geo",
+        "description": "Monsters created through the buildup of Geo within the earth.They can harden the energy within their bodies into a carapace of stone that protects them and prevents damage. The legend of a \"Golden Geo Slime King\" once circulated among the Treasure Hoarders. They believed that since gemstones and ores have Geo energy in them, Geo Slimes, which also contain Geo energy, may also be a type of gemstone or ore."
+      },
+      {
+        "element": "Dendro",
+        "description": "A slime that has undergone ecological changes due to abundant Dendro in its environment. There are some who see it as something similar to the Whopperflowers, hiding its true form to trick and hunt its prey, and some regard it as a slime that has been parasitized by some special plant. From this point of view, might some cultures also see these slimes as having some special medicinal value?"
+      },
+      {
+        "element": "Hydro",
+        "description": "A monster created by the sedimentation of Hydro dispersed throughout nature. A larger and more powerful Hydro Slime that can create bubbles to entrap its enemies. It is said that they can grow to truly staggering sizes if given an energy-rich environment. Eyewitnesses have supposedly seen Hydro Slimes as large as a small mound in Wolvendom."
+      },
+      {
+        "element": "Cryo",
+        "description": "A monster created through the coagulation of Cryo in the natural environment. These slimes can use the abundant Cryo energies within themselves to freeze the moisture in the atmosphere and form a protective shell around themselves. They can also utilize a similar principle to freeze the water around them. On some level, this can be considered to be the freest species of slime, as it can cross oceans and seas with ease."
+      },
+      {
+        "element": "Electro",
+        "description": "A monster created by the coalescing of Electro dispersed throughout nature. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time. At present, some have attempted to harness this energy to aid in production activities. Perhaps some new science will be born from this...?"
+      },
+      {
+        "element": "Pyro",
+        "description": "A monster created by the sedimentation of Pyro dispersed throughout nature. Though its intelligence has not increased with its size, it is very hot. During dry seasons, it can cause wildfires. It will spit forth blazing fireballs when angered, and will turn dark when it is feeling down. A most expressive slime, indeed."
+      },
+      {
+        "element": "Mutant",
+        "description": "A monster created by the coalescing of Electro dispersed throughout nature. Electro Slimes can undergo mutations to become a bright yellow. Due to the abundant Electro within its form, it will deliver an electric shock to its surroundings from time to time, and it can even cause nearby Electro Slimes to release electric arcs. This arc lightning will not bounce between purple Electro Slimes, which shows that Electro Slimes have two different polarities. One wonders if some great new science could emerge from the study of such phenomena..."
+      }
+    ]
+  },
+  {
+    "id": "lawachurl",
+    "name": "lawachurl",
+    "description": "A Mitachurl that has mutated due to an accumulation of a large amount of elements in its body. They are bigger, stronger, and absolutely ferocious. Hilichurls worship no gods and follow no order or discipline. The strongest and the most ferocious one among them is seen as fit to lead the tribe.",
+    "region": "Multiple",
+    "type": "Elite Enemies",
+    "family": "Hilichurls",
+    "faction": "Abyss Order",
+    "elements": [
+      "Cryo",
+      "Geo"
+    ],
+    "drops": [
+      {
+        "name": "Heavy Horn",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Black Bronze Horn",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Black Crystal Horn",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "stonehide-lawachurl": {
+      "id": "stonehide-lawachurl",
+      "name": "Stonehide Lawachurl",
+      "description": "A mysterious \"lord\" of hilichurls that walks between a thousand peaks. This huge hilichurl is referred to as a \"lawa\" by its brethren. The abundant Geo energies in the environment have become part of their flesh, blood, and skin, which look as if they were chiseled out of mountain rock.",
+      "region": "Liyue"
+    },
+    "frostarm-lawachurl": {
+      "id": "frostarm-lawachurl",
+      "name": "Frostarm Lawachurl",
+      "description": "",
+      "region": "Dragonspine"
+    },
+    "mora-gained": 600
+  },
+  {
+    "id": "mirror-maiden",
+    "name": "mirror-maiden",
+    "description": "A member of a special Fatui honor guard from Snezhnaya. Willing to do anything to achieve the grand goals of the Fatui, they are the stark opposite of the dignity indicated by the title \"Maiden\". A Fatui mage who can command a Hydro Mirror in battle. Her posture is highly dignified, as if she is one who worships a god. The Hydro Mirror she manipulates lures those enchanted by her to willingly fall for her illusion. Nothing seems to escape her ears. No one knows what those covered eyes have seen, what kind of obsession might be reflected in them...",
+    "region": "Multiple",
+    "type": "Elite Enemies",
+    "family": "Fatui",
+    "faction": "Fatui",
+    "elements": [
+      "Hydro"
+    ],
+    "drops": [
+      {
+        "name": "Dismal Prism",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Crystal Prism",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Polarizing Prism",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "mitachurl",
+    "name": "mitachurl",
+    "description": "The most formidable warriors of the Hilichurl tribes. Fighting and eating meat are the two most important things to Hilichurls, because those are what make them grow stronger. All young Hilichurls dream of growing up to become a big and strong Mitachurl, because that way they can eat more meat, and fight more battles.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Hilichurls",
+    "faction": "Abyss Order",
+    "elements": [
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Heavy Horn",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Black Bronze Horn",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Black Crystal Horn",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "wooden-shieldwall-mitachurl": {
+      "id": "wooden-shieldwall-mitachurl",
+      "name": "Wooden Shieldwall Mitachurl",
+      "description": "A muscular hilichurl who has been forged in countless fights. They know how to use Dendro Slimes to create tough shields which they wield in combat. With their powerful muscles, glossy fur, and sturdy, reliable silhouettes, they help the hilichurls withstand the pitiless assaults of adventurers, and they hold a rather exalted rank amongst the tribes.",
+      "region": "Global"
+    },
+    "rock-shieldwall-mitachurl": {
+      "id": "rock-shieldwall-mitachurl",
+      "name": "Rock Shieldwall Mitachurl",
+      "description": "A muscular hilichurl that uses a rock as a shield. Fighting and eating meat are the two most important things to hilichurls, because those are what make them grow stronger. All young hilichurls dream of growing up to become a big and strong mitachurl, because that way they can eat more meat, fight more battles, and wield those (almost) impregnable giant rock shields.",
+      "region": "Global"
+    },
+    "ice-shieldwall-mitachurl": {
+      "id": "ice-shieldwall-mitachurl",
+      "name": "Ice Shieldwall Mitachurl",
+      "description": "A muscular hilichurl that uses solid ice as a shield, wielding it in battle. Reason normally dictates that large creatures that see a lot of action should burn through a great number of calories to sustain themselves. As such, the present-day El Musk has proposed the \"Mitachurl Index.\" This index correlates the percentage of mitachurls within the hilichurl population to the stability and success of hilichurl foraging activity.",
+      "region": "Global"
+    },
+    "blazing-axe-mitachurl": {
+      "id": "blazing-axe-mitachurl",
+      "name": "Blazing Axe Mitachurl",
+      "description": "Muscular hilichurls who wield large two-handed axes. Attacks with large strikes, and will use Pyro Slimes to infuse their axes with Pyro. They are very lethal. Usually, repeated quenching a weapon the way a Blazing Axe Mitachurl does will decrease the hardness of the metal and cause the axe-head's edge to chip more easily. But such is the strength of the mitachurls that even should the edge disappear altogether, they can still use their axes as hammers.",
+      "region": "Global"
+    },
+    "crackling-axe-mitachurl": {
+      "id": "crackling-axe-mitachurl",
+      "name": "Crackling Axe Mitachurl",
+      "description": "Muscular hilichurls who wield large, two-handled axes. Attacks with large strikes and uses Electro Slimes to infuse their axes with Electro. Their blows are very lethal. Axes forged from steel are highly conductive material. The image of those tall and strong Crackling Axe Mitachurls holding their axes up to summon lightning is quite majestic to the hilichurls.",
+      "region": "Global"
+    },
+    "mora-gained": 200
+  },
+  {
+    "id": "nobushi",
+    "name": "nobushi",
+    "region": "Inazuma",
+    "description": "Despite often appearing in groups, the Nobushi do not have a centralized organization. Depending on the temperament or the nature of their crimes, they are also known as the \"homeless ones\", \"vagabonds\", \"Kairagi\", \"ne'er-do-wells\", or even \"the rioters\", or just simply known collectively as \"those rogues\". They are often samurai who haven fallen into banditry, and some will even ally themselves with the Treasure Hoarders or the Fatui for survival or monetary gain.",
+    "type": "Common Enemies",
+    "family": "Other Human Factions",
+    "elements": [
+      "Electro",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Old Handguard",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Kageuchi Handguard",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Famed Handguard",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Hitsukeban",
+        "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization. They not only possess highly advanced sword skills, but can also carry out flame powder attacks using the elements. Objectively speaking, perhaps this method of winning goes against the path of a martial artist. Sometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive."
+      },
+      {
+        "name": "Jintouban",
+        "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization. Having pursued the path of a martial artist for a long time, they possess highly advanced sword skills but no longer use them for good. Sometimes, they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive."
+      },
+      {
+        "name": "Kikouban",
+        "description": "Samurai who have fallen into banditry. Though they are called the Nobushi, they do not have a centralized organization. They possess highly-advanced sword skills and also use crossbows to ambush opponents, using any means to win. Those who have abandoned the title of a martial artist often abandon their dignity as well. Sometimes they even collude with the Treasure Hoarders or Fatui out of a greed for wealth — or simply to survive."
+      }
+    ]
+  },
+  {
+    "id": "praetorian-golem",
+    "name": "praetorian-golem",
+    "region": "Fontaine",
+    "description": "A moving statue shaped like a warrior who will swing their sword at all who dare trespass upon the area under their guardianship. It is unclear if it is a soul or magic that powers them.\nThey say that legions of golems once conquered the nations that called the high sea home, and this might have been amongst their number. The great towers and palaces that now sleep beneath the waves once bore witness to the fate of those who stand in the path of the wheel of fate.",
+    "type": "Elite Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Geo",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Ruined Hilt",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Splintered Hilt",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Still-Smoldering Hilt",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ]
+  },
+  {
+    "id": "primal-construct",
+    "name": "primal-construct",
+    "description": "N/A",
+    "region": "Sumeru",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Primal Constructs",
+    "elements": [
+      "Dendro"
+    ],
+    "drops": [
+      {
+        "name": "Damaged Prism",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Turbid Prism",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Radiant Prism",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Primal Construct: Prospector",
+        "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord. The master of the sands once took to studying taboo knowledge in an effort to create a dream paradise, and these machines may or may not have been the fruits of that research. Today, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines."
+      },
+      {
+        "name": "Primal Construct: Repulsor",
+        "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord. These machines were not first built to be temple guards or palace defenders, but instead to rebirth the paradise that the foolish desert ruler dreamed of. Today, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines."
+      },
+      {
+        "name": "Primal Construct: Reshaper",
+        "description": "The guardians of the lost ancient desert ruins have power enough to punish any who would presume to disturb the pure dreams of their lord. The lord of the blazing sun who once ruled this desert once promised his people a utopia on the other side of existence, though it ultimately turned out to be a mirage made of folly. Today, that utopia is long gone, and the dreams and oaths, forgotten by the world, are now only found in the mantras inscribed upon these machines."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "rifthound",
+    "name": "rifthound",
+    "description": "Ominous, alien beasts with dull colors that travel in packs much as wolves do. It is said that they have the power to dissolve the world's borders.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "The Abyss",
+    "faction": "Abyss Order",
+    "elements": [
+      "Geo",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Concealed Claw",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Concealed Unguis",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Concealed Talon",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Rockfond Rifthound Whelp",
+        "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\" They follow the encroaching abyss to devour the elements. Fortunately, there are few of them left now in this world."
+      },
+      {
+        "name": "Thundercraven Rifthound Whelp",
+        "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. \"Gold\" classified them as \"Alfisol.\" The previous eras, when giant monstrous beasts descended, large swarms of these hounds would go before them to deliquesce the borders of the world and open the way."
+      },
+      {
+        "name": "Rockfond Rifthound",
+        "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\" They do display certain biological behaviors similar to those of real wolves. Perhaps they feel jealousy towards these their \"next of kin,\" and dream of replacing them someday."
+      },
+      {
+        "name": "Thundercraven Rifthound",
+        "description": "A beast with monstrous blood that is capable of eroding the boundaries of the world. They were created by \"Gold.\" Once upon a time, they ran riot across the continent, but they went extinct for a time due to resistance and mass hunts. Recently, however, they have re-emerged. The pack of black wolves that now threaten Springvale and Wolvendom are such creatures."
+      }
+    ]
+  },
+  {
+    "id": "ruin-drake",
+    "name": "ruin-drake",
+    "description": "N/A",
+    "region": "Sumeru",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Ruin Drakes",
+    "elements": [
+      "Anemo",
+      "Cryo",
+      "Dendro",
+      "Electro",
+      "Geo",
+      "Hydro",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Chaos Storage",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Chaos Module",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Chaos Bolt",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Ruin Drake: Earthguard",
+        "description": "A horrifying dragon-shaped machine. It is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps. From this ability, one can glimpse the scale of the ambition that the civilization that made these machines must have once held..."
+      },
+      {
+        "name": "Ruin Drake: Skywatch",
+        "description": "A horrifying dragon-shaped machine. It is said to be a war machine left behind by a now-destroyed nation. It mimics the appearance of the beings known as Vishaps, with some functional enhancements. Such machines have an even greater ability to \"absorb\" — or perhaps the right word is \"counteract\" — elemental powers than the vishaps. How, you wonder, did a civilization that could make such frightening machines of war collapse?"
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "ruin-grader",
+    "name": "ruin-grader",
+    "description": "A giant war machine resembling a Ruin Guard. They are far more stronger and faster than their brethren.",
+    "region": "Multiple",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Humanoid Ruin Machines",
+    "elements": [
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Chaos Device",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Chaos Circuit",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Chaos Core",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "mora-gained": 600
+  },
+  {
+    "id": "ruin-guard",
+    "name": "ruin-guard",
+    "description": "An ancient humanoid war machine. They are said to be remnants from a lost ancient nation. Some believe that they were developed not as war machines, but as protectors of the ruins. Though that hypothesis does not explain why they would choose to employ explosive weaponry inside the very ruins they were designed to protect",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Humanoid Ruin Machines",
+    "elements": [
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Chaos Device",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Chaos Circuit",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Chaos Core",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "ruin-hunter",
+    "name": "ruin-hunter",
+    "description": "Humanoid war machines armed with sharp appendages. They can also fire barrages of missiles.",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Humanoid Ruin Machines",
+    "elements": [
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Chaos Device",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Chaos Circuit",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Chaos Core",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "ruin-sentinel",
+    "name": "ruin-sentinel",
+    "description": "N/A",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "Automatons",
+    "faction": "Ruin Machines",
+    "elements": [
+      "N/A"
+    ],
+    "drops": [
+      {
+        "name": "Chaos Gear",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Chaos Axis",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Chaos Oculus",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Ruin Cruiser",
+        "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals. Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The inspiration for its decentralized design and combat modes seem to have come from honeybee colonies, rendering it able to change forms and to attack from different directions."
+      },
+      {
+        "name": "Ruin Destroyer",
+        "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals. Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The giant crown, composed of several parts, looks like some sort of frightening plant. One wonders what one has to go through in order to design such scary machine."
+      },
+      {
+        "name": "Ruin Defender",
+        "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals. Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. The insect-like limbs are more agile than humanoid machines. The shield formed by its various components can resist any frontal attack."
+      },
+      {
+        "name": "Ruin Scout",
+        "description": "Various bizarrely-shaped machines that have taken different forms and functions to adapt to different goals. Legend has it that they are war machines left behind by a nation that has already been destroyed. Compared to the more common Ruin Guards, their design has greater value in the study of biomimesis. Exactly why the form and movements of certain deep-sea lifeforms are being imitated is not known. But either way, tangling with them is hardly the best idea."
+      }
+    ],
+    "mora-gained": 200
+  },
+  {
+    "id": "samachurl",
+    "name": "samachurl",
+    "region": "Global",
+    "type": "Common Enemies",
+    "family": "Hilichurls",
+    "faction": "Abyss Order",
+    "elements": [
+      "Anemo",
+      "Geo",
+      "Dendro",
+      "Hydro",
+      "Cydro"
+    ],
+    "drops": [
+      {
+        "name": "Damaged Mask",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Stained Mask",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Ominous Mask",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Divining Scroll",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Sealed Scroll",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Forbidden Curse Scroll",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A wizened, mumbling hilichurl, one that spreads the message of Anemo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. Their ability to command the flowing winds stems from dark, forgotten memories."
+      },
+      {
+        "element": "Geo",
+        "description": "A wizened, mumbling hilichurl, one that listens to the strength of Geo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone."
+      },
+      {
+        "element": "Dendro",
+        "description": "A wizened, mumbling hilichurl, one that awakens the might of Dendro. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it."
+      },
+      {
+        "element": "Hydro",
+        "description": "A wizened, mumbling hilichurl, one that chants of the power of Hydro. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?"
+      },
+      {
+        "element": "Cryo",
+        "description": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes."
+      }
+    ]
+  },
+  {
+    "id": "slime",
+    "name": "slime",
+    "region": "Global",
+    "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
+    "type": "Common Enemies",
+    "family": "Slime",
+    "elements": [
+      "Anemo",
+      "Geo",
+      "Dendro",
+      "Hydro",
+      "Cydro"
+    ],
+    "drops": [
+      {
+        "name": "Slime Condensate",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Slime Secretions",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Slime Concentrate",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A small monster created by the coalescing of Anemo dispersed throughout nature. It is able to float in the air due to the power of Anemo."
+      },
+      {
+        "element": "Geo",
+        "description": "Small monsters created through the buildup of Geo within the earth. Generally speaking, the crust of the earth is filled with Geo energy. Geo Slimes that are formed this way have a similarly \"down-to-earth\" sort of feeling."
+      },
+      {
+        "element": "Dendro",
+        "description": "A slime that has undergone ecological changes due to abundant Dendro in its environment. It has also taken on the weaknesses of the Dendro element, and will burn intensely the moment it meets a bright flame."
+      },
+      {
+        "element": "Hydro",
+        "description": "A small monster created by the sedimentation of Hydro dispersed throughout nature. Legend has it that some people would use Hydro Slimes as an emergency water source, packing them in preparation for travels through dry regions or deep domains. But due to the high concentration of Hydro within these slimes, direct ingestion is, in fact, harmful to the human body."
+      },
+      {
+        "element": "Cryo",
+        "description": "A small monster created through the coagulation of Cryo in the natural environment. Competitors once spread malicious rumors that the Dawn Winery used Cryo Slimes to control the temperature of their wine cellar and preserve the quality of their alcohol."
+      },
+      {
+        "element": "Electro",
+        "description": "A small monster created by the coalescing of Electro dispersed throughout nature. According to analyses, the jumping of Electro Slimes reflects the electric potential difference in the ground. In areas brimming over with Electro, their unusual movements can be observed and used to avoid danger."
+      },
+      {
+        "element": "Pyro",
+        "description": "A small monster created by the sedimentation of Pyro dispersed throughout nature. Its intelligence is very basic, but its uses are just as broad–well, for hilichurls, that is."
+      }
+    ]
+  },
+  {
+    "id": "specter",
+    "name": "specter",
+    "region": "Inazuma",
+    "description": "A pudgy elemental life form. It's said that desserts made from slimes of different elements will have incredibly distinctive flavors.",
+    "type": "Common Enemies",
+    "family": "Elemental Lifeforms",
+    "elements": [
+      "Anemo",
+      "Geo",
+      "Dendro",
+      "Hydro",
+      "Cyro",
+      "Pyro",
+      "Electro"
+    ],
+    "drops": [
+      {
+        "name": "Spectral Husk",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Spectral Heart",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Spectral Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A monster birthed from a high concentration of Anemo that can float in the air. As reason might dictate, monsters made from coalesced Anemo already come equipped with the ability to float. As such, their petal-like wings are most likely to be a mimetic organ first and foremost."
+      },
+      {
+        "element": "Geo",
+        "description": "A monster birthed from a high concentration of Geo that can float in the air. Geo Specters mimic the fruit of certain plants when their wings are closed together. As such, they are held by some ancient tales to be the fruit of a giant tree in the sky, and are regarded as having mysterious medical value."
+      },
+      {
+        "element": "Dendro",
+        "description": "A monster born from high-density Dendro energy that can float in the air. A researcher from Vahumana once did research into the ecological peculiarities of Dendro Specters, finding them to be quite similar to the legendary \"Aranara.\" His conclusion was that the Aranara were actually Dendro Specters. This researcher would become a little-known writer of fairy tales."
+      },
+      {
+        "element": "Hydro",
+        "description": "A monster birthed from a high concentration of Hydro that can float in the air. On moonlit nights, Hydro Specters will give off a ghostly glow as they float by the riverbank. Their furtive forms are often mistaken by passers-by for wandering spirits, which has made them mainstays in quite a few folktales."
+      },
+      {
+        "element": "Cryo",
+        "description": "A monster born from highly-concentrated Cryo elements that can float in the air. A certain alchemist once studied these beings, speculating that they might be a kind of Slime or the Traveler, as none of the above needed a Vision to use the elements. He was reprimanded by his teacher."
+      },
+      {
+        "element": "Electro",
+        "description": "A monster born from hightly-concentrated Electro elements that can float in the air. A certain researcher once studied these creatures. He believed they must be Hypostases of some kind. After all, both had elemental peculiarties and were birthed from areas saturated with elemental energy, right? By the way, he was later investigated for academic corruption."
+      },
+      {
+        "element": "Pyro",
+        "description": "A monster born from highly-concentrated Pyro elements that can float in the air. There was once an Akademiya student who conducted research into their behavior. He believed that Specters were a form of Crystalfly; since they both had powers of flight and both were birthed in areas saturated with elemental energy. He has not graduated yet."
+      }
+    ]
+  },
+  {
+    "id": "stretchy-fungus",
+    "name": "stretchy-fungus",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Anemo",
+      "Electro",
+      "Geo",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Fungal Spores",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Lumines­cent Pollen",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Crystal­line Cyst Dust",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Inactivated Fungal Nucleus",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dormant Fungal Nucleus",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Robust Fungal Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Anemo",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. This mushroom quickly absorbs nutrients through its extended column, and its umbrella-shaped cap turns where the wind's flow carries it."
+      },
+      {
+        "element": "Electro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. Unlike other Fungi, this creature possesses a cap with shining horns sticking out of it. When in danger, it will release small electric orbs as a form of self-defense."
+      },
+      {
+        "element": "Geo",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. These shrooms' caps have hard outer layers derived from concretions of Geo energy. Its bodily structure is also quite likely to be denser than others of its kind."
+      },
+      {
+        "element": "Pyro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. This creature only looks explosive — it is, in fact, a most gentle soul, so long as you don't get too close..."
+      }
+    ]
+  },
+  {
+    "id": "the-black-serpent",
+    "name": "the-black-serpent",
+    "description": "Once upon a time, these were knights of the realm and carriers of significant status. The long years and a curse seems to have robbed them of their reason and memory. Now, all that remains within that armor is the will to \"fight for something, someone, and some matter.\" Depending on how much wear and tear they have undergone, they are by turns known as \"Shadowy Husks\" or \"Black Serpent Knights.\"",
+    "region": "Global",
+    "type": "Elite Enemies",
+    "family": "The Abyss",
+    "faction": "Abyss Order",
+    "elements": [
+      "Cryo",
+      "Hydro",
+      "Pyro",
+      "Anemo",
+      "Geo"
+    ],
+    "drops": [
+      {
+        "name": "Gloomy Statuette",
+        "rarity": 2,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dark Statuette",
+        "rarity": 3,
+        "minimum-level": 40
+      },
+      {
+        "name": "Deathly Statuette",
+        "rarity": 4,
+        "minimum-level": 60
+      }
+    ],
+    "artifacts": [
+      {
+        "name": "Blood-Soaked",
+        "set": "Berserker",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Instructor's Brooch",
+        "set": "Instructor",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Legacy",
+        "set": "The Exile",
+        "rarity": "3/4"
+      },
+      {
+        "name": "Curative",
+        "set": "Traveling Doctor",
+        "rarity": "3"
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Shadowy Husk: Defender",
+        "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it is now nothing but a husk that only bears memories of battle. All shall decay in the end, and this is all that is left of the Black Serpent Knights amidst the merciless march of their sins, curses, and time itself."
+      },
+      {
+        "name": "Shadowy Husk: Line Breaker",
+        "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it no longer holds any \"intelliegence\" that it may still be called \"human.\" Yet the desire to destroy the foe and plunge into battle to defend others is etched into this empty suit of armor, even if no one remains to tell it where the enemy is or who or what exactly must be defended."
+      },
+      {
+        "name": "Shadowy Husk: Standard Bearer",
+        "description": "A pitch-dark soldier. Once a proud warrior of an ancient underground nation, it has now lost any awareness of memory. But even so, it holds the banner of the royal house aloft into battle. Though it has forgotten its comrades or any royal blessing they may have been given, it will never lay this banner down."
+      },
+      {
+        "name": "Black Serpent Knight: Windcutter",
+        "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\" The Twilight Sword was once one of their number. That realm's glory has been extinguished, never again to be reclaimed."
+      },
+      {
+        "name": "Black Serpent Knight: Rockbreaker Ax",
+        "description": "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\" Though Truthseeker is, strictly speaking, a sword art, its teachings can also be used with various other weapons — and in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway."
+      }
+    ],
+    "mora-gained": 600
+  },
+  {
+    "id": "the-eremite",
+    "name": "the-eremite",
+    "region": "Sumeru",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Other Human Factions",
+    "elements": [
+      "Electro",
+      "Pyro",
+      "Cryo",
+      "Hydro",
+      "Geo",
+      "Anemo",
+      "Dendro"
+    ],
+    "drops": [
+      {
+        "name": "Faded Red Satin",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Trimmed Red Silk",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Rich Red Brocade",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Axe Vanguard",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. These ax-wielding ladies often wade into the slaughter without fear, creating openings for their comrades to capitalize on. They will sometimes sit by the fireside in their sand-swept homeland and play songs that were lost in that golden sea."
+      },
+      {
+        "name": "Crossbow",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. The Eremite tradition is to use bows to engage their foes, but ever since the Akademiya permitted them to buy crossbows at the bazaars, only the proudest shooters would still use bows, which take many years of practice to master."
+      },
+      {
+        "name": "Ravenbeak Halberdier",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. These warriors use Ravenbeak Halberds in battle. It is said that ascetics who served the deity of the desert would carry these halberds as symbols of their office. These weapons once had a true name, but it has long been lost to the desert sands."
+      },
+      {
+        "name": "Linebreaker",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. This warrior wields a unique fist blade and joined the Eremites to seek out stronger foes. Rather than the pay, these warriors fight more to attain greater martial might."
+      },
+      {
+        "name": "Sword-Dancer",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. This desert warrior wields a large curved blade in battle. The skills such fighters boast of have been passed down since the days when their now-lost civilization was still extant, and are not only techniques to be used in battle, but also serve well as a performing art popular in various lands. It is said that this sword art was once practiced from horseback."
+      },
+      {
+        "name": "Daythunder",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. A true scion of a warrior tribe, such warriors see battle as their ordained purpose, and unlike some barbarian who wields a large ax with ease, these tribespeople are also quite well-versed in the lore and songs of the desert ruins. An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe."
+      },
+      {
+        "name": "Sunfrost",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. A professional mercenary who cares about nothing outside of work and the mission at hand. To such people, their only game plan is to complete the mission, and their high asking prices on the market match that committment. An ominous, fragmented spirit is sealed within the weapon they use, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe."
+      },
+      {
+        "name": "Desert Clearwater",
+        "description": "A member of a loosely-organized mercenary corps from the golden desert sands. Will work for anyone as long as the pay is good. A young lady lost in the ancient dream of the desert songs. To her, the thrill of bloody battle is her true reward. Legend has it that the women of this tribe are often afflicted by the wandering spirits of the desert, a condition that leads many of them to an early end. Perhaps this one can only be free of these apparitions when her blood is up in combat. An ominous, fragmented spirit is sealed within the weapon she uses, awakening in moments of peril. Once it does, it can only be silenced by the cries of the vanquished — whether that be its wielder, or its wielder's foe."
+      },
+      {
+        "name": "Stone Enchanter",
+        "description": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good. In ancient days, these heavily-equipped warriors were the domain of the personal, trusted guards of the Lord of the Blazing Sun. It is perhaps on this account that they gleam like the golden sun itself to this day. Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes."
+      },
+      {
+        "name": "Galehunter",
+        "description": "A person hailing from the loosely-organized mercenary bands of the desert. Will work for anyone as long as the pay is good. In this age where crossbows are in widespread use, only the most experienced of Eremite warriors know how to use a longbow in battle. They do not even need their eyes — merely their ears with which they sense the flow of wind and sand alike — to judge the location of their foes. Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes."
+      },
+      {
+        "name": "Scorching Loremaster",
+        "description": "A person hailing from the loosely-organized mercenary bands of the desert. Even though they will work for anyone as long as the pay is good, they will never forget their roots in the Great Red Sand. After the collapse of its civilizations, the stories of the desert were passed down generation after generation in oral tradition just like the sparks in the wind and the rain in the clouds. As time passed, some stories were lost while others survived, albeit with significant changes. \"The Eremites\" is the umbrella term given to the tribes of the desert by those too ignorant or disdainful to learn the tribes' myriad differences. Within those referred to as the Eremites, many have also indeed already forgotten the tales of the desert. Fear not, however, for those who still remember will never betray the spirit of the sands yet flowing through their veins."
+      },
+      {
+        "name": "Floral Ring-Dancer",
+        "description": "A person hailing from the loosely-organized mercenary bands of the desert. They will work for anyone as long as the pay is good. The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings. Many tales of the sands feature dancers who murdered kings relaxed in their beds or standing atop high towers. Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins. Ominous, fragmented spirits are sealed within the weapons they use, awakening in moments of peril. Once these weapons awaken, they can only be silenced by the cries of the vanquished — whether that be their wielders or their wielders' foes."
+      }
+    ]
+  },
+  {
+    "id": "the-great-snowboar-king",
+    "name": "the-great-snowboar-king",
+    "title": "The True Ruler of Dragonspine?",
+    "description": "N/A",
+    "region": "Dragonspine",
+    "type": "Elite Enemies",
+    "family": "Unique Enemies",
+    "elements": [],
+    "drops": [
+      {
+        "name": "Chilled Meat",
+        "rarity": 1,
+        "minimum-level": 1
+      }
+    ],
+    "mora-gained": "None"
+  },
+  {
+    "id": "treasure-hoarder",
+    "name": "treasure-hoarder",
+    "region": "Global",
+    "type": "Common Enemies",
+    "family": "Treasure Hoarders",
+    "elements": [
+      "Cryo",
+      "Electro",
+      "Hydro",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Treasure Hoarder Insignia",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Silver Raven Insignia",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Golden Raven Insignia",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "descriptions": [
+      {
+        "name": "Scouts",
+        "description": "Common Treasure Hoarders who prefer to throw knives at their targets but will deliver a swift roundhouse kick to anyone who gets too close. Right before they throw a knife, that knife will shine giving players a warning to dodge it."
+      },
+      {
+        "name": "Marksmen",
+        "description": "Standard ranged Treasure Hoarders who use crossbows. Being a pure long ranged fighter, they have no defense in melee range. They seem to be the quietest of the Hoarders, only blurting out words upon defeat."
+      },
+      {
+        "name": "Potioneers",
+        "description": "Treasure Hoarders who throw elemental potions that leave a puddle of a certain element on the ground. Judging from their quotes, they're possibly alchemists who perform illegal experiments, and treat the Traveler as a test subject. Like Scouts they will deliver a swift kick at close range."
+      },
+      {
+        "name": "Gravediggers",
+        "description": "Treasure Hoarders that wield shovels and will dig out soil as a ranged attack that will impair the target's sight upon impact. They are about the same height as Pugilists/Crushers but are burly in build."
+      },
+      {
+        "name": "Puglists",
+        "description": "Tall and muscular Treasure Hoarders that utilize punches in combat. They alternate between 2-slug combo, or a full combo consisting of 2-slug strikes followed by a lunging punch. They will also use the very same lunging punch at a distance."
+      },
+      {
+        "name": "Crushers",
+        "description": "Tall and muscular Treasure Hoarders who use hammers to fight their opponents, their swings are slow, but it deals large amount of damage if hit."
+      },
+      {
+        "name": "Handymen",
+        "description": "Tough and burly Treasure Hoarders who like Pugilists fight unarmed, but with kicks instead of punches. They alternate between a single or a 3-swing kick combo and utilize a dropkick at a distance."
+      },
+      {
+        "name": "Seamen",
+        "description": "Treasure Hoarders armed with oars and are of the same build as Gravediggers and Handymen. At close range, they swing as slowly as a Gravedigger knocking anyone down if hit, after attacking two times (or if they are at a distance), they will will swing their oars wildly at their opponents that can deal lots of damage if not dodged on time, however the resulting attack will leave them winded and leave them open to attack until they recover."
+      }
+    ]
+  },
+  {
+    "id": "whirling-fungus",
+    "name": "whirling-fungus",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Cryo",
+      "Electro",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Fungal Spores",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Lumines­cent Pollen",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Crystal­line Cyst Dust",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Inactivated Fungal Nucleus",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dormant Fungal Nucleus",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Robust Fungal Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Cryo",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. Putting Fungi on ice does not make them taste any better, but it does at least help with relieving the heat."
+      },
+      {
+        "element": "Electro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. Research has shown that this sort of fungal beast's internal electric current will change periodically. If further developed, perhaps this study may give rise to a wide range of uses..."
+      },
+      {
+        "element": "Pyro",
+        "description": "A spore organism of some intelligence. It possesses extreme adaptability. Due to the abundant amount of Pyro these creatures contain, they have a tendency to cause forest fires during dry seasons, and thus are considered a dangerous invasive species to the forest."
+      }
+    ]
+  },
+  {
+    "id": "whopperflower",
+    "name": "whopperflower",
+    "region": "Global",
+    "description": "A bizarre mimetic plant monster that harnesses the elements in combat. These plants lurk under the surface and ambush unsuspecting prey. With the passage of years, sufficient nutrition, and the right environment, it could even take root somewhere and grow into a giant tree that sways and spews elemental power...",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Cryo",
+      "Pyro"
+    ],
+    "drops": [
+      {
+        "name": "Whopperflower Nectar",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Shimmering Nectar",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Energy Nectar",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "anemo",
+        "description": "A wizened, mumbling hilichurl, one that spreads the message of Anemo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. Their ability to command the flowing winds stems from dark, forgotten memories."
+      },
+      {
+        "element": "geo",
+        "description": "A wizened, mumbling hilichurl, one that listens to the strength of Geo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. To the persevering mountains, these old hilichurls are but children, but their memories and experiences have guided them towards gaining power over rock and stone."
+      },
+      {
+        "element": "dendro",
+        "description": "A wizened, mumbling hilichurl, one that awakens the might of Dendro. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. A grudge stirs beneath that mask, and poison ivy sprouts as hateful whispers issue forth from it."
+      },
+      {
+        "element": "hydro",
+        "description": "A wizened, mumbling hilichurl, one that chants of the power of Hydro. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. What sort of life would lead to such simple creatures being able to summon water and rains?"
+      },
+      {
+        "element": "cryo",
+        "description": "A wizened, mumbling hilichurl, one that calls upon the bite of Cryo. Hilichurls especially gifted in commanding the elements who often reach the zenith of their skill in their twilight years. These shamans remember the frosty chants and are even more skilled in the art of using them to entrap their foes."
+      }
+    ]
+  },
+  {
+    "id": "winged-shroom",
+    "name": "winged-shroom",
+    "region": "Multiple",
+    "description": "N/A",
+    "type": "Common Enemies",
+    "family": "Mystical Beasts",
+    "elements": [
+      "Cryo",
+      "Dendro"
+    ],
+    "drops": [
+      {
+        "name": "Fungal Spores",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Lumines­cent Pollen",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Crystal­line Cyst Dust",
+        "rarity": 3,
+        "minimum-level": 60
+      },
+      {
+        "name": "Inactivated Fungal Nucleus",
+        "rarity": 1,
+        "minimum-level": 1
+      },
+      {
+        "name": "Dormant Fungal Nucleus",
+        "rarity": 2,
+        "minimum-level": 40
+      },
+      {
+        "name": "Robust Fungal Nucleus",
+        "rarity": 3,
+        "minimum-level": 60
+      }
+    ],
+    "elemental-descriptions": [
+      {
+        "element": "Cryo",
+        "description": "A mimetic life form made out of spores that has extreme adaptability. Going well past mere appearances, this being even imitates the habits of birds. When it flies about, it will scatter icy flowers in its wake. These crystal cores, too, are spores. This creature has a position of command amongst colonies of fungal beasts and exhibits heightened intelligence to match."
+      },
+      {
+        "element": "Dendro",
+        "description": "A mimetic life form made out of spores that has extreme adaptability. Going well past mere appearances, this being even imitates the habits of birds. It can use its spore-built wings to fly in the sky, spreading yet more spores to yet more distant places. This creature has a position of command amongst colonies of Fungi and exhibits heightened intelligence to match."
+      }
+    ]
+  }
+]

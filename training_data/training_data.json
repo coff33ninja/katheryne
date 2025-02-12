@@ -1,0 +1,1052 @@
+[
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the important constellations for Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Jean's normal attack sequence.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Explain Diluc's combat style and role.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Diluc use?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Jean's elemental burst work?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Diluc's abilities and talents.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Jean and Diluc's abilities.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Jean's abilities and talents.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Diluc's normal attack sequence.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the differences between Jean and Diluc?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Diluc's combat style and role.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Give me a complete overview of Jean.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Jean's elemental burst work?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Diluc use?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Should I use Diluc or Jean for my team?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Should I use Diluc or Jean for my team?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What region is Jean from and what is their rarity?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Jean and Diluc's abilities.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How does Jean's elemental burst work?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Give me a complete overview of Jean.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Diluc use?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Diluc's abilities and talents.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare Jean and Diluc's abilities.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the important constellations for Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What region is Diluc from and what is their rarity?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What region is Diluc from and what is their rarity?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Give me a complete overview of Jean.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What weapon and element does Jean use?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Should I use Diluc or Jean for my team?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What weapon and element does Jean use?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Diluc and Jean's playstyles differ?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Diluc's combat style and role.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Jean.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Diluc's abilities and talents.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Jean's elemental burst work?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Jean's normal attack sequence.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Diluc's combat style and role.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Diluc use?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Jean's normal attack sequence.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the differences between Jean and Diluc?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the key strengths of Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Diluc's elemental burst work?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Describe Diluc's normal attack sequence.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Diluc's normal attack sequence.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the differences between Diluc and Jean?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the key strengths of Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Diluc's combat style and role.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Jean's abilities and talents.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How do Diluc and Jean's playstyles differ?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the key strengths of Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Jean and Diluc's abilities.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the important constellations for Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the key strengths of Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Diluc use?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the differences between Diluc and Jean?",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Tell me about Diluc's abilities and talents.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Diluc's elemental burst work?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Describe Jean's normal attack sequence.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Diluc's elemental burst work?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Tell me about Jean's abilities and talents.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "How do Jean and Diluc's playstyles differ?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Tell me about Diluc's abilities and talents.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Diluc and Jean.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare Diluc and Jean's abilities.",
+    "answer": "Comparison between Diluc and Jean:\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "characters": [
+      "Diluc",
+      "Jean"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Jean?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What weapon and element does Jean use?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Tell me about Jean's abilities and talents.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "What are Diluc's constellations?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Explain Jean's combat style and role.",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Compare the strengths and weaknesses of Jean and Diluc.",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "Should I use Jean or Diluc for my team?",
+    "answer": "Comparison between Jean and Diluc:\n\nJean:\nCharacter: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.\n\nDiluc:\nCharacter: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "characters": [
+      "Jean",
+      "Diluc"
+    ],
+    "type": "comparison"
+  },
+  {
+    "question": "What are Jean's constellations?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  },
+  {
+    "question": "Give me a complete overview of Diluc.",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Diluc's elemental burst work?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "What are the important constellations for Diluc?",
+    "answer": "Character: Diluc\nRarity: ⭐⭐⭐⭐⭐\nElement: Pyro\nWeapon: Claymore\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Tempered Sword\nDescription: Performs up to 4 consecutive strikes.\n\nElemental Skill: Searing Onslaught\nDescription: Performs a forward slash that deals Pyro DMG.\n\nElemental Burst: Dawn\nDescription: Releases intense flames to knock nearby opponents back, dealing Pyro DMG.\n\nConstellations:\n\nC1: Conviction\nEffect: Diluc deals 15% more DMG to opponents whose HP is above 50%.\n\nC2: Searing Ember\nEffect: When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.",
+    "character": "Diluc",
+    "type": "character_info"
+  },
+  {
+    "question": "How does Jean's elemental burst work?",
+    "answer": "Character: Jean\nRarity: ⭐⭐⭐⭐⭐\nElement: Anemo\nWeapon: Sword\nRegion: Mondstadt\n\nTalents:\n\nNormal Attack: Favonius Bladework\nDescription: Performs up to 5 rapid strikes.\n\nElemental Skill: Gale Blade\nDescription: Focusing the might of the formless wind around her blade, Jean releases a miniature storm.\n\nConstellations:\n\nC1: Spiraling Tempest\nEffect: Increases the pulling speed of Gale Blade by 40%.",
+    "character": "Jean",
+    "type": "character_info"
+  }
+]

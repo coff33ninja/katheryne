@@ -101,7 +101,9 @@ class GenshinAPIClient:
                     return response.json()
                 except requests.exceptions.RequestException as e:
                     print(f"Error fetching {secondary_url}: {str(e)}")
+                    print("Failed to fetch data from both primary and secondary APIs.")
                     return None
+            print("Failed to fetch data from the primary API.")
             return None
         except json.JSONDecodeError as e:
             print(f"Error decoding JSON from {url}: {str(e)}")

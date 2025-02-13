@@ -1,0 +1,11 @@
+# Track model files with Git LFS
+models/*.pt filter=lfs diff=lfs merge=lfs -text
+models/*.pth filter=lfs diff=lfs merge=lfs -text
+models/*.ckpt filter=lfs diff=lfs merge=lfs -text
+models/*.bin filter=lfs diff=lfs merge=lfs -text
+models/*.h5 filter=lfs diff=lfs merge=lfs -text
+
+# Track other potential large files
+*.parquet filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text

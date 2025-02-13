@@ -1,6 +1,12 @@
 from pathlib import Path
-from models.genshin_assistant import GenshinAssistantTrainer
 import os
+import sys
+
+# Add the project root to Python path
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
+from python.models.genshin_assistant import GenshinAssistantTrainer
 from tqdm import tqdm
 
 def main():
@@ -10,7 +16,7 @@ def main():
     learning_rate = float(os.getenv("LEARNING_RATE", "0.002"))  # Slightly higher learning rate
     
     # Initialize trainer
-    data_dir = Path(__file__).parent.parent
+    data_dir = project_root
     trainer = GenshinAssistantTrainer(
         data_dir,
         embedding_dim=128,  # Reduced from 256

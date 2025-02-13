@@ -1,4 +1,4 @@
-# User Guide v2
+# User Guide
 
 This guide covers the basic usage of Katheryne, including the API client, ML pipeline, and AI assistant.
 

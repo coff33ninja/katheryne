@@ -109,6 +109,7 @@ def generate_domain_queries(domains: dict) -> list:
     """Generate queries about domains and their schedules."""
     queries = []
     difficulty_levels = ["I", "II", "III", "IV"]
+    roman_to_int = {"I": 1, "II": 2, "III": 3, "IV": 4}
     
     for domain_name, domain_data in domains.items():
         # Domain schedule query
@@ -137,6 +138,7 @@ def generate_domain_queries(domains: dict) -> list:
         
         # Difficulty-specific strategies
         for level in difficulty_levels:
+            level_num = roman_to_int[level]
             queries.append({
                 "query": f"How to clear {domain_name} at difficulty level {level}?",
                 "response": {
@@ -149,9 +151,9 @@ def generate_domain_queries(domains: dict) -> list:
                     "element_counters": domain_data.get('recommended_elements', []),
                     "strategy": f"Level {level} specific strategy: " + domain_data.get('farming_strategy', "Focus on efficient clearing"),
                     "minimum_requirements": {
-                        "character_level": f"{40 + (int(level) * 10)}+",
-                        "talent_level": f"{1 + int(level)}+",
-                        "weapon_level": f"{40 + (int(level) * 10)}+"
+                        "character_level": f"{40 + (level_num * 10)}+",
+                        "talent_level": f"{1 + level_num}+",
+                        "weapon_level": f"{40 + (level_num * 10)}+"
                     }
                 },
                 "type": "domain_strategy"

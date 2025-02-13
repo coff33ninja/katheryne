@@ -8,13 +8,12 @@ numpy>=1.24.0
 pydantic>=2.5.0
 
 # AI and Machine Learning
-torch>=2.1.0
-transformers>=4.36.0
-datasets>=2.15.0
-scikit-learn>=1.3.0
-torchvision
-torchaudio
-openvino-dev
+torch>=2.0.0
+tqdm>=4.65.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+pydantic>=1.8.0
+requests>=2.28.0
 
 # Visualization and Analysis
 matplotlib>=3.8.0

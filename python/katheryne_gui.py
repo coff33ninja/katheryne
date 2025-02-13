@@ -35,16 +35,81 @@ class KatheryneGUI:
         data_frame = ttk.Frame(self.notebook)
         self.notebook.add(data_frame, text='Data Management')
         
-        # Data generation controls
-        ttk.Label(data_frame, text="Training Data Generation", font=('Helvetica', 12, 'bold')).pack(pady=10)
+        # Data download section
+        download_frame = ttk.LabelFrame(data_frame, text="Data Download")
+        download_frame.pack(fill='x', padx=5, pady=5)
         
-        # Add character button
-        ttk.Button(data_frame, text="Generate Training Data", 
+        # Download buttons
+        ttk.Button(download_frame, text="Download All Data", 
+                  command=lambda: self.download_data("all")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Characters", 
+                  command=lambda: self.download_data("characters")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Weapons", 
+                  command=lambda: self.download_data("weapons")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Artifacts", 
+                  command=lambda: self.download_data("artifacts")).pack(side='left', padx=5, pady=5)
+        
+        # Force refresh checkbox
+        self.force_refresh_var = tk.BooleanVar(value=False)
+        ttk.Checkbutton(download_frame, text="Force Refresh", 
+                       variable=self.force_refresh_var).pack(side='right', padx=5, pady=5)
+        
+        # Data generation section
+        gen_frame = ttk.LabelFrame(data_frame, text="Training Data Generation")
+        gen_frame.pack(fill='x', padx=5, pady=5)
+        
+        ttk.Button(gen_frame, text="Generate Training Data", 
                   command=self.generate_training_data).pack(pady=5)
         
         # Status display
         self.data_status = scrolledtext.ScrolledText(data_frame, height=10)
         self.data_status.pack(fill='both', expand=True, padx=5, pady=5)
+
+    def download_data(self, data_type: str):
+        """Download data from APIs"""
+        def update_status(message: str):
+            self.data_status.insert('end', message + '\n')
+            self.data_status.see('end')
+            self.data_status.update()
+
+        def run_download():
+            try:
+                from data_downloader import GenshinDataDownloader
+                
+                downloader = GenshinDataDownloader(self.data_dir / "raw_data")
+                force_refresh = self.force_refresh_var.get()
+                
+                if data_type == "all":
+                    success = downloader.download_all(force_refresh, update_status)
+                elif data_type == "characters":
+                    success = downloader.download_character_data(force_refresh, update_status)
+                elif data_type == "weapons":
+                    success = downloader.download_weapon_data(force_refresh, update_status)
+                elif data_type == "artifacts":
+                    success = downloader.download_artifact_data(force_refresh, update_status)
+                
+                if success:
+                    update_status(f"\nSuccessfully downloaded {data_type} data!")
+                else:
+                    update_status(f"\nError downloading {data_type} data. Check logs for details.")
+                
+                # Verify data
+                verification = downloader.verify_data()
+                update_status("\nData verification results:")
+                for k, v in verification.items():
+                    update_status(f"{k}: {'✓' if v else '✗'}")
+                
+            except Exception as e:
+                update_status(f"Error: {str(e)}")
+        
+        # Clear status
+        self.data_status.delete('1.0', 'end')
+        update_status(f"Starting download of {data_type} data...")
+        
+        # Run in thread
+        thread = threading.Thread(target=run_download)
+        thread.daemon = True
+        thread.start()
 
     def setup_training_tab(self):
         """Setup the model training tab"""

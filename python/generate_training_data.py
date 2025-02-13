@@ -108,6 +108,7 @@ def generate_weapon_queries(weapons: dict) -> list:
 def generate_domain_queries(domains: dict) -> list:
     """Generate queries about domains and their schedules."""
     queries = []
+    difficulty_levels = ["I", "II", "III", "IV"]
     
     for domain_name, domain_data in domains.items():
         # Domain schedule query
@@ -133,6 +134,28 @@ def generate_domain_queries(domains: dict) -> list:
             },
             "type": "domain_strategy"
         })
+        
+        # Difficulty-specific strategies
+        for level in difficulty_levels:
+            queries.append({
+                "query": f"How to clear {domain_name} at difficulty level {level}?",
+                "response": {
+                    "difficulty_level": level,
+                    "recommended_team": {
+                        "main_dps": domain_data.get('recommended_characters', [])[:1],
+                        "supports": domain_data.get('recommended_characters', [])[1:3],
+                        "healer": domain_data.get('recommended_characters', [])[3:4]
+                    },
+                    "element_counters": domain_data.get('recommended_elements', []),
+                    "strategy": f"Level {level} specific strategy: " + domain_data.get('farming_strategy', "Focus on efficient clearing"),
+                    "minimum_requirements": {
+                        "character_level": f"{40 + (int(level) * 10)}+",
+                        "talent_level": f"{1 + int(level)}+",
+                        "weapon_level": f"{40 + (int(level) * 10)}+"
+                    }
+                },
+                "type": "domain_strategy"
+            })
 
     return queries
 
@@ -204,10 +227,6 @@ def main():
         char_queries = generate_character_queries(characters)
         print(f"Generated {len(char_queries)} character queries")
         all_queries.extend(char_queries)
-        
-        comp_queries = generate_comparison_queries(characters)
-        print(f"Generated {len(comp_queries)} comparison queries")
-        all_queries.extend(comp_queries)
         
         team_queries = generate_team_composition_queries(characters)
         print(f"Generated {len(team_queries)} team composition queries")

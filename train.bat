@@ -20,8 +20,8 @@ if errorlevel 1 (
 )
 
 :: Set environment variables for training (can be modified as needed)
-set EPOCHS=1
-set BATCH_SIZE=32
+set EPOCHS=10
+set BATCH_SIZE=64
 set LEARNING_RATE=0.002
 
 echo Training Configuration:

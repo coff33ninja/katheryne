@@ -1,11 +1,3 @@
-{
-  "total_samples": 454,
-  "character_queries": 216,
-  "weapon_queries": 188,
-  "comparison_queries": 50,
-  "sample_types": {
-    "character_info": 216,
-    "weapon_info": 188,
-    "comparison": 50
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35c079904242d48912bde74477c06008629f620a6a40a9c2e0f77c6ece666d4f
+size 214

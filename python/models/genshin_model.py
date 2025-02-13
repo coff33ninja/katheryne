@@ -178,3 +178,18 @@ class GenshinAITrainer:
         except Exception as e:
             print(f"Error generating embeddings for {dataset_name}: {e}")
             return torch.tensor([])
+
+import torch.nn as nn
+
+class GenshinModel(nn.Module):
+    def __init__(self, input_dim=128, hidden_dim=256, output_dim=587):
+        super(GenshinModel, self).__init__()
+        self.embedding = nn.Embedding(output_dim, input_dim)
+        self.rnn = nn.LSTM(input_dim, hidden_dim, batch_first=True)
+        self.fc = self.fc = nn.Linear(hidden_dim, output_dim)
+
+    def forward(self, queries, responses):
+        embedded = self.embedding(queries)
+        output, _ = self.rnn(embedded)
+        output = self.fc(output)
+        return output

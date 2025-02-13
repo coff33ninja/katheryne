@@ -177,3 +177,9 @@ with torch.no_grad():
 - "Compare Ayaka and Ganyu as DPS"
 
 The assistant can handle both specific queries about game mechanics and broader strategic questions about team composition and meta analysis.
+
+## Advanced Examples
+
+### Example: Generating Detailed Team Composition Advice
+
+You can use the assistant to ask for team synergy recommendations:

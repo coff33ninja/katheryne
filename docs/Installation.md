@@ -77,16 +77,15 @@ Key Python packages installed:
 
 ### 5. Verify Installation
 
-Run the verification script:
+(Optional) To verify your Python setup, try running the main program:
 ```bash
-python python/verify_setup.py
+python python/main.py
 ```
+This confirms that:
+- All Python dependencies are correctly installed
+- The main execution flow starts without errors
 
-This will check:
-- Python package installation
-- CUDA availability (if applicable)
-- Data directory structure
-- Environment configuration
+If further troubleshooting is needed, please refer to the [Troubleshooting](Troubleshooting.md) guide.
 
 ## Directory Structure
 
@@ -94,19 +93,27 @@ After installation, your project structure should look like this:
 
 ```plaintext
 Katheryne/
-├── node/               # TypeScript/Node.js API client
-│   ├── src/           # Source code
-│   ├── dist/          # Compiled JavaScript
-│   └── package.json   # Node.js dependencies
-├── python/            # Python ML pipeline
-│   ├── models/        # ML model definitions
-│   ├── preprocessing/ # Data processing
-│   └── requirements.txt
-├── data/              # Created at runtime
-│   ├── raw/          # Raw API data
-│   ├── processed/    # Processed datasets
-│   └── models/       # Trained models
-└── docs/             # Documentation
+├── node/                    # TypeScript/Node.js API client
+│   ├── src/                # Source code (e.g. client.ts, types.ts)
+│   ├── dist/               # Compiled JavaScript files
+│   ├── package.json        # Node.js dependencies
+│   └── tsconfig.json       # TypeScript configuration
+├── python/                  # Python ML pipeline
+│   ├── main.py             # Main entry point
+│   ├── check_and_train.py   # Training pipeline script
+│   ├── generate_training_data.py  # Data generation utility
+│   ├── train_assistant.py  # Assistant training script
+│   ├── models/             # ML model implementations
+│   │   ├── genshin_assistant.py
+│   │   └── genshin_model.py
+│   ├── preprocessing/      # Data processing utilities
+│   ├── scraper/            # Data collection tools
+│   └── requirements.txt    # Python dependencies
+├── data/                   # Game data and model files
+│   ├── raw/                # Raw data files (JSON)
+│   ├── processed/          # Processed data files
+│   └── models/             # Trained ML model files
+└── docs/                   # Documentation and guides
 ```
 
 ## Common Issues

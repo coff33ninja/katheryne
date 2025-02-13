@@ -1,3 +1,6 @@
+tqdm>=4.65.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
 # API and Data Processing
 requests>=2.31.0
 pandas>=2.1.0

@@ -80,7 +80,7 @@ For those eager to get started:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/katheryne.git
+   git clone https://github.com/coff33ninja/katheryne.git
    cd katheryne
    ```
 

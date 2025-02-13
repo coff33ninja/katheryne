@@ -1,5 +1,3 @@
 """
-Katheryne - Genshin Impact Data Processing and AI Training Package
+Genshin Assistant training package
 """
-
-__version__ = "1.0.0"

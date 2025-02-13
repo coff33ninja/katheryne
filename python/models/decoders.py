@@ -1,8 +1,34 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from encoder import HardwareManager
 
+class HardwareManager:
+    @staticmethod
+    def get_device():
+        if torch.cuda.is_available():
+            return torch.device('cuda')
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            return torch.device('mps')
+        elif hasattr(torch.version, 'hip') and torch.version.hip is not None:
+            return torch.device('cuda')  # ROCm uses CUDA device type
+        else:
+            return torch.device('cpu')
+
+    @staticmethod
+    def optimize_for_device(model, device):
+        if device.type == 'cuda':
+            model = model.cuda()
+            if torch.cuda.is_available():
+                torch.backends.cudnn.benchmark = True
+        elif device.type == 'cpu':
+            if torch.backends.mkl.is_available():
+                torch.set_num_threads(torch.get_num_threads())
+            try:
+                import intel_extension_for_pytorch as ipex
+                model = ipex.optimize(model)
+            except ImportError:
+                pass
+        return model
 
 class Decoder(nn.Module):
     def __init__(self, latent_dim, hidden_dim, output_dim, num_layers=2):
@@ -48,56 +74,6 @@ class Decoder(nn.Module):
     def decode(self, z):
         return self.forward(z)
 
-
-class AutoEncoder(nn.Module):
-    def __init__(self, input_dim, hidden_dim, latent_dim, num_layers=2):
-        super(AutoEncoder, self).__init__()
-
-        self.encoder = Encoder(input_dim, hidden_dim, latent_dim, num_layers)
-        self.decoder = Decoder(latent_dim, hidden_dim, input_dim, num_layers)
-
-        # Hardware optimization
-        self.device = HardwareManager.get_device()
-        self.to(self.device)
-        self = HardwareManager.optimize_for_device(self, self.device)
-
-    def forward(self, x):
-        # Move input to correct device
-        x = x.to(self.device)
-
-        # Encode
-        mean, log_var = self.encoder(x)
-        z = self.encoder.reparameterize(mean, log_var)
-
-        # Decode
-        reconstruction = self.decoder(z)
-
-        return reconstruction, mean, log_var
-
-    def get_loss(self, x, reconstruction, mean, log_var):
-        # Reconstruction loss
-        recon_loss = F.binary_cross_entropy(reconstruction, x, reduction="sum")
-
-        # KL divergence loss
-        kl_loss = -0.5 * torch.sum(1 + log_var - mean.pow(2) - log_var.exp())
-
-        return recon_loss + kl_loss
-
-
-def create_model(input_dim, hidden_dim=256, latent_dim=32, num_layers=2):
-    """
-    Factory function to create an AutoEncoder with optimal hardware settings
-    """
-    model = AutoEncoder(input_dim, hidden_dim, latent_dim, num_layers)
-    device = HardwareManager.get_device()
-    model = HardwareManager.optimize_for_device(model, device)
-
-    print(f"Model created on {device}")
-    print(f"Hardware info: {Encoder.get_hardware_info()}")
-
-    return model
-
-
 class HeavyDecoder(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, vocab_size, num_layers=2):
         super(HeavyDecoder, self).__init__()
@@ -112,7 +88,6 @@ class HeavyDecoder(nn.Module):
         output, (hidden, cell) = self.lstm(x, (hidden, cell))
         output = self.fc(output)
         return output, (hidden, cell)
-
 
 class LightDecoder(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, vocab_size):

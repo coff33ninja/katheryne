@@ -5,7 +5,7 @@ import torch.nn as nn
 from pathlib import Path
 from tqdm import tqdm
 from models.genshin_assistant import GenshinAssistant
-from dataset import GenshinAssistantDataset
+from dataset import GenshinAssistantDataset  # Fixed import
 
 
 def check_hardware():

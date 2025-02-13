@@ -19,11 +19,9 @@ class HardwareManager:
         if device.type == 'cuda':
             model = model.cuda()
             if torch.cuda.is_available():
-                # NVIDIA specific optimizations
                 torch.backends.cudnn.benchmark = True
         elif device.type == 'cpu':
             if torch.backends.mkl.is_available():
-                # MKL optimization for Intel CPUs
                 torch.set_num_threads(torch.get_num_threads())
             try:
                 import intel_extension_for_pytorch as ipex
@@ -81,24 +79,6 @@ class Encoder(nn.Module):
         eps = torch.randn_like(std)
         return mean + eps * std
 
-    def encode(self, x):
-        mean, log_var = self.forward(x)
-        z = self.reparameterize(mean, log_var)
-        return z
-
-    @staticmethod
-    def get_hardware_info():
-        device = HardwareManager.get_device()
-        info = {
-            'device_type': device.type,
-            'device_name': torch.cuda.get_device_name(0) if device.type == 'cuda' else 'CPU',
-            'cuda_available': torch.cuda.is_available(),
-            'rocm_available': hasattr(torch.version, 'hip') and torch.version.hip is not None,
-            'mkl_available': torch.backends.mkl.is_available(),
-            'num_threads': torch.get_num_threads()
-        }
-        return info
-
 class HeavyEncoder(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_layers=2):
         super(HeavyEncoder, self).__init__()
@@ -110,7 +90,6 @@ class HeavyEncoder(nn.Module):
     def forward(self, x):
         outputs, (hidden, cell) = self.lstm(x)
         return outputs, (hidden, cell)
-
 
 class LightEncoder(nn.Module):
     def __init__(self, embedding_dim, hidden_dim):

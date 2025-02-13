@@ -1,349 +1,371 @@
 # API Reference
 
-Complete reference for Katheryne's API client and endpoints.
-
 ## Table of Contents
-- [Node.js Client](#nodejs-client)
-- [TypeScript Types](#typescript-types)
-- [API Endpoints](#api-endpoints)
-- [Error Handling](#error-handling)
+- [GenshinAssistant](#genshinassistant)
+- [GenshinAssistantDataset](#genshinassistantdataset)
+- [GenshinTrainer](#genshintrainer)
+- [Utilities](#utilities)
+- [Constants](#constants)
 
-## Node.js Client
+## GenshinAssistant
 
-### Client Initialization
+The main assistant class for generating responses to Genshin Impact related queries.
 
-```typescript
-import { GenshinClient } from './src/client';
+### Constructor
 
-const client = new GenshinClient({
-  baseUrl?: string;
-  timeout?: number;
-  debug?: boolean;
-});
+```python
+def __init__(
+    self,
+    vocab_size: int = 10000,
+    embedding_dim: int = 256,
+    hidden_dim: int = 512,
+    num_layers: int = 4,
+    num_heads: int = 8,
+    dropout: float = 0.1,
+    device: str = "cuda" if torch.cuda.is_available() else "cpu"
+) -> None:
 ```
 
-### Character Methods
+#### Parameters
+- `vocab_size` (int, optional): Size of the vocabulary. Defaults to 10000.
+- `embedding_dim` (int, optional): Dimension of embeddings. Defaults to 256.
+- `hidden_dim` (int, optional): Hidden layer dimension. Defaults to 512.
+- `num_layers` (int, optional): Number of transformer layers. Defaults to 4.
+- `num_heads` (int, optional): Number of attention heads. Defaults to 8.
+- `dropout` (float, optional): Dropout rate. Defaults to 0.1.
+- `device` (str, optional): Device to run the model on. Defaults to CUDA if available.
 
-```typescript
-// Get all characters
-const characters = await client.getAllCharacters();
+### Methods
 
-// Get specific character
-const hutao = await client.getCharacter('hutao');
+#### generate_response
 
-// Get character stats
-const stats = await client.getCharacterStats('hutao');
+```python
+def generate_response(
+    self,
+    query: str,
+    max_length: int = 64,
+    temperature: float = 0.7,
+    top_p: float = 0.9,
+    top_k: int = 50
+) -> str:
 ```
 
-### Weapon Methods
+Generates a response for the given query.
 
-```typescript
-// Get all weapons
-const weapons = await client.getAllWeapons();
+##### Parameters
+- `query` (str): Input query text
+- `max_length` (int, optional): Maximum response length. Defaults to 64.
+- `temperature` (float, optional): Sampling temperature. Defaults to 0.7.
+- `top_p` (float, optional): Nucleus sampling parameter. Defaults to 0.9.
+- `top_k` (int, optional): Top-k sampling parameter. Defaults to 50.
 
-// Get specific weapon
-const weapon = await client.getWeapon('staff-of-homa');
+##### Returns
+- str: Generated response text
 
-// Get weapon stats
-const stats = await client.getWeaponStats('staff-of-homa');
+##### Raises
+- ValueError: If query is empty
+- RuntimeError: If model is not initialized
+
+#### load_state_dict
+
+```python
+def load_state_dict(
+    self,
+    state_dict: Dict[str, torch.Tensor],
+    strict: bool = True
+) -> None:
 ```
 
-### Artifact Methods
+Loads model parameters from a state dictionary.
 
-```typescript
-// Get all artifacts
-const artifacts = await client.getAllArtifacts();
+##### Parameters
+- `state_dict` (Dict[str, torch.Tensor]): Model state dictionary
+- `strict` (bool, optional): Strict loading mode. Defaults to True.
 
-// Get specific artifact set
-const set = await client.getArtifactSet('crimson-witch');
+##### Raises
+- RuntimeError: If state dict is incompatible
+
+#### save_state_dict
+
+```python
+def save_state_dict(
+    self,
+    path: str
+) -> None:
 ```
 
-## TypeScript Types
+Saves model parameters to a file.
 
-### Character Types
+##### Parameters
+- `path` (str): Path to save the state dictionary
 
-```typescript
-interface Character {
-  name: string;
-  title: string;
-  vision: ElementType;
-  weapon: WeaponType;
-  nation: NationType;
-  affiliation: string;
-  rarity: number;
-  constellation: string;
-  birthday: string;
-  description: string;
-  skillTalents: SkillTalent[];
-  passiveTalents: PassiveTalent[];
-  constellations: Constellation[];
-}
+##### Raises
+- IOError: If saving fails
 
-interface SkillTalent {
-  name: string;
-  unlock: string;
-  description: string;
-  upgrades: SkillUpgrade[];
-}
+## GenshinAssistantDataset
 
-interface PassiveTalent {
-  name: string;
-  unlock: string;
-  description: string;
-}
+Dataset class for training the assistant model.
 
-interface Constellation {
-  name: string;
-  unlock: string;
-  description: string;
-  level: number;
-}
+### Constructor
+
+```python
+def __init__(
+    self,
+    data_path: str,
+    max_length: int = 64,
+    vocab_size: int = 10000
+) -> None:
 ```
 
-### Weapon Types
+#### Parameters
+- `data_path` (str): Path to data directory
+- `max_length` (int, optional): Maximum sequence length. Defaults to 64.
+- `vocab_size` (int, optional): Size of vocabulary. Defaults to 10000.
 
-```typescript
-interface Weapon {
-  name: string;
-  type: WeaponType;
-  rarity: number;
-  baseAtk: number;
-  subStat: string;
-  passiveName: string;
-  passiveDesc: string;
-  location: string;
-}
+### Methods
 
-enum WeaponType {
-  SWORD = 'SWORD',
-  CLAYMORE = 'CLAYMORE',
-  POLEARM = 'POLEARM',
-  BOW = 'BOW',
-  CATALYST = 'CATALYST'
-}
+#### load_data
+
+```python
+def load_data(self) -> None:
 ```
 
-### Artifact Types
+Loads training data from disk.
 
-```typescript
-interface Artifact {
-  name: string;
-  max_rarity: number;
-  two_piece_bonus: string;
-  four_piece_bonus: string;
-  pieces: ArtifactPiece[];
-}
+##### Raises
+- FileNotFoundError: If data files are missing
+- ValueError: If data format is invalid
 
-interface ArtifactPiece {
-  name: string;
-  relicType: RelicType;
-}
+#### get_item
 
-enum RelicType {
-  FLOWER = 'FLOWER',
-  PLUME = 'PLUME',
-  SANDS = 'SANDS',
-  GOBLET = 'GOBLET',
-  CIRCLET = 'CIRCLET'
-}
+```python
+def __getitem__(
+    self,
+    idx: int
+) -> Tuple[torch.Tensor, torch.Tensor]:
 ```
 
-## API Endpoints
+Gets a single training example.
 
-### Character Endpoints
+##### Parameters
+- `idx` (int): Index of the example
 
-```typescript
-GET /characters
-GET /characters/{name}
-GET /characters/{name}/stats
+##### Returns
+- Tuple[torch.Tensor, torch.Tensor]: Input and target tensors
+
+##### Raises
+- IndexError: If index is out of range
+
+## GenshinTrainer
+
+Trainer class for the assistant model.
+
+### Constructor
+
+```python
+def __init__(
+    self,
+    model: GenshinAssistant,
+    dataset: GenshinAssistantDataset,
+    learning_rate: float = 1e-4,
+    batch_size: int = 32,
+    num_workers: int = 4
+) -> None:
 ```
 
-Response example:
-```json
-{
-  "name": "Hu Tao",
-  "vision": "PYRO",
-  "weapon": "POLEARM",
-  "nation": "LIYUE",
-  "affiliation": "Wangsheng Funeral Parlor",
-  "rarity": 5,
-  "constellation": "Papilio Charontis",
-  "birthday": "0000-07-15",
-  "description": "The 77th Director of the Wangsheng Funeral Parlor..."
-}
+#### Parameters
+- `model` (GenshinAssistant): Model to train
+- `dataset` (GenshinAssistantDataset): Training dataset
+- `learning_rate` (float, optional): Learning rate. Defaults to 1e-4.
+- `batch_size` (int, optional): Batch size. Defaults to 32.
+- `num_workers` (int, optional): Number of data loading workers. Defaults to 4.
+
+### Methods
+
+#### train
+
+```python
+def train(
+    self,
+    epochs: int,
+    validation_split: float = 0.1,
+    early_stopping_patience: int = 3
+) -> Dict[str, List[float]]:
 ```
 
-### Weapon Endpoints
+Trains the model.
 
-```typescript
-GET /weapons
-GET /weapons/{name}
-GET /weapons/{name}/stats
+##### Parameters
+- `epochs` (int): Number of training epochs
+- `validation_split` (float, optional): Validation data fraction. Defaults to 0.1.
+- `early_stopping_patience` (int, optional): Early stopping patience. Defaults to 3.
+
+##### Returns
+- Dict[str, List[float]]: Training history
+
+##### Raises
+- RuntimeError: If training fails
+
+#### evaluate
+
+```python
+def evaluate(
+    self,
+    test_dataset: Optional[GenshinAssistantDataset] = None
+) -> Dict[str, float]:
 ```
 
-Response example:
-```json
-{
-  "name": "Staff of Homa",
-  "type": "POLEARM",
-  "rarity": 5,
-  "baseAtk": 46,
-  "subStat": "CRIT_DMG",
-  "passiveName": "Reckless Cinnabar",
-  "passiveDesc": "HP increased by 20%. Additionally, provides an ATK Bonus..."
-}
+Evaluates the model.
+
+##### Parameters
+- `test_dataset` (Optional[GenshinAssistantDataset]): Test dataset. Uses validation set if None.
+
+##### Returns
+- Dict[str, float]: Evaluation metrics
+
+## Utilities
+
+### Text Processing
+
+#### tokenize
+
+```python
+def tokenize(
+    text: str,
+    max_length: int = 64
+) -> List[str]:
 ```
 
-### Artifact Endpoints
+Tokenizes input text.
 
-```typescript
-GET /artifacts
-GET /artifacts/{name}
+##### Parameters
+- `text` (str): Input text
+- `max_length` (int, optional): Maximum sequence length. Defaults to 64.
+
+##### Returns
+- List[str]: List of tokens
+
+#### detokenize
+
+```python
+def detokenize(
+    tokens: List[str]
+) -> str:
 ```
 
-Response example:
-```json
-{
-  "name": "Crimson Witch of Flames",
-  "max_rarity": 5,
-  "two_piece_bonus": "Pyro DMG Bonus +15%",
-  "four_piece_bonus": "Increases Overloaded and Burning DMG by 40%..."
-}
+Converts tokens back to text.
+
+##### Parameters
+- `tokens` (List[str]): List of tokens
+
+##### Returns
+- str: Reconstructed text
+
+### Model Utils
+
+#### load_model
+
+```python
+def load_model(
+    path: str,
+    device: Optional[str] = None
+) -> GenshinAssistant:
 ```
 
-## Error Handling
+Loads a model from disk.
 
-### Error Types
+##### Parameters
+- `path` (str): Path to model file
+- `device` (Optional[str]): Device to load model to
 
-```typescript
-interface APIError {
-  code: number;
-  message: string;
-  details?: any;
-}
+##### Returns
+- GenshinAssistant: Loaded model
 
-enum ErrorCode {
-  NOT_FOUND = 404,
-  RATE_LIMIT = 429,
-  SERVER_ERROR = 500
-}
+##### Raises
+- FileNotFoundError: If model file not found
+- RuntimeError: If loading fails
+
+#### save_model
+
+```python
+def save_model(
+    model: GenshinAssistant,
+    path: str
+) -> None:
 ```
 
-### Error Handling Examples
+Saves a model to disk.
 
-```typescript
-try {
-  const character = await client.getCharacter('nonexistent');
-} catch (error) {
-  if (error instanceof APIError) {
-    switch (error.code) {
-      case ErrorCode.NOT_FOUND:
-        console.error('Character not found');
-        break;
-      case ErrorCode.RATE_LIMIT:
-        console.error('Rate limit exceeded');
-        break;
-      default:
-        console.error('Unknown error:', error.message);
-    }
-  }
-}
+##### Parameters
+- `model` (GenshinAssistant): Model to save
+- `path` (str): Path to save to
+
+##### Raises
+- IOError: If saving fails
+
+## Constants
+
+### Model Constants
+
+```python
+MAX_SEQUENCE_LENGTH = 64
+DEFAULT_BATCH_SIZE = 32
+DEFAULT_LEARNING_RATE = 1e-4
 ```
 
-### Rate Limiting
+### Training Constants
 
-The client implements automatic rate limiting:
-- Default: 60 requests per minute
-- Retries with exponential backoff
-- Configurable limits:
-
-```typescript
-const client = new GenshinClient({
-  rateLimit: {
-    maxRequests: 60,
-    perMinute: 1,
-    retryAfter: 1000
-  }
-});
+```python
+TRAIN_VAL_SPLIT = 0.1
+EARLY_STOPPING_PATIENCE = 3
+MAX_EPOCHS = 100
 ```
 
-## Pagination
+### Generation Constants
 
-For endpoints that return lists:
-
-```typescript
-const options = {
-  page: 1,
-  limit: 20,
-  sort: 'name',
-  order: 'asc'
-};
-
-const characters = await client.getAllCharacters(options);
+```python
+DEFAULT_TEMPERATURE = 0.7
+DEFAULT_TOP_P = 0.9
+DEFAULT_TOP_K = 50
 ```
 
-Response includes pagination metadata:
-```typescript
-interface PaginatedResponse<T> {
-  data: T[];
-  pagination: {
-    current: number;
-    total: number;
-    perPage: number;
-    totalPages: number;
-  }
-}
+### Special Tokens
+
+```python
+PAD_TOKEN = "<pad>"
+UNK_TOKEN = "<unk>"
+BOS_TOKEN = "<bos>"
+EOS_TOKEN = "<eos>"
 ```
 
-## WebSocket API (if applicable)
+## Error Types
 
-```typescript
-const ws = client.connectWebSocket();
+### AssistantError
 
-ws.on('message', (data) => {
-  console.log('Received:', data);
-});
+Base class for assistant-related errors.
 
-ws.on('error', (error) => {
-  console.error('WebSocket error:', error);
-});
+### TokenizationError
+
+Raised when text tokenization fails.
+
+### GenerationError
+
+Raised when response generation fails.
+
+### ModelError
+
+Raised when model operations fail.
+
+## Type Hints
+
+```python
+from typing import Dict, List, Optional, Tuple, Union
+
+Tensor = torch.Tensor
+StateDict = Dict[str, Tensor]
+BatchType = Tuple[Tensor, Tensor]
+MetricsType = Dict[str, float]
+HistoryType = Dict[str, List[float]]
 ```
 
-## Authentication (if needed)
-
-```typescript
-const client = new GenshinClient({
-  apiKey: 'your-api-key',
-  // or
-  auth: {
-    username: 'user',
-    password: 'pass'
-  }
-});
-```
-
-## Caching
-
-The client implements automatic caching:
-
-```typescript
-const client = new GenshinClient({
-  cache: {
-    enabled: true,
-    ttl: 3600, // 1 hour
-    maxSize: 1000 // entries
-  }
-});
-```
-
-## Logging
-
-Enable detailed logging:
-
-```typescript
-const client = new GenshinClient({
-  debug: true,
-  logLevel: 'debug', // 'error' | 'warn' | 'info' | 'debug'
-  logger: customLogger // optional
-});
-```
+For more detailed examples and usage patterns, see the [Examples](examples.md) document.

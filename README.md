@@ -1,129 +1,125 @@
 # Katheryne - Genshin Impact AI Assistant
 
-A Node.js and Python project for building an AI assistant that can answer queries about Genshin Impact game data. The project combines data collection, processing, and machine learning to create an intelligent assistant for game-related questions.
+A Node.js and Python-powered AI assistant that knows everything about Teyvat! Need to optimize your team? Wondering which artifacts to slap on your Hu Tao? Katheryne has your back! 🌏✨
 
 > "Ad Astra Abyssosque! Welcome to the Adventurers' Guild."
 
-## Features
+---
 
-- Comprehensive game data collection and processing
-- Training data generation for various query types
-- Machine learning models for natural language understanding
-- Interactive AI assistant for game-related queries
-- Support for multiple query categories:
-  - Character information and builds
-  - Weapon recommendations
-  - Artifact set bonuses and stats
-  - Domain strategies
-  - Team compositions and synergies
+## 🎮 Features
 
-## Project Structure
+- 📜 **Comprehensive game data collection** – because knowledge is power!
+- 🧠 **Smart training models** – so Katheryne doesn’t just talk nonsense.
+- 🔥 **Build recommendations** – min-max your way to victory!
+- ⚔️ **Weapon and artifact suggestions** – never be underpowered again.
+- 🏰 **Domain & Abyss strategies** – because floors 11 and 12 are pain.
+- 🤝 **Team synergy insights** – let’s make your party *cracked*.
+
+---
+
+## 🏗️ Project Structure
 
 ```plaintext
 Katheryne/
 ├── node/                # TypeScript/Node.js components
-│   ├── src/            # Source code
-│   │   ├── client.ts   # API client implementation
-│   │   └── types.ts    # TypeScript type definitions
-│   ├── dist/           # Compiled JavaScript
-│   ├── package.json    # Node.js dependencies
-│   └── tsconfig.json   # TypeScript configuration
-├── python/             # Python ML components
+│   ├── src/            # Core logic
+│   │   ├── client.ts   # API client
+│   │   └── types.ts    # TypeScript types
+│   ├── dist/           # Compiled JS
+│   ├── package.json    # Dependencies
+│   └── tsconfig.json   # TypeScript config
+├── python/             # AI/ML components
 │   ├── data/          # Data processing scripts
 │   │   └── generate_training_data.py
-│   ├── models/        # ML model implementations
+│   ├── models/        # AI model brain
 │   │   └── assistant.py
-│   ├── training/      # Training scripts
+│   ├── training/      # Model training scripts
 │   │   └── train.py
 │   └── requirements.txt # Python dependencies
-├── data/               # Data directory
-│   ├── characters/    # Character data
-│   ├── weapons/       # Weapon data
-│   ├── artifacts/     # Artifact data
-│   ├── domains/       # Domain data
-│   └── teams/         # Team composition data
-├── training_data/     # Generated training data
-│   ├── training_data.json    # Training samples
-│   └── dataset_summary.json  # Dataset statistics
-└── docs/              # Documentation
-    ├── data_format.md # Data format specifications
-    ├── training.md    # Training instructions
-    └── api.md         # API documentation
+├── data/               # All the juicy game data
+│   ├── characters/    # Character stats & lore
+│   ├── weapons/       # Weapon breakdowns
+│   ├── artifacts/     # Artifact sets & effects
+│   ├── domains/       # Where to farm stuff
+│   └── teams/         # Meta comps
+└── docs/              # Documentation and guides
 ```
 
-## Quick Start
+---
 
-### Prerequisites
+## 🚀 Quick Start
 
-- Python 3.8+
-- Node.js 14+
-- Git
+### 🔧 Prerequisites
 
-### Installation
+- 🐍 Python 3.8+
+- 🟢 Node.js 14+
+- 🏴‍☠️ Git
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Katheryne.git
-cd Katheryne
-```
+### 💾 Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/Katheryne.git
+   cd Katheryne
+   ```
 
 2. Install Node.js dependencies:
-```bash
-cd node
-npm install
-npm run build
-cd ..
-```
+   ```bash
+   cd node
+   npm install
+   npm run build
+   cd ..
+   ```
 
 3. Install Python dependencies:
-```bash
-cd python
-pip install -r requirements.txt
-cd ..
-```
+   ```bash
+   cd python
+   pip install -r requirements.txt
+   cd ..
+   ```
 
-### Testing the Setup
+### 🛠️ Testing the Setup
 
 1. Generate training data:
-```bash
-python python/generate_training_data.py
-```
+   ```bash
+   python python/data/generate_training_data.py
+   ```
 
-This will create:
-- `training_data/training_data.json` - Training samples
-- `training_data/dataset_summary.json` - Dataset statistics
+   📜 **This creates:**
+   - `training_data/training_data.json` – Training samples
+   - `training_data/dataset_summary.json` – Dataset overview
 
-2. Verify the generated data:
-```bash
-python python/verify_data.py
-```
+2. Verify data integrity:
+   ```bash
+   python python/verify_data.py
+   ```
 
-The script will show:
-- Number of samples per category
-- Data format validation results
-- Example queries and responses
+   🔍 **Checks:**
+   - Data formatting ✅
+   - Sample distribution ✅
+   - Example queries & responses ✅
 
-## Building Your Own Model
+---
 
-### 1. Data Preparation
+## 🏋️‍♂️ Building Your Own AI Model
 
-1. Customize the data generation:
-   - Edit `data/*.json` files to add your own game data
-   - Modify `python/generate_training_data.py` to add new query types
+### 1️⃣ Data Preparation
 
-2. Generate training data:
-```bash
-python python/generate_training_data.py
-```
+1. Edit `data/*.json` to tweak game info.
+2. Modify `python/generate_training_data.py` to support new query types.
+3. Run the generator:
+   ```bash
+   python python/generate_training_data.py
+   ```
 
-### 2. Model Training
+### 2️⃣ Training Time! 🧠
 
-1. Basic training:
+Basic:
 ```bash
 python python/train.py
 ```
 
-2. Advanced training options:
+Advanced training:
 ```bash
 python python/train.py \
   --epochs 10 \
@@ -133,30 +129,77 @@ python python/train.py \
   --save-dir models/custom
 ```
 
-Training parameters:
-- `epochs`: Number of training epochs (default: 5)
-- `batch-size`: Batch size (default: 32)
-- `learning-rate`: Learning rate (default: 0.001)
-- `model-type`: Model architecture (transformer/lstm)
-- `save-dir`: Model save directory
+📌 **Training parameters:**
+- `epochs`: How long Katheryne studies 📖 (default: 5)
+- `batch-size`: How much info per session (default: 32)
+- `learning-rate`: Brain expansion speed 🧠 (default: 0.001)
+- `model-type`: Transformer or LSTM?
+- `save-dir`: Where to store trained models
 
-### 3. Model Evaluation
+### 3️⃣ Evaluating Performance 🏆
 
-Test your trained model:
+Test your trained AI:
 ```bash
 python python/evaluate.py --model-path models/custom
 ```
 
-The evaluation will show:
-- Accuracy metrics
-- Example predictions
-- Error analysis
+📊 **Outputs:**
+- Accuracy results 📈
+- Sample answers ✍️
+- Error analysis 🔍
 
-### 4. Using the Model
+### 4️⃣ Deploying Katheryne!
 
-1. Start the assistant:
+Run the assistant:
 ```bash
 python python/assistant.py --model-path models/custom
 ```
 
-2. Ask questions:
+Try out some queries:
+> "Tell me about Ganyu."
+> "What's the best build for Hu Tao?"
+> "Recommend a team comp for Abyss!"
+
+---
+
+## 🔮 Roadmap
+
+✨ What’s next for Katheryne?
+
+- 🌎 **Multi-language support**
+- 📰 **Real-time updates with game patches**
+- 🌐 **Web-based UI for easy model training**
+- 🤖 **Discord bot integration**
+- 👥 **Community contributions for dataset expansion**
+- 📊 **Advanced team composition analysis**
+- 📱 **Mobile app version**
+
+---
+
+## 🎁 Contributing
+
+Want to help? **We welcome all travelers!** 🚀
+
+Check out our **[Contributing Guide](docs/contributing.md)** to:
+- Add new features 🛠️
+- Improve training models 🧠
+- Expand data sources 📜
+- Report bugs 🐞
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – free to use, modify, and distribute!
+
+---
+
+## 💌 Contact & Support
+
+📧 Email: coff33ninja69@gmail.com
+💬 Discord: DRAGOHN#1282
+🐛 Issues? [Open a ticket](https://github.com/yourusername/Katheryne/issues)
+
+---
+
+**Ad Astra Abyssosque, Traveler! May the RNG gods be ever in your favor!** 🎲✨

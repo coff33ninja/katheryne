@@ -13,20 +13,23 @@ class KatheryneGUI:
         self.root = root
         self.root.title("Katheryne Assistant Manager")
         self.root.geometry("800x600")
-        
+
+        # Set the data directory
+        self.data_dir = Path("data")
+
         # Create message queue for thread-safe GUI updates
         self.msg_queue = Queue()
-        
+
         # Setup the notebook for tabs
         self.notebook = ttk.Notebook(root)
         self.notebook.pack(expand=True, fill='both', padx=5, pady=5)
-        
+
         # Create tabs
         self.setup_data_tab()
         self.setup_training_tab()
         self.setup_testing_tab()
         self.setup_deployment_tab()
-        
+
         # Start message checking
         self.check_messages()
 
@@ -34,33 +37,45 @@ class KatheryneGUI:
         """Setup the data generation and management tab"""
         data_frame = ttk.Frame(self.notebook)
         self.notebook.add(data_frame, text='Data Management')
-        
+
         # Data download section
         download_frame = ttk.LabelFrame(data_frame, text="Data Download")
         download_frame.pack(fill='x', padx=5, pady=5)
-        
+
         # Download buttons
-        ttk.Button(download_frame, text="Download All Data", 
-                  command=lambda: self.download_data("all")).pack(side='left', padx=5, pady=5)
-        ttk.Button(download_frame, text="Download Characters", 
-                  command=lambda: self.download_data("characters")).pack(side='left', padx=5, pady=5)
-        ttk.Button(download_frame, text="Download Weapons", 
-                  command=lambda: self.download_data("weapons")).pack(side='left', padx=5, pady=5)
-        ttk.Button(download_frame, text="Download Artifacts", 
-                  command=lambda: self.download_data("artifacts")).pack(side='left', padx=5, pady=5)
-        
+        ttk.Button(download_frame, text="Download All Data",
+                command=lambda: self.download_data("all")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Characters",
+                command=lambda: self.download_data("characters")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Weapons",
+                command=lambda: self.download_data("weapons")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Artifacts",
+                command=lambda: self.download_data("artifacts")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Consumables",
+                command=lambda: self.download_data("consumables")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Domains",
+                command=lambda: self.download_data("domains")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Elements",
+                command=lambda: self.download_data("elements")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Enemies",
+                command=lambda: self.download_data("enemies")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Materials",
+                command=lambda: self.download_data("materials")).pack(side='left', padx=5, pady=5)
+        ttk.Button(download_frame, text="Download Nations",
+                command=lambda: self.download_data("nations")).pack(side='left', padx=5, pady=5)
+
         # Force refresh checkbox
         self.force_refresh_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(download_frame, text="Force Refresh", 
+        ttk.Checkbutton(download_frame, text="Force Refresh",
                        variable=self.force_refresh_var).pack(side='right', padx=5, pady=5)
-        
+
         # Data generation section
         gen_frame = ttk.LabelFrame(data_frame, text="Training Data Generation")
         gen_frame.pack(fill='x', padx=5, pady=5)
-        
-        ttk.Button(gen_frame, text="Generate Training Data", 
+
+        ttk.Button(gen_frame, text="Generate Training Data",
                   command=self.generate_training_data).pack(pady=5)
-        
+
         # Status display
         self.data_status = scrolledtext.ScrolledText(data_frame, height=10)
         self.data_status.pack(fill='both', expand=True, padx=5, pady=5)
@@ -75,10 +90,10 @@ class KatheryneGUI:
         def run_download():
             try:
                 from data_downloader import GenshinDataDownloader
-                
+
                 downloader = GenshinDataDownloader(self.data_dir / "raw_data")
                 force_refresh = self.force_refresh_var.get()
-                
+
                 if data_type == "all":
                     success = downloader.download_all(force_refresh, update_status)
                 elif data_type == "characters":
@@ -87,25 +102,25 @@ class KatheryneGUI:
                     success = downloader.download_weapon_data(force_refresh, update_status)
                 elif data_type == "artifacts":
                     success = downloader.download_artifact_data(force_refresh, update_status)
-                
+
                 if success:
                     update_status(f"\nSuccessfully downloaded {data_type} data!")
                 else:
                     update_status(f"\nError downloading {data_type} data. Check logs for details.")
-                
+
                 # Verify data
                 verification = downloader.verify_data()
                 update_status("\nData verification results:")
                 for k, v in verification.items():
                     update_status(f"{k}: {'✓' if v else '✗'}")
-                
+
             except Exception as e:
                 update_status(f"Error: {str(e)}")
-        
+
         # Clear status
         self.data_status.delete('1.0', 'end')
         update_status(f"Starting download of {data_type} data...")
-        
+
         # Run in thread
         thread = threading.Thread(target=run_download)
         thread.daemon = True
@@ -115,51 +130,51 @@ class KatheryneGUI:
         """Setup the model training tab"""
         training_frame = ttk.Frame(self.notebook)
         self.notebook.add(training_frame, text='Model Training')
-        
+
         # Training controls
-        ttk.Label(training_frame, text="Model Training Controls", 
+        ttk.Label(training_frame, text="Model Training Controls",
                  font=('Helvetica', 12, 'bold')).pack(pady=10)
-        
+
         # Training parameters
         params_frame = ttk.LabelFrame(training_frame, text="Training Parameters")
         params_frame.pack(fill='x', padx=5, pady=5)
-        
+
         # Epochs
         ttk.Label(params_frame, text="Epochs:").grid(row=0, column=0, padx=5, pady=5)
         self.epochs_var = tk.StringVar(value="10")
         ttk.Entry(params_frame, textvariable=self.epochs_var, width=10).grid(row=0, column=1, padx=5, pady=5)
-        
+
         # Batch size
         ttk.Label(params_frame, text="Batch Size:").grid(row=0, column=2, padx=5, pady=5)
         self.batch_size_var = tk.StringVar(value="32")
         ttk.Entry(params_frame, textvariable=self.batch_size_var, width=10).grid(row=0, column=3, padx=5, pady=5)
-        
+
         # Learning rate
         ttk.Label(params_frame, text="Learning Rate:").grid(row=1, column=0, padx=5, pady=5)
         self.lr_var = tk.StringVar(value="0.001")
         ttk.Entry(params_frame, textvariable=self.lr_var, width=10).grid(row=1, column=1, padx=5, pady=5)
-        
+
         # Model type
         ttk.Label(params_frame, text="Model Type:").grid(row=1, column=2, padx=5, pady=5)
         self.model_type_var = tk.StringVar(value="light")
-        ttk.Combobox(params_frame, textvariable=self.model_type_var, 
+        ttk.Combobox(params_frame, textvariable=self.model_type_var,
                     values=["light", "heavy"], width=10).grid(row=1, column=3, padx=5, pady=5)
-        
+
         # Training controls
         controls_frame = ttk.Frame(training_frame)
         controls_frame.pack(fill='x', padx=5, pady=5)
-        
-        ttk.Button(controls_frame, text="Start Training", 
+
+        ttk.Button(controls_frame, text="Start Training",
                   command=self.start_training).pack(side='left', padx=5)
-        ttk.Button(controls_frame, text="Stop Training", 
+        ttk.Button(controls_frame, text="Stop Training",
                   command=self.stop_training).pack(side='left', padx=5)
-        
+
         # Training progress
         self.progress_var = tk.DoubleVar()
-        self.progress = ttk.Progressbar(training_frame, variable=self.progress_var, 
+        self.progress = ttk.Progressbar(training_frame, variable=self.progress_var,
                                       maximum=100)
         self.progress.pack(fill='x', padx=5, pady=5)
-        
+
         # Training log
         self.training_log = scrolledtext.ScrolledText(training_frame, height=10)
         self.training_log.pack(fill='both', expand=True, padx=5, pady=5)
@@ -168,16 +183,16 @@ class KatheryneGUI:
         """Setup the model testing tab"""
         testing_frame = ttk.Frame(self.notebook)
         self.notebook.add(testing_frame, text='Model Testing')
-        
+
         # Query input
         ttk.Label(testing_frame, text="Enter your query:").pack(pady=5)
         self.query_input = ttk.Entry(testing_frame, width=50)
         self.query_input.pack(pady=5)
-        
+
         # Test button
-        ttk.Button(testing_frame, text="Test Query", 
+        ttk.Button(testing_frame, text="Test Query",
                   command=self.test_query).pack(pady=5)
-        
+
         # Response display
         ttk.Label(testing_frame, text="Response:").pack(pady=5)
         self.response_display = scrolledtext.ScrolledText(testing_frame, height=10)
@@ -187,17 +202,17 @@ class KatheryneGUI:
         """Setup the deployment tab"""
         deployment_frame = ttk.Frame(self.notebook)
         self.notebook.add(deployment_frame, text='Deployment')
-        
+
         # Deployment controls
-        ttk.Label(deployment_frame, text="Deployment Controls", 
+        ttk.Label(deployment_frame, text="Deployment Controls",
                  font=('Helvetica', 12, 'bold')).pack(pady=10)
-        
+
         # Server controls
-        ttk.Button(deployment_frame, text="Start Server", 
+        ttk.Button(deployment_frame, text="Start Server",
                   command=self.start_server).pack(pady=5)
-        ttk.Button(deployment_frame, text="Stop Server", 
+        ttk.Button(deployment_frame, text="Stop Server",
                   command=self.stop_server).pack(pady=5)
-        
+
         # Server status
         self.server_status = scrolledtext.ScrolledText(deployment_frame, height=10)
         self.server_status.pack(fill='both', expand=True, padx=5, pady=5)
@@ -215,7 +230,7 @@ class KatheryneGUI:
                         break
                     if output:
                         self.msg_queue.put(('data', output.strip()))
-                
+
                 rc = process.poll()
                 if rc == 0:
                     self.msg_queue.put(('data', 'Training data generation completed successfully!'))
@@ -223,7 +238,7 @@ class KatheryneGUI:
                     self.msg_queue.put(('data', 'Error generating training data!'))
             except Exception as e:
                 self.msg_queue.put(('data', f'Error: {str(e)}'))
-        
+
         thread = threading.Thread(target=run_generation)
         thread.daemon = True
         thread.start()
@@ -240,17 +255,17 @@ class KatheryneGUI:
                     '--learning-rate', self.lr_var.get(),
                     '--model-type', self.model_type_var.get()
                 ]
-                
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, 
+
+                process = subprocess.Popen(cmd, stdout=subprocess.PIPE,
                                         stderr=subprocess.PIPE, text=True)
-                
+
                 while True:
                     output = process.stdout.readline()
                     if output == '' and process.poll() is not None:
                         break
                     if output:
                         self.msg_queue.put(('training', output.strip()))
-                
+
                 rc = process.poll()
                 if rc == 0:
                     self.msg_queue.put(('training', 'Training completed successfully!'))
@@ -258,7 +273,7 @@ class KatheryneGUI:
                     self.msg_queue.put(('training', 'Error during training!'))
             except Exception as e:
                 self.msg_queue.put(('training', f'Error: {str(e)}'))
-        
+
         thread = threading.Thread(target=run_training)
         thread.daemon = True
         thread.start()
@@ -274,15 +289,15 @@ class KatheryneGUI:
         if not query:
             messagebox.showwarning("Warning", "Please enter a query!")
             return
-        
+
         def run_test():
             try:
                 # Call the model inference script
                 cmd = [sys.executable, 'python/test_model.py', '--query', query]
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, 
+                process = subprocess.Popen(cmd, stdout=subprocess.PIPE,
                                         stderr=subprocess.PIPE, text=True)
                 output, error = process.communicate()
-                
+
                 if process.returncode == 0:
                     try:
                         response = json.loads(output)
@@ -294,7 +309,7 @@ class KatheryneGUI:
                     self.msg_queue.put(('response', f'Error: {error}'))
             except Exception as e:
                 self.msg_queue.put(('response', f'Error: {str(e)}'))
-        
+
         thread = threading.Thread(target=run_test)
         thread.daemon = True
         thread.start()
@@ -304,9 +319,9 @@ class KatheryneGUI:
         def run_server():
             try:
                 cmd = [sys.executable, 'python/api_server.py']
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, 
+                process = subprocess.Popen(cmd, stdout=subprocess.PIPE,
                                         stderr=subprocess.PIPE, text=True)
-                
+
                 while True:
                     output = process.stdout.readline()
                     if output == '' and process.poll() is not None:
@@ -315,7 +330,7 @@ class KatheryneGUI:
                         self.msg_queue.put(('server', output.strip()))
             except Exception as e:
                 self.msg_queue.put(('server', f'Error: {str(e)}'))
-        
+
         thread = threading.Thread(target=run_server)
         thread.daemon = True
         thread.start()
@@ -330,7 +345,7 @@ class KatheryneGUI:
         try:
             while True:
                 msg_type, message = self.msg_queue.get_nowait()
-                
+
                 if msg_type == 'data':
                     self.data_status.insert('end', message + '\n')
                     self.data_status.see('end')

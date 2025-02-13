@@ -1,142 +1,162 @@
-# Katheryne - Genshin Impact Data Analysis
+# Katheryne - Genshin Impact AI Assistant
 
-A Node.js and Python project for analyzing Genshin Impact game data using AI and machine learning. The project combines API data collection with advanced ML techniques to analyze game characters, artifacts, and weapons.
+A Node.js and Python project for building an AI assistant that can answer queries about Genshin Impact game data. The project combines data collection, processing, and machine learning to create an intelligent assistant for game-related questions.
 
 > "Ad Astra Abyssosque! Welcome to the Adventurers' Guild."
 
-## First Lines Spoken
-
-- **Traveler**: "Excuse me, are you Katheryne?"
-- **Paimon**: "Wow, so many commissions!"
-- **Katheryne**: "Ad Astra Abyssosque! Welcome to the Adventurers' Guild. How may I assist you today?"
-
 ## Features
 
-- Data collection from multiple Genshin Impact APIs
-- Advanced data processing and feature extraction
-- Machine learning models for pattern recognition
-- Embeddings generation for similarity search
-- TypeScript/Node.js API client with full type support
-- Python ML pipeline with autoencoder models
-- Automatic data updates and model retraining
+- Comprehensive game data collection and processing
+- Training data generation for various query types
+- Machine learning models for natural language understanding
 - Interactive AI assistant for game-related queries
+- Support for multiple query categories:
+  - Character information and builds
+  - Weapon recommendations
+  - Artifact set bonuses and stats
+  - Domain strategies
+  - Team compositions and synergies
 
 ## Project Structure
 
 ```plaintext
 Katheryne/
-├── node/               # TypeScript/Node.js API client
-│   ├── src/           # Source code
-│   │   ├── client.ts  # API client implementation
-│   │   └── types.ts   # TypeScript type definitions
-│   ├── dist/          # Compiled JavaScript
-│   ├── package.json   # Node.js dependencies
-│   └── tsconfig.json  # TypeScript configuration
-├── python/            # Python ML pipeline
-│   ├── scraper/       # API data collection
-│   │   └── api_client.py
-│   ├── preprocessing/ # Data processing
-│   │   └── data_processor.py
-│   ├── models/       # ML models
-│   │   └── genshin_model.py
-│   ├── main.py       # Main execution script
+├── node/                # TypeScript/Node.js components
+│   ├── src/            # Source code
+│   │   ├── client.ts   # API client implementation
+│   │   └── types.ts    # TypeScript type definitions
+│   ├── dist/           # Compiled JavaScript
+│   ├── package.json    # Node.js dependencies
+│   └── tsconfig.json   # TypeScript configuration
+├── python/             # Python ML components
+│   ├── data/          # Data processing scripts
+│   │   └── generate_training_data.py
+│   ├── models/        # ML model implementations
+│   │   └── assistant.py
+│   ├── training/      # Training scripts
+│   │   └── train.py
 │   └── requirements.txt # Python dependencies
-├── data/              # Data directory (created at runtime)
-│   ├── raw/          # Raw JSON data from APIs
-│   ├── processed/    # Processed datasets
-│   └── models/       # Trained ML models
-└── README.md         # Project documentation
+├── data/               # Data directory
+│   ├── characters/    # Character data
+│   ├── weapons/       # Weapon data
+│   ├── artifacts/     # Artifact data
+│   ├── domains/       # Domain data
+│   └── teams/         # Team composition data
+├── training_data/     # Generated training data
+│   ├── training_data.json    # Training samples
+│   └── dataset_summary.json  # Dataset statistics
+└── docs/              # Documentation
+    ├── data_format.md # Data format specifications
+    ├── training.md    # Training instructions
+    └── api.md         # API documentation
 ```
 
-## Installation
+## Quick Start
 
-### Node.js API Client
+### Prerequisites
 
+- Python 3.8+
+- Node.js 14+
+- Git
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Katheryne.git
+cd Katheryne
+```
+
+2. Install Node.js dependencies:
 ```bash
 cd node
 npm install
 npm run build
+cd ..
 ```
 
-### Python ML Pipeline
-
+3. Install Python dependencies:
 ```bash
 cd python
 pip install -r requirements.txt
+cd ..
 ```
 
-## Usage
+### Testing the Setup
 
-### Node.js API Client
-
-```typescript
-import { GenshinClient } from './src/client';
-
-// Initialize client
-const client = new GenshinClient();
-
-// Get all characters
-const characters = await client.getAllCharacters();
-```
-
-### Python ML Pipeline
-
+1. Generate training data:
 ```bash
-python python/main.py
+python python/generate_training_data.py
 ```
 
-This will:
-- Fetch data from Genshin Impact APIs
-- Process and clean the data
-- Train machine learning models
-- Generate embeddings for similarity search
+This will create:
+- `training_data/training_data.json` - Training samples
+- `training_data/dataset_summary.json` - Dataset statistics
 
-### Training the Assistant Model
+2. Verify the generated data:
+```bash
+python python/verify_data.py
+```
 
-The project includes a Genshin Impact assistant model that can answer queries about characters, weapons, and game mechanics. To train the model:
+The script will show:
+- Number of samples per category
+- Data format validation results
+- Example queries and responses
 
-1. Using the Batch Script (Windows):
-   ```bash
-   # Simply run the batch file
-   train.bat
-   ```
-   
-   Or customize training parameters:
-   ```bash
-   set EPOCHS=5
-   set BATCH_SIZE=64
-   set LEARNING_RATE=0.002
-   train.bat
-   ```
+## Building Your Own Model
 
-2. Direct Python Execution:
-   ```bash
-   python python/train_assistant.py
-   ```
+### 1. Data Preparation
 
-Training Configuration:
-- Default epochs: 1 (for testing)
-- Batch size: 32 (optimized)
-- Learning rate: 0.002
-- Model architecture: LSTM with attention
-- Sequence length: 64 tokens
-- Embedding dimension: 128
-- Hidden dimension: 256
+1. Customize the data generation:
+   - Edit `data/*.json` files to add your own game data
+   - Modify `python/generate_training_data.py` to add new query types
 
-The training script will:
-1. Check for required dependencies (PyTorch, tqdm)
-2. Load and process the training data
-3. Train the model with progress bars
-4. Save checkpoints in the `models/` directory
-5. Run test queries after training
+2. Generate training data:
+```bash
+python python/generate_training_data.py
+```
 
-Note: Model checkpoints and cache files are ignored by git to keep the repository clean.
+### 2. Model Training
 
-## Data Sources
+1. Basic training:
+```bash
+python python/train.py
+```
 
-- [genshin.dev](https://genshin.dev) - Primary API
-- [genshin.jmp.blue](https://genshin.jmp.blue) - Secondary API
+2. Advanced training options:
+```bash
+python python/train.py \
+  --epochs 10 \
+  --batch-size 32 \
+  --learning-rate 0.001 \
+  --model-type transformer \
+  --save-dir models/custom
+```
 
-## License
+Training parameters:
+- `epochs`: Number of training epochs (default: 5)
+- `batch-size`: Batch size (default: 32)
+- `learning-rate`: Learning rate (default: 0.001)
+- `model-type`: Model architecture (transformer/lstm)
+- `save-dir`: Model save directory
 
-MIT
+### 3. Model Evaluation
+
+Test your trained model:
+```bash
+python python/evaluate.py --model-path models/custom
+```
+
+The evaluation will show:
+- Accuracy metrics
+- Example predictions
+- Error analysis
+
+### 4. Using the Model
+
+1. Start the assistant:
+```bash
+python python/assistant.py --model-path models/custom
+```
+
+2. Ask questions:

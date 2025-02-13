@@ -1,0 +1,1418 @@
+here is a conversation I had with a friend that provided some intresting suggestions for the ai to function
+
+Okay so I have a working api that gathers the nessesary data, character, farming locations, bosses mobs, domains, etc. now I need a list of questions or training guidelines to use like what character uses this boss and the response must be the dropped items aswell as the items that boss will provide for character. Then suggest user what stats the user must look put for.
+
+Below is a list of sample training prompts and guidelines that you can use to create training examples for your model. These examples are designed to prompt responses that include:
+
+• The specific boss or farming location,
+• The items or materials the boss drops (or that can be obtained there),
+• Which characters or builds benefit from those drops, and
+• The key stat thresholds or priorities players should aim for.
+
+You can adjust the phrasing and details as needed to match your data structure and domain specifics.
+Sample Training Prompts
+
+    Direct Boss Query:
+        Prompt:
+        “For the boss [Boss Name] in [Region], which drops are most beneficial for [Character Name]’s build? List the items provided and the key stat values (e.g., Crit Rate, ATK, Elemental Mastery) that players should look for.”
+        Guideline:
+        The response should include a list of drop items/materials, an explanation of how each item benefits [Character Name] (e.g., boosts DPS, increases elemental reaction damage), and recommended stat ranges.
+
+    Farming Location & Character Build:
+        Prompt:
+        “Which farming domain or boss in [Region] provides the ideal ascension materials for [Character Name]? Detail the drop items and explain which artifact or weapon stats are crucial for optimizing [Character Name].”
+        Guideline:
+        The answer should specify the farming location or boss, list the ascension materials, and offer suggestions such as “look for artifacts with at least 7-8% Crit Rate or 50% Crit Damage” (depending on the character’s needs).
+
+    Meta-Build Recommendation:
+        Prompt:
+        “What are the recommended drops from [Boss Name] to maximize the DPS for [Character Name]? Include the list of items, their sources, and the specific stat bonuses (e.g., ATK, Elemental Damage Bonus) that contribute to an optimal build.”
+        Guideline:
+        The response must provide both the item names and a rationale for each, linking the items to stat enhancements that directly benefit [Character Name]’s performance.
+
+    Comparative Query:
+        Prompt:
+        “Between bosses [Boss A] and [Boss B] in [Region], which one offers better drops for [Character Name]? Provide a comparison of the materials and indicate the ideal stats each item should have.”
+        Guideline:
+        The answer should compare the two sources, listing the drop items from each and suggesting which set of drops offers better stat potential for the character’s build (e.g., “Boss A drops offer higher base ATK while Boss B provides more consistent Crit stats”).
+
+    General Farming Strategy:
+        Prompt:
+        “What farming strategy would you recommend for obtaining key materials for [Character Name]? Include which bosses or domains to farm, the expected drop items, and what stat thresholds to prioritize when evaluating these items.”
+        Guideline:
+        The model’s response should outline a strategy that covers multiple aspects: which locations to target, what items to expect, and the minimum desirable stat levels (for example, “aim for artifacts with at least 12% ATK or a 4-piece set bonus that increases elemental damage”).
+
+    Item-Build Integration:
+        Prompt:
+        “How do the drops from [Boss Name] integrate into an optimal build for [Character Name]? Provide a list of the boss drops, explain how each item contributes to the build, and mention which stats (e.g., Crit Damage, Energy Recharge) are most important.”
+        Guideline:
+        The response should be structured to first list the items, then provide an explanation for each item’s role, and finish with clear stat priorities for the build.
+
+Training Guidelines Summary
+
+    Content Requirements:
+    Ensure every answer contains the name of the boss or domain, the list of dropped items/materials, and a breakdown of how those items benefit a specific character or build. Include concrete stat recommendations (like ideal percentages for Crit Rate, ATK, Elemental Mastery, etc.).
+
+    Consistency:
+    Maintain consistency in terminology (e.g., always refer to “boss drops” or “ascension materials”) and ensure that every response follows a similar structure so the model learns the desired format.
+
+    Flexibility:
+    Include variations where sometimes the prompt might be very specific (naming a particular boss and character) and sometimes more general (asking for the best farming strategy for a type of character). This helps the model generalize better.
+
+    Data Anchoring:
+    Make sure that the training examples are grounded in actual game data from your API. For example, if your API returns a list of items with associated stat bonuses, incorporate that data into the responses.
+
+    Iterative Feedback:
+    Once you begin training, use a few sample queries to test the model’s responses. Fine-tune your training examples based on whether the outputs correctly match your desired format and content.
+
+This framework should help you build a robust training set for your specialized AI. Would you like additional examples or further breakdowns of any specific prompt type?
+You said:
+Yes please provide as much detail as possible even if you have to break you max output per gpt model
+
+Below is an extensive, multi-part guide with sample training prompts, guidelines, and structure suggestions for building a dataset that teaches your model to answer questions about Genshin Impact farming, boss drops, artifact recommendations, and stat priorities. You can break these examples into multiple training examples for your model.
+Part 1: General Principles for Training Data Creation
+
+A. Consistency and Structure
+
+    Input Format: Define a prompt structure that always includes key elements: the query context (e.g., boss name, region, or domain), the target character (if applicable), and the specific information requested (e.g., “what drops”, “recommended stats”).
+    Output Format: Ensure the answer always returns:
+        A list of drop items or materials (with names and brief descriptions).
+        Contextual explanation on how each item benefits a particular build or character.
+        Specific stat recommendations (e.g., “aim for at least 7-8% Crit Rate,” “50+ ATK”, “high Elemental Mastery”) and an explanation of why these thresholds are important.
+        Sometimes, a recommendation for a farming strategy or a comparative analysis when multiple sources are available.
+
+B. Data Anchoring
+
+    Use actual drop data from your API. For example, if your API returns a JSON with boss details and drops, embed this information into your training responses.
+    Mention specific regions or domains (e.g., “Spiral Abyss Chamber 3,” “Domain of Guyun”) to ground the answers in in-game reality.
+
+C. Variation in Prompts
+
+    Some prompts should be very specific (targeting a particular boss and character), while others are more general (asking for the best farming strategy for a set of materials).
+    Include comparative questions as well as direct queries to help your model generalize.
+
+Part 2: Detailed Sample Training Prompts & Guidelines
+1. Direct Boss Query
+
+Prompt Example:
+
+For the boss "Stormterror Dvalin" in Mondstadt, what are the recommended drops for building a main DPS character like Diluc? Please list the dropped materials and suggest the key artifact stats that would maximize Diluc's damage output.
+
+Expected Response Guideline:
+
+    Boss Drops: List items such as "Dvalin's Plume," "Dvalin's Claw," etc.
+    Explanation: Explain how these items help—e.g., “Dvalin's Plume provides a high base ATK, which synergizes well with Diluc’s Pyro abilities.”
+    Stat Recommendations:
+        Artifact main stats: “ATK% or Pyro DMG Bonus,”
+        Substats: “7–8% Crit Rate and 50–60% Crit Damage.”
+    Formatting: Use bullet points or numbered lists for clarity.
+
+2. Farming Location & Character Build
+
+Prompt Example:
+
+Which domain in Liyue provides the best ascension materials for Ganyu’s build? Include a list of the drops, and advise which artifact stats are critical for enhancing her Cryo abilities.
+
+Expected Response Guideline:
+
+    Farming Domain: Identify the domain (e.g., “Domain of Guyun”).
+    Drops List: Enumerate drops like “Mist Veiled Lead” or other materials.
+    Build Explanation: Describe how these materials support Ganyu’s Cryo DPS build.
+    Stat Guidelines:
+        Prioritize “Crit Rate and Crit Damage” for her, and mention “Hydro-related boosts if applicable (for synergy, even if Ganyu is Cryo).”
+
+3. Meta-Build and Item-Build Integration
+
+Prompt Example:
+
+What are the optimal drops from the boss "Childe" for a Hydro main DPS build, and what artifact stats should a player focus on? Provide a detailed explanation.
+
+Expected Response Guideline:
+
+    Drop Items: List items such as “Childe’s Hydro Sigil,” “Elemental Shard,” etc.
+    Role Explanation: Describe how these drops feed into the build—e.g., “The Hydro Sigil increases Hydro DMG bonus, which is essential for triggering Vaporize with a Pyro support.”
+    Artifact Stats:
+        Recommended main stats: “Hydro DMG Bonus on Sands, ATK% or Crit Rate on Goblet, and Crit Damage on Circlet.”
+        Include thresholds: “For instance, aim for a minimum of 6–7% Crit Rate and 50–55% Crit Damage.”
+    Additional Advice: Optionally, compare how these drops might be more favorable than another boss’s drops.
+
+4. Comparative Query Between Two Sources
+
+Prompt Example:
+
+Compare the farming benefits between the bosses "Stormterror Dvalin" and "Andrius" for a character that relies on high ATK and Crit stats. Which boss offers better drop materials, and what stat thresholds should be prioritized?
+
+Expected Response Guideline:
+
+    Comparison Section:
+        Stormterror Dvalin: List its drops and highlight that they generally boost ATK (e.g., “Dvalin's Plume provides higher base ATK”).
+        Andrius: Detail its drops, possibly noting that they may offer better substats or Crit-related bonuses.
+    Stat Prioritization:
+        “For a build emphasizing Crit, Andrius might offer better materials if it provides drops with natural Crit Rate increases, whereas Dvalin is better for raw ATK.”
+    Conclusion: Conclude with a recommendation based on the character’s needs, e.g., “If you’re focusing on high Crit Damage, aim for materials from Andrius with at least 8–10% Crit Rate.”
+
+5. General Farming Strategy
+
+Prompt Example:
+
+What farming strategy do you recommend for obtaining key ascension materials for a Pyro character such as Xiangling? Include which bosses or domains to farm, the list of expected drops, and the stat thresholds you should target on artifacts.
+
+Expected Response Guideline:
+
+    Strategy Outline:
+        Identify relevant farming locations, e.g., “Spiral Abyss Chamber 3 for Xiangling’s ascension materials and the Domain of Guyun for additional artifacts.”
+    Drops and Benefits:
+        List key items and their benefits (e.g., “Xiangling’s domain may drop Pyro-enhancing materials that provide bonus elemental DMG, essential for her DPS build.”)
+    Artifact Stat Thresholds:
+        For a Pyro DPS: “Prioritize ATK%, Pyro DMG Bonus, and Crit stats; aim for artifacts with at least 6–8% Crit Rate and 50%+ Crit Damage.”
+    Additional Tips:
+        “Use co-op mode to farm these domains more efficiently and focus on time-limited events that may provide rare drops.”
+
+6. Contextual Question Involving Drop Integration
+
+Prompt Example:
+
+How do the drops from the domain "Momiji’s Chamber" integrate into an optimal build for a support character like Bennett? List the items, explain their benefits, and mention which artifact substats (such as Energy Recharge or ATK%) are most beneficial.
+
+Expected Response Guideline:
+
+    Domain Details:
+        Clearly state the domain (“Momiji’s Chamber”) and the expected drops (e.g., “Mora, specific ascension materials, and artifact components”).
+    Build Integration:
+        Explain how each item supports Bennett’s role as a support/healer, such as “providing Energy Recharge to ensure frequent Elemental Burst usage.”
+    Artifact Substats:
+        Provide specific recommendations: “Aim for artifacts with at least 10–12% Energy Recharge and a bonus to ATK or HP, which scales with Bennett’s healing and buff capabilities.”
+
+Part 3: Dataset Formatting and Augmenting with Retrieval
+
+A. Structuring the Data:
+
+    Each training example should ideally be in a JSON or CSV format that pairs a “prompt” with an “ideal response.”
+    For instance:
+
+    {
+      "prompt": "For the boss 'Andrius' in Mondstadt, list the recommended drops for building a high-crit character and suggest stat thresholds for artifacts.",
+      "response": "Andrius drops include [list items]. For a high-crit build, focus on artifacts with 7-8% Crit Rate and 50-55% Crit Damage. [Detailed explanation...]"
+    }
+
+B. Retrieval-Augmented Generation:
+
+    Once your dataset is stored, you can index these examples using vector search (via FAISS) so that during inference your model can retrieve similar examples as context.
+    This allows the model to reference concrete data from your dataset when answering user queries.
+
+C. Automating Data Updates:
+
+    Ensure your scraping or API pipeline (as described in Part 1) updates the raw data periodically.
+    Use a script to automatically re-generate training examples (or adjust existing ones) based on updated drop rates, new bosses, or changes in meta.
+
+Part 4: Implementation Tips & Best Practices
+
+    Iteration and Testing:
+        Initially run a few examples through your training pipeline and manually check the output.
+        Use user feedback (e.g., from alpha testers) to refine both the prompts and the expected responses.
+
+    Error Handling:
+        Your dataset may include some incomplete data or inconsistent formatting. Build error-handling into your scraping and parsing scripts to ensure data quality.
+
+    Expand Over Time:
+        As more in-game data becomes available (especially when new regions or characters are released), create additional training examples following the same template.
+        Maintain versioning so you know which training examples correspond to which patch or update of the game.
+
+    Leverage Community Insights:
+        Incorporate community-vetted stat thresholds and build recommendations. This increases the accuracy and trustworthiness of your responses.
+
+    Documentation:
+        Document each training example and guideline so that you can easily update the dataset or troubleshoot issues in the training process.
+
+By using these detailed training prompts and guidelines, you’ll be well on your way to building a domain-specific model that can accurately advise players on farming, boss drops, and build optimizations in Genshin Impact. This setup, combined with an automated data pipeline, will allow your model to continuously improve as new data becomes available.
+
+Do you need further breakdowns on any specific prompt type or additional code examples for integrating this with your training pipeline?
+You said:
+Further breakdowns like character constellation follow-up signature weapons or suggest alt if not available. Anything
+
+Below is an extended breakdown of training examples that incorporate additional nuance—such as character constellations, signature weapon recommendations, and fallback suggestions if signature weapons aren’t available. You can use these examples to guide your model’s responses, ensuring that it not only lists boss drops and stat recommendations but also suggests follow-ups based on a character’s constellation level or current inventory. Each example includes the prompt structure, expected response breakdown, and key guidelines.
+Detailed Training Example 1: Character Constellation and Signature Weapon Query
+
+Prompt Example:
+
+For the character "Diluc" with a 2-star constellation, what are the recommended drops from the boss "Stormterror Dvalin" to enhance his build? Also, what is his signature weapon, and if it’s not available, suggest an alternative. Include the ideal artifact stat thresholds.
+
+Expected Response Breakdown:
+
+    Boss Drops:
+        List the specific items/materials dropped by Stormterror Dvalin (e.g., "Dvalin's Plume," "Dvalin's Claw").
+        Explain how each drop contributes to Diluc's build (e.g., “The high base ATK from Dvalin's Plume is key to boosting Diluc’s damage output.”)
+
+    Constellation Considerations:
+        Mention that with a 2-star constellation, certain bonuses are unlocked (e.g., “At 2-star, Diluc gains [specific ability] that benefits from higher Crit Rate or ATK”).
+        Provide follow-up advice such as “Further constellations enhance his elemental burst, so focus on items that also boost Pyro DMG Bonus.”
+
+    Signature Weapon and Alternatives:
+        State his signature weapon (e.g., “Diluc’s signature weapon is the [Name of Signature Weapon] which provides excellent ATK and Pyro DMG Bonus”).
+        If his signature weapon isn’t available, suggest a fallback alternative (e.g., “If you can’t obtain the signature, the [Alternate Weapon Name] is a viable option, offering similar benefits but with slightly lower Crit stats.”)
+
+    Artifact Stat Recommendations:
+        Advise on the main stats and substats to look for: “Aim for artifacts with ATK% on Sands, Pyro DMG Bonus on Goblet, and Crit Damage on Circlet. A minimum threshold of 7–8% Crit Rate and 50–55% Crit Damage is recommended.”
+
+Guidelines:
+
+    The response must clearly connect constellation level with any additional bonuses or build changes.
+    It should include a conditional section that checks if the signature weapon is available; if not, provide an alternative with a brief rationale.
+
+Detailed Training Example 2: Fallback Alternatives and Build Adjustments
+
+Prompt Example:
+
+For the character "Ganyu" at constellation level 4, what farming strategy should I use in the domain "Guyun" to maximize her Cryo build? List the boss drops, recommended artifacts, and if her signature bow is unavailable, suggest a competitive alternative along with ideal stat thresholds.
+
+Expected Response Breakdown:
+
+    Farming Strategy Overview:
+        Identify the key farming location ("Domain of Guyun") and explain why it’s beneficial for Ganyu’s Cryo build (e.g., “This domain provides ascension materials that specifically boost Cryo DMG and elemental burst efficiency.”)
+
+    Drop Items:
+        List the materials dropped from the domain, along with their role (e.g., “The domain drops include [Item A] and [Item B] which are essential for Ganyu’s ascension.”)
+
+    Artifact Recommendations:
+        Recommend artifact sets or main stats (e.g., “Prioritize artifacts with Crit Rate, Crit Damage, and Cryo DMG Bonus. Ideally, look for 8% Crit Rate and 55% Crit Damage as substats.”)
+
+    Signature Weapon and Alternatives:
+        State her signature bow, if applicable, and describe its benefits.
+        Provide a fallback option: “If Ganyu’s signature bow isn’t available, the [Alternate Bow Name] is a competitive alternative that offers similar base ATK and additional Crit Rate, which suits her build well.”
+
+    Constellation Impact:
+        Explain any specific build adjustments due to her being at constellation level 4 (e.g., “At constellation level 4, Ganyu gains a bonus to charged attack damage, so prioritize items that further enhance her elemental burst damage.”)
+
+Guidelines:
+
+    Ensure the answer is segmented into clear sections (farming strategy, drop items, artifacts, weapon recommendation).
+    Emphasize conditional advice (i.e., “if signature weapon is not available, then suggest…”).
+    Link the constellation level to build adjustments and stat priorities.
+
+Detailed Training Example 3: Comparative Query with Fallback Suggestions
+
+Prompt Example:
+
+Compare the drops from the bosses "Andrius" and "Stormterror Dvalin" for building a high-crit support for Bennett. Which boss provides more useful materials for his build? Also, include a recommendation on his signature catalyst and suggest a fallback if needed. Provide ideal stat thresholds for his artifacts.
+
+Expected Response Breakdown:
+
+    Comparison of Boss Drops:
+        Provide a brief overview of the drops from Andrius and Dvalin, noting differences (e.g., “Andrius drops include items that boost Crit Rate more consistently, while Dvalin’s drops offer higher base ATK.”)
+        Evaluate which set is more suitable for Bennett’s support role (e.g., “For Bennett’s role as a support and healer, the drops from Andrius might be more beneficial because they enhance his elemental burst efficiency.”)
+
+    Signature Catalyst Recommendation:
+        Specify his signature catalyst and its benefits (e.g., “Bennett’s signature catalyst provides a bonus to Energy Recharge and HP, crucial for his support abilities.”)
+        Include a conditional clause: “If this catalyst is not available, then the [Alternative Catalyst Name] is recommended due to its similar bonuses.”
+
+    Artifact and Stat Prioritization:
+        List recommended artifacts for Bennett with stat thresholds: “Aim for artifacts with HP%, Energy Recharge, and ATK%, ideally with at least 10-12% Energy Recharge and bonus HP values.”
+        Mention why these stats support his role.
+
+    Overall Recommendation:
+        Summarize the comparative advantages, linking the recommendations back to the character’s build and role.
+
+Guidelines:
+
+    Use clear comparative language, contrasting the pros and cons of each boss drop set.
+    Provide fallback recommendations in case the signature weapon or catalyst isn’t available.
+    Ensure that stat thresholds are specific and justifiable based on the character’s needs.
+
+Additional Tips for Training Data Creation
+
+    Modular Prompts:
+    Create modular training examples where each section (boss drops, weapons, constellations, artifacts) can be updated independently as game data changes.
+
+    Use Structured Data:
+    If your API returns JSON objects with fields like "bossName," "drops," "signatureWeapon," "artifactStats," etc., embed these into your training examples. For instance:
+
+    {
+      "prompt": "For character 'Xiangling' with constellation level 3, list the recommended boss drops from 'Lavawalker' and suggest her signature weapon along with an alternative if needed.",
+      "response": "Lavawalker drops include: [Item1, Item2]. Xiangling’s signature weapon is the 'Dragonspine Spear'. If unavailable, the 'Flamebringer Polearm' is a good alternative. Prioritize artifacts with 7% Crit Rate and 55% Crit Damage."
+    }
+
+    Feedback Loop:
+    After initial training, test the model with real user queries. Refine the training examples by incorporating any gaps or additional nuance required, such as more granular details about how constellation effects influence build priorities.
+
+These detailed breakdowns should help you build a comprehensive training dataset that covers a wide range of queries—from direct boss questions to comparative analysis and fallback recommendations based on character constellations and weapon availability. This structure will allow your model to provide nuanced, game-specific advice to users.
+
+Would you like any further examples or additional guidance on a specific part of the pipeline?
+You said:
+Sure go ahead 
+
+Below are additional training examples and guidelines that further break down the nuances of character constellations, signature weapons, and fallback recommendations. These examples are designed to enrich your dataset and teach your model to respond dynamically when, for instance, a signature item isn’t available or when constellation bonuses come into play.
+Example 7: Character Constellation Follow-Up with Signature Weapon Details
+
+Prompt:
+
+For the character "Klee" at constellation level 3, what are the ideal boss drops from the domain "Spark of Destiny" for her Pyro build? Include details on her signature catalyst and suggest an alternative if it isn’t available, along with recommended artifact stat thresholds.
+
+Expected Response Breakdown:
+
+    Domain Drops:
+        List Items:
+            "Spark Shard" – boosts base Pyro DMG
+            "Flame Core" – increases elemental burst efficiency
+        Usage Explanation:
+            Explain that these drops enhance Klee’s Pyro abilities and synergize with her burst damage.
+
+    Constellation Impact:
+        Mention that at constellation level 3, Klee gains improved charged attack performance or burst enhancements.
+        Advise on any additional material needs if a higher constellation bonus is desired.
+
+    Signature Catalyst Details:
+        Signature:
+            “Klee’s signature catalyst, [Catalyst Name], offers a significant Pyro DMG Bonus and Energy Recharge boost.”
+        Fallback:
+            “If this catalyst isn’t available, the [Alternative Catalyst Name] provides similar benefits with slightly lower base stats.”
+
+    Artifact Recommendations:
+        Main Stats:
+            Sands: ATK% or Pyro DMG Bonus
+            Goblet: Pyro DMG Bonus
+            Circlet: Crit Rate or Crit Damage
+        Thresholds:
+            Aim for a minimum of 7–8% Crit Rate and 50–55% Crit Damage.
+
+    Formatting and Clarity:
+        Use bullet points or numbered lists to structure the output, ensuring each section is clearly delineated.
+
+Example 8: Fallback Alternative with Constellation and Weapon Suggestions
+
+Prompt:
+
+For the character "Xiao" at constellation level 5, what are the best boss drops from "Stormbreaker" to enhance his Anemo build? Additionally, if his signature polearm is not available, what alternative weapon should be used, and what artifact stats are critical for maximizing his plunge attack damage?
+
+Expected Response Breakdown:
+
+    Boss Drops from "Stormbreaker":
+        List of Drops:
+            "Wind Shard" – increases overall ATK
+            "Sky Essence" – boosts Anemo DMG Bonus
+        Usage Explanation:
+            Describe how these items are essential for Xiao’s ascension and help improve his plunge attack efficiency.
+
+    Constellation Consideration:
+        Explain that at constellation level 5, Xiao receives a bonus that increases his plunge DMG significantly.
+        Advise on how additional materials may further enhance this bonus.
+
+    Weapon Recommendation:
+        Signature Weapon:
+            “Xiao’s ideal weapon is [Signature Polearm], which offers a high base ATK and bonus Anemo DMG.”
+        Fallback Alternative:
+            “If this weapon is unavailable, the [Alternative Polearm Name] is a strong substitute due to its similar ATK scaling and bonus effects.”
+
+    Artifact Stat Guidelines:
+        Recommend artifacts with:
+            Sands: ATK%
+            Goblet: Anemo DMG Bonus
+            Circlet: Crit Rate or Crit Damage
+        Suggest minimum substat thresholds: “Aim for at least 8% Crit Rate and 55% Crit Damage to maximize plunge attack potential.”
+
+    Overall Structure:
+        The answer should be divided into clear sections (Boss Drops, Constellation Impact, Weapon Recommendation, and Artifact Stats) with detailed bullet points for clarity.
+
+Example 9: Comparative Query with Alt Suggestions and Advanced Fallbacks
+
+Prompt:
+
+Compare the farming benefits of bosses "Andrius" and "Dvalin" for enhancing Bennett’s support build. Which source provides better drops for his catalyst and artifacts? Include signature item recommendations and suggest suitable alternatives if his preferred catalyst is not available. Also, provide stat thresholds for Energy Recharge and HP that Bennett should target.
+
+Expected Response Breakdown:
+
+    Comparative Analysis of Boss Drops:
+        Andrius Drops:
+            List items that boost Crit stats and may have inherent Energy Recharge bonuses.
+        Dvalin Drops:
+            Mention drops that contribute to raw ATK and support scaling.
+        Comparison:
+            Conclude which set is more aligned with Bennett’s support role (e.g., “For Bennett’s support role, Andrius drops are generally better because they improve his Energy Recharge and Crit stats, which are crucial for his burst healing and buff capabilities.”)
+
+    Signature Catalyst and Alternatives:
+        Preferred Catalyst:
+            “Bennett’s signature catalyst is [Signature Catalyst Name], known for boosting Energy Recharge and HP.”
+        Fallback Alternative:
+            “If unavailable, the [Alternative Catalyst Name] is recommended as it offers similar bonuses.”
+
+    Artifact Stat Recommendations:
+        Key Stats:
+            Energy Recharge: Aim for 10–12%
+            HP: Look for artifacts that provide significant HP%
+        Additional Considerations:
+            Include possible substat ranges and how these stats synergize with Bennett’s abilities.
+
+    Final Recommendation:
+        Summarize by advising a balanced approach: “Based on the analysis, focus on Andrius for better Energy Recharge materials and ensure that your artifacts have the specified thresholds to maximize Bennett’s support potential.”
+
+Implementation Tips for These Examples
+
+    Structured JSON Format:
+    Consider storing each training pair as a JSON object. For example:
+
+    {
+      "prompt": "For the character 'Xiao' at constellation level 5, what are the best boss drops from 'Stormbreaker' to enhance his Anemo build? Additionally, if his signature polearm is not available, what alternative weapon should be used, and what artifact stats are critical for maximizing his plunge attack damage?",
+      "response": "Stormbreaker drops include: 1. Wind Shard – increases overall ATK; 2. Sky Essence – boosts Anemo DMG Bonus. At constellation level 5, Xiao gains a bonus that significantly increases plunge DMG. His signature weapon is [Signature Polearm], which provides high base ATK and bonus Anemo DMG. If unavailable, the [Alternative Polearm Name] serves as a viable substitute. For artifacts, prioritize Sands with ATK%, Goblet with Anemo DMG Bonus, and Circlet with either Crit Rate (min 8%) or Crit Damage (min 55%)."
+    }
+
+    Iterative Refinement:
+    After setting up initial training pairs, run a few queries through your model and evaluate its responses. Adjust the examples based on feedback, ensuring that every nuance (such as fallback alternatives or constellation effects) is covered accurately.
+
+    Coverage:
+    Ensure that your dataset includes examples for all major characters, regions, and scenarios, so your model can generalize across various queries.
+
+    Versioning and Updates:
+    As the game meta evolves (e.g., new boss drops, new weapons, or changes in constellation bonuses), update your dataset and add new training examples. You can even automate this by linking parts of your dataset to your API that scrapes current in-game data.
+
+These detailed examples and guidelines should help you create a comprehensive training dataset that covers not only the basic queries about farming and boss drops but also more nuanced questions involving character constellations, signature weapons, and fallback recommendations. This depth of training will enable your model to provide highly tailored and useful responses to Genshin Impact players.
+
+Do you need further elaboration on any of these sections, additional prompt types, or integration tips for the retrieval mechanism?
+You said:
+More prompt types.
+
+Below is an extended list of diverse prompt types you can include in your training data. Each type is crafted to help your model learn to provide nuanced, actionable advice—including fallback recommendations, constellation effects, and synergy explanations. You can mix and match these to cover various scenarios and character builds.
+1. Direct Boss and Build Query with Constellation Details
+
+Prompt:
+
+For the character "Diluc" at constellation level 2, what are the recommended drops from the boss "Stormterror Dvalin" to enhance his Pyro build? Also, list his signature weapon and suggest an alternative if it’s not available. Include key artifact stat thresholds.
+
+Response Guidelines:
+
+    Boss Drops: List specific items (e.g., “Dvalin's Plume,” “Dvalin's Claw”) and describe how they boost Diluc’s ATK or Pyro DMG.
+    Constellation Impact: Explain any bonuses unlocked at 2-star that might shift material needs.
+    Weapon Recommendation: Specify his signature weapon; if not available, offer a comparable alternative with a brief rationale.
+    Artifact Stats: Advise on main stats (e.g., ATK%, Pyro DMG Bonus) and recommended substat thresholds (e.g., 7–8% Crit Rate, 50–55% Crit Damage).
+
+2. Farming Location & Character Build Strategy
+
+Prompt:
+
+Which domain in Liyue provides the best ascension materials for Ganyu’s Cryo build? List the domain’s key drops, explain how these items enhance her abilities, and recommend ideal artifact stat priorities.
+
+Response Guidelines:
+
+    Domain Identification: Name the domain (e.g., “Domain of Guyun”) and explain its relevance.
+    Drops & Benefits: Enumerate materials and describe their role in Ganyu’s ascension.
+    Artifact Recommendations: Outline ideal artifact main stats (e.g., Crit Rate, Cryo DMG Bonus) and target thresholds.
+
+3. Comparative Query with Fallback Suggestions
+
+Prompt:
+
+Compare the farming benefits of bosses "Andrius" and "Dvalin" for optimizing Bennett’s support build. Which provides better drops for his signature catalyst, and what alternative should be used if his primary option isn’t available? Also, list the optimal artifact stat ranges for Energy Recharge and HP.
+
+Response Guidelines:
+
+    Comparison: Detail the drop differences between Andrius and Dvalin.
+    Signature Catalyst: Specify Bennett’s signature catalyst, then provide an alternative if it’s unavailable.
+    Artifact Stats: Recommend ideal Energy Recharge (e.g., 10–12%) and HP percentages, explaining how these contribute to his burst healing/buff role.
+
+4. Fallback Build Strategy for Material Shortages
+
+Prompt:
+
+If I’m unable to obtain the recommended drops from "Lavawalker" for Klee’s Pyro build, what alternative farming methods and fallback items should I consider? Include adjusted artifact recommendations and stat thresholds.
+
+Response Guidelines:
+
+    Primary vs. Fallback: First list the ideal drops from Lavawalker. Then explain alternative sources or items available if those drops are scarce.
+    Adjusted Build Advice: Suggest how to tweak artifact priorities (e.g., focusing more on Crit Damage if fallback items offer lower base ATK).
+    Stat Thresholds: Provide specific recommendations (e.g., “Aim for 7–8% Crit Rate and 50–55% Crit Damage”) with justification.
+
+5. Multi-Character Team Synergy Query
+
+Prompt:
+
+For a team consisting of Xiangling, Bennett, and Xiao, what are the optimal farming sources for each character? Provide a list of recommended bosses or domains, their key drops, and the critical artifact stat thresholds for each to maximize team synergy.
+
+Response Guidelines:
+
+    Team Breakdown: Divide the answer by character, listing for each the recommended farming source (boss or domain) and associated drops.
+    Synergy Explanation: Describe how the drops contribute to each character’s role and how they work together (e.g., enabling Vaporize or boosting Energy Recharge for frequent bursts).
+    Artifact Stats: Include tailored stat thresholds for each (e.g., Xiao might need high Crit Damage while Bennett focuses on Energy Recharge).
+
+6. Constellation Impact and Upgrade Priority
+
+Prompt:
+
+How does upgrading [Character Name]'s constellation from level 2 to level 4 affect the recommended farming strategy and stat priorities? Provide a detailed explanation with the ideal boss drops, artifact recommendations, and any changes in weapon preferences.
+
+Response Guidelines:
+
+    Constellation Effects: Explain what additional bonuses or changes occur between levels 2 and 4.
+    Farming Strategy Adjustments: Recommend any new or prioritized farming sources based on the upgrade.
+    Artifact & Weapon Adjustments: Detail any modifications in artifact stat priorities or weapon recommendations as the constellation level increases.
+
+7. Event-Based Materials and Alternative Options
+
+Prompt:
+
+Which limited-time event in Genshin Impact offers the best materials for upgrading Ningguang’s Geo build? List the event rewards, explain their benefits, and suggest alternative farming options if the event materials are no longer available.
+
+Response Guidelines:
+
+    Event Details: Name the event and list its key rewards.
+    Benefits Explanation: Describe how the event materials specifically enhance Ningguang’s Geo abilities (e.g., bonus Geo DMG, improved HP scaling).
+    Alternative Options: Provide fallback strategies, including other domains or bosses that drop similar materials.
+
+8. Damage Calculation Integration Query
+
+Prompt:
+
+How do the drops from "Andrius" quantitatively affect Xiao’s damage output? Provide an example calculation using typical drop values, and explain the significance of each artifact stat (e.g., Crit Rate, ATK, Anemo DMG Bonus) in the overall damage formula.
+
+Response Guidelines:
+
+    Numerical Example: Walk through a sample damage calculation that includes drop values and stat multipliers.
+    Stat Breakdown: Explain how each artifact stat contributes to damage output, using percentages or numeric thresholds.
+    Integration Explanation: Conclude with a summary of how the drop items collectively improve Xiao’s performance.
+
+9. Consolidated Build Summary for Beginners
+
+Prompt:
+
+Provide a step-by-step guide for building an optimal support build for Bennett, including the best boss drops, recommended artifacts, and signature catalyst (or fallback option). Also, list the key stat thresholds to target.
+
+Response Guidelines:
+
+    Step-by-Step Guide: Outline the process from farming to build finalization in clear steps.
+    Detailed Listings: Include a list of boss drops and material sources, followed by artifact recommendations and signature item details.
+    Key Stat Targets: Specify the desired stat thresholds (e.g., “minimum 12% Energy Recharge, 10% HP bonus”) and briefly explain their importance.
+
+10. Character-Specific Build Challenge Query
+
+Prompt:
+
+What unique challenges does the character "Xiao" face in farming his necessary ascension materials, and how should I adjust my strategy? Include recommended farming sources, key drops, fallback options, and specific artifact stat targets to optimize his plunge attack.
+
+Response Guidelines:
+
+    Identify Challenges: Describe any difficulties (e.g., lower drop rates, higher competition in farming certain domains).
+    Farming Recommendations: Suggest multiple farming sources or alternative bosses/domains.
+    Fallback Options: Provide alternative items or strategies if primary drops are insufficient.
+    Artifact Targets: Clearly state recommended stat thresholds tailored for maximizing Xiao’s plunge damage.
+
+Each of these prompt types is designed to cover different angles of your domain—ranging from direct queries to comparative analyses and contingency planning. By incorporating such variety into your training set, your model will learn to handle a broad spectrum of user queries with detailed, actionable responses.
+
+Would you like further elaboration on any specific prompt type or additional integration tips for these examples?
+You said:
+More please
+
+Below are 10 additional detailed prompt types to help broaden your training dataset. Each prompt is designed to address complex queries—including role changes, multi-source material synthesis, seasonal events, and fallback scenarios—with detailed response breakdowns. You can combine these with your existing examples to cover even more nuanced cases.
+11. Character Role Reassignment Query
+
+Prompt:
+
+If I switch "Xiao" from a DPS role to a support role for a team focusing on Anemo reactions, what new farming sources should I target? Provide recommendations for boss drops, artifact priorities, and any necessary adjustments in stat thresholds.
+
+Expected Response Breakdown:
+
+    Role Shift Explanation: Clarify the impact of changing roles on farming needs.
+    New Farming Sources: Identify alternative domains or bosses whose drops better benefit support builds (e.g., items that boost Energy Recharge or healing support).
+    Artifact Priorities: List recommended artifact main stats and substats (for example, “Prioritize Energy Recharge and HP” rather than Crit stats).
+    Fallback Recommendations: Suggest fallback strategies if primary sources are unavailable.
+
+12. High-Level Material Synthesis Query
+
+Prompt:
+
+For a character like Venti, how can I combine materials from both "Andrius" and "Dvalin" to maximize his Elemental Burst efficiency? Provide a synthesis plan that includes drop sources, necessary quantities, and the artifact stat thresholds to aim for.
+
+Expected Response Breakdown:
+
+    Synthesis Strategy: Outline a multi-source farming plan that covers both bosses.
+    Material List: Specify the key drops from Andrius (e.g., items boosting Crit Rate) and Dvalin (e.g., items increasing ATK or Elemental DMG).
+    Quantities and Priorities: Recommend target quantities if available, and detail how each material contributes to boosting Elemental Burst.
+    Artifact Stat Targets: Suggest ideal main stats and substat thresholds (e.g., “aim for 10–12% Energy Recharge and 8% Crit Rate”).
+
+13. Seasonal Event Materials Query
+
+Prompt:
+
+During the current Natlan seasonal event, what exclusive materials are available for Bennett’s support build? Compare these event drops to regular domain drops and provide fallback strategies if the event materials are no longer accessible.
+
+Expected Response Breakdown:
+
+    Event-Specific Drops: List the exclusive event materials and their benefits (e.g., bonus stats, increased rarity).
+    Comparison: Explain how these event drops compare with regular drops from standard domains or bosses.
+    Fallback Strategy: Provide alternative farming recommendations if the event materials aren’t obtainable (e.g., another domain that yields similar items).
+    Stat Guidelines: Include the artifact stat thresholds that best leverage these materials for Bennett’s build.
+
+14. Artifact Slot Specific Query
+
+Prompt:
+
+For a character like Ganyu, what should I prioritize in each artifact slot based on the drops from the "Domain of Guyun"? Provide detailed recommendations for the Sands, Goblet, and Circlet, including ideal stat thresholds.
+
+Expected Response Breakdown:
+
+    Slot Breakdown:
+        Sands: Recommend either ATK% or Elemental DMG Bonus depending on build needs.
+        Goblet: Suggest a focus on Cryo DMG Bonus or ATK%.
+        Circlet: Offer a choice between Crit Rate and Crit Damage, including specific threshold ranges (e.g., “aim for 7–8% Crit Rate or 50–55% Crit Damage”).
+    Integration with Boss Drops: Link each artifact recommendation to how the drops from the Domain of Guyun support Ganyu’s Cryo build.
+
+15. Drop Probability and Strategy Query
+
+Prompt:
+
+For the boss "Andrius," what is the drop probability of the key material "Frost Shard" for Bennett’s build, and how should I adjust my farming strategy if this rate is lower than expected? Provide alternative sources and ideal artifact stat thresholds.
+
+Expected Response Breakdown:
+
+    Drop Probability Explanation: Mention the typical drop rate (if available) and its impact on material availability.
+    Adjusted Strategy: Suggest a modified farming plan or additional sources (e.g., alternative bosses or domains) to compensate for lower drop rates.
+    Artifact Priorities: Reiterate the artifact stat targets (for instance, “aim for 10–12% Energy Recharge and strong HP substats”) that help maximize Bennett’s support potential.
+
+16. Optimal Farming Route Query
+
+Prompt:
+
+Design an optimal farming route for collecting all necessary ascension materials for Xiangling in Mondstadt. List the sequence of bosses and domains to target, the expected drop items, and the artifact stat thresholds that would benefit her Pyro build.
+
+Expected Response Breakdown:
+
+    Route Outline: Provide a sequential list of farming locations (e.g., “Start with the Domain of Guyun, then move to Stormterror Dvalin’s boss chamber, followed by the Spiral Abyss floors”).
+    Drop Items and Benefits: For each location, list key materials and explain their role in Xiangling’s build.
+    Artifact Stat Recommendations: Clearly state the ideal stats for artifacts (e.g., “aim for 7–8% Crit Rate, 50–55% Crit Damage, and Pyro DMG Bonus”).
+
+17. Multi-Step Build Process Query
+
+Prompt:
+
+Outline a complete multi-step process for building an optimal DPS team in Genshin Impact focusing on Pyro characters. Include which bosses and domains to farm for materials, detailed artifact recommendations, and fallback options if certain key drops are rare.
+
+Expected Response Breakdown:
+
+    Step-by-Step Guide: Divide the response into stages:
+        Farming Materials: Identify primary bosses/domains for each key Pyro character (e.g., Xiangling, Diluc).
+        Artifact Selection: Provide detailed artifact recommendations for each character with specific stat thresholds.
+        Fallback Options: List alternative farming sources or alternative items if primary drops are unavailable.
+    Team Synergy: Explain how the chosen builds integrate into an overall DPS strategy.
+
+18. User-Specific Budget Query
+
+Prompt:
+
+Given a limited budget and a current inventory of only common artifacts, what is the most efficient farming strategy to build a competitive Diluc? List recommended bosses, domains, alternative material sources, and the ideal stat thresholds to target.
+
+Expected Response Breakdown:
+
+    Budget-Friendly Strategy: Recommend low-cost farming routes, prioritizing domains and bosses with high drop rates for essential materials.
+    Material Sources: Provide a list of recommended farming targets and explain why they are cost-effective.
+    Artifact and Stat Targets: Specify which stats are most important (e.g., “prioritize ATK% and Crit stats, with a minimum threshold of 7–8% Crit Rate and 50–55% Crit Damage”) and how to maximize them with common artifacts.
+    Alternative Options: Suggest methods to supplement gaps (e.g., trading or using event rewards).
+
+19. Artifact Efficiency and Comparison Query
+
+Prompt:
+
+How does the efficiency of artifacts obtained from "Dvalin's Domain" compare to those from "Andrius" for maximizing Xiao’s high-crit build? Provide a detailed comparison and advise which source to prioritize under different gameplay scenarios.
+
+Expected Response Breakdown:
+
+    Efficiency Comparison:
+        Detail the differences between the artifacts from each source (e.g., “Dvalin’s Domain tends to yield higher base ATK while Andrius offers better substat distributions for Crit Rate.”)
+    Scenario-Based Advice:
+        Explain under which circumstances one source might be preferable (e.g., “For quick ascensions, prioritize Andrius if you need a boost in Crit stats; for raw damage, Dvalin might be better.”)
+    Stat Recommendations:
+        Provide specific artifact stat targets for Xiao’s build.
+
+20. Fallback Query for Material Unavailability
+
+Prompt:
+
+If the key material "Frost Shard" from the boss "Andrius" becomes unavailable due to a game patch, what alternative materials or domains can provide similar benefits for Bennett’s support build? Include updated farming strategies and artifact stat thresholds.
+
+Expected Response Breakdown:
+
+    Alternative Material Sources:
+        Suggest alternative bosses or domains that drop materials with similar stat enhancements (e.g., “Try farming the Domain of Guyun or the new event domain if available.”)
+    Fallback Farming Strategy:
+        Outline a modified strategy to compensate for the missing material.
+    Artifact Stat Targets:
+        Reiterate the ideal stat ranges for Bennett (e.g., “target at least 10–12% Energy Recharge and robust HP substats”) and explain how these alternatives align with his build.
+
+Implementation Tips
+
+    Structured Formatting:
+    Ensure that each training example follows a clear and consistent structure, making it easier for your model to learn the format.
+    Dynamic Data Anchoring:
+    Where possible, tie in specific data points (like drop probabilities or specific stat values) from your API to make the examples as realistic as possible.
+    Iterative Feedback:
+    Continuously test your prompts with a few queries to fine-tune the output format and content detail.
+
+These additional prompt types should provide a well-rounded dataset covering everything from direct queries to multi-step processes and fallback strategies. This comprehensive coverage will help your model learn to address a wide array of player questions with rich, actionable responses.
+
+Would you like more examples on any specific category, or further guidance on integrating these prompts into your training pipeline?
+You said:
+Lets also add help me build my team for whatever type of even and elemental request by any type of domain or even and the user must list their characters. Then the ai must list weapons, artifacts and teamups with their own sets.
+
+Below is an additional prompt type focused on team composition—one where the user specifies the characters they have along with an event, domain, or elemental request, and the AI must provide recommendations for weapons, artifacts, and synergistic team-ups (including alternative sets).
+Additional Prompt Type: Team Composition and Build Query
+Sample Prompt Example
+
+Help me build my team for a Dendro-focused event. I currently have the characters: Ningguang, Xiao, and Bennett. Based on my roster and the event's elemental requirements, what weapons, artifact sets, and additional team members would you recommend? Please include fallback options if signature items or main roles are not available.
+
+Expected Response Breakdown
+
+    Team Overview and Analysis:
+        User Inventory Acknowledgement:
+            Start by listing the user’s provided characters (e.g., Ningguang, Xiao, Bennett) and briefly describe their roles (e.g., Ningguang as a Geo DPS/support, Xiao as a primary DPS, Bennett as a support/healer).
+        Event and Elemental Context:
+            Mention that the event is Dendro-focused and explain why integrating Dendro synergy is important for this scenario (e.g., to trigger reactions like Quicken or Bloom).
+
+    Weapon Recommendations:
+        For Each Character (or Role):
+            Ningguang:
+                Signature Weapon: Recommend her ideal catalyst (e.g., “Recommended: [Ningguang’s Signature Catalyst] that boosts Geo DMG and HP”).
+                Fallback: If unavailable, suggest an alternative (e.g., “If unavailable, try [Alternative Catalyst Name] which offers similar bonus effects.”)
+            Xiao:
+                Signature Polearm: List his preferred weapon with benefits (e.g., “Ideal: [Xiao’s Signature Polearm] that maximizes plunge attack damage and Crit stats”).
+                Fallback Option: Suggest an alternative with similar scaling.
+            Bennett:
+                Signature Catalyst: Provide his best option (e.g., “Optimal: [Bennett’s Signature Catalyst] for Energy Recharge and HP boosts”).
+                Fallback Option: Include an alternative recommendation.
+
+    Artifact Set Recommendations:
+        Per Character:
+            Suggest ideal artifact main stats and substats for each character. For example:
+                Ningguang:
+                    Sands: ATK% or Geo DMG Bonus
+                    Goblet: Geo DMG Bonus
+                    Circlet: Crit Rate or Crit Damage
+                    Thresholds: “Aim for at least 7–8% Crit Rate and 50–55% Crit Damage.”
+                Xiao:
+                    Recommend artifacts that focus on ATK%, Anemo DMG Bonus, and high Crit Damage.
+                Bennett:
+                    Recommend artifacts with high Energy Recharge and HP, plus supportive substats.
+        General Fallbacks:
+            If the ideal artifact sets are not available, list alternatives that still provide strong synergy (e.g., “If the recommended 4-piece set is unavailable, consider mixing sets that provide partial bonuses with ideal main stats.”)
+
+    Team-Up Suggestions and Additional Members:
+        Complementary Characters:
+            Based on the event's Dendro focus, recommend additional characters to round out the team. For instance:
+                “For better Dendro synergy, consider adding a Dendro character such as Collei or Nahida, which can trigger Bloom reactions with Ningguang’s Geo and further enhance elemental reactions.”
+        Synergy Explanation:
+            Explain how the recommended additional characters will improve overall team performance (e.g., “Adding a Dendro support will help trigger Quicken and Bloom, thereby boosting overall damage output and energy regeneration for the team.”)
+
+    Fallback and Adaptation Strategy:
+        Missing Key Items:
+            If any signature weapons or artifact sets aren’t available, provide alternative strategies such as focusing on secondary stat upgrades or farming additional domains for alternative materials.
+        Final Summary:
+            End with a concise summary that outlines the final recommendations for weapons, artifacts, and additional team members along with key stat targets.
+
+Detailed Guidelines for Training the Model
+
+    Consistency:
+    Every training example should maintain a clear, consistent structure:
+        Acknowledge the user’s current roster.
+        Define the event or elemental focus.
+        Provide tailored recommendations for each character’s weapon and artifacts.
+        Suggest additional characters to complete the team for better synergy.
+        Include fallback strategies for unavailable items.
+
+    Data Anchoring:
+    Each recommended item (weapon, artifact, additional team member) should be linked to data from your API. For example, if your API returns drop rates or specific stats for items, embed that data (e.g., “Weapon X offers 15% ATK boost and has a 20% drop rate from Boss Y”) into the training response.
+
+    Conditional Logic:
+    Train the model to check for availability:
+        “If signature weapon A is not available, then suggest alternative B.”
+        Use conditional phrases like “if unavailable” or “fallback option” to encourage the model to provide alternatives.
+
+    Nuance in Stat Recommendations:
+    Provide concrete numbers and thresholds in every response. For example, artifact stat recommendations should include target percentages (e.g., “aim for at least 7–8% Crit Rate”).
+        You might include phrases like “based on the ideal build data, the recommended stat thresholds are…” to emphasize data-driven advice.
+
+    Multi-Step Reasoning:
+    Encourage the model to provide multi-step instructions that begin with acknowledging current assets, then identifying gaps (if any), and finally suggesting how to overcome those gaps through alternative farming methods or fallback recommendations.
+
+    Variability:
+    Include examples that vary by event type, elemental focus, and character roles (e.g., main DPS, support, healer). This ensures the model can handle a broad range of queries.
+
+    Context Awareness:
+    The model should be trained to interpret both the characters provided and the event or domain context to provide the most relevant advice.
+
+Additional Example: Combined Team Composition Query
+
+Prompt Example:
+
+I have the characters: Ningguang, Xiao, and Bennett, and I need to build a team for a Dendro-based event. I want to maximize elemental reactions and overall synergy. Can you suggest optimal weapons, artifacts, and a list of additional team members? Also, provide fallback options if signature items are missing, and list the key stat thresholds for each character.
+
+Expected Response Breakdown:
+
+    User's Characters and Role Analysis:
+        Briefly describe each character’s role (e.g., Ningguang as Geo DPS, Xiao as primary DPS, Bennett as support/healer).
+    Event Context:
+        Emphasize that the event is Dendro-based, requiring strong synergy for reactions like Bloom and Quicken.
+    Weapon Recommendations:
+        For Ningguang: Recommend her ideal catalyst, with fallback alternatives.
+        For Xiao: List his signature polearm and an alternative option.
+        For Bennett: Provide his optimal catalyst and an alternative.
+    Artifact Set Recommendations:
+        For each character, list the recommended artifact main stats and substats with thresholds (e.g., Ningguang – “Sands: ATK%/Geo DMG Bonus; Goblet: Geo DMG Bonus; Circlet: Crit Rate or Crit Damage; aim for at least 7–8% Crit Rate.”)
+    Additional Team Members:
+        Suggest adding a Dendro character (like Collei or Nahida) to boost the elemental synergy.
+    Fallback Strategies:
+        Provide alternative farming routes or item sources if primary drops are scarce.
+    Final Summary:
+        Conclude with a concise summary that lists the recommended set for weapons, artifacts, and extra team members along with key stat targets.
+
+By incorporating these additional prompt types, your training dataset will cover a wide range of scenarios—from specific character queries to complex team composition challenges that include fallback recommendations and multi-step build processes. This diversity will help your model provide comprehensive, detailed, and context-aware responses to users.
+
+Would you like further examples in a particular area, or additional guidance on integrating these prompt types into your training pipeline?
+You said:
+Please go ahead with more options. Like spiral, imaginarium theater, bosses, domains, domain schedules, everything 
+
+Below are 10 additional detailed prompt types—with full breakdowns—that cover a wide range of queries related to Spiral Abyss farming, event domains like Imaginarium Theater, boss rotations, domain schedules, and multi-domain strategies. These examples are meant to train your model to provide comprehensive, context-rich responses that include not only drop lists and stat targets but also fallback strategies and schedule information.
+21. Spiral Abyss Material Farming Query
+
+Prompt:
+
+For a main DPS Ganyu build, which floors in the Spiral Abyss offer the best ascension materials? Please provide the floor schedule, list the key drops for each floor, and suggest fallback strategies if certain floors are locked.
+
+Expected Response Breakdown:
+
+    Floor Schedule Overview:
+        Describe which floors (e.g., Floor 3 and Floor 4) yield the best materials for Cryo builds.
+        Include any available schedule info (days/times or rotation cycles).
+    Key Drops for Each Floor:
+        For example, “Floor 3 yields [Material A, Material B] that enhance Cryo DMG and elemental burst efficiency.”
+        For Floor 4, list materials that may have different stat bonuses.
+    Fallback Strategies:
+        If a floor is locked or has a low drop rate, suggest alternative farming sources (e.g., other domains or bosses that drop similar materials).
+    Artifact Stat Recommendations:
+        Mention thresholds such as “aim for artifacts with at least 7–8% Crit Rate and 50–55% Crit Damage” if relevant to the build.
+
+22. Imaginarium Theater Event Query
+
+Prompt:
+
+During the Imaginarium Theater event, what exclusive rewards and materials are available for support builds like Bennett’s? Include the event’s schedule, key event drops, and fallback options for players who miss the event.
+
+Expected Response Breakdown:
+
+    Event Overview:
+        Provide a brief description of the Imaginarium Theater event (its theme, duration, and relevance).
+    Key Rewards and Materials:
+        List the exclusive drops (e.g., “Special event shards, bonus catalyst fragments”) and explain how they benefit Bennett’s support build.
+    Event Schedule:
+        Include details such as start/end dates, daily time windows, or rotation details.
+    Fallback Options:
+        Recommend alternative domains or regular bosses that offer similar materials if the event rewards become unavailable.
+    Artifact and Stat Guidance:
+        Suggest optimal artifact stat thresholds to leverage these materials (e.g., “aim for 10–12% Energy Recharge”).
+
+23. Domain Schedule and Efficiency Query
+
+Prompt:
+
+What is the schedule for the Domain of Guyun in Liyue, and how does it affect drop rates for ascension materials for Ningguang? Provide details on the domain’s rotation, optimal farming times, and fallback strategies.
+
+Expected Response Breakdown:
+
+    Domain Schedule Details:
+        Specify the days or time windows when the Domain of Guyun is active.
+    Drop Rate Impact:
+        Explain how the schedule influences drop rates (e.g., “higher drop rates during peak hours”).
+    Farming Recommendations:
+        Recommend optimal times to farm for Ningguang’s ascension materials.
+    Fallback Strategies:
+        Suggest alternate farming locations or strategies if the domain’s schedule isn’t favorable.
+    Artifact Stat Guidance:
+        Include recommended thresholds for Ningguang’s ideal build.
+
+24. Combined Domain and Boss Farming Strategy
+
+Prompt:
+
+I need a combined farming strategy to collect both boss drops from Andrius and domain drops from the Domain of Guyun for Bennett’s catalyst upgrade. Outline an optimal plan that includes domain schedules, boss rotation information, and fallback strategies if one source is unavailable.
+
+Expected Response Breakdown:
+
+    Integrated Farming Plan:
+        Provide a sequential plan: “Farm Andrius on Monday/Thursday for catalyst materials and then the Domain of Guyun on Tuesday/Friday for artifact components.”
+    Boss Rotation Details:
+        Describe how often Andrius is available and any relevant rotation information.
+    Domain Schedule:
+        Include the domain’s active days/times and expected drops.
+    Fallback Options:
+        Advise on alternative bosses or domains if either source is temporarily unavailable.
+    Stat Targets:
+        List the artifact and catalyst stat thresholds ideal for Bennett’s support build (e.g., Energy Recharge and HP values).
+
+25. Spiral Abyss Floor Comparison Query
+
+Prompt:
+
+Compare the efficiency of farming materials from Spiral Abyss Floor 3 versus Floor 4 for a high-crit Xiao build. Which floor offers better artifact drops, and what fallback options should I consider if one floor is less accessible?
+
+Expected Response Breakdown:
+
+    Floor Comparison:
+        Analyze the drop differences between Floor 3 and Floor 4 (e.g., “Floor 3 tends to drop higher Crit Rate items, while Floor 4 offers more consistent Crit Damage bonuses”).
+    Efficiency Evaluation:
+        Explain which floor is better suited for Xiao’s high-crit build and why.
+    Fallback Options:
+        Suggest alternate farming sources if the preferred floor is not accessible.
+    Artifact Stat Targets:
+        Recommend specific stat thresholds that benefit Xiao’s build (e.g., “aim for a minimum of 8% Crit Rate and 55% Crit Damage”).
+
+26. Event-Specific Domain Query for Dendro Builds
+
+Prompt:
+
+For the upcoming Sumeru event domain focused on Dendro materials, what are the expected drops for Dendro builds, and what is the domain schedule? Provide recommendations for optimal farming strategies and fallback alternatives.
+
+Expected Response Breakdown:
+
+    Event Domain Overview:
+        Describe the event domain’s focus and schedule (e.g., “active on weekends during the Sumeru event”).
+    Expected Drops:
+        List key materials that support Dendro builds (e.g., “Dendro Essence, Bloom Fragments”).
+    Farming Strategy:
+        Recommend how to farm efficiently during the event (e.g., “farm early in the event to collect materials in bulk”).
+    Fallback Alternatives:
+        Suggest other domains or bosses that drop similar materials if the event domain is unavailable.
+    Stat Recommendations:
+        Advise on ideal artifact stats for Dendro builds.
+
+27. Boss Rotation and Event Integration Query
+
+Prompt:
+
+Explain the current boss rotation for Andrius in Mondstadt and how it integrates with the current event that boosts drop rates. Include optimal farming times and fallback strategies if the event changes mid-week.
+
+Expected Response Breakdown:
+
+    Boss Rotation Explanation:
+        Detail Andrius’s availability and rotation schedule.
+    Event Integration:
+        Explain how the event modifies drop rates or rewards for Andrius.
+    Optimal Farming Times:
+        Recommend specific days or times to farm for better drops.
+    Fallback Strategies:
+        Provide alternative methods if the event’s benefits are reduced or the rotation changes.
+    Stat and Build Guidance:
+        Include a brief reminder of key stat thresholds that complement Andrius’s drops for the intended build.
+
+28. Multi-Domain Artifact Collection Query
+
+Prompt:
+
+I want to collect a complete set of artifacts for Bennett’s support build from various domains. List the domains to target, their schedules, and the key drop items, along with fallback strategies if a domain is inaccessible.
+
+Expected Response Breakdown:
+
+    Domain Breakdown:
+        List all domains relevant for Bennett’s build (e.g., Domain of Guyun, Domain X in Mondstadt).
+    Schedule Details:
+        Provide the active days/times for each domain.
+    Key Drop Items:
+        Enumerate the materials each domain yields and how they contribute to Bennett’s catalyst or artifact upgrades.
+    Fallback Strategies:
+        Suggest alternative domains or methods if one domain is temporarily inaccessible.
+    Artifact Stat Targets:
+        Reiterate optimal stat ranges for Bennett’s support role (e.g., high Energy Recharge and HP).
+
+29. Mixed-Build Domain Efficiency Query
+
+Prompt:
+
+For a mixed team including Xiao, Ningguang, and Bennett, which domains in Mondstadt and Liyue should I prioritize for farming? Provide a detailed breakdown of each domain’s schedule, drop types, and fallback material sources for optimizing the overall team build.
+
+Expected Response Breakdown:
+
+    Separate Regional Analysis:
+        For Mondstadt: List domains (e.g., Domain of Stormterror) that yield drops benefiting Xiao and Bennett.
+        For Liyue: List domains (e.g., Domain of Guyun) that yield materials for Ningguang.
+    Schedule and Drop Types:
+        Provide domain schedules and specify the drop types for each domain.
+    Fallback Material Sources:
+        Offer alternate domains or bosses if primary sources are unavailable.
+    Team Synergy Explanation:
+        Explain how combining drops from both regions creates a balanced build for the team.
+    Artifact and Stat Recommendations:
+        Include specific stat thresholds for each character based on the domain drops.
+
+30. Time-Based Domain Efficiency Query
+
+Prompt:
+
+How does the time of day affect drop rates in the Domain of Guyun for Ganyu’s ascension materials? Provide an analysis of optimal farming times, expected drop differences, and fallback schedules if the domain is less effective during off-peak hours.
+
+Expected Response Breakdown:
+
+    Time-of-Day Analysis:
+        Describe any known variations in drop rates based on the time of day (e.g., “Drop rates may be 10% higher during peak hours from 6 PM to midnight.”)
+    Optimal Farming Times:
+        Recommend specific time windows for optimal farming.
+    Fallback Schedules:
+        Suggest alternative times or domains if the domain is less effective during off-peak hours.
+    Artifact and Material Recommendations:
+        Include a reminder of the key stat targets for Ganyu’s build.
+
+Implementation and Integration Tips
+
+    Template Consistency:
+    Each training example should follow a consistent multi-section template, making it easier for your model to learn the structure:
+        Context/Role Analysis (character inventory, event/domain focus)
+        Farming/Boss/Domain Details (schedules, key drops)
+        Item/Artifact Recommendations (signature items, fallback alternatives)
+        Stat Targets and Build Integration (artifact stat thresholds, overall build synergy)
+    Data Anchoring:
+    Embed actual data points from your API—such as drop rates, domain schedules, and item stats—to ground the model’s recommendations in real, dynamic in-game information.
+    Iterative Testing:
+    Regularly test the model with these examples and refine the prompts and responses based on feedback to ensure accuracy and helpfulness.
+
+These additional prompt types offer a broad spectrum of queries that cover the complete gamut of farming, domain schedules, boss rotations, and multi-domain strategies, ensuring your model can provide comprehensive and context-aware team-building guidance.
+
+Would you like even more examples or further integration details on any specific segment of these prompts?
+You said:
+All of this must be used with logic of what each characters abilities and weapons are
+
+Below is a set of additional prompt examples and guidelines that integrate the in-depth logic of each character’s abilities, weapon mechanics, and how these elements interact with farming sources, artifact choices, and fallback recommendations. These examples assume that your training data is augmented with character-specific information (e.g., ability descriptions, weapon scaling, and elemental interactions) so that the model can make recommendations based on a character’s inherent strengths and weaknesses.
+Additional Detailed Prompt Examples Incorporating Character Logic
+31. Ability-Driven Build Query
+
+Prompt:
+
+For the character "Diluc," whose abilities rely on heavy Pyro DMG and high ATK scaling, what are the optimal boss drops from "Stormterror Dvalin" to enhance his damage output? Also, provide a recommendation for his signature claymore and suggest a fallback option. Include artifact recommendations with specific stat thresholds that synergize with his Pyro abilities.
+
+Expected Response Breakdown:
+
+    Character Abilities and Logic:
+        Begin by noting that Diluc’s abilities (e.g., his Elemental Skill and Burst) scale off ATK and benefit from Pyro DMG Bonus.
+    Boss Drops:
+        List items like “Dvalin’s Plume” and “Dvalin’s Claw,” emphasizing how they contribute to boosting base ATK or elemental burst efficiency.
+    Weapon Recommendation:
+        State that Diluc’s signature claymore (e.g., “The Wolf’s Gravestone” if applicable) provides an ATK multiplier and Pyro bonus.
+        Suggest a fallback weapon that offers similar scaling (e.g., “If unavailable, the prototype alternative [Fallback Weapon Name] can provide comparable benefits”).
+    Artifact Recommendations:
+        Advise on artifact sets and main stats: “For Diluc, prioritize artifacts with ATK%, Pyro DMG Bonus on the Goblet, and Crit Damage on the Circlet. Aim for substats of 7–8% Crit Rate and 50–55% Crit Damage.”
+    Logical Integration:
+        Clearly connect how each recommendation supports his abilities—emphasizing that higher ATK and Pyro DMG Bonus directly translate into increased damage from his burst.
+
+32. Weapon and Ability Synergy Query
+
+Prompt:
+
+Considering Xiao’s reliance on plunge attacks and his ability to generate high Crit Damage, what are the recommended farming sources from Spiral Abyss and boss rotations to optimize his build? Include details on his signature polearm, fallback alternatives, and the ideal artifact stat thresholds that complement his Anemo abilities.
+
+Expected Response Breakdown:
+
+    Character Abilities:
+        Explain that Xiao’s core damage comes from his plunge attacks, which scale well with high Crit Damage and ATK.
+    Farming Sources:
+        Identify Spiral Abyss floors that yield drops beneficial to Xiao, such as those that provide high-ATK items or Crit substats.
+    Weapon Synergy:
+        Recommend his signature polearm (e.g., “Xiao’s signature weapon, [Polearm Name], offers high base ATK and enhances plunge attack DMG”) along with an alternative if unavailable.
+    Artifact Recommendations:
+        Suggest artifact main stats (e.g., Sands with ATK%, Goblet with Anemo DMG Bonus, Circlet with Crit Damage) and target substat thresholds (e.g., “at least 8% Crit Rate and 55% Crit Damage”).
+    Logical Connection:
+        Emphasize that boosting Crit Damage and ATK directly benefits his high-risk, high-reward plunge attacks.
+
+33. Character Constellation and Ability Impact Query
+
+Prompt:
+
+For Ganyu at constellation level 4, whose abilities benefit from high Crit Rate and Cryo DMG Bonus, what are the ideal drops from the Domain of Guyun? Also, recommend her signature bow and fallback alternatives, and provide artifact recommendations with stat thresholds that best leverage her charged attack and burst.
+
+Expected Response Breakdown:
+
+    Constellation Impact and Abilities:
+        Note that at constellation level 4, Ganyu’s charged attack and burst are significantly enhanced, making Crit Rate and Cryo DMG Bonus vital.
+    Domain Drops:
+        List the specific materials available from the Domain of Guyun that aid in her ascension, such as “Guyun Stones” and related items, and explain how these improve her overall Cryo scaling.
+    Weapon Recommendation:
+        Recommend her signature bow (e.g., “Ganyu’s signature bow, [Bow Name], offers high base DMG and boosts Cryo DMG”) and include a fallback option.
+    Artifact Guidance:
+        Provide artifact recommendations (e.g., “aim for artifacts with ATK%, Cryo DMG Bonus, and Crit Damage on the Circlet”) with explicit stat thresholds (e.g., “7–8% Crit Rate, 50–55% Crit Damage”).
+    Logical Integration:
+        Ensure the response ties her constellation level with enhanced abilities and explains how specific drops and equipment directly improve those stats.
+
+34. Multi-Character Synergy with Ability Logic
+
+Prompt:
+
+I have a team consisting of Bennett, Ningguang, and Xiao. Bennett’s abilities provide healing and a damage bonus via his burst, Ningguang scales off Geo DMG and HP, and Xiao excels in high Crit DPS. Help me build an optimal team for a Mondstadt event. List the recommended bosses, domains, weapons, artifact sets, and any additional team members needed for synergy. Include fallback options and specific stat targets for each character.
+
+Expected Response Breakdown:
+
+    Team Analysis Based on Abilities:
+        Describe each character’s role and how their abilities contribute to overall team synergy. For example, “Bennett’s burst increases ATK and heals, Ningguang’s abilities rely on Geo DMG and HP, while Xiao benefits from high Crit stats.”
+    Farming Sources:
+        Recommend bosses or domains tailored to each character’s needs (e.g., “Farm Andrius for Bennett’s catalyst materials; use Domain of Guyun for Ningguang’s ascension; and target Spiral Abyss floors that drop high-ATK or Crit materials for Xiao.”)
+    Weapon and Artifact Recommendations:
+        For each character, provide:
+            Weapons: Their signature or best available options, along with fallback alternatives.
+            Artifacts: Specific recommendations with thresholds, e.g., “For Xiao, aim for artifacts with ATK%, Anemo DMG Bonus, and a minimum of 8% Crit Rate.”
+    Additional Team Members:
+        If synergy is lacking (e.g., insufficient elemental reactions), suggest an extra character such as a Dendro or Hydro support to trigger reaction bonuses.
+    Logical Rationale:
+        Explain why each recommendation fits the character’s abilities and how the overall strategy enhances team synergy during the event.
+
+35. Domain Schedule Integrated with Ability-Specific Requirements
+
+Prompt:
+
+For the character "Bennett," whose abilities depend on high Energy Recharge and HP for his burst healing and buff, what is the ideal schedule for farming the Domain of Guyun in Liyue? Please include a detailed breakdown of the domain’s active times, key drops, and fallback strategies, along with the recommended artifact stat thresholds.
+
+Expected Response Breakdown:
+
+    Character Ability Focus:
+        Mention that Bennett’s effectiveness hinges on high Energy Recharge and HP, which directly impacts his burst healing and support bonuses.
+    Domain Schedule Details:
+        Provide specific information on when the Domain of Guyun is active (e.g., “Active on Wednesdays and Saturdays from 6 PM to midnight”).
+    Key Drops and Their Benefits:
+        List the drops that aid in increasing Energy Recharge and HP, explaining how they support Bennett’s build.
+    Fallback Strategies:
+        If the domain is inaccessible or less effective, recommend alternative farming sources or methods.
+    Artifact Stat Recommendations:
+        Clearly state thresholds, such as “aim for artifacts with at least 12–14% Energy Recharge and strong HP substats,” and explain how these stats improve his abilities.
+    Logical Integration:
+        Tie the domain schedule and drops to the direct improvement of Bennett’s abilities and build performance.
+
+36. Event and Domain Combined Query with Ability Logic
+
+Prompt:
+
+During the upcoming Sumeru event, how can I optimize my farming for a Dendro build for Nahida? Provide details on the event domain schedule, key drops, weapon recommendations, artifact sets, and fallback options, taking into account Nahida’s abilities and scaling with Elemental Mastery.
+
+Expected Response Breakdown:
+
+    Event Context and Character Abilities:
+        Describe Nahida’s focus on Elemental Mastery and how it scales her abilities.
+    Event Domain Schedule:
+        Include details on the Sumeru event domain’s schedule and how it influences drop rates.
+    Key Drops:
+        List the materials that specifically boost Dendro DMG or Elemental Mastery.
+    Weapon and Artifact Recommendations:
+        Recommend her signature weapon (or an alternative if not available) and artifact sets that boost Elemental Mastery, such as “aim for artifacts with 20–30% Elemental Mastery on substats.”
+    Fallback Options:
+        Suggest fallback farming strategies if the event domain is not available.
+    Logical Integration:
+        Ensure the response ties the event’s unique benefits and schedule directly to enhancing Nahida’s elemental scaling and ability performance.
+
+37. Detailed Fallback Strategy Incorporating Ability Mechanics
+
+Prompt:
+
+If the recommended boss "Andrius" drops for Xiao’s high-crit build are unavailable, what fallback farming strategy would you suggest? Consider Xiao’s reliance on high Crit Damage and ATK for his plunge attacks, and provide alternative domain or boss options along with adjusted artifact stat priorities.
+
+Expected Response Breakdown:
+
+    Primary vs. Fallback Analysis:
+        Explain the primary strategy (farming Andrius for specific drops) and why they’re ideal for Xiao’s abilities.
+        Then, detail fallback strategies, such as alternative domains that drop high-ATK or Crit items.
+    Alternative Sources:
+        Identify a secondary boss or domain (e.g., “If Andrius drops are scarce, consider farming the Domain of Stormterror or certain Spiral Abyss floors known for high Crit rate materials.”)
+    Adjusted Artifact Priorities:
+        Provide updated stat recommendations, such as “If fallback items have lower base ATK, then prioritize artifacts that offer slightly higher Crit Damage to compensate.”
+    Logical Rationale:
+        Emphasize how these fallback options still support Xiao’s reliance on high Crit Damage and ATK scaling.
+
+38. Multi-Source Comparison with Ability Impact
+
+Prompt:
+
+Compare the benefits of farming the Domain of Guyun versus the Spiral Abyss for a high-energy Bennett build. How do the drops from these sources interact with Bennett’s abilities, and what adjustments in artifact stat targets should be made based on the source?
+
+Expected Response Breakdown:
+
+    Source Comparison:
+        Provide a detailed comparison of the two farming sources, explaining the nature of their drops and how they align with Bennett’s reliance on high Energy Recharge and HP.
+    Ability Impact:
+        Describe how each source’s materials benefit his burst healing and support capabilities.
+    Artifact Adjustments:
+        Suggest specific artifact stat targets for each source (e.g., “If farming the Domain of Guyun, focus on 12–14% Energy Recharge; if using Spiral Abyss drops, you might need to slightly adjust to compensate for lower drop quality.”)
+    Fallback Strategies:
+        Mention fallback options if one source yields suboptimal results.
+
+39. Domain-Specific Weapon Enhancement Query
+
+Prompt:
+
+How can I enhance Ningguang’s Geo build by combining the drops from the Domain of Guyun with her signature catalyst? Describe the process, list the ideal boss drops, and specify which artifact stat thresholds should be prioritized to maximize her abilities.
+
+Expected Response Breakdown:
+
+    Ability-Driven Explanation:
+        Note that Ningguang’s abilities scale with Geo DMG Bonus and HP, so the recommendations must support these areas.
+    Process Description:
+        Detail how to integrate domain drops with catalyst upgrades, listing key materials such as “Geo Shard” or “Guyun Stones.”
+    Weapon Enhancement:
+        Recommend her signature catalyst and suggest fallback options if it’s not available.
+    Artifact Recommendations:
+        Provide artifact set suggestions with clear stat targets (e.g., “aim for at least 8% Geo DMG Bonus and 10–12% HP, which enhances her shield and damage output”).
+    Logical Integration:
+        Ensure the explanation connects the catalyst and artifact choices with Ningguang’s ability scaling.
+
+40. Custom Query for Rare Materials with Ability Considerations
+
+Prompt:
+
+What should I do if the rare material "Celestite" needed for upgrading Ganyu’s Cryo build is extremely scarce? Include fallback strategies from alternative farming domains or bosses, and adjust the artifact stat recommendations to account for the material shortage, keeping in mind Ganyu’s reliance on Cryo DMG and Crit.
+
+Expected Response Breakdown:
+
+    Rare Material Challenge:
+        Explain the importance of "Celestite" for Ganyu’s build and how its scarcity affects her scaling.
+    Fallback Strategies:
+        Suggest alternative farming sources (e.g., “if Celestite is scarce, consider targeting the Domain of Guyun or specific Spiral Abyss floors that drop similar materials”).
+    Artifact Adjustments:
+        Recommend adjustments in artifact stat priorities—perhaps placing more emphasis on Crit Rate and Crit Damage to make up for lower material quality.
+    Logical Connection:
+        Tie the fallback plan directly to Ganyu’s ability needs, ensuring that even with a material shortage, her Cryo build remains effective.
+
+Implementation & Integration Tips
+
+    Data-Driven Responses:
+    Each response should dynamically reference data points (drop rates, specific item stats, rotation schedules) from your API or curated datasets, ensuring the advice is both context-aware and grounded in real game logic.
+    Conditional Logic:
+    Train the model to use conditional language (e.g., “if X is unavailable, then Y should be considered”) so that fallback strategies are naturally integrated into the responses.
+    Detailed Explanations:
+    Ensure that the model learns to explain the rationale behind every recommendation by tying it back to the character’s abilities and the specific effects of their weapons and artifacts.
+    Regular Updates:
+    As the game meta evolves, update these training examples with new data, ensuring the model remains current with changes in boss drops, domain schedules, and character abilities.
+
+These additional prompt types should give your training dataset a comprehensive range of examples that not only list farming and equipment details but also integrate the logical underpinnings of each character’s abilities, weapon mechanics, and how they interact with different in-game sources. This will help your model generate more accurate, context-aware, and actionable recommendations for team building and optimization.
+
+Here are the additional prompt types based on your feedback, incorporating various aspects of character builds, farming strategies, and gameplay mechanics:
+
+41. Elemental Reaction Strategy Query
+Prompt:
+"How can I maximize elemental reactions using my characters in a specific domain? List the characters, their abilities, and the best farming sources for the necessary materials."
+
+Expected Response Breakdown:
+
+Character List: Identify characters that can trigger elemental reactions.
+Ability Overview: Briefly describe each character's abilities relevant to reactions.
+Farming Sources: Recommend domains or bosses that drop necessary materials for enhancing elemental reactions.
+42. Character Role Optimization Query
+Prompt:
+"What is the best way to optimize my support character for a specific event? Include recommended artifacts, weapons, and team compositions."
+
+Expected Response Breakdown:
+
+Character Analysis: Discuss the support character's abilities and how they can be optimized for the event.
+Artifact Recommendations: Suggest ideal artifact sets and main stats.
+Weapon Choices: Recommend the best weapons for the character.
+Team Composition: Propose a team setup that maximizes the character's support capabilities.
+43. Event-Specific Farming Strategy
+Prompt:
+"For the upcoming event, what characters should I prioritize for farming? Provide a list of optimal bosses and domains, along with their drop rates."
+
+Expected Response Breakdown:
+
+Character Prioritization: List characters that benefit most from the event.
+Farming Locations: Identify bosses and domains to target.
+Drop Rates: Provide expected drop rates for materials relevant to the event.
+44. Team Composition for Spiral Abyss
+Prompt:
+"Help me build a team for Spiral Abyss Floor 12. I have the following characters: [list characters]. What is the optimal team composition?"
+
+Expected Response Breakdown:
+
+Team Analysis: Evaluate the provided characters and their roles.
+Optimal Composition: Suggest a team composition that maximizes synergy and effectiveness for Floor 12.
+Strategy Tips: Provide tips for tackling the specific challenges of that floor.
+45. Artifact Farming Efficiency Query
+Prompt:
+"Which domains provide the best artifacts for a high-crit build? Include the domain schedules and expected drop rates."
+
+Expected Response Breakdown:
+
+Domain Recommendations: List domains known for high-crit artifacts.
+Schedule Information: Provide the active days/times for each domain.
+Drop Rates: Include expected drop rates for relevant artifacts.
+46. Character-Specific Farming Recommendations
+Prompt:
+"What are the best farming strategies for obtaining ascension materials for [Character Name]? Include bosses, domains, and artifact recommendations."
+
+Expected Response Breakdown:
+
+Farming Strategy: Outline a comprehensive farming plan for the character.
+Key Bosses and Domains: Identify specific sources for ascension materials.
+Artifact Recommendations: Suggest ideal artifacts and stat thresholds.
+47. Gameplay Mechanics Explanation
+Prompt:
+"Explain how elemental reactions work in Genshin Impact and how I can use them to my advantage in combat."
+
+Expected Response Breakdown:
+
+Mechanics Overview: Describe the different elemental reactions and their effects.
+Strategic Applications: Provide tips on how to effectively trigger and utilize reactions in combat.
+48. Resource Management Query
+Prompt:
+"How should I manage my resources for character upgrades? Provide a strategy for prioritizing materials and farming locations."
+
+Expected Response Breakdown:
+
+Resource Prioritization: Discuss which materials are most critical for upgrades.
+Farming Locations: Recommend optimal farming spots for each material.
+Management Tips: Offer strategies for efficient resource management.
+49. Character Synergy Analysis
+Prompt:
+"Analyze the synergy between [Character A] and [Character B]. How can I optimize their abilities in a team setting?"
+
+Expected Response Breakdown:
+
+Character Overview: Briefly describe the abilities of both characters.
+Synergy Insights: Explain how their abilities complement each other.
+Optimization Tips: Provide recommendations for team setups that enhance their synergy.
+50. Meta Analysis and Updates
+Prompt:
+"What are the current meta trends for character builds in Genshin Impact? How should I adjust my strategy based on recent updates?"
+
+Expected Response Breakdown:
+
+Meta Overview: Discuss the current trends in character builds.
+Adjustment Recommendations: Provide advice on how to adapt strategies based on recent changes in the game.
+These additional prompt types will enhance your training dataset, ensuring that the model can provide comprehensive, context-aware responses that consider character abilities, farming strategies, and gameplay mechanics. Would you like to add more examples or focus on a specific area?
+
+To enhance the training dataset, I should consider various types of questions and requests that users might have regarding character builds, farming strategies, and the overall functionality of the package. This includes inquiries about specific character synergies, event strategies, team compositions, and how to optimize builds based on available resources. Additionally, I should think about questions related to gameplay mechanics, such as elemental reactions, team dynamics, and character roles in different scenarios.
+
+Here are some additional prompt types that could be beneficial:
+
+Elemental Reaction Strategy Query
+
+Prompt: "How can I maximize elemental reactions using my characters in a specific domain? List the characters, their abilities, and the best farming sources for the necessary materials."
+Expected Response: Detailed strategies for triggering reactions, character synergies, and material sources.
+Character Role Optimization Query
+
+Prompt: "What is the best way to optimize my support character for a specific event? Include recommended artifacts, weapons, and team compositions."
+Expected Response: Recommendations based on the character's abilities and the event's requirements.
+Event-Specific Farming Strategy
+
+Prompt: "For the upcoming event, what characters should I prioritize for farming? Provide a list of optimal bosses and domains, along with their drop rates."
+Expected Response: A comprehensive farming strategy tailored to the event.
+Team Composition for Spiral Abyss
+
+Prompt: "Help me build a team for Spiral Abyss Floor 12. I have the following characters: [list characters]. What is the optimal team composition?"
+Expected Response: Suggested team compositions based on character abilities and synergy.
+Artifact Farming Efficiency Query
+
+Prompt: "Which domains provide the best artifacts for a high-crit build? Include the domain schedules and expected drop rates."
+Expected Response: A breakdown of domains, their schedules, and the artifacts they drop.
+Character-Specific Farming Recommendations
+
+Prompt: "What are the best farming strategies for obtaining ascension materials for [Character Name]? Include bosses, domains, and artifact recommendations."
+Expected Response: Targeted farming strategies based on the character's needs.
+Gameplay Mechanics Explanation
+
+Prompt: "Explain how elemental reactions work in Genshin Impact and how I can use them to my advantage in combat."
+Expected Response: A detailed explanation of elemental reactions and their strategic applications.
+Resource Management Query
+
+Prompt: "How should I manage my resources for character upgrades? Provide a strategy for prioritizing materials and farming locations."
+Expected Response: A resource management strategy tailored to character upgrades.
+Character Synergy Analysis
+
+Prompt: "Analyze the synergy between [Character A] and [Character B]. How can I optimize their abilities in a team setting?"
+Expected Response: Insights into character interactions and optimal team setups.
+Meta Analysis and Updates
+
+Prompt: "What are the current meta trends for character builds in Genshin Impact? How should I adjust my strategy based on recent updates?"
+Expected Response: An analysis of the current meta and recommendations for adjustments.
+These additional prompt types will help ensure that the training dataset covers a wide range of user inquiries, enhancing the model's ability to provide comprehensive and context-aware responses.

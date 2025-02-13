@@ -34,7 +34,7 @@ python python/check_hardware.py
 
 :: Set environment variables for training (can be modified as needed)
 set EPOCHS=10
-set BATCH_SIZE=64
+set BATCH_SIZE=32
 set LEARNING_RATE=0.002
 
 echo Training Configuration:

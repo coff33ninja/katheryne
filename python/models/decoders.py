@@ -15,6 +15,10 @@ class HardwareManager:
         self.resources_allocated += amount
         return f"Allocated {amount} resources. Total allocated: {self.resources_allocated}"
 
+    def get_device(self):
+        """Get the current device being used for training."""
+        return "cpu"
+
     def deallocate_resources(self, amount):
         """Deallocate resources from hardware operations."""
         if amount <= self.resources_allocated:

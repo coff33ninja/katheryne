@@ -3,8 +3,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 import json
 from pathlib import Path
-from typing import List, Dict, Tuple
-import numpy as np
+from typing import Dict, Tuple
 from tqdm import tqdm
 
 
@@ -49,12 +48,10 @@ class GenshinAssistantDataset(Dataset):
         word_set = set()
 
         print("Building vocabulary...")
-        # Add words from queries and responses
         for text in tqdm(self.queries + self.responses):
             words = text.lower().split()
             word_set.update(words)
 
-        # Add words to vocabulary
         for i, word in enumerate(tqdm(sorted(word_set))):
             vocab[word] = i + 4  # Start after special tokens
 
@@ -140,29 +137,29 @@ class GenshinAssistant(nn.Module):
         """Calculate attention weights."""
         batch_size = encoder_outputs.size(0)
         seq_len = encoder_outputs.size(1)
-        
+
         # Reshape decoder hidden state to match encoder outputs
         decoder_hidden = decoder_hidden.unsqueeze(1).repeat(1, seq_len, 1)
-        
+
         # Ensure dimensions match before concatenation
         if decoder_hidden.size(-1) != encoder_outputs.size(-1):
-            # Project decoder hidden state to match encoder output dimension
             decoder_hidden = decoder_hidden.view(batch_size, seq_len, -1)
             if decoder_hidden.size(-1) > encoder_outputs.size(-1):
-                decoder_hidden = decoder_hidden[:, :, :encoder_outputs.size(-1)]
+                decoder_hidden = decoder_hidden[:, :, : encoder_outputs.size(-1)]
             else:
-                # Pad with zeros if needed
                 pad_size = encoder_outputs.size(-1) - decoder_hidden.size(-1)
-                padding = torch.zeros(batch_size, seq_len, pad_size, device=decoder_hidden.device)
+                padding = torch.zeros(
+                    batch_size, seq_len, pad_size, device=decoder_hidden.device
+                )
                 decoder_hidden = torch.cat([decoder_hidden, padding], dim=-1)
-        
+
         # Concatenate decoder hidden state and encoder outputs
         attention_input = torch.cat((decoder_hidden, encoder_outputs), dim=2)
-        
+
         # Calculate attention scores
         attention_weights = self.attention(attention_input)
         attention_weights = torch.softmax(attention_weights, dim=1)
-        
+
         return attention_weights
 
     def forward(self, src, tgt):
@@ -236,7 +233,7 @@ class GenshinAssistantTrainer:
         self.models_dir = self.data_dir / "models"
         self.models_dir.mkdir(exist_ok=True)
 
-        # Load dataset
+        # Load dataset and create dataloader
         self.dataset = GenshinAssistantDataset(self.data_dir)
 
         # Initialize model
@@ -269,14 +266,15 @@ class GenshinAssistantTrainer:
         patience = 5
         patience_counter = 0
 
+        # Create overall progress bar for epochs
+        pbar = tqdm(total=epochs, desc="Training Progress")
+
         for epoch in range(epochs):
             total_loss = 0
             self.model.train()
 
-            # Create progress bar for batches
-            pbar = tqdm(dataloader, desc=f"Epoch {epoch+1}/{epochs}")
-
-            for batch_idx, (queries, responses, _) in enumerate(pbar):
+            # Iterate through batches using the dataloader
+            for batch_idx, (queries, responses, _) in enumerate(dataloader):
                 queries = queries.to(self.device)
                 responses = responses.to(self.device)
 
@@ -298,17 +296,13 @@ class GenshinAssistantTrainer:
 
                 total_loss += loss.item()
 
-                # Update progress bar
-                pbar.set_postfix({"loss": f"{loss.item():.4f}"})
-
             avg_loss = total_loss / len(dataloader)
             print(f"Epoch {epoch+1}/{epochs}, Average Loss: {avg_loss:.4f}")
 
-            # Early stopping
+            # Early stopping and checkpointing
             if avg_loss < best_loss:
                 best_loss = avg_loss
                 patience_counter = 0
-                # Save best model
                 self._save_checkpoint(epoch, avg_loss, is_best=True)
             else:
                 patience_counter += 1
@@ -316,9 +310,14 @@ class GenshinAssistantTrainer:
                     print(f"Early stopping after {epoch+1} epochs")
                     break
 
-            # Regular checkpoint
             if (epoch + 1) % 10 == 0:
                 self._save_checkpoint(epoch, avg_loss)
+
+            # Update the outer progress bar after each epoch
+            pbar.update(1)
+
+        # Close the progress bar after training
+        pbar.close()
 
     def _collate_fn(self, batch):
         """Custom collate function for DataLoader."""
@@ -349,14 +348,16 @@ class GenshinAssistantTrainer:
         query_tensor = self.dataset._text_to_tensor(query).unsqueeze(0).to(self.device)
 
         # Initialize with start token
-        current_token = torch.LongTensor([[self.dataset.vocab["<START>"]]]).to(self.device)
-
-        # Generate response
+        current_token = torch.LongTensor([[self.dataset.vocab["<START>"]]]).to(
+            self.device
+        )
         response = [self.dataset.vocab["<START>"]]
 
         with torch.no_grad():
             # Encode query
-            src_embedded = self.model.embedding_dropout(self.model.embedding(query_tensor))
+            src_embedded = self.model.embedding_dropout(
+                self.model.embedding(query_tensor)
+            )
             encoder_outputs, (hidden, cell) = self.model.encoder(src_embedded)
 
             # Prepare decoder states
@@ -365,42 +366,49 @@ class GenshinAssistantTrainer:
 
             # Generate tokens
             for _ in range(max_length):
-                # Get current token embedding
                 token_embedded = self.model.embedding_dropout(
                     self.model.embedding(current_token)
                 )
 
-                # Calculate attention
                 attn_weights = self.model.attention_weights(
                     decoder_hidden[-1], encoder_outputs
                 )
                 context = torch.bmm(attn_weights.transpose(1, 2), encoder_outputs)
 
-                # Prepare decoder input
                 decoder_input = torch.cat([token_embedded, context], dim=2)
-
-                # Generate next token
                 output, (decoder_hidden, decoder_cell) = self.model.decoder(
                     decoder_input, (decoder_hidden, decoder_cell)
                 )
-
-                # Project to vocabulary
                 output = self.model.output_layer(output)
-
-                # Get next token
                 next_token = output.argmax(dim=2)
                 current_token = next_token
 
-                # Add token to response
                 token_idx = next_token.item()
                 response.append(token_idx)
 
-                # Stop if end token or max length
                 if token_idx == self.dataset.vocab["<END>"]:
                     break
 
-        # Convert response indices to words
         idx_to_word = {v: k for k, v in self.dataset.vocab.items()}
-        response_words = [idx_to_word[idx] for idx in response[1:-1]]  # Skip start and end tokens
-
+        response_words = [
+            idx_to_word[idx] for idx in response[1:-1]
+        ]  # Skip start and end tokens
         return " ".join(response_words)
+
+
+if __name__ == "__main__":
+    data_dir = Path(__file__).parent
+    trainer = GenshinAssistantTrainer(data_dir)
+    trainer.train(epochs=5, batch_size=32, learning_rate=0.002)
+
+    # Testing the trained model with simple queries
+    test_queries = [
+        "Tell me about Hu Tao",
+        "What is a Dull Blade?",
+        "Compare Amber and Lisa",
+    ]
+
+    for query in test_queries:
+        print(f"\nQ: {query}")
+        response = trainer.generate_response(query)
+        print(f"A: {response}")

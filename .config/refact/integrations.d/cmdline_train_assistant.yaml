@@ -1,0 +1,5 @@
+name: cmdline_train_assistant
+description: Train the Genshin Assistant model
+command: python python/train_assistant.py
+workdir: C:\Users\DRAGOHN\Documents\GitHub\katheryne
+timeout: 3600  # 1 hour timeout for training

@@ -1,0 +1,18 @@
+name: cmdline_check_deps
+description: Check if all required dependencies are installed
+command: |
+    python -c "
+    import sys
+    import pkg_resources
+    required = {'torch', 'tqdm'}
+    installed = {pkg.key for pkg in pkg_resources.working_set}
+    missing = required - installed
+    if missing:
+        print(f'Missing packages: {missing}')
+        sys.exit(1)
+    else:
+        print('All required packages are installed!')
+        sys.exit(0)
+    "
+workdir: C:\Users\DRAGOHN\Documents\GitHub\katheryne
+timeout: 30

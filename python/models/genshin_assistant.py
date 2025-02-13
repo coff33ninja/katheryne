@@ -138,18 +138,31 @@ class GenshinAssistant(nn.Module):
 
     def attention_weights(self, decoder_hidden, encoder_outputs):
         """Calculate attention weights."""
+        batch_size = encoder_outputs.size(0)
         seq_len = encoder_outputs.size(1)
-
-        # Expand decoder hidden state
+        
+        # Reshape decoder hidden state to match encoder outputs
         decoder_hidden = decoder_hidden.unsqueeze(1).repeat(1, seq_len, 1)
-
+        
+        # Ensure dimensions match before concatenation
+        if decoder_hidden.size(-1) != encoder_outputs.size(-1):
+            # Project decoder hidden state to match encoder output dimension
+            decoder_hidden = decoder_hidden.view(batch_size, seq_len, -1)
+            if decoder_hidden.size(-1) > encoder_outputs.size(-1):
+                decoder_hidden = decoder_hidden[:, :, :encoder_outputs.size(-1)]
+            else:
+                # Pad with zeros if needed
+                pad_size = encoder_outputs.size(-1) - decoder_hidden.size(-1)
+                padding = torch.zeros(batch_size, seq_len, pad_size, device=decoder_hidden.device)
+                decoder_hidden = torch.cat([decoder_hidden, padding], dim=-1)
+        
         # Concatenate decoder hidden state and encoder outputs
         attention_input = torch.cat((decoder_hidden, encoder_outputs), dim=2)
-
+        
         # Calculate attention scores
         attention_weights = self.attention(attention_input)
         attention_weights = torch.softmax(attention_weights, dim=1)
-
+        
         return attention_weights
 
     def forward(self, src, tgt):

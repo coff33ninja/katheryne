@@ -1,4 +1,4 @@
-# User Guide
+# User Guide v2
 
 This guide covers the basic usage of Katheryne, including the API client, ML pipeline, and AI assistant.
 
@@ -7,11 +7,16 @@ This guide covers the basic usage of Katheryne, including the API client, ML pip
 - [Training the AI Assistant](#training-the-ai-assistant)
 - [Data Processing](#data-processing)
 - [Using the AI Assistant](#using-the-ai-assistant)
+- [Using the Autoencoder Models](#using-the-autoencoder-models)
 - [Common Use Cases](#common-use-cases)
 
-## Using the API Client
+## Using the API Clients
 
-### Basic Usage
+Katheryne provides two API clients: GenshinClient (main client) and GenshinDevClient (alternative endpoint).
+
+### GenshinClient
+
+The main client using the `genshin.jmp.blue` API:
 
 ```typescript
 import { GenshinClient } from './src/client';
@@ -26,6 +31,10 @@ const hutao = await client.getCharacter('hutao');
 // Get weapon data
 const weapons = await client.getAllWeapons();
 const staffOfHoma = await client.getWeapon('staff-of-homa');
+
+// Get artifact data
+const artifacts = await client.getAllArtifacts();
+const crimsonWitch = await client.getArtifact('crimson-witch');
 ```
 
 ### Error Handling
@@ -40,6 +49,23 @@ try {
     console.error('API error:', error.message);
   }
 }
+```
+
+### GenshinDevClient
+
+Alternative client using the `genshin.dev` API:
+
+```typescript
+import { GenshinDevClient } from './src/clients/genshinDev';
+
+const client = new GenshinDevClient();
+
+// Get detailed character information
+const character = await client.getCharacter('ganyu');
+// Returns DetailedCharacter type with additional information
+
+// Get artifacts
+const artifacts = await client.getAllArtifacts();
 ```
 
 ## Training the AI Assistant
@@ -136,7 +162,7 @@ python python/main.py
 
 This starts a chat-like interface where you can directly interact with the assistant.
 
-### Using the Autoencoder Models
+## Using the Autoencoder Models
 
 To generate embeddings for game data:
 

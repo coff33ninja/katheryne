@@ -22,7 +22,7 @@ This guide will walk you through the process of setting up Katheryne on your sys
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/katheryne.git
+git clone https://github.com/coff33ninja/katheryne.git
 cd katheryne
 ```
 

@@ -19,6 +19,7 @@ A Node.js and Python project for analyzing Genshin Impact game data using AI and
 - TypeScript/Node.js API client with full type support
 - Python ML pipeline with autoencoder models
 - Automatic data updates and model retraining
+- Interactive AI assistant for game-related queries
 
 ## Project Structure
 
@@ -85,11 +86,51 @@ python python/main.py
 ```
 
 This will:
-
 - Fetch data from Genshin Impact APIs
 - Process and clean the data
 - Train machine learning models
 - Generate embeddings for similarity search
+
+### Training the Assistant Model
+
+The project includes a Genshin Impact assistant model that can answer queries about characters, weapons, and game mechanics. To train the model:
+
+1. Using the Batch Script (Windows):
+   ```bash
+   # Simply run the batch file
+   train.bat
+   ```
+   
+   Or customize training parameters:
+   ```bash
+   set EPOCHS=5
+   set BATCH_SIZE=64
+   set LEARNING_RATE=0.002
+   train.bat
+   ```
+
+2. Direct Python Execution:
+   ```bash
+   python python/train_assistant.py
+   ```
+
+Training Configuration:
+- Default epochs: 1 (for testing)
+- Batch size: 32 (optimized)
+- Learning rate: 0.002
+- Model architecture: LSTM with attention
+- Sequence length: 64 tokens
+- Embedding dimension: 128
+- Hidden dimension: 256
+
+The training script will:
+1. Check for required dependencies (PyTorch, tqdm)
+2. Load and process the training data
+3. Train the model with progress bars
+4. Save checkpoints in the `models/` directory
+5. Run test queries after training
+
+Note: Model checkpoints and cache files are ignored by git to keep the repository clean.
 
 ## Data Sources
 

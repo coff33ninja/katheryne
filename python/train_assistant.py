@@ -4,8 +4,8 @@ from torch.utils.data import DataLoader
 import torch.nn as nn
 from pathlib import Path
 from tqdm import tqdm
-from .models.genshin_assistant import GenshinAssistant
-from .dataset import GenshinAssistantDataset
+from models.genshin_assistant import GenshinAssistant
+from dataset import GenshinAssistantDataset
 
 def main():
     # Auto-detect if we should use failover mode

@@ -11,13 +11,26 @@ if errorlevel 1 (
     exit /b 1
 )
 
+:: Check if virtual environment exists
+if not exist "venv" (
+    echo Creating virtual environment...
+    python -m venv venv
+)
+
+:: Activate the virtual environment
+call venv\Scripts\activate
+
 :: Check if required packages are installed
 python -c "import torch" >nul 2>&1
 if errorlevel 1 (
     echo Error: PyTorch is not installed
     echo Installing required packages...
-    pip install torch tqdm
+    pip install -r python/requirements.txt
 )
+
+:: Run hardware detection
+echo Running hardware detection...
+python python/check_hardware.py
 
 :: Set environment variables for training (can be modified as needed)
 set EPOCHS=10

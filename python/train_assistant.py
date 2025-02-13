@@ -1,12 +1,14 @@
 from pathlib import Path
 import os
+import torch
 import sys
+from models.decoders import HardwareManager
 
 # Add the project root to Python path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from python.models.genshin_assistant import GenshinAssistantTrainer
+from models.genshin_assistant import GenshinAssistantTrainer
 from tqdm import tqdm
 
 def main():
@@ -15,13 +17,14 @@ def main():
     batch_size = int(os.getenv("BATCH_SIZE", "32"))  # Larger batch size for faster training
     learning_rate = float(os.getenv("LEARNING_RATE", "0.002"))  # Slightly higher learning rate
     
-    # Initialize trainer
+    # Initialize trainer and set device
+    device = HardwareManager.get_device()  # Use HardwareManager to get device
     data_dir = project_root
     trainer = GenshinAssistantTrainer(
         data_dir,
         embedding_dim=128,  # Reduced from 256
         hidden_dim=256      # Reduced from 512
-    )
+    ).to(device)  # Move trainer to the appropriate device
     
     # Train the model
     print(f"\nStarting training with {epochs} epochs, batch size {batch_size}, learning rate {learning_rate}")

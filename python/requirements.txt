@@ -3,3 +3,4 @@ numpy>=1.21.0
 pandas>=1.3.0
 tqdm>=4.65.0
 pyarrow>=14.0.1  # for parquet files
+torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128

@@ -98,3 +98,27 @@ class Encoder(nn.Module):
             'num_threads': torch.get_num_threads()
         }
         return info
+
+class HeavyEncoder(nn.Module):
+    def __init__(self, embedding_dim, hidden_dim, num_layers=2):
+        super(HeavyEncoder, self).__init__()
+        self.embedding_dim = embedding_dim
+        self.hidden_dim = hidden_dim
+        self.num_layers = num_layers
+        self.lstm = nn.LSTM(embedding_dim, hidden_dim, num_layers=num_layers, batch_first=True)
+
+    def forward(self, x):
+        outputs, (hidden, cell) = self.lstm(x)
+        return outputs, (hidden, cell)
+
+
+class LightEncoder(nn.Module):
+    def __init__(self, embedding_dim, hidden_dim):
+        super(LightEncoder, self).__init__()
+        self.embedding = nn.Embedding(embedding_dim, hidden_dim)
+        self.lstm = nn.LSTM(hidden_dim, hidden_dim, batch_first=True)
+
+    def forward(self, x):
+        x = self.embedding(x)
+        outputs, (hidden, cell) = self.lstm(x)
+        return outputs, (hidden, cell)

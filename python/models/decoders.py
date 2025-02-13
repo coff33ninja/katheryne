@@ -96,3 +96,33 @@ def create_model(input_dim, hidden_dim=256, latent_dim=32, num_layers=2):
     print(f"Hardware info: {Encoder.get_hardware_info()}")
 
     return model
+
+
+class HeavyDecoder(nn.Module):
+    def __init__(self, embedding_dim, hidden_dim, vocab_size, num_layers=2):
+        super(HeavyDecoder, self).__init__()
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        self.lstm = nn.LSTM(
+            embedding_dim, hidden_dim, num_layers=num_layers, batch_first=True
+        )
+        self.fc = nn.Linear(hidden_dim, vocab_size)
+
+    def forward(self, x, hidden, cell):
+        x = self.embedding(x)
+        output, (hidden, cell) = self.lstm(x, (hidden, cell))
+        output = self.fc(output)
+        return output, (hidden, cell)
+
+
+class LightDecoder(nn.Module):
+    def __init__(self, embedding_dim, hidden_dim, vocab_size):
+        super(LightDecoder, self).__init__()
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        self.lstm = nn.LSTM(embedding_dim, hidden_dim, batch_first=True)
+        self.fc = nn.Linear(hidden_dim, vocab_size)
+
+    def forward(self, x, hidden, cell):
+        x = self.embedding(x)
+        output, (hidden, cell) = self.lstm(x, (hidden, cell))
+        output = self.fc(output)
+        return output, (hidden, cell)

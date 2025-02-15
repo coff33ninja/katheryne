@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 import torch.optim as optim
 from pathlib import Path
@@ -182,14 +183,86 @@ class GenshinAITrainer:
 import torch.nn as nn
 
 class GenshinModel(nn.Module):
-    def __init__(self, input_dim=128, hidden_dim=256, output_dim=587):
-        super(GenshinModel, self).__init__()
-        self.embedding = nn.Embedding(output_dim, input_dim)
-        self.rnn = nn.LSTM(input_dim, hidden_dim, batch_first=True)
-        self.fc = self.fc = nn.Linear(hidden_dim, output_dim)
-
-    def forward(self, queries, responses):
-        embedded = self.embedding(queries)
-        output, _ = self.rnn(embedded)
-        output = self.fc(output)
-        return output
+    def __init__(self, tokenizer, embedding_dim=256, hidden_dim=512, num_layers=2, dropout=0.1):
+        vocab_size = len(tokenizer.token2idx)
+        super().__init__()
+        self.vocab_size = vocab_size
+        self.embedding_dim = embedding_dim
+        self.hidden_dim = hidden_dim
+        self.num_layers = num_layers
+        
+        # Embedding layer
+        self.embedding = nn.Embedding(vocab_size, embedding_dim)
+        
+        # LSTM layers
+        self.lstm = nn.LSTM(
+            embedding_dim,
+            hidden_dim,
+            num_layers=num_layers,
+            dropout=dropout if num_layers > 1 else 0,
+            batch_first=True,
+            bidirectional=True
+        )
+        
+        # Attention mechanism
+        self.attention = nn.MultiheadAttention(hidden_dim * 2, num_heads=8, dropout=dropout)
+        
+        # Output layers
+        self.fc1 = nn.Linear(hidden_dim * 2, hidden_dim)
+        self.dropout = nn.Dropout(dropout)
+        self.fc2 = nn.Linear(hidden_dim, vocab_size)
+        
+        # Layer normalization
+        self.layer_norm1 = nn.LayerNorm(hidden_dim * 2)
+        self.layer_norm2 = nn.LayerNorm(hidden_dim)
+    
+    def forward(self, x, hidden=None):
+        # Embedding
+        embedded = self.embedding(x)
+        
+        # LSTM layers
+        lstm_out, hidden = self.lstm(embedded, hidden)
+        
+        # Apply attention
+        attn_out, _ = self.attention(lstm_out, lstm_out, lstm_out)
+        
+        # Residual connection and layer norm
+        lstm_out = self.layer_norm1(lstm_out + attn_out)
+        
+        # Output layers
+        out = self.fc1(lstm_out)
+        out = self.layer_norm2(out)
+        out = F.relu(out)
+        out = self.dropout(out)
+        out = self.fc2(out)
+        
+        return out, hidden
+    
+    def generate(self, input_seq, max_length=100, temperature=0.7):
+        """Generate text given an input sequence."""
+        self.eval()
+        
+        with torch.no_grad():
+            current_seq = input_seq
+            hidden = None
+            
+            # Generate one token at a time
+            for _ in range(max_length):
+                # Get predictions
+                output, hidden = self(current_seq, hidden)
+                
+                # Get predictions for next token
+                next_token_logits = output[:, -1, :] / temperature
+                next_token_probs = F.softmax(next_token_logits, dim=-1)
+                
+                # Sample from the distribution
+                next_token = torch.multinomial(next_token_probs, 1)
+                
+                # Append to input sequence
+                current_seq = torch.cat([current_seq, next_token], dim=1)
+                
+                # Stop if we predict the end token
+                if next_token.item() == 3:  # EOS token
+                    break
+            
+            return current_seq
